@@ -7,6 +7,7 @@ const nav = [
   { label: "Dératisation Liège", href: "/deratisation-liege" },
   { label: "Désinsectisation", href: "/desinsectisation-liege" },
   { label: "Punaises de lit", href: "/punaises-de-lit-liege" },
+  { label: "À propos", href: "/a-propos" },
   { label: "Contact", href: "/contact" },
 ];
 
