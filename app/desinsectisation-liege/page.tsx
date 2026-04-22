@@ -78,26 +78,64 @@ export default function DesinsectisationLiegePage() {
         </div>
 
         <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>
-          Pourquoi choisir un professionnel pour la désinsectisation ?
+          Pourquoi les cafards reviennent toujours à Liège ?
         </h2>
         <p className="text-gray-700 mb-4 leading-relaxed">
-          Les produits disponibles en grande surface traitent les insectes visibles mais n&apos;éliminent
-          pas les nids, œufs et colonies cachées. À Liège, la densité des immeubles anciens et
-          les caves humides favorisent la prolifération des cafards et fourmis.
+          La blatte germanique — l&apos;espèce la plus répandue à Liège — résiste aux insecticides
+          classiques du commerce. Elle se cache dans les joints de cuisine, derrière les plaques
+          chauffantes et dans les faux plafonds. Un spray visible ne touche que 5 à 10% de la colonie.
+          Le reste survit, s&apos;adapte et se reproduit : une femelle pond jusqu&apos;à 300 œufs par an.
+        </p>
+        <p className="text-gray-700 mb-4 leading-relaxed">
+          À Liège, les immeubles anciens du centre (Féronstrée, rue Saint-Gilles, quartier Saint-Léonard)
+          cumulent les problèmes : caves humides communicantes entre appartements, canalisations
+          vétustes, isolation insuffisante. Une infestation dans un appartement contamine
+          souvent tout l&apos;immeuble en 2 à 3 mois si rien n&apos;est fait.
         </p>
         <p className="text-gray-700 mb-8 leading-relaxed">
-          Un professionnel identifie les zones infestées, applique un traitement ciblé et réalise
-          un suivi pour s&apos;assurer de l&apos;élimination complète. Le gel anti-cafards est par exemple
-          10 fois plus efficace que les sprays du commerce.
+          Le gel insecticide professionnel est posé aux points de passage réels — pas en spray
+          général. Les cafards le transportent au nid et contaminent toute la colonie.
+          C&apos;est pour ça qu&apos;un passage professionnel règle le problème là où 6 mois de produits
+          du commerce ont échoué.
         </p>
 
-        <div className="bg-yellow-50 border-l-4 border-yellow-400 p-5 rounded-r-xl">
-          <p className="font-semibold text-gray-800">📊 Données Liège</p>
+        <div className="bg-yellow-50 border-l-4 border-yellow-400 p-5 rounded-r-xl mb-10">
+          <p className="font-semibold text-gray-800">📊 Le cas Liège</p>
           <p className="text-sm text-gray-700 mt-1">
-            Les cafards (blattes germaniques) peuvent se reproduire à raison de 300 individus par
-            femelle par an. À Liège, 1 immeuble sur 8 en centre-ville signale une infestation
-            chaque année selon les données de la Ville.
+            Les fourmis charpentières sont également en forte progression dans les habitations
+            liégeoises depuis 2022 — elles s&apos;installent dans le bois humide des charpentes et
+            caves. Contrairement aux fourmis de jardin, elles causent des dégâts structurels
+            et nécessitent un traitement spécifique à la colonie reine.
           </p>
+        </div>
+
+        <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>
+          Zones d&apos;intervention désinsectisation à Liège
+        </h2>
+        <p className="text-gray-700 mb-6 leading-relaxed">
+          Nous intervenons dans tous les quartiers de Liège et dans les communes voisines :
+          {" "}<Link href="/deratisation-seraing" className="underline" style={{ color: "#1B4332" }}>Seraing</Link>,
+          {" "}<Link href="/deratisation-herstal" className="underline" style={{ color: "#1B4332" }}>Herstal</Link>,
+          {" "}<Link href="/deratisation-ans" className="underline" style={{ color: "#1B4332" }}>Ans</Link>,
+          {" "}<Link href="/deratisation-saint-nicolas" className="underline" style={{ color: "#1B4332" }}>Saint-Nicolas</Link> et
+          {" "}<Link href="/deratisation-flemalle" className="underline" style={{ color: "#1B4332" }}>Flémalle</Link>.
+        </p>
+
+        <div className="flex flex-col sm:flex-row gap-4">
+          <Link
+            href="/contact"
+            style={{ backgroundColor: "#1B4332", color: "white" }}
+            className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center"
+          >
+            Demander un devis gratuit →
+          </Link>
+          <a
+            href="tel:+32466442454"
+            style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
+            className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center"
+          >
+            📞 Appeler maintenant
+          </a>
         </div>
       </section>
 
