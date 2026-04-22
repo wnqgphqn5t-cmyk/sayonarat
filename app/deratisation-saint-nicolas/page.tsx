@@ -66,25 +66,55 @@ export default function DeratisationSaintNicolasPage() {
 
       <section className="py-14 px-4 max-w-4xl mx-auto">
         <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>
-          Dératisation à Saint-Nicolas : contexte local
+          Saint-Nicolas : entre Liège et Seraing, une position à risque
         </h2>
         <p className="text-gray-700 mb-4 leading-relaxed">
-          Saint-Nicolas, entre Liège et Seraing, est une commune dense avec un tissu résidentiel
-          varié. La présence de cours d&apos;eau, de zones maraîchères et de quartiers anciens en
-          fait une zone propice aux infestations de rongeurs, notamment en période hivernale.
+          Saint-Nicolas est coincée entre deux communes industrielles lourdes — Liège et Seraing.
+          Les rongeurs des friches et des berges de la Meuse circulent librement d&apos;une commune
+          à l&apos;autre. Les quartiers de Tilleur et Montegnée, proches des anciens sites industriels,
+          sont les plus exposés. Les zones maraîchères et jardins potagers de la commune
+          attirent également les rats en été.
+        </p>
+        <p className="text-gray-700 mb-4 leading-relaxed">
+          Le profil des habitations à Saint-Nicolas est mixte : maisons ouvrières anciennes
+          avec caves profondes, immeubles des années 70 et lotissements récents. Dans les
+          maisons anciennes de Tilleur, les caves communicantes entre voisins permettent
+          aux rongeurs de se déplacer sans jamais sortir à l&apos;air libre — ce qui rend
+          l&apos;élimination plus complexe sans traitement de l&apos;ensemble du bâtiment.
         </p>
         <p className="text-gray-700 mb-8 leading-relaxed">
-          Nos techniciens connaissent les spécificités locales et adaptent leur approche à
-          chaque situation, que ce soit dans une maison unifamiliale, un appartement ou un
-          commerce de la commune.
+          Nous intervenons dans toute la commune : Tilleur, Montegnée, Saint-Nicolas-centre,
+          et les quartiers résidentiels périphériques. Pour les copropriétés, un traitement
+          collectif coordonné est possible et recommandé.
         </p>
-        <div className="bg-yellow-50 border-l-4 border-yellow-400 p-5 rounded-r-xl">
+
+        <div className="bg-yellow-50 border-l-4 border-yellow-400 p-5 rounded-r-xl mb-10">
           <p className="font-semibold text-gray-800">📊 Bon à savoir</p>
           <p className="text-sm text-gray-700 mt-1">
-            Les rongeurs peuvent parcourir jusqu&apos;à 3 km par nuit pour trouver de la nourriture.
-            Une infestation non traitée dans un logement peut contaminer jusqu&apos;à 5 habitations
-            voisines en quelques semaines.
+            Les rongeurs parcourent jusqu&apos;à 3 km par nuit. Une infestation non traitée
+            à Saint-Nicolas peut contaminer les habitations voisines de Seraing et Liège
+            en quelques semaines — d&apos;où l&apos;importance d&apos;agir rapidement.
           </p>
+        </div>
+
+        <p className="text-gray-600 text-sm mb-8">
+          Autres communes :{" "}
+          <Link href="/deratisation-seraing" className="underline" style={{ color: "#1B4332" }}>Seraing</Link>,{" "}
+          <Link href="/deratisation-herstal" className="underline" style={{ color: "#1B4332" }}>Herstal</Link>,{" "}
+          <Link href="/deratisation-ans" className="underline" style={{ color: "#1B4332" }}>Ans</Link>,{" "}
+          <Link href="/deratisation-flemalle" className="underline" style={{ color: "#1B4332" }}>Flémalle</Link>,{" "}
+          <Link href="/deratisation-liege" className="underline" style={{ color: "#1B4332" }}>Liège</Link>.
+        </p>
+
+        <div className="flex flex-col sm:flex-row gap-4">
+          <Link href="/contact" style={{ backgroundColor: "#1B4332", color: "white" }}
+            className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center">
+            Demander un devis gratuit →
+          </Link>
+          <a href="tel:+32466442454" style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
+            className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center">
+            📞 Appeler maintenant
+          </a>
         </div>
       </section>
 

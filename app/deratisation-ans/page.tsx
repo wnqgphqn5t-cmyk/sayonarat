@@ -66,24 +66,54 @@ export default function DeratisationAnsPage() {
 
       <section className="py-14 px-4 max-w-4xl mx-auto">
         <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>
-          Dératisation à Ans : particuliers et entreprises
+          Dératisation à Ans : le profil résidentiel qui trompe
         </h2>
         <p className="text-gray-700 mb-4 leading-relaxed">
-          Ans est une commune résidentielle en croissance à l&apos;ouest de Liège. La densification
-          du bâti et la présence de nombreuses maisons avec caves exposent les habitants aux
-          infestations de rongeurs, particulièrement en automne et en hiver.
+          Ans est perçue comme une commune calme et résidentielle — ce qui fait que les
+          habitants signalent souvent les infestations trop tard. Pourtant, la proximité
+          de l&apos;aéroport de Liège-Bierset, les zones agricoles de Loncin et Alleur,
+          et les nombreuses maisons quatre façades avec caves créent des conditions
+          idéales pour les rongeurs, notamment les souris domestiques qui s&apos;installent
+          discrètement dans les isolations de combles.
+        </p>
+        <p className="text-gray-700 mb-4 leading-relaxed">
+          À Ans, le problème le plus fréquent est la souris (pas le rat) : elle passe
+          par les joints de fenêtre, les passages de câbles et les fissures de soubassement.
+          Elle s&apos;installe dans l&apos;isolation des murs et des combles, loin des yeux,
+          et peut causer des dégâts importants avant d&apos;être détectée.
         </p>
         <p className="text-gray-700 mb-8 leading-relaxed">
-          Sayonarat intervient rapidement chez les particuliers, en copropriété et dans les
-          commerces d&apos;Ans. Chaque intervention comprend un diagnostic, un traitement et un
-          suivi à J+10.
+          Nous intervenons dans tout Ans : Ans-centre, Alleur, Loncin, Xhovemont, Xhendremael.
+          Diagnostic complet, traitement adapté (souris ou rats), sécurisation et suivi J+10.
         </p>
-        <div className="bg-yellow-50 border-l-4 border-yellow-400 p-5 rounded-r-xl">
+
+        <div className="bg-yellow-50 border-l-4 border-yellow-400 p-5 rounded-r-xl mb-10">
           <p className="font-semibold text-gray-800">📊 Chiffre clé</p>
           <p className="text-sm text-gray-700 mt-1">
             80% des infestations de rongeurs commencent par un seul point d&apos;entrée non sécurisé.
-            Notre diagnostic identifie systématiquement ces zones pour éviter toute récidive.
+            À Ans, ce sont souvent les passages de câbles de fibre optique installés récemment
+            qui créent des ouvertures non rebouchées dans les murs.
           </p>
+        </div>
+
+        <p className="text-gray-600 text-sm mb-8">
+          Autres communes :{" "}
+          <Link href="/deratisation-seraing" className="underline" style={{ color: "#1B4332" }}>Seraing</Link>,{" "}
+          <Link href="/deratisation-herstal" className="underline" style={{ color: "#1B4332" }}>Herstal</Link>,{" "}
+          <Link href="/deratisation-saint-nicolas" className="underline" style={{ color: "#1B4332" }}>Saint-Nicolas</Link>,{" "}
+          <Link href="/deratisation-flemalle" className="underline" style={{ color: "#1B4332" }}>Flémalle</Link>,{" "}
+          <Link href="/deratisation-liege" className="underline" style={{ color: "#1B4332" }}>Liège</Link>.
+        </p>
+
+        <div className="flex flex-col sm:flex-row gap-4">
+          <Link href="/contact" style={{ backgroundColor: "#1B4332", color: "white" }}
+            className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center">
+            Demander un devis gratuit →
+          </Link>
+          <a href="tel:+32466442454" style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
+            className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center">
+            📞 Appeler maintenant
+          </a>
         </div>
       </section>
 

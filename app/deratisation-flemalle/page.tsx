@@ -66,24 +66,58 @@ export default function DeratisationFlemallePage() {
 
       <section className="py-14 px-4 max-w-4xl mx-auto">
         <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>
-          Dératisation à Flémalle : une commune en bord de Meuse
+          Flémalle : crues de la Meuse et migrations de rongeurs
         </h2>
         <p className="text-gray-700 mb-4 leading-relaxed">
-          Flémalle, située entre Liège et Huy sur les bords de la Meuse, est exposée aux
-          rongeurs par sa géographie et la présence d&apos;anciennes zones industrielles. Les caves
-          humides et les maisons anciens sont les premiers touchés.
+          Flémalle est une commune de bord de Meuse avec un profil industriel marqué :
+          les installations d&apos;Ivoz-Ramet et les anciennes carrières de Chokier créent
+          des réservoirs naturels de rongeurs. Mais le facteur le plus spécifique à
+          Flémalle, c&apos;est la Meuse. À chaque montée des eaux — fréquente entre novembre
+          et mars — les rats des berges et des égouts sont chassés vers les zones
+          résidentielles de Flémalle-Grande et Flémalle-Haute.
+        </p>
+        <p className="text-gray-700 mb-4 leading-relaxed">
+          Les habitants de Flémalle signalent souvent des infestations subites après
+          une période de fortes pluies ou une crue. Ce n&apos;est pas un hasard : les rongeurs
+          délogés cherchent refuge dans les caves et sous-sols des habitations proches
+          des berges. Les maisons de Awirs et Ivoz-Ramet, directement en bordure de
+          Meuse, sont les premières touchées.
         </p>
         <p className="text-gray-700 mb-8 leading-relaxed">
-          Nos techniciens sont habitués aux problématiques locales de Flémalle. Intervention
-          rapide, traitement professionnel et suivi inclus dans chaque prestation.
+          Nos techniciens connaissent ce profil spécifique. Nous intervenons dans tout
+          Flémalle : Flémalle-Grande, Flémalle-Haute, Awirs, Chokier, Ivoz-Ramet,
+          Trembleur. Traitement adapté aux caves humides et sécurisation renforcée
+          des accès en zone inondable.
         </p>
-        <div className="bg-yellow-50 border-l-4 border-yellow-400 p-5 rounded-r-xl">
-          <p className="font-semibold text-gray-800">📊 Bon à savoir pour Flémalle</p>
+
+        <div className="bg-yellow-50 border-l-4 border-yellow-400 p-5 rounded-r-xl mb-10">
+          <p className="font-semibold text-gray-800">📊 Spécificité Flémalle</p>
           <p className="text-sm text-gray-700 mt-1">
-            Les périodes de crue de la Meuse déplacent les populations de rongeurs vers les
-            zones habitées. Octobre à mars est la période de risque maximale à Flémalle.
-            Une intervention préventive en début d&apos;automne est fortement recommandée.
+            Les crues de la Meuse déplacent massivement les rongeurs vers les habitations
+            entre octobre et mars. Une intervention préventive en septembre — avant les
+            premières pluies importantes — est la meilleure protection pour les riverains
+            de Flémalle.
           </p>
+        </div>
+
+        <p className="text-gray-600 text-sm mb-8">
+          Autres communes :{" "}
+          <Link href="/deratisation-seraing" className="underline" style={{ color: "#1B4332" }}>Seraing</Link>,{" "}
+          <Link href="/deratisation-herstal" className="underline" style={{ color: "#1B4332" }}>Herstal</Link>,{" "}
+          <Link href="/deratisation-ans" className="underline" style={{ color: "#1B4332" }}>Ans</Link>,{" "}
+          <Link href="/deratisation-saint-nicolas" className="underline" style={{ color: "#1B4332" }}>Saint-Nicolas</Link>,{" "}
+          <Link href="/deratisation-liege" className="underline" style={{ color: "#1B4332" }}>Liège</Link>.
+        </p>
+
+        <div className="flex flex-col sm:flex-row gap-4">
+          <Link href="/contact" style={{ backgroundColor: "#1B4332", color: "white" }}
+            className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center">
+            Demander un devis gratuit →
+          </Link>
+          <a href="tel:+32466442454" style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
+            className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center">
+            📞 Appeler maintenant
+          </a>
         </div>
       </section>
 

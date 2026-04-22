@@ -66,26 +66,54 @@ export default function DeratisationHerstalPage() {
 
       <section className="py-14 px-4 max-w-4xl mx-auto">
         <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>
-          Herstal : une commune industrielle exposée aux nuisibles
+          Herstal : zone industrielle et rongeurs, un problème concret
         </h2>
         <p className="text-gray-700 mb-4 leading-relaxed">
-          Herstal abrite l&apos;une des plus grandes zones industrielles de Belgique. Cette
-          concentration d&apos;entrepôts, de restaurants et d&apos;espaces de stockage en fait un terrain
-          propice à la prolifération des rongeurs, qui migrent ensuite vers les habitations
-          résidentielles environnantes.
+          Herstal abrite la zone industrielle de Milmort et le port autonome de Liège —
+          deux environnements qui concentrent entrepôts, stockages alimentaires et déchets
+          industriels. Les rongeurs s&apos;y installent en masse, puis colonisent les quartiers
+          résidentiels voisins : Vottem, Liers, Pontisse. La proximité du canal Albert
+          facilite leur déplacement le long des berges jusqu&apos;aux habitations.
+        </p>
+        <p className="text-gray-700 mb-4 leading-relaxed">
+          Les entreprises de la zone industrielle sont particulièrement vulnérables :
+          une infestation non déclarée dans un entrepôt alimentaire peut entraîner
+          une fermeture administrative. Nos techniciens établissent des rapports
+          d&apos;intervention certifiés, conformes aux exigences AFSCA pour les professionnels.
         </p>
         <p className="text-gray-700 mb-8 leading-relaxed">
-          Nos techniciens interviennent dans tous les quartiers de Herstal avec un matériel
-          professionnel adapté : boîtiers sécurisés, rodenticides homologués et techniques de
-          sécurisation des points d&apos;entrée.
+          Pour les particuliers, nous intervenons dans tout Herstal : centre,
+          Milmort, Vottem, Liers, Pontisse, Wandre. Diagnostic complet, traitement
+          et sécurisation des accès inclus.
         </p>
-        <div className="bg-yellow-50 border-l-4 border-yellow-400 p-5 rounded-r-xl">
-          <p className="font-semibold text-gray-800">📊 Saviez-vous ?</p>
+
+        <div className="bg-yellow-50 border-l-4 border-yellow-400 p-5 rounded-r-xl mb-10">
+          <p className="font-semibold text-gray-800">📊 Bon à savoir</p>
           <p className="text-sm text-gray-700 mt-1">
-            Un rat peut passer par un trou de la taille d&apos;une pièce de 2€. Une souris par un
-            trou de 5mm. La sécurisation des accès après traitement est essentielle pour éviter
-            les récidives — c&apos;est inclus dans toutes nos interventions à Herstal.
+            Un rat peut passer par un trou de la taille d&apos;une pièce de 2€, une souris par 5mm.
+            Les passages de câbles, joints de porte et fissures de fondation sont les entrées
+            les plus fréquentes à Herstal — la sécurisation est incluse dans chaque intervention.
           </p>
+        </div>
+
+        <p className="text-gray-600 text-sm mb-8">
+          Autres communes :{" "}
+          <Link href="/deratisation-seraing" className="underline" style={{ color: "#1B4332" }}>Seraing</Link>,{" "}
+          <Link href="/deratisation-ans" className="underline" style={{ color: "#1B4332" }}>Ans</Link>,{" "}
+          <Link href="/deratisation-saint-nicolas" className="underline" style={{ color: "#1B4332" }}>Saint-Nicolas</Link>,{" "}
+          <Link href="/deratisation-flemalle" className="underline" style={{ color: "#1B4332" }}>Flémalle</Link>,{" "}
+          <Link href="/deratisation-liege" className="underline" style={{ color: "#1B4332" }}>Liège</Link>.
+        </p>
+
+        <div className="flex flex-col sm:flex-row gap-4">
+          <Link href="/contact" style={{ backgroundColor: "#1B4332", color: "white" }}
+            className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center">
+            Demander un devis gratuit →
+          </Link>
+          <a href="tel:+32466442454" style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
+            className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center">
+            📞 Appeler maintenant
+          </a>
         </div>
       </section>
 
