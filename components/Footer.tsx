@@ -57,6 +57,7 @@ export default function Footer() {
       <div style={{ backgroundColor: "#0f2d1e" }} className="text-center py-4 text-green-400 text-xs space-x-4">
         <span>© {new Date().getFullYear()} Sayonarat — Dératisation Liège. Tous droits réservés.</span>
         <Link href="/mentions-legales" className="hover:text-white transition-colors">Mentions légales</Link>
+        <Link href="/politique-confidentialite" className="hover:text-white transition-colors">Confidentialité</Link>
         <Link href="/a-propos" className="hover:text-white transition-colors">À propos</Link>
       </div>
     </footer>
