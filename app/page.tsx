@@ -1,0 +1,256 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Dératisation Liège — Intervention rapide 24h | Sayonarat",
+  description:
+    "Dératisation et désinsectisation à Liège. Rats, souris, cafards, punaises de lit, frelons. Intervention en moins de 24h. Devis gratuit.",
+};
+
+const services = [
+  {
+    icon: "🐀",
+    title: "Dératisation",
+    desc: "Élimination de rats et souris. Traitement des nids, pose de pièges, sécurisation des accès.",
+    href: "/deratisation-liege",
+  },
+  {
+    icon: "🪲",
+    title: "Désinsectisation",
+    desc: "Traitement contre cafards, fourmis, blattes. Produits homologués et sans danger.",
+    href: "/desinsectisation-liege",
+  },
+  {
+    icon: "🛏️",
+    title: "Punaises de lit",
+    desc: "Traitement thermique ou chimique des punaises. Résultat garanti dès la première intervention.",
+    href: "/punaises-de-lit-liege",
+  },
+  {
+    icon: "🐝",
+    title: "Frelons & guêpes",
+    desc: "Destruction de nids de frelons et guêpes en hauteur. Intervention sécurisée.",
+    href: "/contact",
+  },
+];
+
+const stats = [
+  { val: "+500", label: "Interventions réalisées" },
+  { val: "24h", label: "Délai d'intervention moyen" },
+  { val: "98%", label: "Clients satisfaits" },
+  { val: "7j/7", label: "Disponibilité" },
+];
+
+const zones = [
+  { label: "Liège", href: "/deratisation-liege" },
+  { label: "Seraing", href: "/deratisation-seraing" },
+  { label: "Herstal", href: "/deratisation-herstal" },
+  { label: "Ans", href: "/deratisation-ans" },
+  { label: "Saint-Nicolas", href: "/deratisation-saint-nicolas" },
+  { label: "Flémalle", href: "/deratisation-flemalle" },
+];
+
+const faqs = [
+  {
+    q: "Quel est le délai d'intervention à Liège ?",
+    a: "Nous intervenons en moins de 24h dans toute la région liégeoise, souvent le jour même selon les disponibilités.",
+  },
+  {
+    q: "Les traitements sont-ils dangereux pour mes animaux ?",
+    a: "Non. Nous utilisons des produits homologués en Belgique, sans danger pour les animaux de compagnie et les enfants après le temps de séchage recommandé (généralement 2h).",
+  },
+  {
+    q: "Combien coûte une dératisation à Liège ?",
+    a: "Le prix dépend de la superficie et du type de nuisible. Comptez entre 80 € et 250 € pour une intervention standard. Devis gratuit sous 24h.",
+  },
+  {
+    q: "Revenez-vous si le problème persiste ?",
+    a: "Oui. Toutes nos interventions incluent un suivi. Si les nuisibles reviennent dans les 30 jours, nous revenons sans frais supplémentaires.",
+  },
+  {
+    q: "Êtes-vous certifiés pour intervenir en Belgique ?",
+    a: "Oui. Nos partenaires disposent de la certification phytosanitaire obligatoire en Belgique pour l'application de produits antiparasitaires.",
+  },
+];
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": ["LocalBusiness", "PestControlService"],
+  name: "Sayonarat — Dératisation Liège",
+  description:
+    "Entreprise de dératisation et désinsectisation à Liège. Intervention rapide 24h/24, 7j/7.",
+  url: "https://deratisation-liege.be",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Liège",
+    postalCode: "4000",
+    addressCountry: "BE",
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: 50.6326,
+    longitude: 5.5797,
+  },
+  openingHoursSpecification: {
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    opens: "08:00",
+    closes: "20:00",
+  },
+  priceRange: "€€",
+  areaServed: ["Liège", "Seraing", "Herstal", "Ans", "Saint-Nicolas", "Flémalle"],
+};
+
+export default function HomePage() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
+      {/* Hero */}
+      <section style={{ backgroundColor: "#1B4332" }} className="text-white py-16 px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-4">
+            Dératisation & Désinsectisation à Liège
+            <br />
+            <span style={{ color: "#FBBF24" }}>Intervention en moins de 24h</span>
+          </h1>
+          <p className="text-lg text-green-100 max-w-2xl mx-auto mb-8">
+            Vous avez un problème de nuisibles à Liège ? Sayonarat met en relation les particuliers
+            et entreprises avec des professionnels certifiés pour éliminer rats, souris, cafards,
+            punaises de lit et frelons. Service disponible 7j/7, devis gratuit sous 24h.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link
+              href="/contact"
+              style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
+              className="font-bold px-8 py-4 rounded-lg hover:opacity-90 transition-opacity text-lg"
+            >
+              Demander un devis gratuit
+            </Link>
+            <Link
+              href="/deratisation-liege"
+              className="border-2 border-white text-white font-semibold px-8 py-4 rounded-lg hover:bg-white hover:text-green-900 transition-colors text-lg"
+            >
+              Voir nos services
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Stats */}
+      <section className="py-10 px-4 border-b border-green-100" style={{ backgroundColor: "#f0fdf4" }}>
+        <div className="max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+          {stats.map((s) => (
+            <div key={s.label}>
+              <div className="text-3xl font-bold" style={{ color: "#1B4332" }}>{s.val}</div>
+              <div className="text-sm text-gray-600 mt-1">{s.label}</div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Services */}
+      <section className="py-16 px-4 max-w-6xl mx-auto">
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-2" style={{ color: "#1B4332" }}>
+          Nos services à Liège
+        </h2>
+        <p className="text-center text-gray-500 mb-10">Traitement professionnel pour tous types de nuisibles</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {services.map((s) => (
+            <Link
+              key={s.href}
+              href={s.href}
+              className="border border-gray-200 rounded-xl p-6 hover:shadow-lg hover:border-green-300 transition-all group block"
+            >
+              <div className="text-4xl mb-3">{s.icon}</div>
+              <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>
+                {s.title}
+              </h3>
+              <p className="text-sm text-gray-600">{s.desc}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* Zones */}
+      <section className="py-12 px-4" style={{ backgroundColor: "#f0fdf4" }}>
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-2xl font-bold mb-2" style={{ color: "#1B4332" }}>
+            Zones d&apos;intervention
+          </h2>
+          <p className="text-gray-500 mb-8">Nous intervenons à Liège et dans les communes voisines</p>
+          <div className="flex flex-wrap justify-center gap-3">
+            {zones.map((z) => (
+              <Link
+                key={z.href}
+                href={z.href}
+                className="bg-white border border-green-200 font-medium px-5 py-2 rounded-full transition-colors"
+                style={{ color: "#1B4332" }}
+              >
+                {z.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Why us */}
+      <section className="py-16 px-4 max-w-4xl mx-auto">
+        <h2 className="text-2xl md:text-3xl font-bold mb-10 text-center" style={{ color: "#1B4332" }}>
+          Pourquoi choisir Sayonarat ?
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {[
+            { icon: "⚡", title: "Rapidité", desc: "Intervention en moins de 24h, même le week-end. Urgences traitées en priorité." },
+            { icon: "🎓", title: "Expertise certifiée", desc: "Techniciens certifiés phytosanitaires. Produits homologués conformes à la réglementation belge." },
+            { icon: "✅", title: "Résultat garanti", desc: "Suivi inclus pendant 30 jours. Si les nuisibles reviennent, on revient sans frais." },
+          ].map((item) => (
+            <div key={item.title} className="text-center">
+              <div className="text-4xl mb-3">{item.icon}</div>
+              <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>{item.title}</h3>
+              <p className="text-gray-600 text-sm">{item.desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-16 px-4 bg-gray-50">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-2xl md:text-3xl font-bold mb-10 text-center" style={{ color: "#1B4332" }}>
+            Questions fréquentes
+          </h2>
+          <div className="space-y-6">
+            {faqs.map((faq) => (
+              <div key={faq.q} className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+                <h3 className="font-bold text-gray-900 mb-2">{faq.q}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{faq.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA final */}
+      <section style={{ backgroundColor: "#1B4332" }} className="py-16 px-4 text-white text-center">
+        <h2 className="text-2xl md:text-3xl font-bold mb-4">
+          Un nuisible détecté ? Agissez maintenant.
+        </h2>
+        <p className="mb-8 max-w-xl mx-auto" style={{ color: "#bbf7d0" }}>
+          Plus vous attendez, plus l&apos;infestation s&apos;étend. Contactez-nous pour un devis gratuit
+          et une intervention sous 24h à Liège.
+        </p>
+        <Link
+          href="/contact"
+          style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
+          className="font-bold px-10 py-4 rounded-lg hover:opacity-90 transition-opacity text-lg inline-block"
+        >
+          Devis gratuit en 24h →
+        </Link>
+      </section>
+    </>
+  );
+}
