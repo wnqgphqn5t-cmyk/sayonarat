@@ -84,28 +84,43 @@ export default function DeratisationLiegePage() {
       {/* Content */}
       <section className="py-14 px-4 max-w-4xl mx-auto">
         <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>
-          Pourquoi faire appel à un dératiseur professionnel à Liège ?
+          Dératisation à Liège : ce que les produits du commerce ne règlent pas
         </h2>
         <p className="text-gray-700 mb-4 leading-relaxed">
-          Une infestation de rongeurs est une urgence sanitaire. Les rats et souris peuvent
-          contaminer vos aliments, ronger les câbles électriques (risque d&apos;incendie) et transmettre
-          des maladies comme la leptospirose. À Liège, les quartiers du centre-ville, les zones
-          portuaires et les habitations anciennes sont particulièrement exposés.
+          La plupart des gens essaient d&apos;abord seuls — raticide en supermarché, pièges à colle.
+          Résultat : les rats évitent les zones traitées, se déplacent dans d&apos;autres pièces et
+          continuent à se reproduire. Une femelle rat produit jusqu&apos;à 60 petits par an.
+          Sans traiter les points d&apos;entrée et les nids, le problème empire.
+        </p>
+        <p className="text-gray-700 mb-4 leading-relaxed">
+          À Liège, le réseau d&apos;égouts dense le long de la Meuse, les caves des habitations
+          du 19e siècle (Outremeuse, Saint-Léonard, Guillemins) et les friches industrielles
+          créent des conditions idéales pour les rongeurs. Les rats bruns remontent par les
+          canalisations — c&apos;est le vecteur d&apos;entrée n°1 dans les maisons liégeoises.
         </p>
         <p className="text-gray-700 mb-8 leading-relaxed">
-          Un dératiseur professionnel réalise un diagnostic complet de votre logement, identifie
-          les zones d&apos;entrée et de nidification, et met en place un traitement adapté. Les produits
-          grand public sont souvent insuffisants et peuvent aggraver la situation.
+          Un technicien certifié identifie les points d&apos;entrée exacts, sécurise les accès
+          et pose des boîtiers homologués inaccessibles aux enfants et animaux. C&apos;est la
+          différence entre une solution temporaire et une élimination définitive.
         </p>
 
+        <div className="bg-yellow-50 border-l-4 border-yellow-400 p-5 rounded-r-xl mb-10">
+          <p className="font-semibold text-gray-800">📊 Chiffres Liège</p>
+          <p className="text-sm text-gray-700 mt-1">
+            Les signalements de rongeurs à Liège ont progressé chaque année depuis 2020,
+            avec un pic en automne (octobre–novembre) quand les rats cherchent la chaleur des habitations.
+            Les quartiers les plus touchés : Outremeuse, Bressoux, Saint-Nicolas et les abords du canal.
+          </p>
+        </div>
+
         <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>
-          Notre méthode de dératisation à Liège
+          Comment se déroule une intervention à Liège ?
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
           {[
-            { step: "1", title: "Diagnostic", desc: "Inspection complète du logement pour identifier les traces, nids et points d'entrée." },
-            { step: "2", title: "Traitement", desc: "Pose de boîtiers à appâts sécurisés et pièges adaptés au type de rongeur." },
-            { step: "3", title: "Suivi", desc: "Retour à J+10 pour vérifier l'efficacité. Garantie 30 jours incluse." },
+            { step: "1", title: "Diagnostic sur place", desc: "Le technicien inspecte caves, combles, canalisations et extérieur. Il identifie les traces fraîches, nids et couloirs de passage." },
+            { step: "2", title: "Traitement ciblé", desc: "Pose de boîtiers à appâts sécurisés aux points stratégiques. Sécurisation des entrées pour empêcher de nouveaux rongeurs." },
+            { step: "3", title: "Suivi J+10", desc: "Retour obligatoire 10 jours après pour contrôler l'efficacité. Garantie 30 jours : on revient sans frais si nécessaire." },
           ].map((s) => (
             <div key={s.step} className="bg-green-50 rounded-xl p-5 border border-green-100">
               <div className="text-2xl font-bold mb-2" style={{ color: "#1B4332" }}>Étape {s.step}</div>
@@ -115,13 +130,34 @@ export default function DeratisationLiegePage() {
           ))}
         </div>
 
-        <div className="bg-yellow-50 border-l-4 border-yellow-400 p-5 rounded-r-xl mb-10">
-          <p className="font-semibold text-gray-800">📊 Le saviez-vous ?</p>
-          <p className="text-sm text-gray-700 mt-1">
-            Une femelle rat peut donner naissance à 40 à 60 petits par an. Sans intervention rapide,
-            une infestation double en moins de 6 semaines. À Liège, les signalements de rongeurs
-            ont augmenté de 23% entre 2022 et 2024 selon les services communaux.
-          </p>
+        <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>
+          Zones d&apos;intervention à Liège
+        </h2>
+        <p className="text-gray-700 mb-4 leading-relaxed">
+          Nous intervenons dans tous les quartiers de Liège : Outremeuse, Guillemins, Saint-Léonard,
+          Bressoux, Grivegnée, Jupille, Herstal, ainsi que dans les communes de{" "}
+          <Link href="/deratisation-seraing" className="underline" style={{ color: "#1B4332" }}>Seraing</Link>,{" "}
+          <Link href="/deratisation-herstal" className="underline" style={{ color: "#1B4332" }}>Herstal</Link>,{" "}
+          <Link href="/deratisation-ans" className="underline" style={{ color: "#1B4332" }}>Ans</Link>,{" "}
+          <Link href="/deratisation-saint-nicolas" className="underline" style={{ color: "#1B4332" }}>Saint-Nicolas</Link> et{" "}
+          <Link href="/deratisation-flemalle" className="underline" style={{ color: "#1B4332" }}>Flémalle</Link>.
+        </p>
+
+        <div className="flex flex-col sm:flex-row gap-4 mt-8">
+          <Link
+            href="/contact"
+            style={{ backgroundColor: "#1B4332", color: "white" }}
+            className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center"
+          >
+            Demander un devis gratuit →
+          </Link>
+          <a
+            href="tel:+32466442454"
+            style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
+            className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center"
+          >
+            📞 Appeler maintenant
+          </a>
         </div>
       </section>
 
