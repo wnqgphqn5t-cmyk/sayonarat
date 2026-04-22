@@ -65,9 +65,15 @@ export default function PunaisesLiegePage() {
       </section>
 
       <section className="py-14 px-4 max-w-4xl mx-auto">
-        <h2 className="text-2xl font-bold mb-6" style={{ color: "#1B4332" }}>
-          Signes d&apos;une infestation de punaises de lit
+        <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>
+          Comment reconnaître les punaises de lit ?
         </h2>
+        <p className="text-gray-700 mb-6 leading-relaxed">
+          Les punaises de lit piquent la nuit, exclusivement sur les zones de peau découverte.
+          Le matin, vous trouvez des séries de 3 à 5 piqûres en ligne — c&apos;est leur signature.
+          Elles ne volent pas, ne sautent pas : elles se déplacent à la vitesse d&apos;un homme
+          qui marche et se cachent dans un rayon de 2 mètres autour de votre lit.
+        </p>
         <ul className="space-y-3 mb-10">
           {signes.map((s) => (
             <li key={s} className="flex items-start gap-3">
@@ -77,6 +83,22 @@ export default function PunaisesLiegePage() {
           ))}
         </ul>
 
+        <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>
+          Pourquoi c&apos;est si difficile à éliminer seul ?
+        </h2>
+        <p className="text-gray-700 mb-4 leading-relaxed">
+          Les œufs de punaises résistent aux insecticides classiques. Un spray du commerce
+          tue les adultes visibles — mais laisse des centaines d&apos;œufs intacts dans les coutures
+          du matelas, les plinthes et les prises électriques. 3 semaines plus tard, une
+          nouvelle génération éclôt et l&apos;infestation repart de zéro.
+        </p>
+        <p className="text-gray-700 mb-8 leading-relaxed">
+          À Liège, les résidences étudiantes (Outremeuse, Sart-Tilman), les meublés et les
+          achats de meubles d&apos;occasion sur les marchés de la Batte sont les principales sources
+          de contamination. Une valise posée sur un lit d&apos;hôtel suffit à ramener
+          des punaises chez vous.
+        </p>
+
         <h2 className="text-2xl font-bold mb-6" style={{ color: "#1B4332" }}>
           Deux méthodes de traitement à Liège
         </h2>
@@ -84,25 +106,41 @@ export default function PunaisesLiegePage() {
           <div className="border-2 border-green-200 rounded-xl p-6">
             <div className="text-3xl mb-3">🔥</div>
             <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>Traitement thermique</h3>
-            <p className="text-sm text-gray-600 mb-3">Chaleur portée à 60°C dans tout le logement. Tue punaises et œufs en une seule intervention.</p>
-            <div className="text-sm font-medium text-green-700">✅ Résultat en 1 passage · Pas de produit chimique</div>
+            <p className="text-sm text-gray-600 mb-3">Chaleur portée à 60°C dans tout le logement pendant 6 à 8 heures. Tue punaises et œufs en une seule intervention, sans produit chimique.</p>
+            <div className="text-sm font-medium text-green-700">✅ Résultat en 1 passage · Dès le soir même</div>
           </div>
           <div className="border border-gray-200 rounded-xl p-6">
             <div className="text-3xl mb-3">💊</div>
             <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>Traitement chimique</h3>
-            <p className="text-sm text-gray-600 mb-3">Application d&apos;insecticides homologués sur les zones infestées. 2 passages nécessaires à J et J+15.</p>
+            <p className="text-sm text-gray-600 mb-3">Insecticides professionnels à effet rémanent sur toutes les zones de ponte. 2 passages à J et J+15 pour éliminer les œufs éclos.</p>
             <div className="text-sm font-medium text-green-700">✅ Moins coûteux · Efficace sur grandes surfaces</div>
           </div>
         </div>
 
-        <div className="bg-yellow-50 border-l-4 border-yellow-400 p-5 rounded-r-xl">
-          <p className="font-semibold text-gray-800">📊 Le saviez-vous ?</p>
+        <div className="bg-yellow-50 border-l-4 border-yellow-400 p-5 rounded-r-xl mb-10">
+          <p className="font-semibold text-gray-800">📊 Situation en Belgique</p>
           <p className="text-sm text-gray-700 mt-1">
-            Les punaises de lit se propagent principalement via les voyages, les meubles d&apos;occasion
-            et les vêtements de seconde main. En Belgique, les signalements ont augmenté de 65%
-            entre 2019 et 2024. À Liège, les résidences étudiantes et les hôtels sont les zones
-            les plus touchées.
+            Les signalements de punaises de lit en Belgique ont augmenté de 65% entre 2019 et 2024.
+            Liège est l&apos;une des villes les plus touchées en Wallonie, notamment en raison
+            de la forte densité étudiante et du parc immobilier ancien du centre-ville.
           </p>
+        </div>
+
+        <div className="flex flex-col sm:flex-row gap-4">
+          <Link
+            href="/contact"
+            style={{ backgroundColor: "#1B4332", color: "white" }}
+            className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center"
+          >
+            Demander un devis gratuit →
+          </Link>
+          <a
+            href="tel:+32466442454"
+            style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
+            className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center"
+          >
+            📞 Appeler maintenant
+          </a>
         </div>
       </section>
 
