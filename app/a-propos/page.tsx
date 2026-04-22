@@ -32,7 +32,7 @@ export default function AProposPage() {
               Notre mission
             </h2>
             <p className="text-gray-700 mb-4 leading-relaxed">
-              Sayonarat a été fondé par Tomas et une équipe d&apos;experts de la lutte
+              Sayonarat a été fondé par Victor F. et une équipe d&apos;experts de la lutte
               antiparasitaire avec un constat simple : trouver un technicien certifié
               et disponible rapidement à Liège est souvent un parcours du combattant.
               Les délais sont longs, les prix peu transparents, et la qualité variable.
