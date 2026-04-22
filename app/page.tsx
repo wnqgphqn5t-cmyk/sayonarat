@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Dératisation Liège — Intervention rapide 24h | Sayonarat",
@@ -110,32 +111,44 @@ export default function HomePage() {
       />
 
       {/* Hero */}
-      <section style={{ backgroundColor: "#1B4332" }} className="text-white py-16 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-4">
-            Dératisation & Désinsectisation à Liège
-            <br />
-            <span style={{ color: "#FBBF24" }}>Intervention en moins de 24h</span>
-          </h1>
-          <p className="text-lg text-green-100 max-w-2xl mx-auto mb-8">
-            Vous avez un problème de nuisibles à Liège ? Sayonarat met en relation les particuliers
-            et entreprises avec des professionnels certifiés pour éliminer rats, souris, cafards,
-            punaises de lit et frelons. Service disponible 7j/7, devis gratuit sous 24h.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="/contact"
-              style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
-              className="font-bold px-8 py-4 rounded-lg hover:opacity-90 transition-opacity text-lg"
-            >
-              Demander un devis gratuit
-            </Link>
-            <Link
-              href="/deratisation-liege"
-              className="border-2 border-white text-white font-semibold px-8 py-4 rounded-lg hover:bg-white hover:text-green-900 transition-colors text-lg"
-            >
-              Voir nos services
-            </Link>
+      <section style={{ backgroundColor: "#1B4332" }} className="text-white">
+        <div className="max-w-6xl mx-auto px-4 py-16 flex flex-col md:flex-row items-center gap-10">
+          <div className="flex-1 text-center md:text-left">
+            <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-4">
+              Dératisation & Désinsectisation à Liège
+              <br />
+              <span style={{ color: "#FBBF24" }}>Intervention en moins de 24h</span>
+            </h1>
+            <p className="text-lg text-green-100 max-w-2xl mb-8">
+              Vous avez un problème de nuisibles à Liège ? Sayonarat met en relation les particuliers
+              et entreprises avec des professionnels certifiés pour éliminer rats, souris, cafards,
+              punaises de lit et frelons. Service disponible 7j/7, devis gratuit sous 24h.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+              <Link
+                href="/contact"
+                style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
+                className="font-bold px-8 py-4 rounded-lg hover:opacity-90 transition-opacity text-lg"
+              >
+                Demander un devis gratuit
+              </Link>
+              <Link
+                href="/deratisation-liege"
+                className="border-2 border-white text-white font-semibold px-8 py-4 rounded-lg hover:bg-white hover:text-green-900 transition-colors text-lg"
+              >
+                Voir nos services
+              </Link>
+            </div>
+          </div>
+          <div className="flex-1 w-full md:max-w-md">
+            <Image
+              src="/pexels-tima-miroshnichenko-6169040.jpg"
+              alt="Technicien dératisation Liège"
+              width={600}
+              height={450}
+              className="rounded-2xl shadow-2xl object-cover w-full"
+              priority
+            />
           </div>
         </div>
       </section>
@@ -212,6 +225,60 @@ export default function HomePage() {
               <div className="text-4xl mb-3">{item.icon}</div>
               <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>{item.title}</h3>
               <p className="text-gray-600 text-sm">{item.desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* En action */}
+      <section className="py-16 px-4 bg-gray-50">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-2" style={{ color: "#1B4332" }}>
+            Nos techniciens en action
+          </h2>
+          <p className="text-center text-gray-500 mb-10">Des professionnels équipés qui interviennent partout à Liège</p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <Image
+              src="/pexels-matilda-wormwood-4097998.jpg"
+              alt="Intervention dératisation à domicile Liège"
+              width={500}
+              height={350}
+              className="rounded-xl object-cover w-full h-64"
+            />
+            <Image
+              src="/pexels-matilda-wormwood-4099087.jpg"
+              alt="Traitement punaises de lit Liège"
+              width={500}
+              height={350}
+              className="rounded-xl object-cover w-full h-64"
+            />
+            <Image
+              src="/pexels-michelangelo-buonarroti-4176415.jpg"
+              alt="Désinsectisation professionnelle Liège"
+              width={500}
+              height={350}
+              className="rounded-xl object-cover w-full h-64"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Témoignages */}
+      <section className="py-16 px-4 max-w-5xl mx-auto">
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-2" style={{ color: "#1B4332" }}>
+          Ce que disent nos clients
+        </h2>
+        <p className="text-center text-gray-500 mb-10">Plus de 500 interventions réalisées à Liège et alentours</p>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {[
+            { name: "Sophie M.", ville: "Liège", note: "⭐⭐⭐⭐⭐", texte: "Problème de rats dans le grenier réglé en une intervention. Technicien professionnel et rapide. Je recommande vivement." },
+            { name: "David K.", ville: "Seraing", note: "⭐⭐⭐⭐⭐", texte: "Punaises de lit dans notre chambre. Sayonarat est intervenu le lendemain. Aucune trace depuis 2 mois. Parfait." },
+            { name: "Nathalie B.", ville: "Herstal", note: "⭐⭐⭐⭐⭐", texte: "Infestation de cafards dans la cuisine. Devis gratuit rapidement, intervention efficace. Prix correct pour la qualité." },
+          ].map((t) => (
+            <div key={t.name} className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+              <div className="text-xl mb-3">{t.note}</div>
+              <p className="text-gray-600 text-sm mb-4 italic">&ldquo;{t.texte}&rdquo;</p>
+              <div className="font-bold text-sm" style={{ color: "#1B4332" }}>{t.name} — {t.ville}</div>
             </div>
           ))}
         </div>
