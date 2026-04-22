@@ -59,10 +59,16 @@ export default function ContactPage() {
 
           <div className="mt-8 p-5 rounded-xl text-white" style={{ backgroundColor: "#1B4332" }}>
             <p className="font-bold mb-1">Urgence nuisibles à Liège ?</p>
-            <p className="text-green-200 text-sm">
-              Remplissez le formulaire en indiquant &quot;URGENT&quot; dans le message.
-              Nous priorisons votre demande.
+            <p className="text-green-200 text-sm mb-4">
+              Appelez-nous directement pour une intervention le jour même.
             </p>
+            <a
+              href="tel:+32466442454"
+              style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
+              className="block text-center font-bold py-3 rounded-lg hover:opacity-90 transition-opacity text-lg"
+            >
+              📞 Appeler maintenant
+            </a>
           </div>
         </div>
       </section>

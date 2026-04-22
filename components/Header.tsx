@@ -15,6 +15,11 @@ export default function Header() {
 
   return (
     <header style={{ backgroundColor: "#1B4332" }} className="text-white sticky top-0 z-50 shadow-md">
+      <div className="max-w-6xl mx-auto px-4 py-1 text-right text-xs text-green-200 border-b border-green-700">
+        <a href="tel:+32466442454" className="hover:text-yellow-300 transition-colors font-semibold">
+          📞 +32 466 44 24 54 — Disponible 7j/7
+        </a>
+      </div>
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/" className="text-xl font-bold tracking-tight">
           🐀 Sayonarat
