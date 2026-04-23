@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     q: "Combien coûte une désinsectisation à Ans ?",
-    a: "Entre 120 € et 300 € selon le type d'insecte et la superficie. Les nids de guêpes sont traités entre 80 € et 180 €. Devis gratuit sous 24h chez Sayonarat.",
+    a: "Entre 120 € et 300 € selon le type d'insecte et la superficie. Les nids de guêpes sont traités entre 90 € et 180 €. Devis gratuit sous 24h chez Sayonarat.",
   },
   {
     q: "Intervenez-vous dans toute la commune d'Ans ?",

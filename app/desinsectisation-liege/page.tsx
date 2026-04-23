@@ -40,9 +40,36 @@ const faqs = [
   },
 ];
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Désinsectisation à Liège",
+  provider: {
+    "@type": "LocalBusiness",
+    name: "Sayonarat",
+    telephone: "+32466442454",
+    address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
+  },
+  areaServed: "Liège",
+  description: "Service de désinsectisation professionnelle à Liège. Cafards, fourmis, guêpes, frelons — produits homologués, résultat garanti.",
+  serviceType: "PestControl",
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((faq) => ({
+    "@type": "Question",
+    name: faq.q,
+    acceptedAnswer: { "@type": "Answer", text: faq.a },
+  })),
+};
+
 export default function DesinsectisationLiegePage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <section style={{ backgroundColor: "#1B4332" }} className="text-white py-14 px-4">
         <div className="max-w-4xl mx-auto">
           <p className="text-green-300 text-sm mb-2">

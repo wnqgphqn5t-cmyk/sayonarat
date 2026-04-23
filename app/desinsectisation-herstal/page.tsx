@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     q: "Combien coûte une désinsectisation à Herstal ?",
-    a: "Entre 120 € et 300 € selon le type d'insecte et la superficie. Les nids de guêpes sont traités entre 80 € et 180 €. Devis gratuit sous 24h chez Sayonarat.",
+    a: "Entre 120 € et 300 € selon le type d'insecte et la superficie. Les nids de guêpes sont traités entre 90 € et 180 €. Devis gratuit sous 24h chez Sayonarat.",
   },
   {
     q: "Les entreprises de Herstal peuvent-elles faire appel à Sayonarat ?",
