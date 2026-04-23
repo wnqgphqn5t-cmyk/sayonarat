@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Désinsectisation Seraing — Cafards, fourmis, guêpes | Sayonarat",
@@ -67,6 +68,13 @@ export default function DesinsectisationSeraingPage() {
       </section>
 
       <section className="py-14 px-4 max-w-4xl mx-auto">
+        <div className="relative rounded-2xl overflow-hidden shadow-lg h-64 md:h-80 mb-10">
+          <Image src="/technicien-cuisine.jpg" alt="Technicien désinsectisation traitement cuisine à Seraing" fill className="object-cover" priority />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end p-5">
+            <p className="text-white text-sm font-medium">Traitement professionnel contre les insectes nuisibles à Seraing</p>
+          </div>
+        </div>
+
         <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>
           Désinsectisation à Seraing : les insectes les plus fréquents
         </h2>

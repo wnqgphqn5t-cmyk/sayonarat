@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Désinsectisation Herstal — Cafards, fourmis, guêpes | Sayonarat",
@@ -67,6 +68,13 @@ export default function DesinsectisationHerstalPage() {
       </section>
 
       <section className="py-14 px-4 max-w-4xl mx-auto">
+        <div className="relative rounded-2xl overflow-hidden shadow-lg h-64 md:h-80 mb-10">
+          <Image src="/nid-guepes.jpg" alt="Destruction nid de guêpes à Herstal par technicien certifié" fill className="object-cover" priority />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end p-5">
+            <p className="text-white text-sm font-medium">Intervention professionnelle contre guêpes et insectes à Herstal</p>
+          </div>
+        </div>
+
         <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>
           Désinsectisation à Herstal : contexte et spécificités
         </h2>
