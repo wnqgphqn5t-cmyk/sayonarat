@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "À propos de Sayonarat — Experts dératisation Liège",
@@ -26,6 +27,21 @@ export default function AProposPage() {
       </section>
 
       <section className="py-14 px-4 max-w-4xl mx-auto">
+
+        {/* Photo technicien */}
+        <div className="relative rounded-2xl overflow-hidden shadow-xl h-72 md:h-96 mb-14">
+          <Image
+            src="/pexels-tima-miroshnichenko-6196234.jpg"
+            alt="Technicien Sayonarat prêt à intervenir à Liège"
+            fill
+            className="object-cover object-top"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end p-6">
+            <p className="text-white font-semibold text-lg">Nos techniciens certifiés, prêts à intervenir sous 24h</p>
+          </div>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
           <div>
             <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>
