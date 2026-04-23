@@ -134,7 +134,7 @@ export default function DeratisationLiegePage() {
           {[
             { step: "1", title: "Diagnostic sur place", desc: "Le technicien inspecte caves, combles, canalisations et extérieur. Il identifie les traces fraîches, nids et couloirs de passage." },
             { step: "2", title: "Traitement ciblé", desc: "Pose de boîtiers à appâts sécurisés aux points stratégiques. Sécurisation des entrées pour empêcher de nouveaux rongeurs." },
-            { step: "3", title: "Suivi J+10", desc: "Retour obligatoire 10 jours après pour contrôler l'efficacité. Garantie 30 jours : on revient sans frais si nécessaire." },
+            { step: "3", title: "Garantie 30 jours", desc: "Si les nuisibles réapparaissent dans le mois suivant l'intervention, on revient sans frais supplémentaires." },
           ].map((s) => (
             <div key={s.step} className="bg-green-50 rounded-xl p-5 border border-green-100">
               <div className="text-2xl font-bold mb-2" style={{ color: "#1B4332" }}>Étape {s.step}</div>
