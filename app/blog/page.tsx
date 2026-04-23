@@ -9,6 +9,38 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "frelon-asiatique-liege",
+    titre: "Frelon asiatique à Liège : comment le reconnaître et que faire ?",
+    desc: "Présent dans toute la province, le frelon asiatique est plus agressif et plus difficile à traiter que le frelon commun. Guide identification + conduite à tenir.",
+    date: "23 avril 2026",
+    temps: "6 min",
+    categorie: "Désinsectisation",
+  },
+  {
+    slug: "cafards-appartement-que-faire",
+    titre: "Cafards dans un appartement : que faire ? Guide complet",
+    desc: "En appartement, les cafards circulent entre logements via les gaines. Pourquoi le spray aggrave tout, et la seule méthode qui fonctionne en immeuble.",
+    date: "23 avril 2026",
+    temps: "5 min",
+    categorie: "Désinsectisation",
+  },
+  {
+    slug: "prix-punaises-lit-liege-2026",
+    titre: "Prix traitement punaises de lit Liège 2026 — Tarifs réels",
+    desc: "Thermique ou chimique ? Les vrais tarifs par superficie, les 5 facteurs qui font varier le prix, et comment éviter les arnaques.",
+    date: "23 avril 2026",
+    temps: "5 min",
+    categorie: "Tarifs",
+  },
+  {
+    slug: "fourmis-pharaon-traitement",
+    titre: "Fourmis pharaon : pourquoi c'est si difficile à éliminer ?",
+    desc: "La fourmi pharaon est l'insecte le plus résistant aux traitements classiques. Un spray aggrave l'infestation. Voici la seule méthode qui fonctionne.",
+    date: "23 avril 2026",
+    temps: "5 min",
+    categorie: "Désinsectisation",
+  },
+  {
     slug: "comment-savoir-si-on-a-des-rats",
     titre: "Comment savoir si on a des rats chez soi ? Les 7 signes à ne pas ignorer",
     desc: "Bruits la nuit, traces, excréments… Voici comment identifier une infestation de rats ou souris avant qu'elle s'aggrave.",
