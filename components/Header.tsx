@@ -26,9 +26,14 @@ const menu = [
     ],
   },
   {
-    categorie: "Autres insectes",
+    categorie: "Punaises de lit",
     liens: [
       { label: "Punaises de lit Liège", href: "/punaises-de-lit-liege" },
+      { label: "Punaises de lit Seraing", href: "/punaises-de-lit-seraing" },
+      { label: "Punaises de lit Herstal", href: "/punaises-de-lit-herstal" },
+      { label: "Punaises de lit Ans", href: "/punaises-de-lit-ans" },
+      { label: "Punaises de lit Saint-Nicolas", href: "/punaises-de-lit-saint-nicolas" },
+      { label: "Punaises de lit Flémalle", href: "/punaises-de-lit-flemalle" },
       { label: "Mites alimentaires Liège", href: "/mites-alimentaires-liege" },
     ],
   },

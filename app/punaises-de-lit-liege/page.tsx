@@ -174,6 +174,23 @@ export default function PunaisesLiegePage() {
         </div>
       </section>
 
+      <section className="py-10 px-4 max-w-4xl mx-auto">
+        <h2 className="text-2xl font-bold mb-5" style={{ color: "#1B4332" }}>
+          Traitement punaises de lit dans les communes voisines
+        </h2>
+        <div className="flex flex-wrap gap-3 text-sm">
+          {[
+            { label: "Punaises de lit Seraing", href: "/punaises-de-lit-seraing" },
+            { label: "Punaises de lit Herstal", href: "/punaises-de-lit-herstal" },
+            { label: "Punaises de lit Ans", href: "/punaises-de-lit-ans" },
+            { label: "Punaises de lit Saint-Nicolas", href: "/punaises-de-lit-saint-nicolas" },
+            { label: "Punaises de lit Flémalle", href: "/punaises-de-lit-flemalle" },
+          ].map((l) => (
+            <Link key={l.href} href={l.href} className="underline font-medium" style={{ color: "#1B4332" }}>{l.label}</Link>
+          ))}
+        </div>
+      </section>
+
       <section style={{ backgroundColor: "#1B4332" }} className="py-14 px-4 text-white text-center">
         <h2 className="text-2xl font-bold mb-3">Punaises de lit à Liège ?</h2>
         <p className="mb-6" style={{ color: "#bbf7d0" }}>
