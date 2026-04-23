@@ -8,9 +8,25 @@ export const metadata: Metadata = {
     "Contactez Sayonarat pour un devis gratuit de dératisation ou désinsectisation à Liège. Réponse sous 24h, 7 jours sur 7.",
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  name: "Contact Sayonarat — Devis gratuit dératisation Liège",
+  url: "https://sayonarat.be/contact",
+  description: "Demandez un devis gratuit pour une dératisation ou désinsectisation à Liège. Réponse sous 24h, 7j/7.",
+  mainEntity: {
+    "@type": "LocalBusiness",
+    name: "Sayonarat",
+    telephone: "+32466442454",
+    email: "contact@sayonarat.be",
+    address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
+  },
+};
+
 export default function ContactPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       {/* Hero */}
       <section style={{ backgroundColor: "#1B4332" }} className="text-white py-14 px-4">
         <div className="max-w-4xl mx-auto">

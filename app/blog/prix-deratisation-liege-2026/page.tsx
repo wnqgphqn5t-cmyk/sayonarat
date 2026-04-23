@@ -30,7 +30,7 @@ const jsonLd = {
 const faq = [
   {
     q: "Quel est le prix moyen d'une dératisation à Liège ?",
-    a: "Pour un appartement ou une maison standard, le prix d'une dératisation professionnelle à Liège se situe entre 150 € et 350 € pour 1 à 2 passages. Le prix varie selon la superficie, le type de rongeur et l'accessibilité des zones infestées.",
+    a: "Pour un appartement ou une maison standard, le prix d'une dératisation professionnelle à Liège se situe entre 150 € et 350 €. Le prix varie selon la superficie, le type de rongeur, l'accessibilité des zones infestées et le nombre de passages défini lors du diagnostic.",
   },
   {
     q: "La dératisation est-elle remboursée par l'assurance ou la commune de Liège ?",
@@ -42,7 +42,7 @@ const faq = [
   },
   {
     q: "Combien de passages sont nécessaires pour éliminer les rats ?",
-    a: "En général, 2 à 3 passages sur 2 à 3 semaines sont nécessaires. Le premier pose les appâts, le deuxième vérifie les captures et renouvelle les stations, le troisième confirme l'éradication et procède au colmatage des entrées.",
+    a: "Le nombre de passages est défini lors du diagnostic selon l'ampleur de l'infestation. Un traitement type comprend : pose des appâts, contrôle des captures, renouvellement des stations si nécessaire, puis colmatage des entrées. La garantie 30 jours couvre tout résultat insuffisant.",
   },
 ];
 

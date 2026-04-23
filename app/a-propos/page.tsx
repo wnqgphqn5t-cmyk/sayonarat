@@ -48,9 +48,24 @@ const timeline = [
   { annee: "2026", titre: "L'expansion", desc: "Plus de 500 interventions réalisées, extension aux services guêpes/frelons et mites alimentaires. Taux de satisfaction de 98%." },
 ];
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Sayonarat",
+  url: "https://sayonarat.be",
+  description: "Plateforme de mise en relation avec des techniciens certifiés en dératisation et désinsectisation à Liège.",
+  foundingDate: "2023",
+  founder: { "@type": "Person", name: "Victor F." },
+  address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
+  telephone: "+32466442454",
+  email: "contact@sayonarat.be",
+  areaServed: ["Liège", "Seraing", "Herstal", "Ans", "Saint-Nicolas", "Flémalle"],
+};
+
 export default function AProposPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <section style={{ backgroundColor: "#1B4332" }} className="text-white py-14 px-4">
         <div className="max-w-4xl mx-auto">
           <p className="text-green-300 text-sm mb-2">

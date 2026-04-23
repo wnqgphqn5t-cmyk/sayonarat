@@ -6,6 +6,7 @@ const services = [
   { label: "Punaises de lit Liège", href: "/punaises-de-lit-liege" },
   { label: "Guêpes et frelons Liège", href: "/guepes-frelons-liege" },
   { label: "Mites alimentaires Liège", href: "/mites-alimentaires-liege" },
+  { label: "Urgence 7j/7", href: "/urgence" },
 ];
 
 const villes = [
@@ -14,6 +15,11 @@ const villes = [
   { label: "Dératisation Ans", href: "/deratisation-ans" },
   { label: "Dératisation Saint-Nicolas", href: "/deratisation-saint-nicolas" },
   { label: "Dératisation Flémalle", href: "/deratisation-flemalle" },
+  { label: "Désinsectisation Seraing", href: "/desinsectisation-seraing" },
+  { label: "Désinsectisation Herstal", href: "/desinsectisation-herstal" },
+  { label: "Désinsectisation Ans", href: "/desinsectisation-ans" },
+  { label: "Désinsectisation Saint-Nicolas", href: "/desinsectisation-saint-nicolas" },
+  { label: "Désinsectisation Flémalle", href: "/desinsectisation-flemalle" },
   { label: "Punaises de lit Seraing", href: "/punaises-de-lit-seraing" },
   { label: "Punaises de lit Herstal", href: "/punaises-de-lit-herstal" },
   { label: "Punaises de lit Ans", href: "/punaises-de-lit-ans" },
@@ -63,9 +69,12 @@ export default function Footer() {
 
       <div style={{ backgroundColor: "#0f2d1e" }} className="text-center py-4 text-green-400 text-xs space-x-4">
         <span>© {new Date().getFullYear()} Sayonarat — Dératisation Liège. Tous droits réservés.</span>
+        <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
+        <Link href="/faq" className="hover:text-white transition-colors">FAQ</Link>
+        <Link href="/contact" className="hover:text-white transition-colors">Contact</Link>
+        <Link href="/a-propos" className="hover:text-white transition-colors">À propos</Link>
         <Link href="/mentions-legales" className="hover:text-white transition-colors">Mentions légales</Link>
         <Link href="/politique-confidentialite" className="hover:text-white transition-colors">Confidentialité</Link>
-        <Link href="/a-propos" className="hover:text-white transition-colors">À propos</Link>
       </div>
     </footer>
   );
