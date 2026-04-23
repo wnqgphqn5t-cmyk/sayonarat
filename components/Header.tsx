@@ -41,6 +41,7 @@ const menu = [
   {
     categorie: "Informations",
     liens: [
+      { label: "Urgence 7j/7", href: "/urgence" },
       { label: "Blog", href: "/blog" },
       { label: "FAQ", href: "/faq" },
       { label: "À propos", href: "/a-propos" },
