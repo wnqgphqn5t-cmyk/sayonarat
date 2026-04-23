@@ -51,12 +51,12 @@ const faqSchema = {
 const tarifs = [
   { insecte: "Cafards (appartement)", fourchette: "120 € – 250 €", passages: "Selon diagnostic", note: "Gel professionnel, garantie 30j" },
   { insecte: "Cafards (maison)", fourchette: "180 € – 350 €", passages: "Selon diagnostic", note: "Selon superficie" },
-  { insecte: "Fourmis noires", fourchette: "100 € – 200 €", passages: "Selon diagnostic", note: "Appât insecticide ciblé" },
-  { insecte: "Fourmis pharaons", fourchette: "200 € – 400 €", passages: "2–3 passages", note: "Traitement complexe, multi-passages" },
-  { insecte: "Nid de guêpes (accessible)", fourchette: "80 € – 150 €", passages: "1 passage nocturne", note: "Destruction garantie" },
-  { insecte: "Nid de frelons", fourchette: "120 € – 200 €", passages: "1 passage nocturne", note: "Frelon asiatique : tarif majoré" },
-  { insecte: "Mites alimentaires", fourchette: "100 € – 250 €", passages: "Selon diagnostic", note: "Selon ampleur" },
-  { insecte: "Moustiques (jardin)", fourchette: "80 € – 180 €", passages: "1 passage", note: "Traitement larvicide" },
+  { insecte: "Fourmis noires", fourchette: "120 € – 250 €", passages: "Selon diagnostic", note: "Appât insecticide ciblé" },
+  { insecte: "Fourmis pharaons", fourchette: "200 € – 400 €", passages: "Selon diagnostic", note: "Traitement complexe, multi-passages" },
+  { insecte: "Nid de guêpes (accessible)", fourchette: "90 € – 180 €", passages: "1 passage nocturne", note: "Destruction garantie" },
+  { insecte: "Nid de frelons", fourchette: "120 € – 220 €", passages: "1 passage nocturne", note: "Frelon asiatique : tarif majoré" },
+  { insecte: "Mites alimentaires", fourchette: "120 € – 280 €", passages: "Selon diagnostic", note: "Selon ampleur" },
+  { insecte: "Moustiques (jardin)", fourchette: "90 € – 200 €", passages: "1 passage", note: "Traitement larvicide" },
 ];
 
 export default function ArticlePrixDesinsectisationPage() {
@@ -87,8 +87,8 @@ export default function ArticlePrixDesinsectisationPage() {
         <div className="bg-green-50 border-l-4 rounded-r-xl p-5" style={{ borderColor: "#1B4332" }}>
           <p className="font-semibold text-gray-800 mb-2">En résumé</p>
           <p>
-            Une désinsectisation à Liège coûte entre <strong>80 € et 400 €</strong> selon le type
-            d&apos;insecte et la superficie. Les nids de guêpes sont les moins chers (80–150 €),
+            Une désinsectisation à Liège coûte entre <strong>120 € et 400 €</strong> selon le type
+            d&apos;insecte et la superficie. Les nids de guêpes sont les moins chers (90–180 €),
             les fourmis pharaons les plus complexes (200–400 €). Devis gratuit sous 24h chez Sayonarat.
           </p>
         </div>

@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     q: "Combien coûte une désinsectisation à Liège ?",
-    a: "Entre 80 € et 180 € selon la superficie et le type d'insecte. Devis gratuit sous 24h.",
+    a: "Entre 120 € et 300 € selon la superficie et le type d'insecte. Devis gratuit sous 24h.",
   },
   {
     q: "Faut-il une deuxième intervention ?",

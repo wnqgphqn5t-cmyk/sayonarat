@@ -62,7 +62,7 @@ const faqs = [
   },
   {
     q: "Combien coûte une dératisation à Liège ?",
-    a: "Le prix dépend de la superficie et du type de nuisible. Comptez entre 80 € et 250 € pour une intervention standard. Devis gratuit sous 24h.",
+    a: "Le prix dépend de la superficie et du type de nuisible. Comptez entre 150 € et 400 € pour une intervention standard. Devis gratuit sous 24h.",
   },
   {
     q: "Revenez-vous si le problème persiste ?",

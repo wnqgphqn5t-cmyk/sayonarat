@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: "Quel est le prix d'une dératisation à Saint-Nicolas ?",
-    a: "Entre 90 € et 200 € selon la superficie. Devis gratuit sous 24h.",
+    a: "Entre 150 € et 350 € selon la superficie. Devis gratuit sous 24h.",
   },
   {
     q: "Proposez-vous des contrats de prévention pour les professionnels ?",

@@ -23,7 +23,7 @@ const faqs = [
   },
   {
     q: "Quel est le prix d'une dératisation à Liège ?",
-    a: "Entre 90 € et 200 € selon la taille du logement et le degré d'infestation. Devis gratuit et sans engagement sous 24h.",
+    a: "Entre 150 € et 350 € selon la taille du logement et le degré d'infestation. Devis gratuit et sans engagement sous 24h.",
   },
   {
     q: "La dératisation fonctionne-t-elle dès la première intervention ?",

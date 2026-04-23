@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     q: "Combien coûte un traitement mites alimentaires à Liège ?",
-    a: "Entre 100 € et 250 € selon la superficie et l'ampleur de l'infestation. Devis gratuit sous 24h chez Sayonarat.",
+    a: "Entre 120 € et 300 € selon la superficie et l'ampleur de l'infestation. Devis gratuit sous 24h chez Sayonarat.",
   },
   {
     q: "Les mites alimentaires reviennent-elles après traitement ?",
