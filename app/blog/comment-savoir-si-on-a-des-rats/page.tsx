@@ -285,7 +285,7 @@ export default function ArticleRatsPage() {
           </div>
           <div>
             <p className="font-semibold text-gray-800">Victor F.</p>
-            <p>Fondateur de Sayonarat — Spécialiste en lutte antiparasitaire à Liège depuis 2022.</p>
+            <p>Fondateur de Sayonarat</p>
           </div>
         </div>
 
