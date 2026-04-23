@@ -48,6 +48,14 @@ const articles = [
     temps: "5 min",
     categorie: "Dératisation",
   },
+  {
+    slug: "frelons-guepes-liege-que-faire",
+    titre: "Frelons et guêpes à Liège : que faire en cas de nid ?",
+    desc: "Ne l'approchez pas, ne l'arrosez pas — voici ce qu'il faut vraiment faire face à un nid de frelons ou guêpes. Et pourquoi le frelon asiatique est une urgence.",
+    date: "23 avril 2026",
+    temps: "5 min",
+    categorie: "Désinsectisation",
+  },
 ];
 
 export default function BlogPage() {
