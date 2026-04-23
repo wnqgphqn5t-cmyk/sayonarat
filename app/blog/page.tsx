@@ -104,6 +104,30 @@ const articles = [
     temps: "5 min",
     categorie: "Désinsectisation",
   },
+  {
+    slug: "punaises-lit-voyage-eviter",
+    titre: "Punaises de lit en voyage : comment éviter de les ramener ?",
+    desc: "Hôtel, Airbnb, transports : checklist pratique pour détecter les punaises de lit sur place et éviter de les ramener chez vous.",
+    date: "23 avril 2026",
+    temps: "4 min",
+    categorie: "Punaises de lit",
+  },
+  {
+    slug: "cafards-immeuble-responsabilite",
+    titre: "Cafards dans un immeuble : qui est responsable ?",
+    desc: "Propriétaire ou locataire ? Le droit belge expliqué clairement, les démarches pratiques et comment agir vite sans attendre une décision judiciaire.",
+    date: "23 avril 2026",
+    temps: "4 min",
+    categorie: "Désinsectisation",
+  },
+  {
+    slug: "traitement-thermique-vs-chimique-punaises",
+    titre: "Traitement thermique vs chimique : lequel choisir contre les punaises ?",
+    desc: "Comparatif complet des deux méthodes : efficacité, prix, durée, contraintes. Pour choisir la bonne option selon votre situation.",
+    date: "23 avril 2026",
+    temps: "5 min",
+    categorie: "Punaises de lit",
+  },
 ];
 
 export default function BlogPage() {
