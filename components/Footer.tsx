@@ -4,6 +4,7 @@ const services = [
   { label: "Dératisation Liège", href: "/deratisation-liege" },
   { label: "Désinsectisation Liège", href: "/desinsectisation-liege" },
   { label: "Punaises de lit Liège", href: "/punaises-de-lit-liege" },
+  { label: "Mites alimentaires Liège", href: "/mites-alimentaires-liege" },
   { label: "Désinsectisation Seraing", href: "/desinsectisation-seraing" },
   { label: "Désinsectisation Herstal", href: "/desinsectisation-herstal" },
   { label: "Désinsectisation Ans", href: "/desinsectisation-ans" },

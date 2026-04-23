@@ -49,6 +49,14 @@ const articles = [
     categorie: "Dératisation",
   },
   {
+    slug: "mites-alimentaires-que-faire",
+    titre: "Mites alimentaires : que faire ? Guide complet",
+    desc: "Des larves dans la farine, des papillons dans les placards ? Voici les étapes immédiates, les erreurs à éviter et quand appeler un professionnel.",
+    date: "23 avril 2026",
+    temps: "5 min",
+    categorie: "Désinsectisation",
+  },
+  {
     slug: "frelons-guepes-liege-que-faire",
     titre: "Frelons et guêpes à Liège : que faire en cas de nid ?",
     desc: "Ne l'approchez pas, ne l'arrosez pas — voici ce qu'il faut vraiment faire face à un nid de frelons ou guêpes. Et pourquoi le frelon asiatique est une urgence.",

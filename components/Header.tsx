@@ -29,6 +29,7 @@ const menu = [
     categorie: "Autres insectes",
     liens: [
       { label: "Punaises de lit Liège", href: "/punaises-de-lit-liege" },
+      { label: "Mites alimentaires Liège", href: "/mites-alimentaires-liege" },
     ],
   },
   {
