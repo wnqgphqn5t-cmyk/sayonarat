@@ -23,6 +23,14 @@ const menu = [
       { label: "Désinsectisation Ans", href: "/desinsectisation-ans" },
       { label: "Désinsectisation Saint-Nicolas", href: "/desinsectisation-saint-nicolas" },
       { label: "Désinsectisation Flémalle", href: "/desinsectisation-flemalle" },
+      { label: "Guêpes et frelons Liège", href: "/guepes-frelons-liege" },
+      { label: "Guêpes et frelons Seraing", href: "/guepes-frelons-seraing" },
+      { label: "Guêpes et frelons Herstal", href: "/guepes-frelons-herstal" },
+      { label: "Guêpes et frelons Ans", href: "/guepes-frelons-ans" },
+      { label: "Guêpes et frelons Saint-Nicolas", href: "/guepes-frelons-saint-nicolas" },
+      { label: "Guêpes et frelons Flémalle", href: "/guepes-frelons-flemalle" },
+      { label: "Cafards Liège", href: "/cafards-liege" },
+      { label: "Mites alimentaires Liège", href: "/mites-alimentaires-liege" },
     ],
   },
   {
@@ -34,8 +42,6 @@ const menu = [
       { label: "Punaises de lit Ans", href: "/punaises-de-lit-ans" },
       { label: "Punaises de lit Saint-Nicolas", href: "/punaises-de-lit-saint-nicolas" },
       { label: "Punaises de lit Flémalle", href: "/punaises-de-lit-flemalle" },
-      { label: "Guêpes et frelons Liège", href: "/guepes-frelons-liege" },
-      { label: "Mites alimentaires Liège", href: "/mites-alimentaires-liege" },
     ],
   },
   {
