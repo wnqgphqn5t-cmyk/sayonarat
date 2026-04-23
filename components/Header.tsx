@@ -34,6 +34,7 @@ const menu = [
       { label: "Punaises de lit Ans", href: "/punaises-de-lit-ans" },
       { label: "Punaises de lit Saint-Nicolas", href: "/punaises-de-lit-saint-nicolas" },
       { label: "Punaises de lit Flémalle", href: "/punaises-de-lit-flemalle" },
+      { label: "Guêpes et frelons Liège", href: "/guepes-frelons-liege" },
       { label: "Mites alimentaires Liège", href: "/mites-alimentaires-liege" },
     ],
   },

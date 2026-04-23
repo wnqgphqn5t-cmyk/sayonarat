@@ -4,12 +4,8 @@ const services = [
   { label: "Dératisation Liège", href: "/deratisation-liege" },
   { label: "Désinsectisation Liège", href: "/desinsectisation-liege" },
   { label: "Punaises de lit Liège", href: "/punaises-de-lit-liege" },
+  { label: "Guêpes et frelons Liège", href: "/guepes-frelons-liege" },
   { label: "Mites alimentaires Liège", href: "/mites-alimentaires-liege" },
-  { label: "Désinsectisation Seraing", href: "/desinsectisation-seraing" },
-  { label: "Désinsectisation Herstal", href: "/desinsectisation-herstal" },
-  { label: "Désinsectisation Ans", href: "/desinsectisation-ans" },
-  { label: "Désinsectisation Saint-Nicolas", href: "/desinsectisation-saint-nicolas" },
-  { label: "Désinsectisation Flémalle", href: "/desinsectisation-flemalle" },
 ];
 
 const villes = [
@@ -18,6 +14,11 @@ const villes = [
   { label: "Dératisation Ans", href: "/deratisation-ans" },
   { label: "Dératisation Saint-Nicolas", href: "/deratisation-saint-nicolas" },
   { label: "Dératisation Flémalle", href: "/deratisation-flemalle" },
+  { label: "Punaises de lit Seraing", href: "/punaises-de-lit-seraing" },
+  { label: "Punaises de lit Herstal", href: "/punaises-de-lit-herstal" },
+  { label: "Punaises de lit Ans", href: "/punaises-de-lit-ans" },
+  { label: "Punaises de lit Saint-Nicolas", href: "/punaises-de-lit-saint-nicolas" },
+  { label: "Punaises de lit Flémalle", href: "/punaises-de-lit-flemalle" },
 ];
 
 export default function Footer() {
