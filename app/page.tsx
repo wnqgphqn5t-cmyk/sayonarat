@@ -142,7 +142,7 @@ export default function HomePage() {
           </div>
           <div className="flex-1 w-full md:max-w-md">
             <Image
-              src="/hero-technicien.png"
+              src="/hero-technicien.jpg"
               alt="Expert dératisation Liège — diagnostic professionnel"
               width={600}
               height={450}
@@ -170,7 +170,7 @@ export default function HomePage() {
         <div className="flex flex-col md:flex-row items-center gap-10">
           <div className="flex-1 relative rounded-2xl overflow-hidden shadow-xl h-72 md:h-96 w-full">
             <Image
-              src="/interieur-cuisine.png"
+              src="/interieur-cuisine.jpg"
               alt="Intérieur sain après dératisation — résultat Sayonarat Liège"
               fill
               className="object-cover"
@@ -271,7 +271,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="relative rounded-xl overflow-hidden h-64 shadow-md">
               <Image
-                src="/technicien-van.png"
+                src="/technicien-van.jpg"
                 alt="Technicien dératisation Liège — intervention à domicile"
                 fill
                 className="object-cover"
@@ -282,7 +282,7 @@ export default function HomePage() {
             </div>
             <div className="relative rounded-xl overflow-hidden h-64 shadow-md">
               <Image
-                src="/inspection-matelas.png"
+                src="/inspection-matelas.jpg"
                 alt="Inspection punaises de lit Liège — détection professionnelle"
                 fill
                 className="object-cover"
@@ -293,7 +293,7 @@ export default function HomePage() {
             </div>
             <div className="relative rounded-xl overflow-hidden h-64 shadow-md">
               <Image
-                src="/inspection-cave.png"
+                src="/inspection-cave.jpg"
                 alt="Inspection cave dératisation Liège"
                 fill
                 className="object-cover"
