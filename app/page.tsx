@@ -5,7 +5,7 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "Dératisation Liège — Intervention rapide 24h | Sayonarat",
   description:
-    "Dératisation et désinsectisation à Liège. Rats, souris, cafards, punaises de lit, frelons. Intervention en moins de 24h. Devis gratuit.",
+    "Dératisation, désinsectisation et punaises de lit à Liège. Rats, cafards, guêpes, mites. Intervention sous 48h, devis gratuit sous 24h.",
 };
 
 const services = [
@@ -29,9 +29,15 @@ const services = [
   },
   {
     icon: "🐝",
-    title: "Frelons & guêpes",
-    desc: "Destruction de nids de frelons et guêpes en hauteur. Intervention sécurisée.",
-    href: "/contact",
+    title: "Guêpes & frelons",
+    desc: "Destruction de nids de guêpes et frelons. Intervention nocturne sécurisée sous 48h.",
+    href: "/guepes-frelons-liege",
+  },
+  {
+    icon: "🦋",
+    title: "Mites alimentaires",
+    desc: "Traitement contre les mites des denrées. Placards, réserves, garde-manger.",
+    href: "/mites-alimentaires-liege",
   },
 ];
 
@@ -43,12 +49,24 @@ const stats = [
 ];
 
 const zones = [
-  { label: "Liège", href: "/deratisation-liege" },
-  { label: "Seraing", href: "/deratisation-seraing" },
-  { label: "Herstal", href: "/deratisation-herstal" },
-  { label: "Ans", href: "/deratisation-ans" },
-  { label: "Saint-Nicolas", href: "/deratisation-saint-nicolas" },
-  { label: "Flémalle", href: "/deratisation-flemalle" },
+  { label: "Dératisation Liège", href: "/deratisation-liege" },
+  { label: "Dératisation Seraing", href: "/deratisation-seraing" },
+  { label: "Dératisation Herstal", href: "/deratisation-herstal" },
+  { label: "Dératisation Ans", href: "/deratisation-ans" },
+  { label: "Dératisation Saint-Nicolas", href: "/deratisation-saint-nicolas" },
+  { label: "Dératisation Flémalle", href: "/deratisation-flemalle" },
+  { label: "Désinsectisation Liège", href: "/desinsectisation-liege" },
+  { label: "Désinsectisation Seraing", href: "/desinsectisation-seraing" },
+  { label: "Désinsectisation Herstal", href: "/desinsectisation-herstal" },
+  { label: "Désinsectisation Ans", href: "/desinsectisation-ans" },
+  { label: "Désinsectisation Saint-Nicolas", href: "/desinsectisation-saint-nicolas" },
+  { label: "Désinsectisation Flémalle", href: "/desinsectisation-flemalle" },
+  { label: "Punaises de lit Liège", href: "/punaises-de-lit-liege" },
+  { label: "Punaises de lit Seraing", href: "/punaises-de-lit-seraing" },
+  { label: "Punaises de lit Herstal", href: "/punaises-de-lit-herstal" },
+  { label: "Punaises de lit Ans", href: "/punaises-de-lit-ans" },
+  { label: "Punaises de lit Saint-Nicolas", href: "/punaises-de-lit-saint-nicolas" },
+  { label: "Punaises de lit Flémalle", href: "/punaises-de-lit-flemalle" },
 ];
 
 const faqs = [
@@ -205,7 +223,7 @@ export default function HomePage() {
           Nos services à Liège
         </h2>
         <p className="text-center text-gray-500 mb-10">Traitement professionnel pour tous types de nuisibles</p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((s) => (
             <Link
               key={s.href}
