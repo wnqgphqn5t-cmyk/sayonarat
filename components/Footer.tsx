@@ -6,6 +6,9 @@ const services = [
   { label: "Punaises de lit Liège", href: "/punaises-de-lit-liege" },
   { label: "Désinsectisation Seraing", href: "/desinsectisation-seraing" },
   { label: "Désinsectisation Herstal", href: "/desinsectisation-herstal" },
+  { label: "Désinsectisation Ans", href: "/desinsectisation-ans" },
+  { label: "Désinsectisation Saint-Nicolas", href: "/desinsectisation-saint-nicolas" },
+  { label: "Désinsectisation Flémalle", href: "/desinsectisation-flemalle" },
 ];
 
 const villes = [

@@ -128,11 +128,11 @@ export default function DesinsectisationLiegePage() {
         </h2>
         <p className="text-gray-700 mb-6 leading-relaxed">
           Nous intervenons dans tous les quartiers de Liège et dans les communes voisines :
-          {" "}<Link href="/deratisation-seraing" className="underline" style={{ color: "#1B4332" }}>Seraing</Link>,
-          {" "}<Link href="/deratisation-herstal" className="underline" style={{ color: "#1B4332" }}>Herstal</Link>,
-          {" "}<Link href="/deratisation-ans" className="underline" style={{ color: "#1B4332" }}>Ans</Link>,
-          {" "}<Link href="/deratisation-saint-nicolas" className="underline" style={{ color: "#1B4332" }}>Saint-Nicolas</Link> et
-          {" "}<Link href="/deratisation-flemalle" className="underline" style={{ color: "#1B4332" }}>Flémalle</Link>.
+          {" "}<Link href="/desinsectisation-seraing" className="underline" style={{ color: "#1B4332" }}>Seraing</Link>,
+          {" "}<Link href="/desinsectisation-herstal" className="underline" style={{ color: "#1B4332" }}>Herstal</Link>,
+          {" "}<Link href="/desinsectisation-ans" className="underline" style={{ color: "#1B4332" }}>Ans</Link>,
+          {" "}<Link href="/desinsectisation-saint-nicolas" className="underline" style={{ color: "#1B4332" }}>Saint-Nicolas</Link> et
+          {" "}<Link href="/desinsectisation-flemalle" className="underline" style={{ color: "#1B4332" }}>Flémalle</Link>.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4">
