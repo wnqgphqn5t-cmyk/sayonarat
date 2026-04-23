@@ -142,8 +142,8 @@ export default function HomePage() {
           </div>
           <div className="flex-1 w-full md:max-w-md">
             <Image
-              src="/pexels-tima-miroshnichenko-6169040.jpg"
-              alt="Technicien dératisation Liège"
+              src="/hero-technicien.png"
+              alt="Expert dératisation Liège — diagnostic professionnel"
               width={600}
               height={450}
               className="rounded-2xl shadow-2xl object-cover w-full"
@@ -162,6 +162,37 @@ export default function HomePage() {
               <div className="text-sm text-gray-600 mt-1">{s.label}</div>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* Résultat visuel */}
+      <section className="py-16 px-4 max-w-6xl mx-auto">
+        <div className="flex flex-col md:flex-row items-center gap-10">
+          <div className="flex-1 relative rounded-2xl overflow-hidden shadow-xl h-72 md:h-96 w-full">
+            <Image
+              src="/interieur-cuisine.png"
+              alt="Intérieur sain après dératisation — résultat Sayonarat Liège"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="flex-1">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4" style={{ color: "#1B4332" }}>
+              Un intérieur sain,<br />c&apos;est notre objectif
+            </h2>
+            <p className="text-gray-600 mb-5 leading-relaxed">
+              Après chaque intervention, notre objectif est simple : vous rendre un espace propre,
+              sécurisé et sans nuisibles. Nos techniciens ne repartent pas tant que le problème
+              n&apos;est pas réglé — et ils reviennent sans frais si besoin dans les 30 jours.
+            </p>
+            <ul className="space-y-2 text-sm text-gray-700">
+              {["Produits homologués, sans danger après séchage", "Colmatage des points d'entrée inclus", "Rapport d'intervention remis après chaque passage", "Suivi garanti 30 jours"].map((item) => (
+                <li key={item} className="flex items-center gap-2">
+                  <span className="text-green-600 font-bold">✓</span> {item}
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </section>
 
@@ -238,27 +269,39 @@ export default function HomePage() {
           </h2>
           <p className="text-center text-gray-500 mb-10">Des professionnels équipés qui interviennent partout à Liège</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <Image
-              src="/pexels-matilda-wormwood-4097998.jpg"
-              alt="Intervention dératisation à domicile Liège"
-              width={500}
-              height={350}
-              className="rounded-xl object-cover w-full h-64"
-            />
-            <Image
-              src="/pexels-matilda-wormwood-4099087.jpg"
-              alt="Traitement punaises de lit Liège"
-              width={500}
-              height={350}
-              className="rounded-xl object-cover w-full h-64"
-            />
-            <Image
-              src="/pexels-michelangelo-buonarroti-4176415.jpg"
-              alt="Désinsectisation professionnelle Liège"
-              width={500}
-              height={350}
-              className="rounded-xl object-cover w-full h-64"
-            />
+            <div className="relative rounded-xl overflow-hidden h-64 shadow-md">
+              <Image
+                src="/technicien-van.png"
+                alt="Technicien dératisation Liège — intervention à domicile"
+                fill
+                className="object-cover"
+              />
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-3">
+                <p className="text-white text-sm font-semibold">Intervention rapide 24h</p>
+              </div>
+            </div>
+            <div className="relative rounded-xl overflow-hidden h-64 shadow-md">
+              <Image
+                src="/inspection-matelas.png"
+                alt="Inspection punaises de lit Liège — détection professionnelle"
+                fill
+                className="object-cover"
+              />
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-3">
+                <p className="text-white text-sm font-semibold">Détection punaises de lit</p>
+              </div>
+            </div>
+            <div className="relative rounded-xl overflow-hidden h-64 shadow-md">
+              <Image
+                src="/inspection-cave.png"
+                alt="Inspection cave dératisation Liège"
+                fill
+                className="object-cover"
+              />
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-3">
+                <p className="text-white text-sm font-semibold">Diagnostic cave & sous-sol</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
