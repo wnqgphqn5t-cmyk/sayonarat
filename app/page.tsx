@@ -98,8 +98,11 @@ const jsonLd = {
     opens: "08:00",
     closes: "20:00",
   },
+  telephone: "+32466442454",
+  email: "contact@sayonarat.be",
   priceRange: "€€",
   areaServed: ["Liège", "Seraing", "Herstal", "Ans", "Saint-Nicolas", "Flémalle"],
+  sameAs: ["https://sayonarat.be"],
 };
 
 export default function HomePage() {

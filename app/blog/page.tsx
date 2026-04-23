@@ -32,6 +32,22 @@ const articles = [
     temps: "6 min",
     categorie: "Punaises de lit",
   },
+  {
+    slug: "cafards-cuisine-que-faire",
+    titre: "Cafards dans la cuisine : que faire ? Guide complet",
+    desc: "Ne vaporisez surtout pas de spray — ça disperse la colonie. Voici les étapes correctes, les cachettes à inspecter et la seule méthode vraiment efficace.",
+    date: "23 avril 2026",
+    temps: "5 min",
+    categorie: "Désinsectisation",
+  },
+  {
+    slug: "deratisation-seraing-zones-risque",
+    titre: "Dératisation Seraing : pourquoi cette commune est particulièrement exposée",
+    desc: "Friches ArcelorMittal, bords de Meuse, caves communicantes… Seraing cumule les facteurs de risque. Voici comment protéger votre logement.",
+    date: "23 avril 2026",
+    temps: "5 min",
+    categorie: "Dératisation",
+  },
 ];
 
 export default function BlogPage() {
