@@ -26,7 +26,7 @@ const menu = [
     ],
   },
   {
-    categorie: "Autres nuisibles",
+    categorie: "Autres insectes",
     liens: [
       { label: "Punaises de lit Liège", href: "/punaises-de-lit-liege" },
     ],
