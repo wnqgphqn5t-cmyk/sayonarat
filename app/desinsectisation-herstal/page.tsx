@@ -93,7 +93,7 @@ export default function DesinsectisationHerstalPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-12">
           {[
-            { icon: "🪲", titre: "Cafards", desc: "Traitement au gel professionnel dans les zones à risque : cuisine, cave, locaux techniques. 2 passages garantis à 2 semaines d'intervalle." },
+            { icon: "🪲", titre: "Cafards", desc: "Traitement au gel professionnel dans les zones à risque : cuisine, cave, locaux techniques. Intervention ciblée, résultat garanti." },
             { icon: "🐜", titre: "Fourmis", desc: "Fourmis noires de jardin et fourmis pharaons dans les immeubles. Traitement adapté à l'espèce et à l'environnement." },
             { icon: "🐝", titre: "Guêpes et frelons", desc: "Nombreux nids chaque été dans les zones industrielles et résidentielles. Intervention nocturne, destruction garantie." },
             { icon: "🦟", titre: "Moustiques", desc: "Canal Albert et Meuse favorisent la prolifération. Traitement larvicide des points d'eau stagnante." },

@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     q: "Faut-il une deuxième intervention ?",
-    a: "Pour les cafards, une deuxième passage à J+15 est recommandé pour éliminer les œufs éclos. Elle est incluse dans nos formules garanties.",
+    a: "Le nombre de passages est déterminé lors du diagnostic selon l'ampleur de l'infestation. La garantie 30 jours couvre un retour sans frais si nécessaire.",
   },
 ];
 

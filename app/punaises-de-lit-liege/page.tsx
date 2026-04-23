@@ -23,7 +23,7 @@ const faqs = [
   },
   {
     q: "Quelle est la méthode la plus efficace contre les punaises de lit ?",
-    a: "Le traitement thermique (chaleur à 60°C+) est la méthode la plus efficace : il tue punaises et œufs en une seule intervention. Le traitement chimique est une alternative moins coûteuse mais nécessite généralement 2 passages.",
+    a: "Le traitement thermique (chaleur à 60°C+) est la méthode la plus efficace : il tue punaises et œufs en une seule intervention. Le traitement chimique est une alternative moins coûteuse, adaptée selon l'ampleur de l'infestation.",
   },
   {
     q: "Dois-je jeter mon matelas ?",
@@ -126,7 +126,7 @@ export default function PunaisesLiegePage() {
           <div className="border border-gray-200 rounded-xl p-6">
             <div className="text-3xl mb-3">💊</div>
             <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>Traitement chimique</h3>
-            <p className="text-sm text-gray-600 mb-3">Insecticides professionnels à effet rémanent sur toutes les zones de ponte. 2 passages à J et J+15 pour éliminer les œufs éclos.</p>
+            <p className="text-sm text-gray-600 mb-3">Insecticides professionnels à effet rémanent sur toutes les zones de ponte. Intervention ciblée sur toutes les zones de ponte, résultat garanti.</p>
             <div className="text-sm font-medium text-green-700">✅ Moins coûteux · Efficace sur grandes surfaces</div>
           </div>
         </div>

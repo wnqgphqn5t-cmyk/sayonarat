@@ -97,9 +97,9 @@ export default function ArticlePrixPage() {
           <p className="font-semibold text-gray-800 mb-2">Réponse rapide</p>
           <p>
             Le prix d&apos;une dératisation professionnelle à Liège varie entre <strong>150 € et 450 €</strong>,
-            selon la superficie du logement, le type de rongeur et le nombre de passages nécessaires.
-            Une intervention sérieuse comprend toujours un diagnostic, le traitement, un ou deux passages
-            de contrôle et le colmatage des points d&apos;entrée.
+            selon la superficie du logement, le type de rongeur et l'ampleur de l'infestation.
+            Une intervention sérieuse comprend toujours un diagnostic, le traitement ciblé
+            et le colmatage des points d&apos;entrée.
           </p>
         </div>
 
@@ -125,11 +125,11 @@ export default function ArticlePrixPage() {
               </thead>
               <tbody>
                 {[
-                  ["Studio / appartement", "150 € – 220 €", "2 passages"],
+                  ["Studio / appartement", "150 € – 220 €", "Selon diagnostic"],
                   ["Maison unifamiliale", "220 € – 350 €", "2–3 passages"],
                   ["Maison avec cave / jardin", "300 € – 450 €", "3 passages"],
                   ["Commerce / restaurant", "350 € – 600 €", "3 passages + contrat"],
-                  ["Cave ou sous-sol seul", "120 € – 200 €", "2 passages"],
+                  ["Cave ou sous-sol seul", "120 € – 200 €", "Selon diagnostic"],
                 ].map(([type, prix, passages], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-gray-50" : "bg-white"}>
                     <td className="px-4 py-3 font-medium text-gray-900">{type}</td>
@@ -174,7 +174,7 @@ export default function ArticlePrixPage() {
               {
                 titre: "5. Le nombre de passages de contrôle",
                 texte:
-                  "Un seul passage ne suffit presque jamais. Un traitement professionnel sérieux comprend un diagnostic initial, le traitement, puis 1 à 2 passages de contrôle à 1 semaine d'intervalle pour vérifier l'efficacité et renouveler les stations si nécessaire.",
+                  "Un traitement professionnel sérieux comprend un diagnostic initial, le traitement ciblé et le colmatage des points d'entrée. La garantie 30 jours couvre un retour sans frais si nécessaire.",
               },
             ].map((item, i) => (
               <div key={i} className="border-l-4 pl-4" style={{ borderColor: "#1B4332" }}>

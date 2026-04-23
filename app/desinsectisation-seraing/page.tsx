@@ -86,7 +86,7 @@ export default function DesinsectisationSeraingPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-12">
           {[
-            { icon: "🪲", titre: "Cafards", desc: "La blatte germanique est l'insecte le plus signalé à Seraing. Elle se propage via les gaines techniques des immeubles anciens. Traitement par gel professionnel, 2 passages garantis." },
+            { icon: "🪲", titre: "Cafards", desc: "La blatte germanique est l'insecte le plus signalé à Seraing. Elle se propage via les gaines techniques des immeubles anciens. Traitement par gel professionnel ciblé aux points de passage réels. Résultat garanti." },
             { icon: "🐜", titre: "Fourmis", desc: "Les fourmis pharaons (espèce tropicale) colonisent les immeubles chauffés. Les fourmis noires envahissent les cuisines et jardins. Traitement adapté selon l'espèce." },
             { icon: "🐝", titre: "Guêpes et frelons", desc: "Les nids se logent dans les combles, gouttières et arbres. Intervention nocturne sécurisée. Frelon asiatique signalé et traité selon protocole AFSCA." },
             { icon: "🦟", titre: "Moustiques et moucherons", desc: "Zones humides près de la Meuse propices aux moustiques. Traitement des points d'eau stagnante et des zones de repos." },

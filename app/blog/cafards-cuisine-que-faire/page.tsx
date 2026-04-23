@@ -38,7 +38,7 @@ const faq = [
   },
   {
     q: "Combien coûte un traitement cafards à Liège ?",
-    a: "Entre 120 € et 280 € pour un appartement ou une maison, selon la superficie et l'ampleur de l'infestation. En général 2 passages sont nécessaires à 2 semaines d'intervalle. Devis gratuit chez Sayonarat sous 24h.",
+    a: "Entre 120 € et 280 € pour un appartement ou une maison, selon la superficie et l'ampleur de l'infestation. Le nombre de passages est adapté à la situation lors du diagnostic. Devis gratuit chez Sayonarat sous 24h.",
   },
   {
     q: "Les cafards sont-ils dangereux pour la santé ?",
@@ -212,7 +212,7 @@ export default function ArticleCafardsPage() {
           <p className="font-semibold text-gray-900 mb-2">Traitement cafards à Liège</p>
           <p className="text-sm text-gray-600 mb-4">
             Sayonarat intervient pour la désinsectisation (cafards, blattes, fourmis) dans toute
-            la région liégeoise. Gel professionnel, 2 passages garantis, devis gratuit sous 24h.
+            la région liégeoise. Gel professionnel, résultat garanti, devis gratuit sous 24h.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
             <a

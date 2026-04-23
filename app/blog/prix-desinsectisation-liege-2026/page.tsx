@@ -34,7 +34,7 @@ const faq = [
   },
   {
     q: "Pourquoi les prix varient-ils autant selon les prestataires ?",
-    a: "Les écarts reflètent la qualité des produits (homologués vs génériques), le nombre de passages inclus, l'expérience du technicien et les garanties offertes. Un prix très bas signifie souvent un seul passage sans garantie — insuffisant pour les infestations établies.",
+    a: "Les écarts reflètent la qualité des produits (homologués vs génériques), l'expérience du technicien et les garanties offertes. Un prix très bas signifie souvent l'absence de diagnostic et de garantie — les deux éléments essentiels d'un traitement efficace.",
   },
 ];
 
@@ -49,13 +49,13 @@ const faqSchema = {
 };
 
 const tarifs = [
-  { insecte: "Cafards (appartement)", fourchette: "120 € – 250 €", passages: "2 passages inclus", note: "Gel professionnel, garantie 30j" },
-  { insecte: "Cafards (maison)", fourchette: "180 € – 350 €", passages: "2 passages inclus", note: "Selon superficie" },
-  { insecte: "Fourmis noires", fourchette: "100 € – 200 €", passages: "1–2 passages", note: "Appât insecticide ciblé" },
+  { insecte: "Cafards (appartement)", fourchette: "120 € – 250 €", passages: "Selon diagnostic", note: "Gel professionnel, garantie 30j" },
+  { insecte: "Cafards (maison)", fourchette: "180 € – 350 €", passages: "Selon diagnostic", note: "Selon superficie" },
+  { insecte: "Fourmis noires", fourchette: "100 € – 200 €", passages: "Selon diagnostic", note: "Appât insecticide ciblé" },
   { insecte: "Fourmis pharaons", fourchette: "200 € – 400 €", passages: "2–3 passages", note: "Traitement complexe, multi-passages" },
   { insecte: "Nid de guêpes (accessible)", fourchette: "80 € – 150 €", passages: "1 passage nocturne", note: "Destruction garantie" },
   { insecte: "Nid de frelons", fourchette: "120 € – 200 €", passages: "1 passage nocturne", note: "Frelon asiatique : tarif majoré" },
-  { insecte: "Mites alimentaires", fourchette: "100 € – 250 €", passages: "1–2 passages", note: "Selon ampleur" },
+  { insecte: "Mites alimentaires", fourchette: "100 € – 250 €", passages: "Selon diagnostic", note: "Selon ampleur" },
   { insecte: "Moustiques (jardin)", fourchette: "80 € – 180 €", passages: "1 passage", note: "Traitement larvicide" },
 ];
 
@@ -131,7 +131,7 @@ export default function ArticlePrixDesinsectisationPage() {
               { titre: "La superficie du logement", desc: "Un studio de 35m² et une maison de 180m² ne requièrent pas la même quantité de produit ni le même temps d'intervention." },
               { titre: "L'ampleur de l'infestation", desc: "Une infestation détectée tôt (quelques individus) coûte moins cher à traiter qu'une infestation établie depuis plusieurs mois." },
               { titre: "L'accessibilité", desc: "Un nid de guêpes au sol coûte moins cher à traiter qu'un nid en toiture nécessitant une nacelle ou une échelle de toit." },
-              { titre: "Le nombre de passages inclus", desc: "Un traitement cafards sérieux inclut 2 passages à J+0 et J+15. Méfiez-vous des devis à passage unique — insuffisants pour les infestations établies." },
+              { titre: "Le nombre de passages", desc: "Le nombre d'interventions est déterminé après diagnostic selon l'ampleur de l'infestation. La garantie 30 jours couvre un retour sans frais si nécessaire." },
             ].map((item, i) => (
               <li key={i} className="flex items-start gap-3 p-4 bg-green-50 rounded-xl border border-green-100">
                 <span className="text-green-600 font-bold flex-shrink-0">→</span>
