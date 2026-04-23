@@ -84,7 +84,7 @@ export default function DesinsectisationSaintNicolasPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-12">
           {[
-            { icon: "🪲", titre: "Blattes et cafards", desc: "Traitement au gel professionnel dans les zones à risque : cuisine, cave, locaux techniques. 2 passages garantis à 2 semaines d'intervalle." },
+            { icon: "🪲", titre: "Cafards", desc: "Traitement au gel professionnel dans les zones à risque : cuisine, cave, locaux techniques. 2 passages garantis à 2 semaines d'intervalle." },
             { icon: "🐜", titre: "Fourmis", desc: "Fourmis noires de jardin et fourmis pharaons dans les immeubles collectifs. Traitement adapté à l'espèce." },
             { icon: "🐝", titre: "Guêpes et frelons", desc: "Nids fréquents dans les combles et jardins de Montegnée et Saint-Nicolas-centre. Intervention nocturne garantie." },
             { icon: "🦟", titre: "Moustiques", desc: "Proximité de la Meuse favorable à la prolifération. Traitement larvicide des points d'eau stagnante." },

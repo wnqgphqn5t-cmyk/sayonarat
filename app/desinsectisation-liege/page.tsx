@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 const insectes = [
-  { icon: "🪳", label: "Cafards / blattes" },
+  { icon: "🪳", label: "Cafards" },
   { icon: "🐜", label: "Fourmis" },
   { icon: "🦟", label: "Moustiques" },
   { icon: "🪰", label: "Mouches" },
