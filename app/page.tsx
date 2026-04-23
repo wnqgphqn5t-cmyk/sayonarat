@@ -80,7 +80,7 @@ const jsonLd = {
   name: "Sayonarat — Dératisation Liège",
   description:
     "Entreprise de dératisation et désinsectisation à Liège. Intervention rapide 24h/24, 7j/7.",
-  url: "https://deratisation-liege.be",
+  url: "https://sayonarat.be",
   address: {
     "@type": "PostalAddress",
     addressLocality: "Liège",

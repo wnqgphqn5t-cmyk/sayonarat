@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Traitement Punaises de lit Liège — Élimination garantie | Sayonarat",
@@ -65,6 +66,19 @@ export default function PunaisesLiegePage() {
       </section>
 
       <section className="py-14 px-4 max-w-4xl mx-auto">
+        <div className="relative rounded-2xl overflow-hidden shadow-lg h-64 md:h-80 mb-10">
+          <Image
+            src="/chambre-punaises.jpg"
+            alt="Chambre saine après traitement punaises de lit à Liège"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent flex items-end p-5">
+            <p className="text-white text-sm font-medium">Objectif : vous rendre une chambre propre et saine après chaque traitement</p>
+          </div>
+        </div>
+
         <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>
           Comment reconnaître les punaises de lit ?
         </h2>

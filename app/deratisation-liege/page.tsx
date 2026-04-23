@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Dératisation Liège — Élimination rats & souris | Sayonarat",
@@ -83,6 +84,19 @@ export default function DeratisationLiegePage() {
 
       {/* Content */}
       <section className="py-14 px-4 max-w-4xl mx-auto">
+        <div className="relative rounded-2xl overflow-hidden shadow-lg h-64 md:h-80 mb-10">
+          <Image
+            src="/cave-deratisation.jpg"
+            alt="Cave ancienne à Liège — zone à risque pour les rats"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end p-5">
+            <p className="text-white text-sm font-medium">Les caves et sous-sols des habitations liégeoises sont les zones les plus exposées aux rongeurs</p>
+          </div>
+        </div>
+
         <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>
           Dératisation à Liège : ce que les produits du commerce ne règlent pas
         </h2>
