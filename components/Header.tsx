@@ -42,6 +42,7 @@ const menu = [
     categorie: "Informations",
     liens: [
       { label: "Blog", href: "/blog" },
+      { label: "FAQ", href: "/faq" },
       { label: "À propos", href: "/a-propos" },
       { label: "Contact", href: "/contact" },
     ],
