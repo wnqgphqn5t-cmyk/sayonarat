@@ -15,7 +15,7 @@ const faqs = [
   },
   {
     q: "Combien de temps dure une intervention de dératisation ?",
-    a: "Entre 1h et 3h selon la superficie. Nous réalisons un diagnostic, posons les appâts et pièges, puis revenons 10 jours plus tard pour vérifier l'efficacité.",
+    a: "Entre 1h et 3h selon la superficie. Le technicien réalise un diagnostic complet, identifie les couloirs de passage et pose les appâts aux points stratégiques. Résultat garanti sous 30 jours.",
   },
   {
     q: "Les produits utilisés sont-ils dangereux ?",
