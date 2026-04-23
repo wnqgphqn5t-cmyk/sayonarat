@@ -2,14 +2,43 @@
 import Link from "next/link";
 import { useState } from "react";
 
-const nav = [
-  { label: "Accueil", href: "/" },
-  { label: "Dératisation Liège", href: "/deratisation-liege" },
-  { label: "Désinsectisation", href: "/desinsectisation-liege" },
-  { label: "Punaises de lit", href: "/punaises-de-lit-liege" },
-  { label: "Blog", href: "/blog" },
-  { label: "À propos", href: "/a-propos" },
-  { label: "Contact", href: "/contact" },
+const menu = [
+  {
+    categorie: "Dératisation",
+    liens: [
+      { label: "Dératisation Liège", href: "/deratisation-liege" },
+      { label: "Dératisation Seraing", href: "/deratisation-seraing" },
+      { label: "Dératisation Herstal", href: "/deratisation-herstal" },
+      { label: "Dératisation Ans", href: "/deratisation-ans" },
+      { label: "Dératisation Saint-Nicolas", href: "/deratisation-saint-nicolas" },
+      { label: "Dératisation Flémalle", href: "/deratisation-flemalle" },
+    ],
+  },
+  {
+    categorie: "Désinsectisation",
+    liens: [
+      { label: "Désinsectisation Liège", href: "/desinsectisation-liege" },
+      { label: "Désinsectisation Seraing", href: "/desinsectisation-seraing" },
+      { label: "Désinsectisation Herstal", href: "/desinsectisation-herstal" },
+      { label: "Désinsectisation Ans", href: "/desinsectisation-ans" },
+      { label: "Désinsectisation Saint-Nicolas", href: "/desinsectisation-saint-nicolas" },
+      { label: "Désinsectisation Flémalle", href: "/desinsectisation-flemalle" },
+    ],
+  },
+  {
+    categorie: "Autres nuisibles",
+    liens: [
+      { label: "Punaises de lit Liège", href: "/punaises-de-lit-liege" },
+    ],
+  },
+  {
+    categorie: "Informations",
+    liens: [
+      { label: "Blog", href: "/blog" },
+      { label: "À propos", href: "/a-propos" },
+      { label: "Contact", href: "/contact" },
+    ],
+  },
 ];
 
 export default function Header() {
@@ -22,53 +51,64 @@ export default function Header() {
           📞 +32 466 44 24 54 — Disponible 7j/7
         </a>
       </div>
+
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-        <Link href="/" className="text-xl font-bold tracking-tight">
+        <Link href="/" className="text-xl font-bold tracking-tight" onClick={() => setOpen(false)}>
           🐀 Sayonarat
         </Link>
 
-        {/* Desktop nav */}
-        <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
-          {nav.map((n) => (
-            <Link key={n.href} href={n.href} className="hover:text-yellow-300 transition-colors">
-              {n.label}
-            </Link>
-          ))}
+        <div className="flex items-center gap-3">
           <Link
             href="/contact"
-            className="bg-yellow-400 text-green-900 font-bold px-4 py-2 rounded hover:bg-yellow-300 transition-colors"
+            className="bg-yellow-400 text-green-900 font-bold px-4 py-2 rounded hover:bg-yellow-300 transition-colors text-sm hidden sm:inline-block"
           >
             Devis gratuit
           </Link>
-        </nav>
-
-        {/* Mobile burger */}
-        <button className="md:hidden text-white" onClick={() => setOpen(!open)} aria-label="Menu">
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            {open ? (
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-            ) : (
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-            )}
-          </svg>
-        </button>
+          <button
+            onClick={() => setOpen(!open)}
+            aria-label="Menu"
+            className="flex flex-col justify-center items-center w-10 h-10 rounded-lg hover:bg-green-700 transition-colors"
+          >
+            <span className={`block w-5 h-0.5 bg-white transition-all duration-300 ${open ? "rotate-45 translate-y-1.5" : ""}`} />
+            <span className={`block w-5 h-0.5 bg-white my-1 transition-all duration-300 ${open ? "opacity-0" : ""}`} />
+            <span className={`block w-5 h-0.5 bg-white transition-all duration-300 ${open ? "-rotate-45 -translate-y-1.5" : ""}`} />
+          </button>
+        </div>
       </div>
 
-      {/* Mobile menu */}
       {open && (
-        <div style={{ backgroundColor: "#2D6A4F" }} className="md:hidden px-4 pb-4 flex flex-col gap-3 text-sm font-medium">
-          {nav.map((n) => (
-            <Link key={n.href} href={n.href} className="hover:text-yellow-300" onClick={() => setOpen(false)}>
-              {n.label}
+        <div style={{ backgroundColor: "#2D6A4F" }} className="border-t border-green-700 px-4 py-6">
+          <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6">
+            {menu.map((section) => (
+              <div key={section.categorie}>
+                <p className="text-yellow-300 text-xs font-bold uppercase tracking-wider mb-3">
+                  {section.categorie}
+                </p>
+                <ul className="space-y-2">
+                  {section.liens.map((lien) => (
+                    <li key={lien.href}>
+                      <Link
+                        href={lien.href}
+                        className="text-green-100 hover:text-white text-sm transition-colors"
+                        onClick={() => setOpen(false)}
+                      >
+                        {lien.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+          <div className="max-w-6xl mx-auto mt-6 pt-4 border-t border-green-600 sm:hidden">
+            <Link
+              href="/contact"
+              className="block bg-yellow-400 text-green-900 font-bold px-4 py-3 rounded text-center text-sm"
+              onClick={() => setOpen(false)}
+            >
+              Devis gratuit →
             </Link>
-          ))}
-          <Link
-            href="/contact"
-            className="bg-yellow-400 text-green-900 font-bold px-4 py-2 rounded text-center"
-            onClick={() => setOpen(false)}
-          >
-            Devis gratuit
-          </Link>
+          </div>
         </div>
       )}
     </header>
