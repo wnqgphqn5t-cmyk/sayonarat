@@ -5,6 +5,7 @@ const services = [
   { label: "Désinsectisation Liège", href: "/desinsectisation-liege" },
   { label: "Punaises de lit Liège", href: "/punaises-de-lit-liege" },
   { label: "Guêpes et frelons Liège", href: "/guepes-frelons-liege" },
+  { label: "Fourmis Liège", href: "/fourmis-liege" },
   { label: "Mites alimentaires Liège", href: "/mites-alimentaires-liege" },
   { label: "Urgence 7j/7", href: "/urgence" },
 ];

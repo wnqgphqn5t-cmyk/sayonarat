@@ -38,6 +38,7 @@ const menu = [
       { label: "Guêpes et frelons Saint-Nicolas", href: "/guepes-frelons-saint-nicolas" },
       { label: "Guêpes et frelons Flémalle", href: "/guepes-frelons-flemalle" },
       { label: "Cafards Liège", href: "/cafards-liege" },
+      { label: "Fourmis Liège", href: "/fourmis-liege" },
       { label: "Mites alimentaires Liège", href: "/mites-alimentaires-liege" },
     ],
   },
