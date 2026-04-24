@@ -23,8 +23,8 @@ export default function Footer() {
         <div>
           <h3 className="font-bold text-lg mb-3">Sayonarat</h3>
           <p className="text-green-200 text-sm leading-relaxed">
-            Entreprise spécialisée en dératisation et désinsectisation dans la région de Liège.
-            Intervention rapide 7j/7.
+            Dératisation et désinsectisation partout en Belgique. Techniciens certifiés,
+            intervention rapide 7j/7.
           </p>
           <p className="mt-4 text-yellow-300 font-semibold text-sm">📞 Devis gratuit en 24h</p>
         </div>
@@ -47,12 +47,12 @@ export default function Footer() {
           <p className="text-green-200 text-sm leading-relaxed mb-3">
             {communes.join(" · ")}
           </p>
-          <p className="text-green-400 text-xs">Et toutes les communes de la région liégeoise.</p>
+          <p className="text-green-400 text-xs">Et toutes les communes de Belgique — contactez-nous pour vérifier.</p>
         </div>
       </div>
 
       <div style={{ backgroundColor: "#0f2d1e" }} className="text-center py-4 text-green-400 text-xs space-x-4">
-        <span>© {new Date().getFullYear()} Sayonarat — Dératisation Liège. Tous droits réservés.</span>
+        <span>© {new Date().getFullYear()} Sayonarat — Dératisation & Désinsectisation Belgique. Tous droits réservés.</span>
         <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
         <Link href="/faq" className="hover:text-white transition-colors">FAQ</Link>
         <Link href="/contact" className="hover:text-white transition-colors">Contact</Link>
