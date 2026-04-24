@@ -292,6 +292,28 @@ export default function FourmisLiegePage() {
         </div>
       </section>
 
+      {/* Articles liés */}
+      <section className="py-10 px-4 max-w-4xl mx-auto">
+        <h2 className="text-xl font-bold mb-4" style={{ color: "#1B4332" }}>
+          📖 Sur le même sujet
+        </h2>
+        <div className="flex flex-wrap gap-3">
+          {[
+            { label: "Fourmis dans la maison : que faire ?", href: "/blog/fourmis-maison-que-faire" },
+            { label: "Fourmis pharaon : traitement professionnel", href: "/blog/fourmis-pharaon-traitement" },
+          ].map((a) => (
+            <Link
+              key={a.href}
+              href={a.href}
+              className="bg-green-50 border border-green-200 text-sm font-medium px-4 py-2 rounded-full hover:bg-green-100 transition-colors"
+              style={{ color: "#1B4332" }}
+            >
+              {a.label} →
+            </Link>
+          ))}
+        </div>
+      </section>
+
       {/* CTA final */}
       <section style={{ backgroundColor: "#1B4332" }} className="py-14 px-4 text-white text-center">
         <h2 className="text-2xl font-bold mb-3">Fourmis à Liège ?</h2>

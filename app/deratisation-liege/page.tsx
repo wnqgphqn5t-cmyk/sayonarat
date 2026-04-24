@@ -204,6 +204,31 @@ export default function DeratisationLiegePage() {
         </div>
       </section>
 
+      {/* Articles liés */}
+      <section className="py-10 px-4 max-w-4xl mx-auto">
+        <h2 className="text-xl font-bold mb-4" style={{ color: "#1B4332" }}>
+          📖 Sur le même sujet
+        </h2>
+        <div className="flex flex-wrap gap-3">
+          {[
+            { label: "Comment savoir si on a des rats ?", href: "/blog/comment-savoir-si-on-a-des-rats" },
+            { label: "Prix d'une dératisation à Liège en 2026", href: "/blog/prix-deratisation-liege-2026" },
+            { label: "Souris ou rat : comment faire la différence ?", href: "/blog/souris-ou-rat-difference" },
+            { label: "Les erreurs à éviter lors d'une dératisation", href: "/blog/deratisation-erreurs-a-eviter" },
+            { label: "Dératisation à Seraing : zones à risque", href: "/blog/deratisation-seraing-zones-risque" },
+          ].map((a) => (
+            <Link
+              key={a.href}
+              href={a.href}
+              className="bg-green-50 border border-green-200 text-sm font-medium px-4 py-2 rounded-full hover:bg-green-100 transition-colors"
+              style={{ color: "#1B4332" }}
+            >
+              {a.label} →
+            </Link>
+          ))}
+        </div>
+      </section>
+
       {/* CTA */}
       <section style={{ backgroundColor: "#1B4332" }} className="py-14 px-4 text-white text-center">
         <h2 className="text-2xl font-bold mb-3">Rats ou souris détectés à Liège ?</h2>

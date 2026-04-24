@@ -249,6 +249,29 @@ export default function CafardsLiegePage() {
         </div>
       </section>
 
+      {/* Articles liés */}
+      <section className="py-10 px-4 max-w-4xl mx-auto">
+        <h2 className="text-xl font-bold mb-4" style={{ color: "#1B4332" }}>
+          📖 Sur le même sujet
+        </h2>
+        <div className="flex flex-wrap gap-3">
+          {[
+            { label: "Cafards dans la cuisine : que faire ?", href: "/blog/cafards-cuisine-que-faire" },
+            { label: "Cafards en appartement : que faire ?", href: "/blog/cafards-appartement-que-faire" },
+            { label: "Cafards en immeuble : qui est responsable ?", href: "/blog/cafards-immeuble-responsabilite" },
+          ].map((a) => (
+            <Link
+              key={a.href}
+              href={a.href}
+              className="bg-green-50 border border-green-200 text-sm font-medium px-4 py-2 rounded-full hover:bg-green-100 transition-colors"
+              style={{ color: "#1B4332" }}
+            >
+              {a.label} →
+            </Link>
+          ))}
+        </div>
+      </section>
+
       {/* CTA final */}
       <section style={{ backgroundColor: "#1B4332" }} className="py-14 px-4 text-white text-center">
         <h2 className="text-2xl font-bold mb-3">Cafards à Liège ? Agissez maintenant.</h2>
