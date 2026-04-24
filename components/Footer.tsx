@@ -52,7 +52,7 @@ export default function Footer() {
       </div>
 
       <div style={{ backgroundColor: "#0f2d1e" }} className="text-center py-4 text-green-400 text-xs space-x-4">
-        <span>© {new Date().getFullYear()} Sayonarat — Dératisation & Désinsectisation Belgique. Tous droits réservés.</span>
+        <span>© {new Date().getFullYear()} Sayonarat — Tous droits réservés.</span>
         <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
         <Link href="/faq" className="hover:text-white transition-colors">FAQ</Link>
         <Link href="/contact" className="hover:text-white transition-colors">Contact</Link>
