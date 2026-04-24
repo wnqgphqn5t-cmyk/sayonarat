@@ -44,6 +44,12 @@ export default function Header() {
           </Link>
 
           <div className="flex items-center gap-3">
+            <a
+              href="tel:+32466442454"
+              className="border border-white/30 text-white font-semibold px-4 py-2 rounded hover:bg-green-700 transition-colors text-sm hidden md:inline-flex items-center gap-1.5"
+            >
+              📞 +32 466 44 24 54
+            </a>
             <Link
               href="/contact"
               className="bg-yellow-400 text-green-900 font-bold px-4 py-2 rounded hover:bg-yellow-300 transition-colors text-sm hidden sm:inline-block"

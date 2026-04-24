@@ -101,6 +101,7 @@ export default function GuepesFrellonsLiegePage() {
               { val: "< 48h", label: "Intervention" },
               { val: "dès 90€", label: "Tarif" },
               { val: "30j", label: "Garantie" },
+              { val: "✓ SPF", label: "Homologué" },
             ].map((s) => (
               <div key={s.label} className="bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-center">
                 <div className="font-bold text-yellow-300">{s.val}</div>

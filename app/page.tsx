@@ -51,6 +51,7 @@ const stats = [
   { val: "+500", label: "Interventions réalisées" },
   { val: "24h", label: "Délai d'intervention moyen" },
   { val: "30j", label: "Garantie incluse" },
+  { val: "✓ SPF", label: "Homologué" },
   { val: "7j/7", label: "Disponibilité" },
 ];
 
@@ -186,6 +187,7 @@ export default function HomePage() {
                 { val: "< 24h", label: "Délai d'intervention" },
                 { val: "7j/7", label: "Disponibilité" },
                 { val: "30j", label: "Garantie incluse" },
+                { val: "✓ SPF", label: "Homologué" },
               ].map((s) => (
                 <div key={s.label} className="bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-center">
                   <div className="font-bold text-yellow-300 text-lg">{s.val}</div>
