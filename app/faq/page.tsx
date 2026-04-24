@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "FAQ — Questions fréquentes dératisation & nuisibles Liège | Sayonarat",
+  title: "FAQ — Questions fréquentes dératisation & nuisibles Belgique | Sayonarat",
   description:
-    "Toutes les réponses sur la dératisation, désinsectisation et punaises de lit à Liège. Prix, délais, méthodes, garanties — sans jargon.",
+    "Toutes les réponses sur la dératisation, désinsectisation et punaises de lit en Belgique. Prix, délais, méthodes, garanties — sans jargon.",
 };
 
 const faqSchema = {
@@ -13,8 +13,8 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "Quel est le délai d'intervention à Liège ?",
-      acceptedAnswer: { "@type": "Answer", text: "Sayonarat intervient généralement sous 48h dans toute la région liégeoise. Pour les situations urgentes (nid de frelons actif, infestation sévère), contactez-nous par téléphone — nous faisons le maximum pour intervenir le jour même selon les disponibilités." },
+      name: "Quel est le délai d'intervention en Belgique ?",
+      acceptedAnswer: { "@type": "Answer", text: "Sayonarat intervient généralement sous 48h partout en Belgique. Pour les situations urgentes (nid de frelons actif, infestation sévère), contactez-nous par téléphone — nous faisons le maximum pour intervenir le jour même selon les disponibilités." },
     },
     {
       "@type": "Question",
@@ -48,8 +48,8 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Intervenez-vous dans toute la province de Liège ?",
-      acceptedAnswer: { "@type": "Answer", text: "Sayonarat couvre principalement la ville de Liège et les communes voisines : Seraing, Herstal, Ans, Saint-Nicolas et Flémalle. Pour les communes plus éloignées, contactez-nous — nous évaluons au cas par cas." },
+      name: "Quelle est votre zone d'intervention ?",
+      acceptedAnswer: { "@type": "Answer", text: "Sayonarat intervient partout en Belgique francophone — Liège, Bruxelles, Namur, Charleroi, Mons, Verviers et toutes les communes environnantes. Contactez-nous pour confirmer la disponibilité dans votre zone." },
     },
     {
       "@type": "Question",
@@ -69,16 +69,16 @@ const sections = [
     titre: "Généralités",
     questions: [
       {
-        q: "Quel est le délai d'intervention à Liège ?",
-        a: "Sayonarat intervient généralement sous 48h dans toute la région liégeoise. Pour les situations urgentes (nid de frelons actif, infestation sévère), contactez-nous par téléphone — nous faisons le maximum pour intervenir le jour même selon les disponibilités.",
+        q: "Quel est le délai d'intervention en Belgique ?",
+        a: "Sayonarat intervient généralement sous 48h partout en Belgique. Pour les situations urgentes (nid de frelons actif, infestation sévère), contactez-nous par téléphone — nous faisons le maximum pour intervenir le jour même selon les disponibilités.",
       },
       {
         q: "Êtes-vous disponibles le week-end ?",
         a: "Oui. Sayonarat est disponible 7j/7, y compris le samedi et le dimanche. Les urgences (nids de guêpes ou frelons en zone de passage, infestations sévères) sont traitées en priorité.",
       },
       {
-        q: "Intervenez-vous dans toute la province de Liège ?",
-        a: "Sayonarat couvre principalement la ville de Liège et les communes voisines : Seraing, Herstal, Ans, Saint-Nicolas et Flémalle. Pour les communes plus éloignées, contactez-nous — nous évaluons au cas par cas.",
+        q: "Quelle est votre zone d'intervention ?",
+        a: "Sayonarat intervient partout en Belgique francophone — Liège, Bruxelles, Namur, Charleroi, Mons, Verviers et toutes les communes environnantes. Contactez-nous pour confirmer la disponibilité dans votre zone.",
       },
       {
         q: "Comment obtenir un devis ?",
@@ -217,11 +217,11 @@ export default function FaqPage() {
             <Link href="/" className="hover:text-white">Accueil</Link> › FAQ
           </p>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
-            Questions fréquentes — Nuisibles à Liège
+            Questions fréquentes — Nuisibles en Belgique
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-6">
             Prix, délais, méthodes, garanties — toutes les réponses sur la dératisation,
-            désinsectisation et punaises de lit à Liège, sans jargon.
+            désinsectisation et punaises de lit en Belgique, sans jargon.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
             <a href="tel:+32466442454" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-6 py-3 rounded-lg hover:opacity-90 transition-opacity inline-block text-center">

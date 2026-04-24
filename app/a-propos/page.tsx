@@ -3,9 +3,9 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "À propos de Sayonarat — Experts dératisation & désinsectisation Liège",
+  title: "À propos de Sayonarat — Experts dératisation & désinsectisation Belgique",
   description:
-    "Sayonarat est une équipe d'experts de la lutte antiparasitaire à Liège. Notre mission : mettre en relation les particuliers et entreprises avec les meilleurs techniciens certifiés de la région.",
+    "Sayonarat est une équipe d'experts de la lutte antiparasitaire en Belgique. Notre mission : mettre en relation les particuliers et entreprises avec les meilleurs techniciens certifiés.",
 };
 
 const valeurs = [
@@ -17,7 +17,7 @@ const valeurs = [
   {
     emoji: "📍",
     titre: "Ancrage 100% local",
-    desc: "Exclusivement à Liège et ses 5 communes voisines. Pas de sous-traitance à l'autre bout du pays.",
+    desc: "Techniciens certifiés locaux partout en Belgique. Rapidité et connaissance du terrain à chaque intervention.",
   },
   {
     emoji: "🔒",
@@ -53,13 +53,13 @@ const jsonLd = {
   "@type": "Organization",
   name: "Sayonarat",
   url: "https://sayonarat.be",
-  description: "Plateforme de mise en relation avec des techniciens certifiés en dératisation et désinsectisation à Liège.",
+  description: "Plateforme de mise en relation avec des techniciens certifiés en dératisation et désinsectisation en Belgique.",
   foundingDate: "2023",
   founder: { "@type": "Person", name: "Victor F." },
-  address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
+  address: { "@type": "PostalAddress", addressLocality: "Bruxelles", postalCode: "1000", addressCountry: "BE" },
   telephone: "+32466442454",
   email: "contact@sayonarat.be",
-  areaServed: ["Liège", "Seraing", "Herstal", "Ans", "Saint-Nicolas", "Flémalle"],
+  areaServed: "BE",
 };
 
 export default function AProposPage() {
@@ -76,7 +76,7 @@ export default function AProposPage() {
           </h1>
           <p className="text-green-100 text-lg max-w-2xl">
             Une équipe d&apos;experts de la lutte antiparasitaire au service des habitants
-            et entreprises de Liège et sa région.
+            et entreprises de Belgique.
           </p>
         </div>
       </section>
@@ -85,7 +85,7 @@ export default function AProposPage() {
         <div className="relative rounded-2xl overflow-hidden shadow-xl h-72 md:h-96 mb-14">
           <Image
             src="/pexels-tima-miroshnichenko-6196234.jpg"
-            alt="Technicien Sayonarat prêt à intervenir à Liège"
+            alt="Technicien Sayonarat prêt à intervenir en Belgique"
             fill
             className="object-cover object-top"
             priority
@@ -101,10 +101,10 @@ export default function AProposPage() {
             <div className="rounded-2xl p-6 border-2 border-green-100 bg-green-50">
               <p className="text-xs uppercase tracking-widest font-semibold mb-3" style={{ color: "#FBBF24" }}>Fondateur</p>
               <h3 className="text-2xl font-bold mb-2" style={{ color: "#1B4332" }}>Victor F.</h3>
-              <p className="text-sm text-gray-600 mb-4">Expert antiparasitaire · Liège</p>
+              <p className="text-sm text-gray-600 mb-4">Expert antiparasitaire · Belgique</p>
               <div className="space-y-2 text-xs text-gray-500">
                 <div className="flex items-center gap-2"><span>🏅</span> Agréé phytosanitaire</div>
-                <div className="flex items-center gap-2"><span>📍</span> 10+ ans sur le terrain liégeois</div>
+                <div className="flex items-center gap-2"><span>📍</span> 10+ ans sur le terrain belge</div>
                 <div className="flex items-center gap-2"><span>🎓</span> Formation continue CEPA</div>
               </div>
             </div>
@@ -117,18 +117,18 @@ export default function AProposPage() {
             <p className="text-gray-700 mb-4 leading-relaxed">
               Sayonarat a été fondé par Victor F. et une équipe d&apos;experts de la lutte
               antiparasitaire avec un constat simple : trouver un technicien certifié
-              et disponible rapidement à Liège est souvent un parcours du combattant.
+              et disponible rapidement en Belgique est souvent un parcours du combattant.
               Les délais sont longs, les prix peu transparents, et la qualité variable.
             </p>
             <p className="text-gray-700 mb-4 leading-relaxed">
               Notre réponse : créer une plateforme de mise en relation qui connecte
-              les particuliers et entreprises de Liège avec des techniciens certifiés
+              les particuliers et entreprises de Belgique avec des techniciens certifiés
               phytosanitaires, disponibles sous 24h, aux tarifs clairs et avec une
               garantie de résultat.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              Nous connaissons le terrain liégeois — ses quartiers, son bâti ancien,
-              ses zones industrielles et les spécificités de chaque commune. Cette
+              Nous connaissons le terrain belge — ses zones urbaines, son bâti ancien,
+              ses quartiers denses et les spécificités de chaque région. Cette
               connaissance locale fait la différence dans la qualité des interventions
               que nous coordonnons.
             </p>
@@ -261,11 +261,11 @@ export default function AProposPage() {
         {/* CTA */}
         <div className="text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-4" style={{ color: "#1B4332" }}>
-            Un problème de nuisibles à Liège ?
+            Un problème de nuisibles en Belgique ?
           </h2>
           <p className="text-gray-600 mb-8 max-w-xl mx-auto">
             Contactez-nous pour un devis gratuit. Un technicien certifié intervient
-            chez vous sous 24h dans toute la région liégeoise.
+            chez vous sous 24h partout en Belgique.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

@@ -3,23 +3,23 @@ import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact — Devis gratuit dératisation Liège | Sayonarat",
+  title: "Contact — Devis gratuit dératisation Belgique | Sayonarat",
   description:
-    "Contactez Sayonarat pour un devis gratuit de dératisation ou désinsectisation à Liège. Réponse sous 24h, 7 jours sur 7.",
+    "Contactez Sayonarat pour un devis gratuit de dératisation ou désinsectisation en Belgique. Réponse sous 24h, 7 jours sur 7.",
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ContactPage",
-  name: "Contact Sayonarat — Devis gratuit dératisation Liège",
+  name: "Contact Sayonarat — Devis gratuit dératisation Belgique",
   url: "https://sayonarat.be/contact",
-  description: "Demandez un devis gratuit pour une dératisation ou désinsectisation à Liège. Réponse sous 24h, 7j/7.",
+  description: "Demandez un devis gratuit pour une dératisation ou désinsectisation en Belgique. Réponse sous 24h, 7j/7.",
   mainEntity: {
     "@type": "LocalBusiness",
     name: "Sayonarat",
     telephone: "+32466442454",
     email: "contact@sayonarat.be",
-    address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
+    address: { "@type": "PostalAddress", addressLocality: "Bruxelles", postalCode: "1000", addressCountry: "BE" },
   },
 };
 
@@ -59,7 +59,7 @@ export default function ContactPage() {
           <div className="space-y-5">
             {[
               { icon: "⏱️", title: "Réponse sous 24h", desc: "Nous répondons à toutes les demandes dans les 24h, même le week-end." },
-              { icon: "📍", title: "Zone d'intervention", desc: "Liège, Seraing, Herstal, Ans, Saint-Nicolas, Flémalle et communes voisines." },
+              { icon: "📍", title: "Zone d'intervention", desc: "Toute la Belgique — intervention sous 24h partout en Wallonie et à Bruxelles." },
               { icon: "💶", title: "Devis gratuit", desc: "Aucun engagement. Le devis est gratuit et sans obligation de votre part." },
               { icon: "🔒", title: "Données protégées", desc: "Vos informations sont utilisées uniquement pour traiter votre demande." },
             ].map((item) => (
@@ -74,7 +74,7 @@ export default function ContactPage() {
           </div>
 
           <div className="mt-8 p-5 rounded-xl text-white" style={{ backgroundColor: "#1B4332" }}>
-            <p className="font-bold mb-1">Urgence nuisibles à Liège ?</p>
+            <p className="font-bold mb-1">Urgence nuisibles en Belgique ?</p>
             <p className="text-green-200 text-sm mb-4">
               Appelez-nous directement pour une intervention le jour même.
             </p>

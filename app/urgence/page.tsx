@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Urgence nuisibles Liège — Intervention rapide 7j/7 | Sayonarat",
+  title: "Urgence nuisibles Belgique — Intervention rapide 7j/7 | Sayonarat",
   description:
-    "Situation urgente avec des nuisibles à Liège ? Nid de guêpes actif, rats dans la maison, punaises de lit : intervention rapide 7j/7. Appelez le +32 466 44 24 54.",
+    "Situation urgente avec des nuisibles en Belgique ? Nid de guêpes actif, rats dans la maison, punaises de lit : intervention rapide 7j/7. Appelez le +32 466 44 24 54.",
 };
 
 const scenarios = [
@@ -56,9 +56,9 @@ const etapes = [
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "EmergencyService",
-  name: "Sayonarat — Urgence nuisibles Liège",
+  name: "Sayonarat — Urgence nuisibles Belgique",
   telephone: "+32466442454",
-  areaServed: ["Liège", "Seraing", "Herstal", "Ans", "Saint-Nicolas", "Flémalle"],
+  areaServed: "BE",
   availableService: {
     "@type": "Service",
     name: "Intervention d'urgence nuisibles",
@@ -104,13 +104,13 @@ export default function UrgencePage() {
 
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight tracking-tight">
             Urgence nuisibles<br />
-            <span style={{ color: "#FBBF24" }}>à Liège ?</span>
+            <span style={{ color: "#FBBF24" }}>en Belgique ?</span>
           </h1>
 
           <p className="text-green-100 text-lg md:text-xl max-w-2xl mb-10 leading-relaxed">
             Nid de guêpes actif, rats aperçus, punaises de lit, cafards :
             chaque heure compte. Nos techniciens certifiés interviennent
-            rapidement dans toute la région liégeoise.
+            rapidement partout en Belgique.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-10">
@@ -136,7 +136,7 @@ export default function UrgencePage() {
             {[
               { val: "7j/7", label: "Disponibilité" },
               { val: "24-48h", label: "Délai moyen" },
-              { val: "6", label: "Communes couvertes" },
+              { val: "BE", label: "Zone d'intervention" },
               { val: "30j", label: "Garantie résultat" },
             ].map((s) => (
               <div key={s.label} className="backdrop-blur-sm bg-white/5 border border-white/10 rounded-xl px-4 py-3">

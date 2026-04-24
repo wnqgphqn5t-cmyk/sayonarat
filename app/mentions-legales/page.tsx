@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Mentions légales | Sayonarat",
-  description: "Mentions légales du site Sayonarat — service de dératisation et désinsectisation à Liège.",
+  description: "Mentions légales du site Sayonarat — service de dératisation et désinsectisation en Belgique.",
 };
 
 export default function MentionsLegalesPage() {
@@ -26,7 +26,7 @@ export default function MentionsLegalesPage() {
             Le site <strong>sayonarat.be</strong> est édité par :<br /><br />
             <strong>Sayonarat</strong><br />
             Responsable : Victor F.<br />
-            Adresse : Liège, Belgique<br />
+            Adresse : Bruxelles, Belgique<br />
             Email : <a href="mailto:contact@sayonarat.be" className="underline" style={{ color: "#1B4332" }}>contact@sayonarat.be</a><br />
             Téléphone : <a href="tel:+32466442454" className="underline" style={{ color: "#1B4332" }}>+32 466 44 24 54</a><br />
             Numéro de TVA : en cours d&apos;enregistrement
@@ -47,7 +47,7 @@ export default function MentionsLegalesPage() {
           <h2 className="text-xl font-bold mb-3" style={{ color: "#1B4332" }}>3. Activité</h2>
           <p className="leading-relaxed">
             Sayonarat est une plateforme de mise en relation entre particuliers et entreprises
-            de la région liégeoise et des techniciens certifiés en lutte antiparasitaire
+            en Belgique et des techniciens certifiés en lutte antiparasitaire
             (dératisation, désinsectisation, traitement punaises de lit).
           </p>
         </div>
@@ -98,7 +98,7 @@ export default function MentionsLegalesPage() {
           <h2 className="text-xl font-bold mb-3" style={{ color: "#1B4332" }}>8. Droit applicable</h2>
           <p className="leading-relaxed">
             Le présent site est soumis au droit belge. Tout litige relatif à son utilisation
-            relève de la compétence exclusive des tribunaux de Liège, Belgique.
+            relève de la compétence exclusive des tribunaux de Bruxelles, Belgique.
           </p>
         </div>
 
