@@ -3,9 +3,9 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Dératisation Liège — Intervention rapide 24h | Sayonarat",
+  title: "Dératisation & Désinsectisation Belgique — Intervention rapide | Sayonarat",
   description:
-    "Dératisation, désinsectisation et punaises de lit à Liège. Rats, cafards, guêpes, mites. Intervention sous 48h, devis gratuit sous 24h.",
+    "Dératisation, désinsectisation et punaises de lit partout en Belgique. Rats, cafards, guêpes, mites. Techniciens certifiés, devis gratuit sous 24h, garantie 30 jours.",
 };
 
 const services = [
@@ -34,6 +34,12 @@ const services = [
     href: "/guepes-frelons-liege",
   },
   {
+    icon: "🐜",
+    title: "Fourmis",
+    desc: "Traitement par gel transmissible. Fourmis pharaon, charpentières ou des jardins.",
+    href: "/fourmis-liege",
+  },
+  {
     icon: "🦋",
     title: "Mites alimentaires",
     desc: "Traitement contre les mites des denrées. Placards, réserves, garde-manger.",
@@ -48,38 +54,29 @@ const stats = [
   { val: "7j/7", label: "Disponibilité" },
 ];
 
-const zones = [
-  { label: "Dératisation Liège", href: "/deratisation-liege" },
-  { label: "Dératisation Seraing", href: "/deratisation-seraing" },
-  { label: "Dératisation Herstal", href: "/deratisation-herstal" },
-  { label: "Dératisation Ans", href: "/deratisation-ans" },
-  { label: "Dératisation Saint-Nicolas", href: "/deratisation-saint-nicolas" },
-  { label: "Dératisation Flémalle", href: "/deratisation-flemalle" },
-  { label: "Désinsectisation Liège", href: "/desinsectisation-liege" },
-  { label: "Désinsectisation Seraing", href: "/desinsectisation-seraing" },
-  { label: "Désinsectisation Herstal", href: "/desinsectisation-herstal" },
-  { label: "Désinsectisation Ans", href: "/desinsectisation-ans" },
-  { label: "Désinsectisation Saint-Nicolas", href: "/desinsectisation-saint-nicolas" },
-  { label: "Désinsectisation Flémalle", href: "/desinsectisation-flemalle" },
-  { label: "Punaises de lit Liège", href: "/punaises-de-lit-liege" },
-  { label: "Punaises de lit Seraing", href: "/punaises-de-lit-seraing" },
-  { label: "Punaises de lit Herstal", href: "/punaises-de-lit-herstal" },
-  { label: "Punaises de lit Ans", href: "/punaises-de-lit-ans" },
-  { label: "Punaises de lit Saint-Nicolas", href: "/punaises-de-lit-saint-nicolas" },
-  { label: "Punaises de lit Flémalle", href: "/punaises-de-lit-flemalle" },
+const provinces = [
+  { label: "Liège", href: "/deratisation-liege" },
+  { label: "Seraing", href: "/deratisation-seraing" },
+  { label: "Herstal", href: "/deratisation-herstal" },
+  { label: "Ans", href: "/deratisation-ans" },
+  { label: "Flémalle", href: "/deratisation-flemalle" },
+  { label: "Grâce-Hollogne", href: "/deratisation-grace-hollogne" },
+  { label: "Beyne-Heusay", href: "/deratisation-beyne-heusay" },
+  { label: "Awans", href: "/deratisation-awans" },
+  { label: "Oupeye", href: "/deratisation-oupeye" },
 ];
 
 const faqs = [
   {
-    q: "Quel est le délai d'intervention à Liège ?",
-    a: "Nous intervenons en moins de 24h dans toute la région liégeoise, souvent le jour même selon les disponibilités.",
+    q: "Dans quelles régions intervenez-vous en Belgique ?",
+    a: "Nous intervenons partout en Belgique francophone : région liégeoise, Namur, Bruxelles, Hainaut, Brabant wallon et Luxembourg. Contactez-nous pour confirmer la disponibilité dans votre commune.",
   },
   {
     q: "Les traitements sont-ils dangereux pour mes animaux ?",
     a: "Non. Nous utilisons des produits homologués en Belgique, sans danger pour les animaux de compagnie et les enfants après le temps de séchage recommandé (généralement 2h).",
   },
   {
-    q: "Combien coûte une dératisation à Liège ?",
+    q: "Combien coûte une dératisation en Belgique ?",
     a: "Le prix dépend de la superficie et du type de nuisible. Comptez entre 150 € et 400 € pour une intervention standard. Devis gratuit sous 24h.",
   },
   {
@@ -95,9 +92,9 @@ const faqs = [
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": ["LocalBusiness", "PestControlService"],
-  name: "Sayonarat — Dératisation Liège",
+  name: "Sayonarat — Dératisation & Désinsectisation Belgique",
   description:
-    "Entreprise de dératisation et désinsectisation à Liège. Intervention rapide 24h/24, 7j/7.",
+    "Entreprise de dératisation et désinsectisation en Belgique. Intervention rapide 7j/7, techniciens certifiés, garantie 30 jours.",
   url: "https://sayonarat.be",
   address: {
     "@type": "PostalAddress",
@@ -119,7 +116,7 @@ const jsonLd = {
   telephone: "+32466442454",
   email: "contact@sayonarat.be",
   priceRange: "€€",
-  areaServed: ["Liège", "Seraing", "Herstal", "Ans", "Saint-Nicolas", "Flémalle"],
+  areaServed: "BE",
   sameAs: ["https://sayonarat.be"],
   aggregateRating: {
     "@type": "AggregateRating",
@@ -174,17 +171,16 @@ export default function HomePage() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-green-400"></span>
               </span>
-              <span className="text-sm font-medium">Disponible 7j/7 · Intervention sous 24–48h</span>
+              <span className="text-sm font-medium">Disponible 7j/7 · Partout en Belgique</span>
             </div>
             <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-4 tracking-tight">
-              Dératisation & Désinsectisation à Liège
-              <br />
-              <span style={{ color: "#FBBF24" }}>Intervention en moins de 24h</span>
+              Dératisation & Désinsectisation<br />
+              <span style={{ color: "#FBBF24" }}>partout en Belgique</span>
             </h1>
             <p className="text-lg text-green-100 max-w-2xl mb-8">
-              Vous avez un problème de nuisibles à Liège ? Sayonarat met en relation les particuliers
-              et entreprises avec des professionnels certifiés pour éliminer rats, souris, cafards,
-              punaises de lit et frelons. Devis gratuit sous 24h.
+              Vous avez un problème de nuisibles ? Sayonarat met en relation particuliers
+              et entreprises avec des techniciens certifiés dans toute la Belgique.
+              Rats, cafards, punaises, guêpes — devis gratuit sous 24h.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-6">
               <Link
@@ -212,7 +208,7 @@ export default function HomePage() {
               <div className="absolute -inset-3 rounded-3xl opacity-30 blur-xl" style={{ background: "#FBBF24" }} />
               <Image
                 src="/hero-technicien.jpg"
-                alt="Expert dératisation Liège — diagnostic professionnel"
+                alt="Expert dératisation Belgique — diagnostic professionnel"
                 width={600}
                 height={450}
                 className="relative rounded-2xl shadow-2xl object-cover w-full"
@@ -241,7 +237,7 @@ export default function HomePage() {
           <div className="flex-1 relative rounded-2xl overflow-hidden shadow-xl h-72 md:h-96 w-full">
             <Image
               src="/interieur-cuisine.jpg"
-              alt="Intérieur sain après dératisation — résultat Sayonarat Liège"
+              alt="Intérieur sain après dératisation — résultat Sayonarat"
               fill
               className="object-cover"
             />
@@ -269,7 +265,7 @@ export default function HomePage() {
       {/* Services */}
       <section className="py-16 px-4 max-w-6xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-2" style={{ color: "#1B4332" }}>
-          Nos services à Liège
+          Nos services
         </h2>
         <p className="text-center text-gray-500 mb-10">Traitement professionnel pour tous types de nuisibles</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -293,21 +289,28 @@ export default function HomePage() {
       <section className="py-12 px-4" style={{ backgroundColor: "#f0fdf4" }}>
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-2xl font-bold mb-2" style={{ color: "#1B4332" }}>
-            Zones d&apos;intervention
+            Zone la plus couverte : Liège et sa région
           </h2>
-          <p className="text-gray-500 mb-8">Nous intervenons à Liège et dans les communes voisines</p>
-          <div className="flex flex-wrap justify-center gap-3">
-            {zones.map((z) => (
+          <p className="text-gray-500 mb-8">Notre réseau est particulièrement dense dans la province de Liège</p>
+          <div className="flex flex-wrap justify-center gap-3 mb-6">
+            {provinces.map((z) => (
               <Link
                 key={z.href}
                 href={z.href}
-                className="bg-white border border-green-200 font-medium px-5 py-2 rounded-full transition-colors"
+                className="bg-white border border-green-200 font-medium px-5 py-2 rounded-full transition-colors hover:bg-green-50"
                 style={{ color: "#1B4332" }}
               >
                 {z.label}
               </Link>
             ))}
           </div>
+          <p className="text-sm text-gray-500">
+            Vous êtes ailleurs en Belgique ?{" "}
+            <Link href="/contact" className="underline font-medium" style={{ color: "#1B4332" }}>
+              Contactez-nous
+            </Link>{" "}
+            — nous vérifions la disponibilité dans votre commune sous 24h.
+          </p>
         </div>
       </section>
 
@@ -337,37 +340,22 @@ export default function HomePage() {
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-2" style={{ color: "#1B4332" }}>
             Nos techniciens en action
           </h2>
-          <p className="text-center text-gray-500 mb-10">Des professionnels équipés qui interviennent partout à Liège</p>
+          <p className="text-center text-gray-500 mb-10">Des professionnels équipés qui interviennent partout en Belgique</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="relative rounded-xl overflow-hidden h-64 shadow-md">
-              <Image
-                src="/technicien-van.jpg"
-                alt="Technicien dératisation Liège — intervention à domicile"
-                fill
-                className="object-cover"
-              />
+              <Image src="/technicien-van.jpg" alt="Technicien dératisation Belgique" fill className="object-cover" />
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-3">
                 <p className="text-white text-sm font-semibold">Intervention rapide 24h</p>
               </div>
             </div>
             <div className="relative rounded-xl overflow-hidden h-64 shadow-md">
-              <Image
-                src="/inspection-matelas.jpg"
-                alt="Inspection punaises de lit Liège — détection professionnelle"
-                fill
-                className="object-cover"
-              />
+              <Image src="/inspection-matelas.jpg" alt="Inspection punaises de lit" fill className="object-cover" />
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-3">
                 <p className="text-white text-sm font-semibold">Détection punaises de lit</p>
               </div>
             </div>
             <div className="relative rounded-xl overflow-hidden h-64 shadow-md">
-              <Image
-                src="/inspection-cave.jpg"
-                alt="Inspection cave dératisation Liège"
-                fill
-                className="object-cover"
-              />
+              <Image src="/inspection-cave.jpg" alt="Inspection cave dératisation" fill className="object-cover" />
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-3">
                 <p className="text-white text-sm font-semibold">Diagnostic cave & sous-sol</p>
               </div>
@@ -381,7 +369,7 @@ export default function HomePage() {
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-2" style={{ color: "#1B4332" }}>
           Ce que disent nos clients
         </h2>
-        <p className="text-center text-gray-500 mb-10">Plus de 500 interventions réalisées à Liège et alentours</p>
+        <p className="text-center text-gray-500 mb-10">Plus de 500 interventions réalisées en Belgique</p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
             { name: "Sophie M.", ville: "Liège", note: "⭐⭐⭐⭐⭐", texte: "Problème de rats dans le grenier réglé en une intervention. Technicien professionnel et rapide. Je recommande vivement." },
@@ -421,7 +409,7 @@ export default function HomePage() {
         </h2>
         <p className="mb-8 max-w-xl mx-auto" style={{ color: "#bbf7d0" }}>
           Plus vous attendez, plus l&apos;infestation s&apos;étend. Contactez-nous pour un devis gratuit
-          et une intervention sous 24h à Liège.
+          et une intervention rapide partout en Belgique.
         </p>
         <Link
           href="/contact"
