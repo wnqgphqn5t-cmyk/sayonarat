@@ -92,10 +92,22 @@ export default function GuepesFrellonsLiegePage() {
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
             Destruction nid guêpes et frelons à Liège
           </h1>
-          <p className="text-green-100 text-lg max-w-2xl mb-6">
-            Nid de guêpes ou de frelons à Liège ? Sayonarat met en contact les habitants de Liège
-            avec un technicien certifié pour une intervention nocturne sécurisée. Devis gratuit sous 24h.
+          <p className="text-green-100 text-lg max-w-2xl mb-4">
+            Nid de guêpes à Liège : <strong>destruction nocturne en 45 minutes en moyenne</strong>, dès 90€.
+            Intervention sous 48h, frelon asiatique traité en priorité. Garantie 30 jours.
           </p>
+          <div className="flex flex-wrap gap-3 mb-6 text-sm">
+            {[
+              { val: "45 min", label: "Durée moyenne" },
+              { val: "dès 90€", label: "Tarif" },
+              { val: "< 48h", label: "Intervention" },
+            ].map((s) => (
+              <div key={s.label} className="bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-center">
+                <div className="font-bold text-yellow-300">{s.val}</div>
+                <div className="text-green-200 text-xs">{s.label}</div>
+              </div>
+            ))}
+          </div>
           <div className="flex flex-col sm:flex-row gap-3">
             <a href="tel:+32466442454" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-6 py-3 rounded-lg hover:opacity-90 transition-opacity inline-block text-center">
               📞 +32 466 44 24 54

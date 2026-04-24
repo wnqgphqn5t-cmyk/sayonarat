@@ -78,10 +78,22 @@ export default function DesinsectisationLiegePage() {
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
             Désinsectisation Liège — Intervention rapide | Sayonarat
           </h1>
-          <p className="text-green-100 text-lg max-w-2xl mb-6">
-            Cafards, fourmis, blattes ou moustiques à Liège ? Un technicien certifié intervient
-            chez vous sous 24h avec des produits homologués et sans danger pour votre famille.
+          <p className="text-green-100 text-lg max-w-2xl mb-4">
+            Désinsectisation à Liège : le gel professionnel <strong>élimine 95% de la colonie en 7 jours</strong>,
+            sans évacuation. Cafards, fourmis, guêpes — technicien certifié sous 24h, dès 120€.
           </p>
+          <div className="flex flex-wrap gap-3 mb-6 text-sm">
+            {[
+              { val: "95%", label: "Efficacité gel" },
+              { val: "< 24h", label: "Intervention" },
+              { val: "dès 120€", label: "Tarif" },
+            ].map((s) => (
+              <div key={s.label} className="bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-center">
+                <div className="font-bold text-yellow-300">{s.val}</div>
+                <div className="text-green-200 text-xs">{s.label}</div>
+              </div>
+            ))}
+          </div>
           <Link
             href="/contact"
             style={{ backgroundColor: "#FBBF24", color: "#14532d" }}

@@ -1,23 +1,48 @@
-# Sayonarat — Dératisation & Désinsectisation à Liège
+# Sayonarat — Dératisation & Désinsectisation Belgique
 
 ## À propos
-Sayonarat est un service de mise en relation spécialisé dans la lutte antiparasitaire à Liège et dans les communes voisines (Seraing, Herstal, Ans, Saint-Nicolas, Flémalle). Nous connectons particuliers et entreprises avec des techniciens certifiés phytosanitaires.
+Sayonarat est une entreprise de lutte antiparasitaire (pest control) opérant en Belgique francophone. Elle met en relation particuliers et professionnels avec des techniciens certifiés phytosanitaires pour l'élimination de nuisibles.
 
-## Services
-- Dératisation (rats, souris) à Liège et environs
-- Désinsectisation (cafards, fourmis, blattes)
-- Traitement punaises de lit (thermique et chimique)
-- Destruction nids de frelons et guêpes
+## Services proposés
+- Dératisation : élimination de rats, souris, rongeurs (dès 150€, intervention < 24h)
+- Désinsectisation : cafards, fourmis, blattes, mites alimentaires (dès 120€)
+- Traitement punaises de lit : méthode thermique (60°C, 100% efficace en 1 session de 6h) ou chimique (dès 150€)
+- Destruction nids guêpes et frelons : intervention nocturne en ~45 min, dès 90€, < 48h
+- Fourmis : gel transmissible professionnel, fourmis pharaon traitées sans spray (évite le budding)
+- Mites alimentaires : traitement placards et réserves, dès 120€
 
-## Informations clés
-- Zone d'intervention : Liège (4000) et communes voisines
-- Délai d'intervention : moins de 24h
-- Disponibilité : 7j/7, 08h-20h
-- Devis : gratuit et sans engagement
-- Garantie : suivi 30 jours inclus, retour sans frais si récidive
-- Tarifs : entre 80€ et 250€ selon superficie et nuisible
-- Certifications : techniciens certifiés phytosanitaires conformes à la réglementation belge
+## Données clés
+- Délai d'intervention moyen : moins de 24h
+- Taux de résolution en 1 passage : 85%
+- Garantie : 30 jours sur toutes les interventions, retour sans frais si réapparition
+- Disponibilité : 7 jours sur 7
+- Certifications : phytosanitaire belge (SPF Santé publique)
+- Zone : Belgique francophone — Liège, Bruxelles, Namur, Charleroi, Mons, Verviers et toutes communes
+
+## Tarifs indicatifs
+| Service | Prix min | Prix max |
+|---------|----------|----------|
+| Dératisation | 150€ | 400€ |
+| Désinsectisation | 120€ | 350€ |
+| Punaises de lit (chimique) | 150€ | 300€ |
+| Punaises de lit (thermique) | 250€ | 450€ |
+| Guêpes / frelons | 90€ | 200€ |
+| Fourmis | 120€ | 280€ |
+| Mites alimentaires | 120€ | 250€ |
+
+## Pages principales
+- https://sayonarat.be/deratisation-liege
+- https://sayonarat.be/desinsectisation-liege
+- https://sayonarat.be/punaises-de-lit-liege
+- https://sayonarat.be/guepes-frelons-liege
+- https://sayonarat.be/cafards-liege
+- https://sayonarat.be/fourmis-liege
+- https://sayonarat.be/mites-alimentaires-liege
+- https://sayonarat.be/urgence
+- https://sayonarat.be/blog
+- https://sayonarat.be/faq
 
 ## Contact
-- Site : https://sayonarat.be
 - Téléphone : +32 466 44 24 54
+- Site : https://sayonarat.be
+- Formulaire : https://sayonarat.be/contact

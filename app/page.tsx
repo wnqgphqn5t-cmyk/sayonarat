@@ -177,11 +177,23 @@ export default function HomePage() {
               Dératisation & Désinsectisation<br />
               <span style={{ color: "#FBBF24" }}>partout en Belgique</span>
             </h1>
-            <p className="text-lg text-green-100 max-w-2xl mb-8">
-              Vous avez un problème de nuisibles ? Sayonarat met en relation particuliers
-              et entreprises avec des techniciens certifiés dans toute la Belgique.
-              Rats, cafards, punaises, guêpes — devis gratuit sous 24h.
+            <p className="text-lg text-green-100 max-w-2xl mb-6">
+              En Belgique, <strong>1 intervention professionnelle suffit dans 85% des cas</strong>.
+              Technicien certifié chez vous en moins de 24h, dès 120€.
+              Garantie 30 jours incluse — retour sans frais si réapparition.
             </p>
+            <div className="flex flex-wrap gap-4 mb-8 text-sm">
+              {[
+                { val: "< 24h", label: "Délai d'intervention" },
+                { val: "85%", label: "Résolus en 1 passage" },
+                { val: "30j", label: "Garantie incluse" },
+              ].map((s) => (
+                <div key={s.label} className="bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-center">
+                  <div className="font-bold text-yellow-300 text-lg">{s.val}</div>
+                  <div className="text-green-200 text-xs">{s.label}</div>
+                </div>
+              ))}
+            </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-6">
               <Link
                 href="/contact"

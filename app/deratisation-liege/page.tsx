@@ -67,11 +67,23 @@ export default function DeratisationLiegePage() {
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
             Dératisation Liège — Intervention rapide | Sayonarat
           </h1>
-          <p className="text-green-100 text-lg max-w-2xl mb-6">
-            Vous avez des rats ou des souris à Liège ? Sayonarat vous met en contact avec un
-            dératiseur certifié disponible sous 24h. Traitement efficace, produits homologués,
-            résultat garanti 30 jours.
+          <p className="text-green-100 text-lg max-w-2xl mb-4">
+            Dératisation à Liège : <strong>1 intervention suffit dans 9 cas sur 10</strong>.
+            Technicien certifié chez vous en moins de 24h, dès 150€.
+            Garantie 30 jours — retour sans frais si réapparition dans le mois.
           </p>
+          <div className="flex flex-wrap gap-3 mb-6 text-sm">
+            {[
+              { val: "< 24h", label: "Intervention" },
+              { val: "dès 150€", label: "Tarif" },
+              { val: "30j", label: "Garantie" },
+            ].map((s) => (
+              <div key={s.label} className="bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-center">
+                <div className="font-bold text-yellow-300">{s.val}</div>
+                <div className="text-green-200 text-xs">{s.label}</div>
+              </div>
+            ))}
+          </div>
           <Link
             href="/contact"
             style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
