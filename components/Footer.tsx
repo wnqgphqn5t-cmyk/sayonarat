@@ -10,34 +10,10 @@ const services = [
   { label: "Urgence 7j/7", href: "/urgence" },
 ];
 
-const villes = [
-  { label: "Dératisation Seraing", href: "/deratisation-seraing" },
-  { label: "Dératisation Herstal", href: "/deratisation-herstal" },
-  { label: "Dératisation Ans", href: "/deratisation-ans" },
-  { label: "Dératisation Saint-Nicolas", href: "/deratisation-saint-nicolas" },
-  { label: "Dératisation Flémalle", href: "/deratisation-flemalle" },
-  { label: "Dératisation Grâce-Hollogne", href: "/deratisation-grace-hollogne" },
-  { label: "Dératisation Beyne-Heusay", href: "/deratisation-beyne-heusay" },
-  { label: "Dératisation Awans", href: "/deratisation-awans" },
-  { label: "Dératisation Oupeye", href: "/deratisation-oupeye" },
-  { label: "Désinsectisation Seraing", href: "/desinsectisation-seraing" },
-  { label: "Désinsectisation Herstal", href: "/desinsectisation-herstal" },
-  { label: "Désinsectisation Ans", href: "/desinsectisation-ans" },
-  { label: "Désinsectisation Saint-Nicolas", href: "/desinsectisation-saint-nicolas" },
-  { label: "Désinsectisation Flémalle", href: "/desinsectisation-flemalle" },
-  { label: "Désinsectisation Grâce-Hollogne", href: "/desinsectisation-grace-hollogne" },
-  { label: "Désinsectisation Beyne-Heusay", href: "/desinsectisation-beyne-heusay" },
-  { label: "Désinsectisation Awans", href: "/desinsectisation-awans" },
-  { label: "Désinsectisation Oupeye", href: "/desinsectisation-oupeye" },
-  { label: "Punaises de lit Seraing", href: "/punaises-de-lit-seraing" },
-  { label: "Punaises de lit Herstal", href: "/punaises-de-lit-herstal" },
-  { label: "Punaises de lit Ans", href: "/punaises-de-lit-ans" },
-  { label: "Punaises de lit Saint-Nicolas", href: "/punaises-de-lit-saint-nicolas" },
-  { label: "Punaises de lit Flémalle", href: "/punaises-de-lit-flemalle" },
-  { label: "Punaises de lit Grâce-Hollogne", href: "/punaises-de-lit-grace-hollogne" },
-  { label: "Punaises de lit Beyne-Heusay", href: "/punaises-de-lit-beyne-heusay" },
-  { label: "Punaises de lit Awans", href: "/punaises-de-lit-awans" },
-  { label: "Punaises de lit Oupeye", href: "/punaises-de-lit-oupeye" },
+const communes = [
+  "Liège", "Seraing", "Herstal", "Ans",
+  "Saint-Nicolas", "Flémalle", "Grâce-Hollogne",
+  "Beyne-Heusay", "Awans", "Oupeye",
 ];
 
 export default function Footer() {
@@ -68,15 +44,10 @@ export default function Footer() {
 
         <div>
           <h3 className="font-bold text-lg mb-3">Zones d'intervention</h3>
-          <ul className="space-y-2 text-sm text-green-200">
-            {villes.map((v) => (
-              <li key={v.href}>
-                <Link href={v.href} className="hover:text-white transition-colors">
-                  {v.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
+          <p className="text-green-200 text-sm leading-relaxed mb-3">
+            {communes.join(" · ")}
+          </p>
+          <p className="text-green-400 text-xs">Et toutes les communes de la région liégeoise.</p>
         </div>
       </div>
 
