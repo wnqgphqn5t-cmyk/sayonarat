@@ -78,14 +78,14 @@ export default function PunaisesLiegePage() {
             Traitement Punaises de lit Liège — Élimination garantie | Sayonarat
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-4">
-            Punaises de lit à Liège : le traitement thermique à 60°C <strong>élimine 100% des punaises
-            et œufs en une session de 6h</strong>. Résultat le soir même. Dès 150€, garantie 30 jours.
+            Punaises de lit à Liège : traitement thermique à 60°C ou chimique. <strong>Chambre accessible le soir même</strong>.
+            Technicien certifié sous 24h, dès 150€. Garantie 30 jours incluse.
           </p>
           <div className="flex flex-wrap gap-3 mb-6 text-sm">
             {[
-              { val: "100%", label: "Efficacité thermique" },
-              { val: "6h", label: "Durée traitement" },
+              { val: "< 24h", label: "Intervention" },
               { val: "dès 150€", label: "Tarif" },
+              { val: "30j", label: "Garantie" },
             ].map((s) => (
               <div key={s.label} className="bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-center">
                 <div className="font-bold text-yellow-300">{s.val}</div>

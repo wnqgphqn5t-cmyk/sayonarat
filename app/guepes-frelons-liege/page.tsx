@@ -93,14 +93,14 @@ export default function GuepesFrellonsLiegePage() {
             Destruction nid guêpes et frelons à Liège
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-4">
-            Nid de guêpes à Liège : <strong>destruction nocturne en 45 minutes en moyenne</strong>, dès 90€.
-            Intervention sous 48h, frelon asiatique traité en priorité. Garantie 30 jours.
+            Nid de guêpes ou frelons à Liège ? <strong>Intervention nocturne sécurisée sous 48h</strong>, dès 90€.
+            Frelon asiatique traité en priorité. Technicien équipé, garantie 30 jours.
           </p>
           <div className="flex flex-wrap gap-3 mb-6 text-sm">
             {[
-              { val: "45 min", label: "Durée moyenne" },
-              { val: "dès 90€", label: "Tarif" },
               { val: "< 48h", label: "Intervention" },
+              { val: "dès 90€", label: "Tarif" },
+              { val: "30j", label: "Garantie" },
             ].map((s) => (
               <div key={s.label} className="bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-center">
                 <div className="font-bold text-yellow-300">{s.val}</div>

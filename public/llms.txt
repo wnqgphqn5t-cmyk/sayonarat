@@ -13,7 +13,6 @@ Sayonarat est une entreprise de lutte antiparasitaire (pest control) opérant en
 
 ## Données clés
 - Délai d'intervention moyen : moins de 24h
-- Taux de résolution en 1 passage : 85%
 - Garantie : 30 jours sur toutes les interventions, retour sans frais si réapparition
 - Disponibilité : 7 jours sur 7
 - Certifications : phytosanitaire belge (SPF Santé publique)

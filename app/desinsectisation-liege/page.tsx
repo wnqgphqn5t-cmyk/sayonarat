@@ -79,14 +79,14 @@ export default function DesinsectisationLiegePage() {
             Désinsectisation Liège — Intervention rapide | Sayonarat
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-4">
-            Désinsectisation à Liège : le gel professionnel <strong>élimine 95% de la colonie en 7 jours</strong>,
-            sans évacuation. Cafards, fourmis, guêpes — technicien certifié sous 24h, dès 120€.
+            Cafards, fourmis ou guêpes à Liège ? Gel insecticide professionnel <strong>sans évacuation requise</strong>.
+            Technicien certifié sous 24h, produits homologués SPF, dès 120€. Garantie 30 jours.
           </p>
           <div className="flex flex-wrap gap-3 mb-6 text-sm">
             {[
-              { val: "95%", label: "Efficacité gel" },
               { val: "< 24h", label: "Intervention" },
               { val: "dès 120€", label: "Tarif" },
+              { val: "30j", label: "Garantie" },
             ].map((s) => (
               <div key={s.label} className="bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-center">
                 <div className="font-bold text-yellow-300">{s.val}</div>

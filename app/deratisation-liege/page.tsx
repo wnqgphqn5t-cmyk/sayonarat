@@ -68,9 +68,9 @@ export default function DeratisationLiegePage() {
             Dératisation Liège — Intervention rapide | Sayonarat
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-4">
-            Dératisation à Liège : <strong>1 intervention suffit dans 9 cas sur 10</strong>.
-            Technicien certifié chez vous en moins de 24h, dès 150€.
-            Garantie 30 jours — retour sans frais si réapparition dans le mois.
+            Rats ou souris à Liège ? Technicien certifié chez vous en <strong>moins de 24h</strong>,
+            dès 150€. Appâts rodenticides homologués SPF, colmatage des accès inclus.
+            Garantie 30 jours — retour sans frais si réapparition.
           </p>
           <div className="flex flex-wrap gap-3 mb-6 text-sm">
             {[
