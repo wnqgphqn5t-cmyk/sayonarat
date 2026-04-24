@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Blog dératisation Liège — Conseils et infos | Sayonarat",
+  title: "Blog dératisation & nuisibles — Conseils pratiques | Sayonarat",
   description:
-    "Conseils pratiques sur la dératisation, désinsectisation et punaises de lit à Liège. Reconnaître une infestation, prix, méthodes de traitement.",
+    "Conseils pratiques sur la dératisation, désinsectisation et punaises de lit en Belgique. Reconnaître une infestation, prix, méthodes de traitement.",
 };
 
 const articles = [
@@ -171,7 +171,7 @@ export default function BlogPage() {
             <Link href="/" className="hover:text-white">Accueil</Link> › Blog
           </p>
           <h1 className="text-3xl md:text-4xl font-bold mb-3">
-            Conseils dératisation & nuisibles à Liège
+            Conseils dératisation & nuisibles en Belgique
           </h1>
           <p className="text-green-100 text-lg max-w-2xl">
             Reconnaître une infestation, comprendre les prix, choisir le bon traitement.

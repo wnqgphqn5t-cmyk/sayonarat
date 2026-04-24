@@ -289,9 +289,9 @@ export default function HomePage() {
       <section className="py-12 px-4" style={{ backgroundColor: "#f0fdf4" }}>
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-2xl font-bold mb-2" style={{ color: "#1B4332" }}>
-            Zone la plus couverte : Liège et sa région
+            Nos zones d'intervention
           </h2>
-          <p className="text-gray-500 mb-8">Notre réseau est particulièrement dense dans la province de Liège</p>
+          <p className="text-gray-500 mb-8">Réseau dense en province de Liège — et partout en Belgique sur demande</p>
           <div className="flex flex-wrap justify-center gap-3 mb-6">
             {provinces.map((z) => (
               <Link

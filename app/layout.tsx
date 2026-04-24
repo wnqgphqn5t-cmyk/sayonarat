@@ -5,14 +5,14 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: {
-    default: "Dératisation Liège — Intervention rapide | Sayonarat",
+    default: "Dératisation & Désinsectisation Belgique — Intervention rapide | Sayonarat",
     template: "%s | Sayonarat",
   },
   description:
-    "Entreprise de dératisation et désinsectisation à Liège. Intervention en 24h, devis gratuit, 7j/7. Rats, souris, cafards, punaises de lit, frelons.",
-  metadataBase: new URL("https://deratisation-liege.be"),
+    "Dératisation et désinsectisation partout en Belgique. Rats, souris, cafards, punaises de lit, guêpes, frelons. Techniciens certifiés, devis gratuit sous 24h, garantie 30 jours.",
+  metadataBase: new URL("https://sayonarat.be"),
   openGraph: {
-    siteName: "Sayonarat — Dératisation Liège",
+    siteName: "Sayonarat — Dératisation & Désinsectisation Belgique",
     locale: "fr_BE",
     type: "website",
   },
