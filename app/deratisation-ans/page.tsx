@@ -90,7 +90,7 @@ export default function DeratisationAnsPage() {
         <div className="bg-yellow-50 border-l-4 border-yellow-400 p-5 rounded-r-xl mb-10">
           <p className="font-semibold text-gray-800">📊 Chiffre clé</p>
           <p className="text-sm text-gray-700 mt-1">
-            80% des infestations de rongeurs commencent par un seul point d&apos;entrée non sécurisé.
+            La grande majorité des infestations de rongeurs commencent par un seul point d&apos;entrée non sécurisé.
             À Ans, ce sont souvent les passages de câbles de fibre optique installés récemment
             qui créent des ouvertures non rebouchées dans les murs.
           </p>

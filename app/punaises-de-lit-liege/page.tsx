@@ -172,7 +172,7 @@ export default function PunaisesLiegePage() {
         <div className="bg-yellow-50 border-l-4 border-yellow-400 p-5 rounded-r-xl mb-10">
           <p className="font-semibold text-gray-800">📊 Situation en Belgique</p>
           <p className="text-sm text-gray-700 mt-1">
-            Les signalements de punaises de lit en Belgique ont augmenté de 65% entre 2019 et 2024.
+            Les signalements de punaises de lit en Belgique sont en forte hausse depuis 2019.
             Liège est l&apos;une des villes les plus touchées en Wallonie, notamment en raison
             de la forte densité étudiante et du parc immobilier ancien du centre-ville.
           </p>

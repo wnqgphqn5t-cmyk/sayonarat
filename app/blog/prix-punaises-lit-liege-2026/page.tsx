@@ -116,7 +116,7 @@ export default function PrixPunaisesLitPage() {
         </h2>
         <div className="space-y-4 mb-10">
           {[
-            { n: "1", t: "La méthode choisie", d: "Le traitement thermique (chaleur à 60°C+) coûte 30 à 50% de plus que le traitement chimique, mais détruit punaises et œufs en une seule session. Pour les infestations sévères, c'est souvent le choix le plus économique à terme." },
+            { n: "1", t: "La méthode choisie", d: "Le traitement thermique (chaleur à 60°C+) est généralement plus coûteux que le traitement chimique, mais détruit punaises et œufs en une seule session. Pour les infestations sévères, c'est souvent le choix le plus économique à terme." },
             { n: "2", t: "La superficie à traiter", d: "Le prix augmente proportionnellement à la surface. Pour une chambre isolée dans un grand appartement, seule la zone infestée peut être traitée — ce qui réduit le coût." },
             { n: "3", t: "L'ampleur de l'infestation", d: "Une infestation débutante (quelques punaises) est moins coûteuse à traiter qu'une infestation installée depuis plusieurs semaines. Agir tôt est toujours moins cher." },
             { n: "4", t: "Le type de mobilier", d: "Cadres de lit en bois massif, têtes de lit rembourrées, bibliothèques encastrées : plus le mobilier est complexe, plus le traitement est long et donc coûteux." },

@@ -45,7 +45,7 @@ const timeline = [
   { annee: "2023", titre: "La frustration", desc: "Victor F. constate que trouver un technicien disponible à Liège relève du parcours du combattant — délais longs, prix opaques, qualité variable." },
   { annee: "2024", titre: "Le déclic", desc: "Réunion d'une équipe de techniciens phytosanitaires expérimentés autour d'un objectif commun : un service local, rapide et transparent." },
   { annee: "2025", titre: "Le lancement", desc: "Ouverture du service à Liège et aux 5 communes voisines : Seraing, Herstal, Ans, Saint-Nicolas, Flémalle." },
-  { annee: "2026", titre: "L'expansion", desc: "Plus de 500 interventions réalisées, extension aux services guêpes/frelons et mites alimentaires. Taux de satisfaction de 98%." },
+  { annee: "2026", titre: "L'expansion", desc: "Plus de 500 interventions réalisées, extension aux services guêpes/frelons et mites alimentaires. Couverture étendue à toute la Belgique francophone." },
 ];
 
 const jsonLd = {
@@ -247,9 +247,9 @@ export default function AProposPage() {
         <div className="mb-16 grid grid-cols-2 md:grid-cols-4 gap-6 text-center py-10 border-t border-b border-gray-100">
           {[
             { val: "+500", label: "Interventions réalisées" },
-            { val: "98%", label: "Clients satisfaits" },
+            { val: "30j", label: "Garantie incluse" },
             { val: "24h", label: "Délai d'intervention" },
-            { val: "6", label: "Communes couvertes" },
+            { val: "7j/7", label: "Disponibilité" },
           ].map((s) => (
             <div key={s.label}>
               <div className="text-3xl md:text-4xl font-bold mb-1" style={{ color: "#1B4332" }}>{s.val}</div>

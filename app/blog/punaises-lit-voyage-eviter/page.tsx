@@ -82,7 +82,7 @@ export default function ArticlePunaisesVoyagePage() {
           <p>
             À l&apos;hôtel : posez votre valise dans la baignoire (jamais sur le lit), inspectez
             les coutures du matelas avant de dormir. Au retour : lavez tout à 60°C.
-            Ces deux réflexes éliminent 90% du risque.
+            Ces deux réflexes réduisent drastiquement le risque de contamination.
           </p>
         </div>
 
