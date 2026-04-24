@@ -213,7 +213,7 @@ export default function ArticleMitesPage() {
           <ul className="space-y-2 text-sm">
             <li><Link href="/blog/cafards-cuisine-que-faire" className="underline font-medium" style={{ color: "#1B4332" }}>Cafards dans la cuisine : que faire ?</Link></li>
             <li><Link href="/blog/punaises-de-lit-que-faire" className="underline font-medium" style={{ color: "#1B4332" }}>Punaises de lit : que faire en cas d&apos;infestation ?</Link></li>
-            <li><Link href="/desinsectisation-liege" className="underline font-medium" style={{ color: "#1B4332" }}>Désinsectisation Liège — tous les insectes</Link></li>
+            <li><Link href="/mites-alimentaires-liege" className="underline font-medium" style={{ color: "#1B4332" }}>Traitement mites alimentaires Liège — service professionnel</Link></li>
           </ul>
         </section>
 

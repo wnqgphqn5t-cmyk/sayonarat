@@ -190,8 +190,8 @@ export default function ArticleFourmisPage() {
             <a href="tel:+32466442454" className="inline-block px-5 py-3 rounded-lg font-bold text-center text-gray-900" style={{ backgroundColor: "#FFD700" }}>
               Appeler — +32 466 44 24 54
             </a>
-            <Link href="/desinsectisation-liege" className="inline-block px-5 py-3 rounded-lg font-bold text-center text-white" style={{ backgroundColor: "#1B4332" }}>
-              Voir le service désinsectisation
+            <Link href="/fourmis-liege" className="inline-block px-5 py-3 rounded-lg font-bold text-center text-white" style={{ backgroundColor: "#1B4332" }}>
+              Voir le service fourmis Liège
             </Link>
           </div>
         </div>
@@ -213,7 +213,7 @@ export default function ArticleFourmisPage() {
           <ul className="space-y-2 text-sm">
             <li><Link href="/blog/cafards-cuisine-que-faire" className="underline font-medium" style={{ color: "#1B4332" }}>Cafards dans la cuisine : que faire ?</Link></li>
             <li><Link href="/blog/mites-alimentaires-que-faire" className="underline font-medium" style={{ color: "#1B4332" }}>Mites alimentaires : que faire ?</Link></li>
-            <li><Link href="/desinsectisation-liege" className="underline font-medium" style={{ color: "#1B4332" }}>Désinsectisation Liège — tous les insectes</Link></li>
+            <li><Link href="/fourmis-liege" className="underline font-medium" style={{ color: "#1B4332" }}>Traitement fourmis Liège — service professionnel</Link></li>
           </ul>
         </section>
 

@@ -181,11 +181,11 @@ export default function FourmisPharaonPage() {
 
         <div className="flex flex-col sm:flex-row gap-4 mb-12">
           <Link
-            href="/desinsectisation-liege"
+            href="/fourmis-liege"
             style={{ backgroundColor: "#1B4332", color: "white" }}
             className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center"
           >
-            Voir notre service désinsectisation →
+            Voir notre service fourmis Liège →
           </Link>
           <a
             href="tel:+32466442454"
@@ -211,7 +211,7 @@ export default function FourmisPharaonPage() {
           <div className="flex flex-wrap gap-3">
             <Link href="/blog/fourmis-maison-que-faire" className="text-sm underline" style={{ color: "#1B4332" }}>Fourmis dans la maison : guide complet</Link>
             <Link href="/blog/cafards-immeuble-responsabilite" className="text-sm underline" style={{ color: "#1B4332" }}>Nuisibles en immeuble : responsabilités</Link>
-            <Link href="/desinsectisation-liege" className="text-sm underline" style={{ color: "#1B4332" }}>Désinsectisation Liège</Link>
+            <Link href="/fourmis-liege" className="text-sm underline" style={{ color: "#1B4332" }}>Traitement fourmis Liège</Link>
           </div>
         </div>
       </article>

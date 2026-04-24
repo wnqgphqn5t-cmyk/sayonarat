@@ -250,18 +250,23 @@ export default function ArticleCafardsPage() {
           <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>Articles liés</h2>
           <ul className="space-y-2 text-sm">
             <li>
-              <Link href="/blog/comment-savoir-si-on-a-des-rats" className="underline font-medium" style={{ color: "#1B4332" }}>
-                Comment savoir si on a des rats chez soi ?
+              <Link href="/cafards-liege" className="underline font-medium" style={{ color: "#1B4332" }}>
+                Traitement cafards & blattes Liège — service professionnel
               </Link>
             </li>
             <li>
-              <Link href="/blog/prix-deratisation-liege-2026" className="underline font-medium" style={{ color: "#1B4332" }}>
-                Prix d&apos;une dératisation à Liège en 2026
+              <Link href="/blog/cafards-appartement-que-faire" className="underline font-medium" style={{ color: "#1B4332" }}>
+                Cafards dans l&apos;appartement : que faire ?
               </Link>
             </li>
             <li>
-              <Link href="/blog/punaises-de-lit-que-faire" className="underline font-medium" style={{ color: "#1B4332" }}>
-                Punaises de lit : que faire en cas d&apos;infestation ?
+              <Link href="/blog/cafards-immeuble-responsabilite" className="underline font-medium" style={{ color: "#1B4332" }}>
+                Cafards en immeuble : qui est responsable ?
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog/prix-desinsectisation-liege-2026" className="underline font-medium" style={{ color: "#1B4332" }}>
+                Prix d&apos;une désinsectisation à Liège en 2026
               </Link>
             </li>
           </ul>
