@@ -15,30 +15,6 @@ const menu = [
     ],
   },
   {
-    categorie: "Dératisation",
-    liens: [
-      { label: "Liège", href: "/deratisation-liege" },
-      { label: "Seraing", href: "/deratisation-seraing" },
-      { label: "Herstal", href: "/deratisation-herstal" },
-      { label: "Ans", href: "/deratisation-ans" },
-      { label: "Saint-Nicolas", href: "/deratisation-saint-nicolas" },
-      { label: "Flémalle", href: "/deratisation-flemalle" },
-      { label: "Toutes les villes →", href: "/deratisation-liege#communes" },
-    ],
-  },
-  {
-    categorie: "Punaises de lit",
-    liens: [
-      { label: "Liège", href: "/punaises-de-lit-liege" },
-      { label: "Seraing", href: "/punaises-de-lit-seraing" },
-      { label: "Herstal", href: "/punaises-de-lit-herstal" },
-      { label: "Ans", href: "/punaises-de-lit-ans" },
-      { label: "Saint-Nicolas", href: "/punaises-de-lit-saint-nicolas" },
-      { label: "Flémalle", href: "/punaises-de-lit-flemalle" },
-      { label: "Toutes les villes →", href: "/punaises-de-lit-liege#communes" },
-    ],
-  },
-  {
     categorie: "Informations",
     liens: [
       { label: "🚨 Urgence 7j/7", href: "/urgence" },
@@ -88,7 +64,7 @@ export default function Header() {
 
         {open && (
           <div style={{ backgroundColor: "#2D6A4F" }} className="border-t border-green-700 px-4 py-6">
-            <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="max-w-6xl mx-auto grid grid-cols-2 gap-6 max-w-sm mx-auto md:max-w-lg">
               {menu.map((section) => (
                 <div key={section.categorie}>
                   <p className="text-yellow-300 text-xs font-bold uppercase tracking-wider mb-3">
