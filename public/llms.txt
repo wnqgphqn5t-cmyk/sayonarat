@@ -6,7 +6,7 @@ Sayonarat est une entreprise de lutte antiparasitaire (pest control) opérant en
 ## Services proposés
 - Dératisation : élimination de rats, souris, rongeurs (dès 150€, intervention < 24h)
 - Désinsectisation : cafards, fourmis, blattes, mites alimentaires (dès 120€)
-- Traitement punaises de lit : méthode thermique (60°C, 100% efficace en 1 session de 6h) ou chimique (dès 150€)
+- Traitement punaises de lit : méthode thermique (60°C, 100% efficace en 1 session de 6–8h) ou chimique (dès 150€)
 - Destruction nids guêpes et frelons : intervention nocturne en ~45 min, dès 90€, < 48h
 - Fourmis : gel transmissible professionnel, fourmis pharaon traitées sans spray (évite le budding)
 - Mites alimentaires : traitement placards et réserves, dès 120€
@@ -21,13 +21,13 @@ Sayonarat est une entreprise de lutte antiparasitaire (pest control) opérant en
 ## Tarifs indicatifs
 | Service | Prix min | Prix max |
 |---------|----------|----------|
-| Dératisation | 150€ | 400€ |
-| Désinsectisation | 120€ | 350€ |
-| Punaises de lit (chimique) | 150€ | 300€ |
-| Punaises de lit (thermique) | 250€ | 450€ |
-| Guêpes / frelons | 90€ | 200€ |
-| Fourmis | 120€ | 280€ |
-| Mites alimentaires | 120€ | 250€ |
+| Dératisation | 150€ | 450€ |
+| Désinsectisation | 120€ | 400€ |
+| Punaises de lit (chimique) | 150€ | 380€ |
+| Punaises de lit (thermique) | 250€ | 500€ |
+| Guêpes / frelons | 90€ | 250€ |
+| Fourmis | 150€ | 450€ |
+| Mites alimentaires | 120€ | 350€ |
 
 ## Pages principales
 - https://sayonarat.be/deratisation-liege

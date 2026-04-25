@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Dératisation & Désinsectisation Belgique — Intervention rapide | Sayonarat",
+  title: "Dératisation & Désinsectisation Belgique — Intervention rapide",
   description:
     "Dératisation, désinsectisation et punaises de lit partout en Belgique. Rats, cafards, guêpes, mites. Techniciens certifiés, devis gratuit sous 24h, garantie 30 jours.",
 };
@@ -51,7 +51,6 @@ const stats = [
   { val: "+500", label: "Interventions réalisées" },
   { val: "24h", label: "Délai d'intervention moyen" },
   { val: "30j", label: "Garantie incluse" },
-  { val: "✓ SPF", label: "Homologué" },
   { val: "7j/7", label: "Disponibilité" },
 ];
 
@@ -119,33 +118,6 @@ const jsonLd = {
   priceRange: "€€",
   areaServed: "BE",
   sameAs: ["https://sayonarat.be"],
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "4.9",
-    reviewCount: "127",
-    bestRating: "5",
-    worstRating: "1",
-  },
-  review: [
-    {
-      "@type": "Review",
-      author: { "@type": "Person", name: "Sophie M." },
-      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
-      reviewBody: "Problème de rats dans le grenier réglé en une intervention. Technicien professionnel et rapide. Je recommande vivement.",
-    },
-    {
-      "@type": "Review",
-      author: { "@type": "Person", name: "David K." },
-      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
-      reviewBody: "Punaises de lit dans notre chambre. Sayonarat est intervenu le lendemain. Aucune trace depuis 2 mois. Parfait.",
-    },
-    {
-      "@type": "Review",
-      author: { "@type": "Person", name: "Nathalie B." },
-      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
-      reviewBody: "Infestation de cafards dans la cuisine. Devis gratuit rapidement, intervention efficace. Prix correct pour la qualité.",
-    },
-  ],
 };
 
 export default function HomePage() {

@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Punaises de lit Ans — Traitement professionnel | Sayonarat",
+  title: "Punaises de lit Ans — Traitement professionnel",
   description:
     "Punaises de lit à Ans ? Technicien certifié, traitement thermique ou chimique. Intervention sous 48h, devis gratuit sous 24h.",
 };

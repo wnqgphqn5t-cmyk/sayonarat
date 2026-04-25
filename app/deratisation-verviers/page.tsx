@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Dératisation Verviers — Intervention rapide | Sayonarat",
+  title: "Dératisation Verviers — Intervention rapide",
   description:
     "Dératisation professionnelle à Verviers. Rats dans la vallée de la Vesdre, anciens bâtiments textiles, proximité Liège. Devis gratuit sous 24h, garantie 30 jours.",
 };
@@ -35,7 +35,7 @@ const jsonLd = {
     "@type": "LocalBusiness",
     name: "Sayonarat",
     telephone: "+32466442454",
-    address: { "@type": "PostalAddress", addressLocality: "Verviers", postalCode: "4800", addressCountry: "BE" },
+    address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Verviers",
   description: "Service de dératisation professionnelle à Verviers. Rats dans la vallée de la Vesdre et anciens bâtiments textiles. Techniciens certifiés, garantie 30 jours.",

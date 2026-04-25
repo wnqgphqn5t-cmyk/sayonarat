@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Désinsectisation Ans — Cafards, fourmis, guêpes | Sayonarat",
+  title: "Désinsectisation Ans — Cafards, fourmis, guêpes",
   description:
     "Désinsectisation professionnelle à Ans. Traitement cafards, fourmis, blattes, guêpes et frelons. Intervention sous 48h, devis gratuit.",
 };
@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     q: "Combien coûte une désinsectisation à Ans ?",
-    a: "Entre 120 € et 300 € selon le type d'insecte et la superficie. Les nids de guêpes sont traités entre 90 € et 180 €. Devis gratuit sous 24h chez Sayonarat.",
+    a: "Entre 120 € et 400 € selon le type d'insecte et la superficie. Les nids de guêpes sont traités entre 90 € et 180 €. Devis gratuit sous 24h chez Sayonarat.",
   },
   {
     q: "Intervenez-vous dans toute la commune d'Ans ?",

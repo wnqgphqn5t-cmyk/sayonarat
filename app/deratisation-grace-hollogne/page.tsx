@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Dératisation Grâce-Hollogne — Intervention rapide | Sayonarat",
+  title: "Dératisation Grâce-Hollogne — Intervention rapide",
   description:
     "Dératisation professionnelle à Grâce-Hollogne. Rats, souris, rongeurs. Zones industrielles et logistiques couvertes. Devis gratuit sous 24h, techniciens certifiés.",
 };
@@ -35,7 +35,7 @@ const jsonLd = {
     "@type": "LocalBusiness",
     name: "Sayonarat",
     telephone: "+32466442454",
-    address: { "@type": "PostalAddress", addressLocality: "Grâce-Hollogne", postalCode: "4460", addressCountry: "BE" },
+    address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Grâce-Hollogne",
   description: "Service de dératisation professionnelle à Grâce-Hollogne. Rats, souris, rongeurs. Techniciens certifiés, garantie 30 jours.",

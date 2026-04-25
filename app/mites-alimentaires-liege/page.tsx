@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Mites alimentaires Liège — Traitement professionnel | Sayonarat",
+  title: "Mites alimentaires Liège — Traitement professionnel",
   description:
     "Vous avez des mites alimentaires à Liège ? Traitement professionnel contre les mites des denrées. Intervention sous 48h, devis gratuit.",
 };
@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     q: "Combien coûte un traitement mites alimentaires à Liège ?",
-    a: "Entre 120 € et 300 € selon la superficie et l'ampleur de l'infestation. Devis gratuit sous 24h chez Sayonarat.",
+    a: "Entre 120 € et 380 € selon la superficie et l'ampleur de l'infestation. Devis gratuit sous 24h chez Sayonarat.",
   },
   {
     q: "Les mites alimentaires reviennent-elles après traitement ?",

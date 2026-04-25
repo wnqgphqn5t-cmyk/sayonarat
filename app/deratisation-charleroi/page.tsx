@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Dératisation Charleroi — Intervention rapide | Sayonarat",
+  title: "Dératisation Charleroi — Intervention rapide",
   description:
     "Dératisation professionnelle à Charleroi. Rats dans anciens sites industriels, sous-sols, bassin industriel. Devis gratuit sous 24h, garantie 30 jours.",
 };
@@ -35,7 +35,7 @@ const jsonLd = {
     "@type": "LocalBusiness",
     name: "Sayonarat",
     telephone: "+32466442454",
-    address: { "@type": "PostalAddress", addressLocality: "Charleroi", postalCode: "6000", addressCountry: "BE" },
+    address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Charleroi",
   description: "Service de dératisation professionnelle à Charleroi. Rats dans anciens sites industriels et quartiers résidentiels. Techniciens certifiés, garantie 30 jours.",

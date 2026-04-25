@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Dératisation Liège — Élimination rats & souris | Sayonarat",
+  title: "Dératisation Liège — Élimination rats & souris",
   description:
     "Dératisation professionnelle à Liège. Élimination rats, souris, campagnols. Intervention sous 24h, devis gratuit. Traitement garanti 30 jours.",
 };
@@ -23,7 +23,7 @@ const faqs = [
   },
   {
     q: "Quel est le prix d'une dératisation à Liège ?",
-    a: "Entre 150 € et 350 € selon la taille du logement et le degré d'infestation. Devis gratuit et sans engagement sous 24h.",
+    a: "Entre 150 € et 450 € selon la taille du logement et le degré d'infestation. Devis gratuit et sans engagement sous 24h.",
   },
   {
     q: "La dératisation fonctionne-t-elle dès la première intervention ?",

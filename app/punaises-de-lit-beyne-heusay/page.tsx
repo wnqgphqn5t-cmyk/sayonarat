@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Punaises de lit Beyne-Heusay — Traitement garanti | Sayonarat",
+  title: "Punaises de lit Beyne-Heusay — Traitement garanti",
   description:
     "Traitement punaises de lit à Beyne-Heusay. Thermique ou chimique. Résultat garanti. Devis gratuit sous 24h.",
 };
@@ -37,8 +37,8 @@ const jsonLd = {
     telephone: "+32466442454",
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Beyne-Heusay",
-      postalCode: "4610",
+      addressLocality: "Liège",
+      postalCode: "4000",
       addressCountry: "BE",
     },
   },

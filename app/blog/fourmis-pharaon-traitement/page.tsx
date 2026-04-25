@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Fourmis pharaon : pourquoi c'est si difficile à éliminer ? | Sayonarat",
+  title: "Fourmis pharaon : pourquoi c'est si difficile à éliminer ?",
   description:
     "La fourmi pharaon est l'insecte le plus difficile à traiter en intérieur. Pourquoi les sprays aggravent l'infestation, et la seule méthode qui fonctionne vraiment.",
 };
@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     q: "Combien coûte un traitement fourmis pharaon à Liège ?",
-    a: "Entre 150 € et 350 € selon la superficie et l'étendue de l'infestation. Le traitement par appâts gel requiert parfois des visites espacées pour s'assurer que toutes les colonies ont été atteintes. Devis gratuit sous 24h.",
+    a: "Entre 200 € et 450 € selon la superficie et l'étendue de l'infestation. Le traitement par appâts gel requiert parfois des visites espacées pour s'assurer que toutes les colonies ont été atteintes. Devis gratuit sous 24h.",
   },
   {
     q: "Les fourmis pharaon peuvent-elles contaminer les aliments ?",

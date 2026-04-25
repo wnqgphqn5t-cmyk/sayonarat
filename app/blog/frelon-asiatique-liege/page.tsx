@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Frelon asiatique à Liège : comment le reconnaître et que faire ? | Sayonarat",
+  title: "Frelon asiatique à Liège : comment le reconnaître et que faire ?",
   description:
     "Le frelon asiatique est présent dans toute la province de Liège. Comment le distinguer du frelon commun, où il niche, et pourquoi son nid est une urgence. Guide complet.",
 };

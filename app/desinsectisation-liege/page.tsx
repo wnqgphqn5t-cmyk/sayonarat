@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Désinsectisation Liège — Cafards, fourmis, blattes | Sayonarat",
+  title: "Désinsectisation Liège — Cafards, fourmis, blattes",
   description:
     "Désinsectisation professionnelle à Liège. Traitement cafards, fourmis, blattes, moustiques. Intervention sous 24h, produits homologués, résultat garanti.",
 };
@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     q: "Combien coûte une désinsectisation à Liège ?",
-    a: "Entre 120 € et 300 € selon la superficie et le type d'insecte. Devis gratuit sous 24h.",
+    a: "Entre 120 € et 400 € selon la superficie et le type d'insecte. Devis gratuit sous 24h.",
   },
   {
     q: "Faut-il une deuxième intervention ?",

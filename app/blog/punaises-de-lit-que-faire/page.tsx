@@ -38,7 +38,7 @@ const faq = [
   },
   {
     q: "Le traitement thermique est-il efficace contre les punaises ?",
-    a: "Oui, le traitement thermique (chaleur à 50–55°C) est l'une des méthodes les plus efficaces car il tue les punaises à tous les stades, y compris les œufs. Il est non-toxique et traite tout un appartement en une journée. Inconvénient : il est plus coûteux qu'un traitement chimique (400–700 € pour un appartement).",
+    a: "Oui, le traitement thermique (chaleur à 50–55°C) est l'une des méthodes les plus efficaces car il tue les punaises à tous les stades, y compris les œufs. Il est non-toxique et traite tout un appartement en une journée. Inconvénient : il est plus coûteux qu'un traitement chimique (250–500 € pour un appartement).",
   },
   {
     q: "Peut-on traiter les punaises de lit soi-même ?",
@@ -218,7 +218,7 @@ export default function ArticlePunaisesPage() {
               },
               {
                 titre: "Traitement thermique (chaleur)",
-                details: ["1 seul passage (6–8 heures)", "Tue tous les stades dont les œufs", "Non toxique, sans résidu chimique", "Prix : 400–700 € pour un appartement"],
+                details: ["1 seul passage (6–8 heures)", "Tue tous les stades dont les œufs", "Non toxique, sans résidu chimique", "Prix : 250–500 € pour un appartement"],
                 note: "Plus efficace, plus coûteux",
               },
             ].map((m, i) => (

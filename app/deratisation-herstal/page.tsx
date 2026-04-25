@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Dératisation Herstal — Intervention rapide | Sayonarat",
+  title: "Dératisation Herstal — Intervention rapide",
   description:
     "Dératisation professionnelle à Herstal. Rats, souris, rongeurs. Intervention sous 24h, devis gratuit, techniciens certifiés.",
 };
@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: "Quel est le prix d'une dératisation à Herstal ?",
-    a: "Entre 150 € et 350 € selon la superficie. Devis gratuit sous 24h.",
+    a: "Entre 150 € et 450 € selon la superficie. Devis gratuit sous 24h.",
   },
   {
     q: "Intervenez-vous aussi pour les entreprises à Herstal ?",

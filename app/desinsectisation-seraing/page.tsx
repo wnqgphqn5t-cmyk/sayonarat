@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Désinsectisation Seraing — Cafards, fourmis, guêpes | Sayonarat",
+  title: "Désinsectisation Seraing — Cafards, fourmis, guêpes",
   description:
     "Désinsectisation professionnelle à Seraing. Traitement cafards, fourmis, blattes, guêpes et frelons. Intervention sous 48h, devis gratuit.",
 };
@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     q: "Combien coûte une désinsectisation à Seraing ?",
-    a: "Entre 120 € et 300 € pour un appartement ou une maison selon le type d'insecte et la superficie. Devis gratuit sous 24h chez Sayonarat.",
+    a: "Entre 120 € et 400 € pour un appartement ou une maison selon le type d'insecte et la superficie. Devis gratuit sous 24h chez Sayonarat.",
   },
   {
     q: "Intervenez-vous pour les nids de guêpes à Seraing ?",

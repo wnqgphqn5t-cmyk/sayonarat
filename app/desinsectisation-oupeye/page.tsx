@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Désinsectisation Oupeye — Cafards, fourmis, guêpes | Sayonarat",
+  title: "Désinsectisation Oupeye — Cafards, fourmis, guêpes",
   description:
     "Désinsectisation professionnelle à Oupeye. Cafards, fourmis, guêpes, mites. Bords de Meuse couverts. Devis gratuit sous 24h, garantie 30 jours.",
 };
@@ -35,7 +35,7 @@ const jsonLd = {
     "@type": "LocalBusiness",
     name: "Sayonarat",
     telephone: "+32466442454",
-    address: { "@type": "PostalAddress", addressLocality: "Oupeye", postalCode: "4680", addressCountry: "BE" },
+    address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Oupeye",
   description: "Désinsectisation professionnelle à Oupeye. Cafards, fourmis, guêpes. Produits homologués, garantie 30 jours.",

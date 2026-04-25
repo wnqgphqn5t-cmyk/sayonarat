@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Désinsectisation Awans — Cafards, fourmis, guêpes | Sayonarat",
+  title: "Désinsectisation Awans — Cafards, fourmis, guêpes",
   description:
     "Désinsectisation professionnelle à Awans. Cafards, fourmis, guêpes. Zones rurales et résidentielles. Devis gratuit sous 24h.",
 };
@@ -37,8 +37,8 @@ const jsonLd = {
     telephone: "+32466442454",
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Awans",
-      postalCode: "4340",
+      addressLocality: "Liège",
+      postalCode: "4000",
       addressCountry: "BE",
     },
   },

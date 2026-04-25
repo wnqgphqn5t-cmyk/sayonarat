@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Punaises de lit Verviers — Traitement garanti | Sayonarat",
+  title: "Punaises de lit Verviers — Traitement garanti",
   description:
     "Traitement punaises de lit à Verviers. Méthode thermique ou chimique. Vallée de la Vesdre, anciens bâtiments textiles. Résultat garanti dès la 1ère intervention. Devis gratuit.",
 };
@@ -35,7 +35,7 @@ const jsonLd = {
     "@type": "LocalBusiness",
     name: "Sayonarat",
     telephone: "+32466442454",
-    address: { "@type": "PostalAddress", addressLocality: "Verviers", postalCode: "4800", addressCountry: "BE" },
+    address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Verviers",
   description: "Traitement professionnel punaises de lit à Verviers. Méthode thermique ou chimique, résultat garanti.",

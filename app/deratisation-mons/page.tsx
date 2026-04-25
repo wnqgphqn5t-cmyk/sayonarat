@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Dératisation Mons — Intervention rapide | Sayonarat",
+  title: "Dératisation Mons — Intervention rapide",
   description:
     "Dératisation professionnelle à Mons. Rats dans le centre historique, Grand-Place, quartiers mixtes. Devis gratuit sous 24h, garantie 30 jours.",
 };
@@ -35,7 +35,7 @@ const jsonLd = {
     "@type": "LocalBusiness",
     name: "Sayonarat",
     telephone: "+32466442454",
-    address: { "@type": "PostalAddress", addressLocality: "Mons", postalCode: "7000", addressCountry: "BE" },
+    address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Mons",
   description: "Service de dératisation professionnelle à Mons. Rats et souris dans le centre historique et les quartiers résidentiels. Techniciens certifiés, garantie 30 jours.",

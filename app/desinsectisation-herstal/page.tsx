@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Désinsectisation Herstal — Cafards, fourmis, guêpes | Sayonarat",
+  title: "Désinsectisation Herstal — Cafards, fourmis, guêpes",
   description:
     "Désinsectisation professionnelle à Herstal. Traitement cafards, fourmis, blattes, guêpes et frelons. Intervention sous 48h, devis gratuit.",
 };
@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     q: "Combien coûte une désinsectisation à Herstal ?",
-    a: "Entre 120 € et 300 € selon le type d'insecte et la superficie. Les nids de guêpes sont traités entre 90 € et 180 €. Devis gratuit sous 24h chez Sayonarat.",
+    a: "Entre 120 € et 400 € selon le type d'insecte et la superficie. Les nids de guêpes sont traités entre 90 € et 180 €. Devis gratuit sous 24h chez Sayonarat.",
   },
   {
     q: "Les entreprises de Herstal peuvent-elles faire appel à Sayonarat ?",

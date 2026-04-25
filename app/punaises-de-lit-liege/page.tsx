@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Traitement Punaises de lit Liège — Élimination garantie | Sayonarat",
+  title: "Traitement Punaises de lit Liège — Élimination garantie",
   description:
     "Traitement punaises de lit à Liège. Méthode thermique ou chimique. Résultat garanti dès la 1ère intervention. Devis gratuit sous 24h.",
 };

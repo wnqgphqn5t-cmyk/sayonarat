@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Dératisation Seraing — Intervention rapide | Sayonarat",
+  title: "Dératisation Seraing — Intervention rapide",
   description:
     "Dératisation professionnelle à Seraing. Élimination rats et souris sous 24h. Devis gratuit, techniciens certifiés, résultat garanti 30 jours.",
 };
@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: "Quel est le prix d'une dératisation à Seraing ?",
-    a: "Entre 150 € et 350 € selon la superficie. Devis gratuit sous 24h, sans engagement.",
+    a: "Entre 150 € et 450 € selon la superficie. Devis gratuit sous 24h, sans engagement.",
   },
   {
     q: "Y a-t-il plus de rongeurs à Seraing qu'ailleurs ?",

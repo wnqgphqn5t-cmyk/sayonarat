@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Punaises de lit Namur — Traitement garanti | Sayonarat",
+  title: "Punaises de lit Namur — Traitement garanti",
   description:
     "Traitement punaises de lit à Namur. Méthode thermique ou chimique. Confluence Sambre-Meuse, citadelle et quartiers résidentiels. Résultat garanti dès la 1ère intervention.",
 };
@@ -35,7 +35,7 @@ const jsonLd = {
     "@type": "LocalBusiness",
     name: "Sayonarat",
     telephone: "+32466442454",
-    address: { "@type": "PostalAddress", addressLocality: "Namur", postalCode: "5000", addressCountry: "BE" },
+    address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Namur",
   description: "Traitement professionnel punaises de lit à Namur. Méthode thermique ou chimique, résultat garanti.",

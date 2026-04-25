@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Urgence nuisibles Belgique — Intervention rapide 7j/7 | Sayonarat",
+  title: "Urgence nuisibles Belgique — Intervention rapide 7j/7",
   description:
     "Situation urgente avec des nuisibles en Belgique ? Nid de guêpes actif, rats dans la maison, punaises de lit : intervention rapide 7j/7. Appelez le +32 466 44 24 54.",
 };

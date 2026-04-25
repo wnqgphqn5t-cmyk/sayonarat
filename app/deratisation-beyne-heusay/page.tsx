@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Dératisation Beyne-Heusay — Intervention rapide | Sayonarat",
+  title: "Dératisation Beyne-Heusay — Intervention rapide",
   description:
     "Dératisation professionnelle à Beyne-Heusay. Rats, souris, rongeurs. Maisons individuelles et jardins. Devis gratuit sous 24h, techniciens certifiés.",
 };
@@ -37,8 +37,8 @@ const jsonLd = {
     telephone: "+32466442454",
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Beyne-Heusay",
-      postalCode: "4610",
+      addressLocality: "Liège",
+      postalCode: "4000",
       addressCountry: "BE",
     },
   },

@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Guêpes et frelons Ans — Destruction nid rapide | Sayonarat",
+  title: "Guêpes et frelons Ans — Destruction nid rapide",
   description:
     "Nid de guêpes ou frelons à Ans ? Destruction professionnelle sous 48h. Intervention nocturne sécurisée, garantie résultat. Devis gratuit.",
 };
@@ -35,7 +35,7 @@ const jsonLd = {
     "@type": "LocalBusiness",
     name: "Sayonarat",
     telephone: "+32466442454",
-    address: { "@type": "PostalAddress", addressLocality: "Ans", postalCode: "4430", addressCountry: "BE" },
+    address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Ans",
   description: "Service de destruction de nids de guêpes et frelons à Ans. Intervention nocturne sécurisée, résultat garanti.",

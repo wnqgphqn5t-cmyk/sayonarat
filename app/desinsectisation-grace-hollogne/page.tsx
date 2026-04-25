@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Désinsectisation Grâce-Hollogne — Cafards, fourmis, guêpes | Sayonarat",
+  title: "Désinsectisation Grâce-Hollogne — Cafards, fourmis, guêpes",
   description:
     "Désinsectisation professionnelle à Grâce-Hollogne. Cafards, fourmis, guêpes, mites. Intervention rapide, produits homologués, garantie 30 jours.",
 };
@@ -35,7 +35,7 @@ const jsonLd = {
     "@type": "LocalBusiness",
     name: "Sayonarat",
     telephone: "+32466442454",
-    address: { "@type": "PostalAddress", addressLocality: "Grâce-Hollogne", postalCode: "4460", addressCountry: "BE" },
+    address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Grâce-Hollogne",
   description: "Désinsectisation professionnelle à Grâce-Hollogne. Cafards, fourmis, guêpes. Produits homologués, garantie 30 jours.",

@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Dératisation Oupeye — Intervention rapide | Sayonarat",
+  title: "Dératisation Oupeye — Intervention rapide",
   description:
     "Dératisation professionnelle à Oupeye. Rats des berges, souris, rongeurs. Bords de Meuse et canal Albert couverts. Devis gratuit sous 24h.",
 };
@@ -35,7 +35,7 @@ const jsonLd = {
     "@type": "LocalBusiness",
     name: "Sayonarat",
     telephone: "+32466442454",
-    address: { "@type": "PostalAddress", addressLocality: "Oupeye", postalCode: "4680", addressCountry: "BE" },
+    address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Oupeye",
   description: "Service de dératisation professionnelle à Oupeye. Rats des berges, souris, rongeurs. Techniciens certifiés, garantie 30 jours.",

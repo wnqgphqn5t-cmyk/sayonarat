@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Désinsectisation Flémalle — Cafards, fourmis, guêpes | Sayonarat",
+  title: "Désinsectisation Flémalle — Cafards, fourmis, guêpes",
   description:
     "Désinsectisation professionnelle à Flémalle. Traitement cafards, fourmis, blattes, guêpes et frelons. Intervention sous 48h, devis gratuit.",
 };
@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     q: "Combien coûte une désinsectisation à Flémalle ?",
-    a: "Entre 120 € et 300 € selon le type d'insecte et la superficie. Les nids de guêpes sont traités entre 90 € et 180 €. Devis gratuit sous 24h chez Sayonarat.",
+    a: "Entre 120 € et 400 € selon le type d'insecte et la superficie. Les nids de guêpes sont traités entre 90 € et 180 €. Devis gratuit sous 24h chez Sayonarat.",
   },
   {
     q: "Intervenez-vous pour les entreprises à Flémalle ?",

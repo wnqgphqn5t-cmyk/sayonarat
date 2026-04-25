@@ -70,7 +70,7 @@ export default function Header() {
 
         {open && (
           <div style={{ backgroundColor: "#2D6A4F" }} className="border-t border-green-700 px-4 py-6">
-            <div className="max-w-6xl mx-auto grid grid-cols-2 gap-6 max-w-sm mx-auto md:max-w-lg">
+            <div className="max-w-sm md:max-w-lg mx-auto grid grid-cols-2 gap-6">
               {menu.map((section) => (
                 <div key={section.categorie}>
                   <p className="text-yellow-300 text-xs font-bold uppercase tracking-wider mb-3">

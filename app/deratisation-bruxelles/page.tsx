@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Dératisation Bruxelles — Intervention rapide | Sayonarat",
+  title: "Dératisation Bruxelles — Intervention rapide",
   description:
     "Dératisation professionnelle à Bruxelles. Rats dans immeubles, caves, canaux. Quartiers Ixelles, Schaerbeek, Molenbeek, Anderlecht couverts. Devis gratuit sous 24h.",
 };
@@ -35,7 +35,7 @@ const jsonLd = {
     "@type": "LocalBusiness",
     name: "Sayonarat",
     telephone: "+32466442454",
-    address: { "@type": "PostalAddress", addressLocality: "Bruxelles", postalCode: "1000", addressCountry: "BE" },
+    address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Bruxelles",
   description: "Service de dératisation professionnelle à Bruxelles. Rats, souris, rongeurs dans immeubles et quartiers urbains. Techniciens certifiés, garantie 30 jours.",

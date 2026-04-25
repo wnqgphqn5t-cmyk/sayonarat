@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Dératisation Saint-Nicolas — Intervention rapide | Sayonarat",
+  title: "Dératisation Saint-Nicolas — Intervention rapide",
   description:
     "Dératisation professionnelle à Saint-Nicolas. Rats, souris. Intervention sous 24h, devis gratuit, résultat garanti 30 jours.",
 };
@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: "Quel est le prix d'une dératisation à Saint-Nicolas ?",
-    a: "Entre 150 € et 350 € selon la superficie. Devis gratuit sous 24h.",
+    a: "Entre 150 € et 450 € selon la superficie. Devis gratuit sous 24h.",
   },
   {
     q: "Proposez-vous des contrats de prévention pour les professionnels ?",

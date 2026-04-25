@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Punaises de lit Oupeye — Traitement garanti | Sayonarat",
+  title: "Punaises de lit Oupeye — Traitement garanti",
   description:
     "Traitement punaises de lit à Oupeye. Méthode thermique ou chimique. Résultat garanti dès la 1ère intervention. Devis gratuit sous 24h.",
 };
@@ -35,7 +35,7 @@ const jsonLd = {
     "@type": "LocalBusiness",
     name: "Sayonarat",
     telephone: "+32466442454",
-    address: { "@type": "PostalAddress", addressLocality: "Oupeye", postalCode: "4680", addressCountry: "BE" },
+    address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Oupeye",
   description: "Traitement professionnel punaises de lit à Oupeye. Méthode thermique ou chimique, résultat garanti.",

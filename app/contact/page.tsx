@@ -3,7 +3,7 @@ import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact — Devis gratuit dératisation Belgique | Sayonarat",
+  title: "Contact — Devis gratuit dératisation Belgique",
   description:
     "Contactez Sayonarat pour un devis gratuit de dératisation ou désinsectisation en Belgique. Réponse sous 24h, 7 jours sur 7.",
 };
@@ -19,7 +19,7 @@ const jsonLd = {
     name: "Sayonarat",
     telephone: "+32466442454",
     email: "contact@sayonarat.be",
-    address: { "@type": "PostalAddress", addressLocality: "Bruxelles", postalCode: "1000", addressCountry: "BE" },
+    address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
 };
 

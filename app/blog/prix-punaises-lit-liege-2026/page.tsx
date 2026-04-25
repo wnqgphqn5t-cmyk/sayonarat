@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Prix traitement punaises de lit Liège 2026 — Tarifs réels | Sayonarat",
+  title: "Prix traitement punaises de lit Liège 2026 — Tarifs réels",
   description:
     "Combien coûte un traitement punaises de lit à Liège en 2026 ? Thermique vs chimique, superficie, facteurs de prix. Tarifs réels sans surprise.",
 };

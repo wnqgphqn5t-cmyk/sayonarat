@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Punaises de lit Mons — Traitement garanti | Sayonarat",
+  title: "Punaises de lit Mons — Traitement garanti",
   description:
     "Traitement punaises de lit à Mons. Méthode thermique ou chimique. Centre historique, Grand-Place et quartiers mixtes couverts. Résultat garanti dès la 1ère intervention.",
 };
@@ -35,7 +35,7 @@ const jsonLd = {
     "@type": "LocalBusiness",
     name: "Sayonarat",
     telephone: "+32466442454",
-    address: { "@type": "PostalAddress", addressLocality: "Mons", postalCode: "7000", addressCountry: "BE" },
+    address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Mons",
   description: "Traitement professionnel punaises de lit à Mons. Méthode thermique ou chimique, résultat garanti.",

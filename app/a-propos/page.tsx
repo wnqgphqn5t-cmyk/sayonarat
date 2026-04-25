@@ -56,7 +56,7 @@ const jsonLd = {
   description: "Plateforme de mise en relation avec des techniciens certifiés en dératisation et désinsectisation en Belgique.",
   foundingDate: "2023",
   founder: { "@type": "Person", name: "Victor F." },
-  address: { "@type": "PostalAddress", addressLocality: "Bruxelles", postalCode: "1000", addressCountry: "BE" },
+  address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   telephone: "+32466442454",
   email: "contact@sayonarat.be",
   areaServed: "BE",
@@ -84,7 +84,7 @@ export default function AProposPage() {
       <section className="py-14 px-4 max-w-5xl mx-auto">
         <div className="relative rounded-2xl overflow-hidden shadow-xl h-72 md:h-96 mb-14">
           <Image
-            src="/pexels-tima-miroshnichenko-6196234.jpg"
+            src="/technicien-antiparasitaire-belgique.jpg"
             alt="Technicien Sayonarat prêt à intervenir en Belgique"
             fill
             className="object-cover object-top"

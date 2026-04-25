@@ -107,7 +107,7 @@ export default function ArticleThermiquVsChimiquePage() {
                   ["Durée de l'intervention", "6 à 8 heures", "1 à 3 heures"],
                   ["Retour dans le logement", "Le soir même", "2 à 4 heures après"],
                   ["Nombre de passages", "1 dans la majorité des cas", "Selon diagnostic"],
-                  ["Prix indicatif", "200 € – 450 €", "150 € – 350 €"],
+                  ["Prix indicatif", "250 € – 500 €", "150 € – 380 €"],
                   ["Produits chimiques", "Aucun", "Oui (homologués)"],
                   ["Objets à retirer", "Quelques sensibles", "Zones traitées accessibles"],
                   ["Idéal pour", "Résultat rapide, petits logements", "Grandes surfaces, budget serré"],

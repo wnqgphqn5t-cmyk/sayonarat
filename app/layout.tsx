@@ -15,13 +15,28 @@ export const metadata: Metadata = {
     siteName: "Sayonarat — Dératisation & Désinsectisation Belgique",
     locale: "fr_BE",
     type: "website",
+    images: [
+      {
+        url: "/hero-technicien.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Sayonarat — Dératisation & Désinsectisation Belgique",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dératisation & Désinsectisation Belgique — Sayonarat",
+    description:
+      "Techniciens certifiés partout en Belgique. Devis gratuit sous 24h, garantie 30 jours.",
+    images: ["/hero-technicien.jpg"],
   },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="fr">
-      <body className="min-h-screen flex flex-col">
+      <body className="min-h-screen flex flex-col pb-16 sm:pb-0">
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

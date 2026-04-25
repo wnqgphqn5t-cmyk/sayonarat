@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Désinsectisation Charleroi — Cafards, fourmis, guêpes | Sayonarat",
+  title: "Désinsectisation Charleroi — Cafards, fourmis, guêpes",
   description:
     "Désinsectisation professionnelle à Charleroi. Cafards, fourmis, guêpes. Bassin industriel, quartiers résidentiels couverts. Devis gratuit sous 24h, garantie 30 jours.",
 };
@@ -35,7 +35,7 @@ const jsonLd = {
     "@type": "LocalBusiness",
     name: "Sayonarat",
     telephone: "+32466442454",
-    address: { "@type": "PostalAddress", addressLocality: "Charleroi", postalCode: "6000", addressCountry: "BE" },
+    address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Charleroi",
   description: "Désinsectisation professionnelle à Charleroi. Cafards, fourmis, guêpes dans le bassin industriel et les quartiers résidentiels. Produits homologués, garantie 30 jours.",

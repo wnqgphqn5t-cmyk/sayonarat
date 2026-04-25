@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Désinsectisation Bruxelles — Cafards, fourmis, guêpes | Sayonarat",
+  title: "Désinsectisation Bruxelles — Cafards, fourmis, guêpes",
   description:
     "Désinsectisation professionnelle à Bruxelles. Cafards, fourmis, guêpes, punaises. Ixelles, Schaerbeek, Molenbeek, Anderlecht couverts. Devis gratuit sous 24h.",
 };
@@ -35,7 +35,7 @@ const jsonLd = {
     "@type": "LocalBusiness",
     name: "Sayonarat",
     telephone: "+32466442454",
-    address: { "@type": "PostalAddress", addressLocality: "Bruxelles", postalCode: "1000", addressCountry: "BE" },
+    address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Bruxelles",
   description: "Désinsectisation professionnelle à Bruxelles. Cafards, fourmis, guêpes dans immeubles et quartiers urbains. Produits homologués, garantie 30 jours.",

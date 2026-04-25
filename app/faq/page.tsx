@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "FAQ — Questions fréquentes dératisation & nuisibles Belgique | Sayonarat",
+  title: "FAQ — Questions fréquentes dératisation & nuisibles Belgique",
   description:
     "Toutes les réponses sur la dératisation, désinsectisation et punaises de lit en Belgique. Prix, délais, méthodes, garanties — sans jargon.",
 };
@@ -19,7 +19,7 @@ const faqSchema = {
     {
       "@type": "Question",
       name: "Combien coûte une dératisation à Liège ?",
-      acceptedAnswer: { "@type": "Answer", text: "Entre 150 € et 400 € pour une maison unifamiliale à Liège, selon la superficie et l'ampleur de l'infestation. Pour un appartement, comptez entre 150 € et 280 €. Le devis est gratuit et sans engagement — vous recevez une estimation sous 24h." },
+      acceptedAnswer: { "@type": "Answer", text: "Entre 150 € et 450 € pour une maison unifamiliale à Liège, selon la superficie et l'ampleur de l'infestation. Pour un appartement, comptez entre 150 € et 320 €. Le devis est gratuit et sans engagement — vous recevez une estimation sous 24h." },
     },
     {
       "@type": "Question",
@@ -95,11 +95,11 @@ const sections = [
     questions: [
       {
         q: "Combien coûte une dératisation à Liège ?",
-        a: "Entre 150 € et 400 € pour une maison unifamiliale, selon la superficie et l'ampleur de l'infestation. Pour un appartement, comptez entre 150 € et 280 €. Le devis est gratuit et sans engagement.",
+        a: "Entre 150 € et 450 € pour une maison unifamiliale, selon la superficie et l'ampleur de l'infestation. Pour un appartement, comptez entre 150 € et 320 €. Le devis est gratuit et sans engagement.",
       },
       {
         q: "Combien coûte une désinsectisation (cafards, fourmis) ?",
-        a: "Entre 120 € et 350 € selon le type d'insecte et la superficie. Les fourmis pharaons nécessitent un traitement plus complexe (200 € à 400 €). Les nids de guêpes accessibles sont traités entre 90 € et 180 €.",
+        a: "Entre 120 € et 400 € selon le type d'insecte et la superficie. Les fourmis pharaons nécessitent un traitement plus complexe (200 € à 450 €). Les nids de guêpes accessibles sont traités entre 90 € et 180 €.",
       },
       {
         q: "Combien coûte un traitement punaises de lit ?",
@@ -195,7 +195,7 @@ const sections = [
       },
       {
         q: "Quelle est la différence entre traitement thermique et chimique ?",
-        a: "Le traitement thermique (60°C+) élimine punaises et œufs en une seule intervention, le logement est réintégrable le soir même. Plus cher (200–450€). Le traitement chimique utilise des insecticides rémanents sur plusieurs semaines, moins coûteux (150–350€). Les deux sont efficaces entre les mains d'un professionnel.",
+        a: "Le traitement thermique (60°C+) élimine punaises et œufs en une seule intervention, le logement est réintégrable le soir même. Plus cher (250–500€). Le traitement chimique utilise des insecticides rémanents sur plusieurs semaines, moins coûteux (150–380€). Les deux sont efficaces entre les mains d'un professionnel.",
         lien: { label: "Comparatif thermique vs chimique", href: "/blog/traitement-thermique-vs-chimique-punaises" },
       },
       {
@@ -237,7 +237,7 @@ export default function FaqPage() {
       <section className="py-4 px-4 bg-green-50 border-b border-green-100">
         <div className="max-w-4xl mx-auto flex flex-wrap gap-3 text-sm">
           {sections.map((s) => (
-            <a key={s.titre} href={`#${s.titre.toLowerCase().replace(/\s+/g, "-").replace(/é/g, "e").replace(/è/g, "e")}`}
+            <a key={s.titre} href={`#${s.titre.toLowerCase().replace(/'/g, "").replace(/\s+/g, "-").replace(/é/g, "e").replace(/è/g, "e")}`}
               className="font-medium hover:underline" style={{ color: "#1B4332" }}>
               {s.titre}
             </a>
@@ -247,7 +247,7 @@ export default function FaqPage() {
 
       <div className="py-12 px-4 max-w-4xl mx-auto space-y-16">
         {sections.map((section) => (
-          <section key={section.titre} id={section.titre.toLowerCase().replace(/\s+/g, "-").replace(/é/g, "e").replace(/è/g, "e")}>
+          <section key={section.titre} id={section.titre.toLowerCase().replace(/'/g, "").replace(/\s+/g, "-").replace(/é/g, "e").replace(/è/g, "e")}>
             <h2 className="text-2xl font-bold mb-6 pb-3 border-b-2" style={{ color: "#1B4332", borderColor: "#1B4332" }}>
               {section.titre}
             </h2>

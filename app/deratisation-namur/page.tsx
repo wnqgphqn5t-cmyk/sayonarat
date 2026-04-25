@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Dératisation Namur — Intervention rapide | Sayonarat",
+  title: "Dératisation Namur — Intervention rapide",
   description:
     "Dératisation professionnelle à Namur. Rats des bords de Sambre et Meuse, citadelle, quartiers résidentiels. Devis gratuit sous 24h, garantie 30 jours.",
 };
@@ -35,7 +35,7 @@ const jsonLd = {
     "@type": "LocalBusiness",
     name: "Sayonarat",
     telephone: "+32466442454",
-    address: { "@type": "PostalAddress", addressLocality: "Namur", postalCode: "5000", addressCountry: "BE" },
+    address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Namur",
   description: "Service de dératisation professionnelle à Namur. Rats des bords de Sambre et Meuse, rongeurs en milieu urbain. Techniciens certifiés, garantie 30 jours.",

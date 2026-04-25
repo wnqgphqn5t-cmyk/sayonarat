@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Désinsectisation Mons — Cafards, fourmis, guêpes | Sayonarat",
+  title: "Désinsectisation Mons — Cafards, fourmis, guêpes",
   description:
     "Désinsectisation professionnelle à Mons. Cafards, fourmis, guêpes. Centre historique, Grand-Place et quartiers mixtes couverts. Devis gratuit sous 24h, garantie 30 jours.",
 };
@@ -35,7 +35,7 @@ const jsonLd = {
     "@type": "LocalBusiness",
     name: "Sayonarat",
     telephone: "+32466442454",
-    address: { "@type": "PostalAddress", addressLocality: "Mons", postalCode: "7000", addressCountry: "BE" },
+    address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Mons",
   description: "Désinsectisation professionnelle à Mons. Cafards, fourmis, guêpes dans le centre historique et les quartiers résidentiels. Produits homologués, garantie 30 jours.",

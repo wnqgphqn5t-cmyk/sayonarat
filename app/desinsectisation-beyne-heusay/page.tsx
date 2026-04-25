@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Désinsectisation Beyne-Heusay — Cafards, fourmis, guêpes | Sayonarat",
+  title: "Désinsectisation Beyne-Heusay — Cafards, fourmis, guêpes",
   description:
     "Désinsectisation professionnelle à Beyne-Heusay. Cafards, fourmis, guêpes. Intervention rapide, garantie 30 jours.",
 };
@@ -37,8 +37,8 @@ const jsonLd = {
     telephone: "+32466442454",
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Beyne-Heusay",
-      postalCode: "4610",
+      addressLocality: "Liège",
+      postalCode: "4000",
       addressCountry: "BE",
     },
   },

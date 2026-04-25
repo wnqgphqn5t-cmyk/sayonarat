@@ -38,7 +38,7 @@ const faq = [
   },
   {
     q: "Combien coûte un traitement anti-fourmis à Liège ?",
-    a: "Entre 120 € et 300 € selon l'espèce et la superficie. Les fourmis pharaons nécessitent un traitement plus complexe et plus coûteux. Devis gratuit sous 24h chez Sayonarat.",
+    a: "Entre 120 € et 400 € selon l'espèce et la superficie. Les fourmis pharaons nécessitent un traitement plus complexe et plus coûteux. Devis gratuit sous 24h chez Sayonarat.",
   },
 ];
 

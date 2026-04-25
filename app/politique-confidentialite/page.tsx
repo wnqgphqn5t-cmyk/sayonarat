@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Politique de confidentialité | Sayonarat",
+  title: "Politique de confidentialité",
   description: "Politique de confidentialité et traitement des données personnelles du site Sayonarat.",
 };
 
@@ -25,7 +25,7 @@ export default function PolitiqueConfidentialitePage() {
           <h2 className="text-xl font-bold mb-3" style={{ color: "#1B4332" }}>1. Qui sommes-nous ?</h2>
           <p className="leading-relaxed">
             Sayonarat est une plateforme de mise en relation spécialisée dans la lutte
-            antiparasitaire à Liège (Belgique). Responsable du traitement des données :
+            antiparasitaire en Belgique. Responsable du traitement des données :
             Victor F., joignable à{" "}
             <a href="mailto:contact@sayonarat.be" className="underline" style={{ color: "#1B4332" }}>
               contact@sayonarat.be

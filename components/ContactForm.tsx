@@ -12,23 +12,32 @@ const services = [
 export default function ContactForm() {
   const [sent, setSent] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(false);
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setLoading(true);
+    setError(false);
     const form = e.currentTarget;
     const data = new FormData(form);
 
-    const res = await fetch("https://formspree.io/f/xjgjprbo", {
-      method: "POST",
-      body: data,
-      headers: { Accept: "application/json" },
-    });
+    try {
+      const res = await fetch("https://formspree.io/f/xjgjprbo", {
+        method: "POST",
+        body: data,
+        headers: { Accept: "application/json" },
+      });
 
-    setLoading(false);
-    if (res.ok) {
-      setSent(true);
-      form.reset();
+      setLoading(false);
+      if (res.ok) {
+        setSent(true);
+        form.reset();
+      } else {
+        setError(true);
+      }
+    } catch {
+      setLoading(false);
+      setError(true);
     }
   }
 
@@ -114,6 +123,13 @@ export default function ContactForm() {
           placeholder="Décrivez votre problème (depuis quand, superficie du logement, etc.)"
         />
       </div>
+
+      {error && (
+        <div className="bg-red-50 border border-red-200 rounded-lg px-4 py-3 text-sm text-red-700">
+          Envoi échoué. Veuillez réessayer ou appelez-nous au{" "}
+          <a href="tel:+32466442454" className="font-semibold underline">+32 466 44 24 54</a>.
+        </div>
+      )}
 
       <button
         type="submit"

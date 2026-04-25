@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Désinsectisation Verviers — Cafards, fourmis, guêpes | Sayonarat",
+  title: "Désinsectisation Verviers — Cafards, fourmis, guêpes",
   description:
     "Désinsectisation professionnelle à Verviers. Cafards, fourmis, guêpes. Vallée de la Vesdre, anciens bâtiments textiles couverts. Devis gratuit sous 24h, garantie 30 jours.",
 };
@@ -35,7 +35,7 @@ const jsonLd = {
     "@type": "LocalBusiness",
     name: "Sayonarat",
     telephone: "+32466442454",
-    address: { "@type": "PostalAddress", addressLocality: "Verviers", postalCode: "4800", addressCountry: "BE" },
+    address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Verviers",
   description: "Désinsectisation professionnelle à Verviers. Cafards, fourmis, guêpes dans la vallée de la Vesdre et les anciens bâtiments textiles. Produits homologués, garantie 30 jours.",

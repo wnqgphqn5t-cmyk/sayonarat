@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Désinsectisation Saint-Nicolas — Cafards, fourmis, guêpes | Sayonarat",
+  title: "Désinsectisation Saint-Nicolas — Cafards, fourmis, guêpes",
   description:
     "Désinsectisation professionnelle à Saint-Nicolas. Traitement cafards, fourmis, blattes, guêpes et frelons. Intervention sous 48h, devis gratuit.",
 };
@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     q: "Combien coûte une désinsectisation à Saint-Nicolas ?",
-    a: "Entre 120 € et 300 € selon le type d'insecte et la superficie. Les nids de guêpes sont traités entre 90 € et 180 €. Devis gratuit sous 24h chez Sayonarat.",
+    a: "Entre 120 € et 400 € selon le type d'insecte et la superficie. Les nids de guêpes sont traités entre 90 € et 180 €. Devis gratuit sous 24h chez Sayonarat.",
   },
   {
     q: "La proximité de la Meuse influence-t-elle les infestations à Saint-Nicolas ?",

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Cafards dans un appartement : que faire ? Guide complet Liège | Sayonarat",
+  title: "Cafards dans un appartement : que faire ? Guide complet Liège",
   description:
     "Cafards dans votre appartement à Liège ? Les erreurs à éviter, les causes réelles, et la seule méthode qui fonctionne vraiment. Guide pratique.",
 };

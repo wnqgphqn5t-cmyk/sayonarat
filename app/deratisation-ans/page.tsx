@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Dératisation Ans — Intervention rapide | Sayonarat",
+  title: "Dératisation Ans — Intervention rapide",
   description:
     "Dératisation professionnelle à Ans. Rats, souris. Intervention sous 24h, devis gratuit, résultat garanti 30 jours.",
 };
@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: "Quel est le prix d'une dératisation à Ans ?",
-    a: "Entre 150 € et 350 € selon la superficie. Devis gratuit sous 24h.",
+    a: "Entre 150 € et 450 € selon la superficie. Devis gratuit sous 24h.",
   },
   {
     q: "Comment prévenir le retour des rongeurs après le traitement ?",

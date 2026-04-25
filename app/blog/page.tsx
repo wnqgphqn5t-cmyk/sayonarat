@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Blog dératisation & nuisibles — Conseils pratiques | Sayonarat",
+  title: "Blog dératisation & nuisibles — Conseils pratiques",
   description:
     "Conseils pratiques sur la dératisation, désinsectisation et punaises de lit en Belgique. Reconnaître une infestation, prix, méthodes de traitement.",
 };

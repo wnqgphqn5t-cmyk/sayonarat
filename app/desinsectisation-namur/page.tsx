@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Désinsectisation Namur — Cafards, fourmis, guêpes | Sayonarat",
+  title: "Désinsectisation Namur — Cafards, fourmis, guêpes",
   description:
     "Désinsectisation professionnelle à Namur. Cafards, fourmis, guêpes, mites. Confluence Sambre-Meuse, citadelle et quartiers résidentiels. Devis gratuit sous 24h.",
 };
@@ -35,7 +35,7 @@ const jsonLd = {
     "@type": "LocalBusiness",
     name: "Sayonarat",
     telephone: "+32466442454",
-    address: { "@type": "PostalAddress", addressLocality: "Namur", postalCode: "5000", addressCountry: "BE" },
+    address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Namur",
   description: "Désinsectisation professionnelle à Namur. Cafards, fourmis, guêpes. Produits homologués, garantie 30 jours.",

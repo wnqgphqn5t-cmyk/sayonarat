@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Dératisation Flémalle — Intervention rapide | Sayonarat",
+  title: "Dératisation Flémalle — Intervention rapide",
   description:
     "Dératisation professionnelle à Flémalle. Rats, souris. Intervention sous 24h, devis gratuit, résultat garanti 30 jours.",
 };
@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: "Quel est le prix d'une dératisation à Flémalle ?",
-    a: "Entre 150 € et 350 € selon la superficie. Devis gratuit sous 24h, sans engagement.",
+    a: "Entre 150 € et 450 € selon la superficie. Devis gratuit sous 24h, sans engagement.",
   },
   {
     q: "Le traitement est-il adapté aux maisons avec cave à Flémalle ?",

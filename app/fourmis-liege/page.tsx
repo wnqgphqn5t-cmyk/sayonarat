@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Fourmis Liège — Traitement professionnel garanti | Sayonarat",
+  title: "Fourmis Liège — Traitement professionnel garanti",
   description:
     "Invasion de fourmis à Liège ? Fourmis charpentières, pharaon, des jardins. Traitement par gel ou appâts transmissibles. Devis gratuit sous 24h, garantie 30 jours.",
 };
