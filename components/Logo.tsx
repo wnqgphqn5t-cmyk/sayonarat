@@ -10,9 +10,9 @@ export function LogoMark({ size = 36 }: { size?: number }) {
       xmlns="http://www.w3.org/2000/svg"
       aria-hidden="true"
     >
-      <circle cx="13" cy="15" r="11" fill="#1B4332" />
-      <circle cx="27" cy="15" r="11" fill="#2D6A4F" opacity="0.88" />
-      <circle cx="20" cy="26" r="11" fill="#FBBF24" opacity="0.92" />
+      <circle cx="13" cy="15" r="11" fill="#FFFFFF" opacity="0.90" />
+      <circle cx="27" cy="15" r="11" fill="#FBBF24" opacity="0.95" />
+      <circle cx="20" cy="26" r="11" fill="#52B788" opacity="0.90" />
     </svg>
   );
 }
