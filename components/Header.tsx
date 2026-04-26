@@ -12,6 +12,7 @@ const menu = [
       { label: "🐝 Guêpes & frelons", href: "/guepes-frelons-liege" },
       { label: "🐜 Fourmis", href: "/fourmis-liege" },
       { label: "🦋 Mites alimentaires", href: "/mites-alimentaires-liege" },
+      { label: "→ Tous les services", href: "/nuisibles" },
     ],
   },
   {
