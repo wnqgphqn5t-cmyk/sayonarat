@@ -51,6 +51,7 @@ const stats = [
   { val: "+500", label: "Interventions réalisées" },
   { val: "24h", label: "Délai d'intervention moyen" },
   { val: "30j", label: "Garantie incluse" },
+  { val: "✓ SPF", label: "Homologué" },
   { val: "7j/7", label: "Disponibilité" },
 ];
 
