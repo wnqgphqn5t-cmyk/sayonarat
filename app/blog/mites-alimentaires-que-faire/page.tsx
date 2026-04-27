@@ -83,16 +83,16 @@ export default function ArticleMitesPage() {
           <p>
             Si vous trouvez des mites alimentaires : <strong>1)</strong> videz tous les placards,
             <strong> 2)</strong> jetez tous les produits secs potentiellement contaminés,
-            <strong> 3)</strong> aspirez et lavez l&apos;intérieur des placards avec du vinaigre blanc,
+            <strong> 3)</strong> aspirez et lavez l'intérieur des placards avec du vinaigre blanc,
             <strong> 4)</strong> stockez les nouveaux produits dans des bocaux hermétiques.
-            Si l&apos;infestation persiste, appelez un professionnel.
+            Si l'infestation persiste, appelez un professionnel.
           </p>
         </div>
 
         <p>
-          La mite alimentaire adulte est un petit papillon beige-gris de 1 à 2 cm d&apos;envergure.
-          Elle ne mange pas — c&apos;est sa larve qui cause les dégâts. Invisible à l&apos;œil nu au stade
-          œuf, elle éclot en larve blanchâtre qui s&apos;attaque à vos denrées sèches et file des toiles
+          La mite alimentaire adulte est un petit papillon beige-gris de 1 à 2 cm d'envergure.
+          Elle ne mange pas — c'est sa larve qui cause les dégâts. Invisible à l'œil nu au stade
+          œuf, elle éclot en larve blanchâtre qui s'attaque à vos denrées sèches et file des toiles
           caractéristiques dans les placards.
         </p>
 
@@ -213,7 +213,7 @@ export default function ArticleMitesPage() {
           <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>Articles liés</h2>
           <ul className="space-y-2 text-sm">
             <li><Link href="/blog/cafards-cuisine-que-faire" className="underline font-medium" style={{ color: "#1B4332" }}>Cafards dans la cuisine : que faire ?</Link></li>
-            <li><Link href="/blog/punaises-de-lit-que-faire" className="underline font-medium" style={{ color: "#1B4332" }}>Punaises de lit : que faire en cas d&apos;infestation ?</Link></li>
+            <li><Link href="/blog/punaises-de-lit-que-faire" className="underline font-medium" style={{ color: "#1B4332" }}>Punaises de lit : que faire en cas d'infestation ?</Link></li>
             <li><Link href="/mites-alimentaires-liege" className="underline font-medium" style={{ color: "#1B4332" }}>Traitement mites alimentaires Liège — service professionnel</Link></li>
           </ul>
         </section>

@@ -81,7 +81,7 @@ export default function ArticlePunaisesVoyagePage() {
         <div className="bg-green-50 border-l-4 rounded-r-xl p-5" style={{ borderColor: "#1B4332" }}>
           <p className="font-semibold text-gray-800 mb-2">Réponse rapide</p>
           <p>
-            À l&apos;hôtel : posez votre valise dans la baignoire (jamais sur le lit), inspectez
+            À l'hôtel : posez votre valise dans la baignoire (jamais sur le lit), inspectez
             les coutures du matelas avant de dormir. Au retour : lavez tout à 60°C.
             Ces deux réflexes réduisent drastiquement le risque de contamination.
           </p>
@@ -93,20 +93,20 @@ export default function ArticlePunaisesVoyagePage() {
           </h2>
           <p className="mb-3">
             Les punaises de lit ne volent pas et ne sautent pas. Elles se déplacent uniquement
-            en s&apos;accrochant à ce qu&apos;on transporte. Le voyage — hôtel, Airbnb, gîte, transport —
-            est de loin la source numéro un d&apos;infestation en Europe.
+            en s'accrochant à ce qu'on transporte. Le voyage — hôtel, Airbnb, gîte, transport —
+            est de loin la source numéro un d'infestation en Europe.
           </p>
           <p>
-            Une chambre d&apos;hôtel peut accueillir des centaines de clients par an. Il suffit
-            qu&apos;un seul d&apos;entre eux transporte des punaises pour contaminer le lit. Les femelles
-            pondent jusqu&apos;à 5 œufs par jour — une chambre peut devenir un foyer actif en
-            quelques semaines sans que le personnel s&apos;en aperçoive.
+            Une chambre d'hôtel peut accueillir des centaines de clients par an. Il suffit
+            qu'un seul d'entre eux transporte des punaises pour contaminer le lit. Les femelles
+            pondent jusqu'à 5 œufs par jour — une chambre peut devenir un foyer actif en
+            quelques semaines sans que le personnel s'en aperçoive.
           </p>
         </section>
 
         <section>
           <h2 className="text-2xl font-bold mb-5" style={{ color: "#1B4332" }}>
-            Checklist à l&apos;arrivée à l&apos;hôtel
+            Checklist à l'arrivée à l'hôtel
           </h2>
           <div className="space-y-3">
             {[

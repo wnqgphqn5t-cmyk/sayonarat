@@ -84,7 +84,7 @@ export default function ArticleThermiquVsChimiquePage() {
             <strong>Thermique</strong> = plus rapide (résultat en 1 jour), plus cher, idéal si vous
             voulez en finir vite. <strong>Chimique</strong> = moins coûteux, efficace mais sur
             plusieurs semaines, adapté aux grandes surfaces. Les deux sont fiables entre les mains
-            d&apos;un professionnel.
+            d'un professionnel.
           </p>
         </div>
 
@@ -135,8 +135,8 @@ export default function ArticleThermiquVsChimiquePage() {
           </p>
           <p>
             À 56°C pendant 30 minutes, toutes les punaises de lit et leurs œufs sont détruits quel que
-            soit le stade de développement. C&apos;est la seule méthode qui élimine les œufs directement —
-            et c&apos;est pourquoi elle donne un résultat complet en une seule intervention dans la grande
+            soit le stade de développement. C'est la seule méthode qui élimine les œufs directement —
+            et c'est pourquoi elle donne un résultat complet en une seule intervention dans la grande
             majorité des cas.
           </p>
         </section>
@@ -153,7 +153,7 @@ export default function ArticleThermiquVsChimiquePage() {
           <p>
             Les insecticides ne pénètrent pas dans les œufs déjà pondus. Les larves qui éclosent
             dans les 2 à 3 semaines suivantes sont tuées au contact de la surface traitée.
-            L&apos;élimination complète prend donc plusieurs semaines — mais le résultat est fiable
+            L'élimination complète prend donc plusieurs semaines — mais le résultat est fiable
             avec les produits professionnels, contrairement aux sprays du commerce.
           </p>
         </section>

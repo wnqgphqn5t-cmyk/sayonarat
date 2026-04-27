@@ -98,7 +98,7 @@ export default function ArticleRatsPage() {
           <p className="font-semibold text-gray-800 mb-2">Réponse rapide</p>
           <p>
             Les 7 signes qui indiquent la présence de rats sont : bruits nocturnes dans les murs ou plafonds,
-            excréments noirs de 1,5 à 2 cm, traces de morsures sur câbles ou aliments, odeur d&apos;urine
+            excréments noirs de 1,5 à 2 cm, traces de morsures sur câbles ou aliments, odeur d'urine
             persistante, traces de pattes dans la poussière, terriers dans le jardin, et fuites dans les
             aliments stockés. Si vous observez plusieurs de ces signes, une infestation est probable.
           </p>
@@ -108,13 +108,13 @@ export default function ArticleRatsPage() {
           En Belgique, le rat brun (<em>Rattus norvegicus</em>) est le rongeur le plus fréquent dans les
           habitations. À Liège, les quartiers anciens comme <strong>Outremeuse, Bressoux ou Saint-Léonard</strong>
           — avec leurs caves communicantes et leurs bâtiments du 19e siècle — sont particulièrement exposés.
-          Le problème : les rats sont nocturnes et discrets. Une infestation peut s&apos;installer pendant des
-          semaines avant qu&apos;on la détecte.
+          Le problème : les rats sont nocturnes et discrets. Une infestation peut s'installer pendant des
+          semaines avant qu'on la détecte.
         </p>
 
         <section>
           <h2 className="text-2xl font-bold mb-5" style={{ color: "#1B4332" }}>
-            Les 7 signes d&apos;une infestation de rats
+            Les 7 signes d'une infestation de rats
           </h2>
 
           <div className="space-y-6">
@@ -135,31 +135,31 @@ export default function ArticleRatsPage() {
                 num: "3",
                 titre: "Des traces de morsures",
                 texte:
-                  "Le rat ronge pour user ses incisives qui poussent en permanence. Il s&apos;attaque aux câbles électriques (danger incendie), aux tuyaux, aux coins de portes en bois, aux sacs d&apos;aliments et même aux murs. Des copeaux de plastique ou de bois au sol sont un signe révélateur.",
+                  "Le rat ronge pour user ses incisives qui poussent en permanence. Il s'attaque aux câbles électriques (danger incendie), aux tuyaux, aux coins de portes en bois, aux sacs d'aliments et même aux murs. Des copeaux de plastique ou de bois au sol sont un signe révélateur.",
               },
               {
                 num: "4",
-                titre: "Une odeur d&apos;urine persistante",
+                titre: "Une odeur d'urine persistante",
                 texte:
-                  "L&apos;urine de rat dégage une odeur d&apos;ammoniac forte et persistante, notamment dans les espaces confinés (cave, sous-sol, placard). Cette odeur s&apos;intensifie avec la chaleur. Si vous sentez une odeur étrange que vous n&apos;identifiez pas, c&apos;est un signal d&apos;alarme.",
+                  "L'urine de rat dégage une odeur d'ammoniac forte et persistante, notamment dans les espaces confinés (cave, sous-sol, placard). Cette odeur s'intensifie avec la chaleur. Si vous sentez une odeur étrange que vous n'identifiez pas, c'est un signal d'alarme.",
               },
               {
                 num: "5",
                 titre: "Des traces de pattes ou de queue dans la poussière",
                 texte:
-                  "Les rats suivent toujours les mêmes chemins (on parle de &quot;coulées&quot;). Dans les zones poussiéreuses (cave, grenier), vous pouvez voir leurs empreintes de 4 doigts à l&apos;avant et 5 à l&apos;arrière, ainsi que la trace de leur queue.",
+                  "Les rats suivent toujours les mêmes chemins (on parle de "coulées"). Dans les zones poussiéreuses (cave, grenier), vous pouvez voir leurs empreintes de 4 doigts à l'avant et 5 à l'arrière, ainsi que la trace de leur queue.",
               },
               {
                 num: "6",
                 titre: "Des terriers dans le jardin",
                 texte:
-                  "Le rat brun est fouisseur. Il creuse des terriers de 6 à 9 cm de diamètre, généralement le long des murs, sous une terrasse ou près d&apos;un compost. Une entrée nette avec de la terre fraîche indique un terrier actif. À Liège, les rives de la Meuse et les jardins près des friches sont des zones à risque.",
+                  "Le rat brun est fouisseur. Il creuse des terriers de 6 à 9 cm de diamètre, généralement le long des murs, sous une terrasse ou près d'un compost. Une entrée nette avec de la terre fraîche indique un terrier actif. À Liège, les rives de la Meuse et les jardins près des friches sont des zones à risque.",
               },
               {
                 num: "7",
                 titre: "Des aliments rongés ou emballages troués",
                 texte:
-                  "Un rat adulte consomme 20 à 30g d&apos;aliments par jour. Il s&apos;attaque aux placards bas, aux sacs de farine, de riz ou de croquettes pour animaux. Des sacs percés, des aliments éparpillés ou des emballages grignotés sont des preuves directes.",
+                  "Un rat adulte consomme 20 à 30g d'aliments par jour. Il s'attaque aux placards bas, aux sacs de farine, de riz ou de croquettes pour animaux. Des sacs percés, des aliments éparpillés ou des emballages grignotés sont des preuves directes.",
               },
             ].map((s) => (
               <div key={s.num} className="flex gap-4">
@@ -285,7 +285,7 @@ export default function ArticleRatsPage() {
             </li>
             <li>
               <Link href="/blog/prix-deratisation-liege-2026" className="underline font-medium" style={{ color: "#1B4332" }}>
-                Prix d&apos;une dératisation à Liège en 2026
+                Prix d'une dératisation à Liège en 2026
               </Link>
             </li>
           </ul>

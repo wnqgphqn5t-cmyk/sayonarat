@@ -73,7 +73,7 @@ export default function CafardsAppartementPage() {
             Cafards dans un appartement : que faire ? Guide complet
           </h1>
           <p className="text-green-100 text-lg max-w-2xl">
-            Un appartement n&apos;est pas une maison individuelle — les cafards circulent entre
+            Un appartement n'est pas une maison individuelle — les cafards circulent entre
             logements via les gaines et les cloisons. Ce guide vous explique comment agir
             vite et efficacement.
           </p>
@@ -92,7 +92,7 @@ export default function CafardsAppartementPage() {
           48 heures plus tard, les cafards recolonisent les zones traitées.
         </p>
         <div className="bg-red-50 border-l-4 border-red-400 p-5 rounded-r-xl mb-8">
-          <p className="font-bold text-red-800 mb-1">❌ Ce qu&apos;il ne faut pas faire</p>
+          <p className="font-bold text-red-800 mb-1">❌ Ce qu'il ne faut pas faire</p>
           <ul className="text-sm text-red-700 space-y-1 mt-2">
             <li>• Spray insecticide du commerce (disperse la colonie)</li>
             <li>• Boucher les interstices avant le traitement (emprisonne les cafards dans les murs)</li>
@@ -102,7 +102,7 @@ export default function CafardsAppartementPage() {
         </div>
 
         <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>
-          Pourquoi les cafards s&apos;installent en appartement à Liège
+          Pourquoi les cafards s'installent en appartement à Liège
         </h2>
         <p className="text-gray-700 mb-4 leading-relaxed">
           Les immeubles liégeois des quartiers Sainte-Marguerite, Bressoux, Outremeuse
@@ -135,9 +135,9 @@ export default function CafardsAppartementPage() {
         <p className="text-gray-700 mb-4 leading-relaxed">
           Le gel insecticide professionnel est la méthode de référence pour les
           appartements. Contrairement aux sprays, il agit par ingestion et transmission :
-          un cafard qui mange le gel contamine d&apos;autres individus en les touchant,
+          un cafard qui mange le gel contamine d'autres individus en les touchant,
           en partageant de la nourriture ou simplement via ses excréments. La colonie
-          est détruite de l&apos;intérieur.
+          est détruite de l'intérieur.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-8">
           {[
@@ -163,8 +163,8 @@ export default function CafardsAppartementPage() {
         </h2>
         <p className="text-gray-700 mb-4 leading-relaxed">
           Traiter un seul appartement dans un immeuble infesté est rarement suffisant.
-          Si vous êtes en copropriété, signalez l&apos;infestation au syndic par écrit
-          (mail avec accusé de réception). La copropriété a l&apos;obligation de traiter
+          Si vous êtes en copropriété, signalez l'infestation au syndic par écrit
+          (mail avec accusé de réception). La copropriété a l'obligation de traiter
           les parties communes si elles sont source de contamination.
         </p>
         <p className="text-gray-700 mb-8 leading-relaxed">

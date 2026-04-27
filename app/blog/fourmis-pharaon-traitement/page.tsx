@@ -70,11 +70,11 @@ export default function FourmisPharaonPage() {
             <span className="text-xs text-green-300">23 avril 2026 · 5 min de lecture</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
-            Fourmis pharaon : pourquoi c&apos;est si difficile à éliminer ?
+            Fourmis pharaon : pourquoi c'est si difficile à éliminer ?
           </h1>
           <p className="text-green-100 text-lg max-w-2xl">
             La fourmi pharaon est un cas à part dans la lutte antiparasitaire.
-            Un spray aggrave l&apos;infestation. Voici pourquoi, et comment agir correctement.
+            Un spray aggrave l'infestation. Voici pourquoi, et comment agir correctement.
           </p>
         </div>
       </section>
@@ -82,11 +82,11 @@ export default function FourmisPharaonPage() {
       <article className="py-14 px-4 max-w-3xl mx-auto">
 
         <div className="bg-red-50 border-l-4 border-red-400 p-5 rounded-r-xl mb-10">
-          <p className="font-bold text-red-800 mb-1">⚠️ N&apos;utilisez surtout pas de spray</p>
+          <p className="font-bold text-red-800 mb-1">⚠️ N'utilisez surtout pas de spray</p>
           <p className="text-sm text-red-700">
             Contrairement aux autres fourmis, vaporiser un insecticide sur des fourmis
             pharaon déclenche un mécanisme de survie : les reines fuient avec une partie
-            de la colonie et fondent de nouveaux nids dans d&apos;autres zones de l&apos;habitation.
+            de la colonie et fondent de nouveaux nids dans d'autres zones de l'habitation.
             Vous transformez un problème en cinq.
           </p>
         </div>
@@ -95,19 +95,19 @@ export default function FourmisPharaonPage() {
           La fourmi pharaon : un insecte à part
         </h2>
         <p className="text-gray-700 mb-4 leading-relaxed">
-          <em>Monomorium pharaonis</em> — la fourmi pharaon — est originaire d&apos;Afrique
-          tropicale. Introduite en Europe via le commerce, elle s&apos;est parfaitement
+          <em>Monomorium pharaonis</em> — la fourmi pharaon — est originaire d'Afrique
+          tropicale. Introduite en Europe via le commerce, elle s'est parfaitement
           adaptée aux intérieurs chauffés des immeubles. À Liège, elle est
-          principalement signalée dans les immeubles d&apos;habitation anciens, les résidences
+          principalement signalée dans les immeubles d'habitation anciens, les résidences
           étudiantes et les établissements de santé.
         </p>
         <p className="text-gray-700 mb-8 leading-relaxed">
           Sa particularité biologique la rend exceptionnellement difficile à traiter :
           une colonie peut compter des dizaines de reines et plusieurs milliers
-          d&apos;ouvrières réparties en sous-colonies dans les murs, les joints de
+          d'ouvrières réparties en sous-colonies dans les murs, les joints de
           carrelage, les prises électriques et les faux plafonds. Si une reine
           détecte un danger, elle se déplace avec ses ouvrières et fonde
-          un nouveau satellite — c&apos;est le phénomène de <strong>budding</strong>.
+          un nouveau satellite — c'est le phénomène de <strong>budding</strong>.
         </p>
 
         <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>
@@ -143,24 +143,24 @@ export default function FourmisPharaonPage() {
         </h2>
         <p className="text-gray-700 mb-4 leading-relaxed">
           Le gel insecticide professionnel agit par ingestion et transmission trophallactique :
-          une ouvrière mange l&apos;appât, le transporte jusqu&apos;au nid et le partage avec
-          les larves, les autres ouvrières et — c&apos;est la clé — avec les reines.
-          Sans atteindre les reines, l&apos;infestation ne sera jamais éliminée.
+          une ouvrière mange l'appât, le transporte jusqu'au nid et le partage avec
+          les larves, les autres ouvrières et — c'est la clé — avec les reines.
+          Sans atteindre les reines, l'infestation ne sera jamais éliminée.
         </p>
         <p className="text-gray-700 mb-4 leading-relaxed">
           Le gel est déposé aux points de passage identifiés lors du diagnostic
-          (traçailles, zones de transit, proximité de la source d&apos;eau et de chaleur).
+          (traçailles, zones de transit, proximité de la source d'eau et de chaleur).
           Les fourmis ne doivent pas être perturbées pendant le traitement —
-          c&apos;est pourquoi aucune pulvérisation complémentaire ne doit être réalisée.
+          c'est pourquoi aucune pulvérisation complémentaire ne doit être réalisée.
         </p>
         <div className="bg-green-50 border-l-4 border-green-400 p-5 rounded-r-xl mb-8">
           <p className="font-semibold text-gray-800">⏱️ Durée du traitement</p>
           <p className="text-sm text-gray-700 mt-1">
-            L&apos;effet du gel est visible en 1 à 3 semaines. L&apos;élimination complète d&apos;une
-            colonie bien établie peut prendre 4 à 8 semaines. C&apos;est plus long que pour
-            d&apos;autres insectes, mais c&apos;est inévitable pour atteindre toutes les reines.
-            Toute tentative d&apos;accélérer le traitement par des méthodes complémentaires
-            risque de provoquer un budding et de prolonger l&apos;infestation.
+            L'effet du gel est visible en 1 à 3 semaines. L'élimination complète d'une
+            colonie bien établie peut prendre 4 à 8 semaines. C'est plus long que pour
+            d'autres insectes, mais c'est inévitable pour atteindre toutes les reines.
+            Toute tentative d'accélérer le traitement par des méthodes complémentaires
+            risque de provoquer un budding et de prolonger l'infestation.
           </p>
         </div>
 
@@ -174,8 +174,8 @@ export default function FourmisPharaonPage() {
           pas atteintes simultanément.
         </p>
         <p className="text-gray-700 mb-8 leading-relaxed">
-          Si vous êtes en copropriété, signalez l&apos;infestation au syndic et demandez
-          une intervention coordonnée sur l&apos;ensemble de l&apos;immeuble.
+          Si vous êtes en copropriété, signalez l'infestation au syndic et demandez
+          une intervention coordonnée sur l'ensemble de l'immeuble.
           Sayonarat propose des interventions multi-logements adaptées aux immeubles
           liégeois.
         </p>

@@ -84,7 +84,7 @@ export default function ArticlePunaisesReconnaitrePage() {
             Les 4 signes qui confirment les punaises de lit : <strong>piqûres en ligne ou en groupe</strong>
             sur les zones découvertes, <strong>taches brun-rouille</strong> sur le matelas ou les draps,
             <strong> petits points noirs</strong> (excréments) dans les coutures, et une
-            <strong> odeur douce et écœurante</strong> en cas d&apos;infestation avancée.
+            <strong> odeur douce et écœurante</strong> en cas d'infestation avancée.
           </p>
         </div>
 
@@ -109,7 +109,7 @@ export default function ArticlePunaisesReconnaitrePage() {
 
         <section>
           <h2 className="text-2xl font-bold mb-5" style={{ color: "#1B4332" }}>
-            Les 5 signes d&apos;une infestation
+            Les 5 signes d'une infestation
           </h2>
           <div className="space-y-5">
             {[
@@ -176,7 +176,7 @@ export default function ArticlePunaisesReconnaitrePage() {
         <div className="p-5 bg-yellow-50 border border-yellow-200 rounded-xl">
           <p className="font-semibold text-gray-900 mb-2">Punaises de lit à Liège — Intervention rapide</p>
           <p className="text-sm text-gray-600 mb-4">
-            Vous pensez avoir des punaises ? N&apos;attendez pas — la population double en 3 semaines.
+            Vous pensez avoir des punaises ? N'attendez pas — la population double en 3 semaines.
             Diagnostic gratuit, devis sous 24h.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
@@ -204,7 +204,7 @@ export default function ArticlePunaisesReconnaitrePage() {
         <section>
           <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>Articles liés</h2>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/blog/punaises-de-lit-que-faire" className="underline font-medium" style={{ color: "#1B4332" }}>Punaises de lit : que faire en cas d&apos;infestation ?</Link></li>
+            <li><Link href="/blog/punaises-de-lit-que-faire" className="underline font-medium" style={{ color: "#1B4332" }}>Punaises de lit : que faire en cas d'infestation ?</Link></li>
             <li><Link href="/blog/cafards-cuisine-que-faire" className="underline font-medium" style={{ color: "#1B4332" }}>Cafards dans la cuisine : que faire ?</Link></li>
             <li><Link href="/punaises-de-lit-liege" className="underline font-medium" style={{ color: "#1B4332" }}>Service punaises de lit Liège</Link></li>
           </ul>

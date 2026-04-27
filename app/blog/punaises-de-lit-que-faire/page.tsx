@@ -82,7 +82,7 @@ export default function ArticlePunaisesPage() {
             <span className="text-xs text-green-300">23 avril 2026 · 6 min de lecture</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
-            Punaises de lit : que faire<br />en cas d&apos;infestation à Liège ?
+            Punaises de lit : que faire<br />en cas d'infestation à Liège ?
           </h1>
           <p className="text-green-100 text-lg">
             Par <strong>Victor F.</strong> — Expert en lutte antiparasitaire à Liège
@@ -98,26 +98,26 @@ export default function ArticlePunaisesPage() {
           <p>
             Si vous suspectez des punaises de lit : <strong>1)</strong> vérifiez le matelas et les
             lattes avec une lampe torche, <strong>2)</strong> lavez le linge à 60°C minimum,
-            <strong> 3)</strong> ne déplacez surtout pas vos meubles dans d&apos;autres pièces,
+            <strong> 3)</strong> ne déplacez surtout pas vos meubles dans d'autres pièces,
             <strong> 4)</strong> appelez un professionnel. Les produits du commerce ne suffisent pas
             pour éradiquer une infestation confirmée.
           </p>
         </div>
 
         <p>
-          Les punaises de lit (<em>Cimex lectularius</em>) sont l&apos;un des problèmes parasitaires les
+          Les punaises de lit (<em>Cimex lectularius</em>) sont l'un des problèmes parasitaires les
           plus stressants. À Liège, les signalements ont augmenté ces dernières années, notamment dans
           les appartements étudiants du quartier <strong>Féronstrée, Sainte-Marguerite</strong> et
-          autour de l&apos;Université de Liège. Elles se déplacent via les bagages, meubles d&apos;occasion
+          autour de l'Université de Liège. Elles se déplacent via les bagages, meubles d'occasion
           et vêtements — le marché de la Batte du dimanche est une voie de diffusion classique.
         </p>
 
         <section>
           <h2 className="text-2xl font-bold mb-5" style={{ color: "#1B4332" }}>
-            Étape 1 — Confirmer l&apos;infestation
+            Étape 1 — Confirmer l'infestation
           </h2>
           <p className="mb-4">
-            Avant d&apos;agir, confirmez que vous avez bien des punaises de lit. Les piqûres de moustiques,
+            Avant d'agir, confirmez que vous avez bien des punaises de lit. Les piqûres de moustiques,
             acariens ou puces peuvent ressembler. Voici comment identifier les punaises :
           </p>
           <ul className="space-y-3 text-sm">
@@ -138,7 +138,7 @@ export default function ArticlePunaisesPage() {
 
         <section>
           <h2 className="text-2xl font-bold mb-5" style={{ color: "#1B4332" }}>
-            Étape 2 — Ce qu&apos;il faut faire immédiatement
+            Étape 2 — Ce qu'il faut faire immédiatement
           </h2>
           <div className="space-y-4">
             {[
@@ -177,7 +177,7 @@ export default function ArticlePunaisesPage() {
 
         <section>
           <h2 className="text-2xl font-bold mb-5" style={{ color: "#1B4332" }}>
-            Étape 3 — Ce qu&apos;il ne faut SURTOUT PAS faire
+            Étape 3 — Ce qu'il ne faut SURTOUT PAS faire
           </h2>
           <div className="bg-red-50 border border-red-200 rounded-xl p-5 space-y-4">
             {[
@@ -245,16 +245,16 @@ export default function ArticlePunaisesPage() {
             Pourquoi les punaises de lit sont si difficiles à éliminer ?
           </h2>
           <p className="mb-3">
-            Le problème principal avec les punaises de lit, c&apos;est leur <strong>résistance aux œufs</strong>.
-            Les œufs résistent à la plupart des insecticides du commerce. C&apos;est pourquoi un traitement
+            Le problème principal avec les punaises de lit, c'est leur <strong>résistance aux œufs</strong>.
+            Les œufs résistent à la plupart des insecticides du commerce. C'est pourquoi un traitement
             professionnel nécessite plusieurs passages espacés de 10 à 14 jours : pour éliminer les
             nouvelles générations qui éclosent après le premier traitement.
           </p>
           <p>
-            Une punaise adulte peut aussi <strong>survivre jusqu&apos;à 18 mois sans se nourrir</strong>,
+            Une punaise adulte peut aussi <strong>survivre jusqu'à 18 mois sans se nourrir</strong>,
             cachée dans une fissure, une prise électrique ou derrière un interrupteur. Si un logement
             à Liège a été infesté par des locataires précédents et laissé vide, les punaises peuvent
-            attendre l&apos;arrivée du prochain occupant.
+            attendre l'arrivée du prochain occupant.
           </p>
         </section>
 
@@ -308,7 +308,7 @@ export default function ArticlePunaisesPage() {
             </li>
             <li>
               <Link href="/blog/prix-deratisation-liege-2026" className="underline font-medium" style={{ color: "#1B4332" }}>
-                Prix d&apos;une dératisation à Liège en 2026
+                Prix d'une dératisation à Liège en 2026
               </Link>
             </li>
             <li>

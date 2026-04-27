@@ -77,7 +77,7 @@ export default function ArticlePrixDesinsectisationPage() {
             <span className="text-xs text-green-300">23 avril 2026 · 4 min de lecture</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
-            Prix d&apos;une désinsectisation<br />à Liège en 2026
+            Prix d'une désinsectisation<br />à Liège en 2026
           </h1>
           <p className="text-green-100 text-lg">Par <strong>Victor F.</strong> — Fondateur de Sayonarat</p>
         </div>
@@ -89,14 +89,14 @@ export default function ArticlePrixDesinsectisationPage() {
           <p className="font-semibold text-gray-800 mb-2">En résumé</p>
           <p>
             Une désinsectisation à Liège coûte entre <strong>120 € et 400 €</strong> selon le type
-            d&apos;insecte et la superficie. Les nids de guêpes sont les moins chers (90–180 €),
+            d'insecte et la superficie. Les nids de guêpes sont les moins chers (90–180 €),
             les fourmis pharaons les plus complexes (200–400 €). Devis gratuit sous 24h chez Sayonarat.
           </p>
         </div>
 
         <section>
           <h2 className="text-2xl font-bold mb-5" style={{ color: "#1B4332" }}>
-            Tarifs par type d&apos;insecte à Liège
+            Tarifs par type d'insecte à Liège
           </h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
@@ -176,7 +176,7 @@ export default function ArticlePrixDesinsectisationPage() {
         <section>
           <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>Articles liés</h2>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/blog/prix-deratisation-liege-2026" className="underline font-medium" style={{ color: "#1B4332" }}>Prix d&apos;une dératisation à Liège en 2026</Link></li>
+            <li><Link href="/blog/prix-deratisation-liege-2026" className="underline font-medium" style={{ color: "#1B4332" }}>Prix d'une dératisation à Liège en 2026</Link></li>
             <li><Link href="/blog/cafards-cuisine-que-faire" className="underline font-medium" style={{ color: "#1B4332" }}>Cafards dans la cuisine : que faire ?</Link></li>
             <li><Link href="/desinsectisation-liege" className="underline font-medium" style={{ color: "#1B4332" }}>Désinsectisation Liège — service principal</Link></li>
           </ul>

@@ -77,9 +77,9 @@ export default function ArticleCafardsResponsabilitePage() {
         <div className="bg-green-50 border-l-4 rounded-r-xl p-5" style={{ borderColor: "#1B4332" }}>
           <p className="font-semibold text-gray-800 mb-2">En bref</p>
           <p>
-            Si l&apos;infestation préexistait ou vient des parties communes : <strong>responsabilité du propriétaire</strong>.
-            Si elle s&apos;est développée pendant l&apos;occupation : <strong>responsabilité partagée</strong>, souvent au locataire
-            d&apos;agir en premier. En pratique, mieux vaut agir vite et régler la question financière ensuite.
+            Si l'infestation préexistait ou vient des parties communes : <strong>responsabilité du propriétaire</strong>.
+            Si elle s'est développée pendant l'occupation : <strong>responsabilité partagée</strong>, souvent au locataire
+            d'agir en premier. En pratique, mieux vaut agir vite et régler la question financière ensuite.
           </p>
         </div>
 
@@ -127,13 +127,13 @@ export default function ArticleCafardsResponsabilitePage() {
           <p className="mb-3">
             En pratique, les procédures légales prennent du temps. Une mise en demeure, une
             médiation et un passage devant le juge de paix peuvent durer plusieurs mois.
-            Pendant ce temps, l&apos;infestation s&apos;étend — potentiellement à vos voisins et à
-            tout l&apos;immeuble.
+            Pendant ce temps, l'infestation s'étend — potentiellement à vos voisins et à
+            tout l'immeuble.
           </p>
           <p>
-            Notre conseil : <strong>agissez d&apos;abord, facturez ensuite</strong>. Faites intervenir
-            un professionnel, conservez la facture et le rapport d&apos;intervention, puis engagez
-            la procédure de remboursement. C&apos;est plus efficace que d&apos;attendre une décision
+            Notre conseil : <strong>agissez d'abord, facturez ensuite</strong>. Faites intervenir
+            un professionnel, conservez la facture et le rapport d'intervention, puis engagez
+            la procédure de remboursement. C'est plus efficace que d'attendre une décision
             judiciaire avec des cafards dans votre cuisine.
           </p>
         </section>
@@ -165,7 +165,7 @@ export default function ArticleCafardsResponsabilitePage() {
         <div className="p-5 bg-yellow-50 border border-yellow-200 rounded-xl">
           <p className="font-semibold text-gray-900 mb-2">Cafards dans votre immeuble à Liège ?</p>
           <p className="text-sm text-gray-600 mb-4">
-            Sayonarat fournit un rapport d&apos;intervention détaillé utilisable dans vos démarches.
+            Sayonarat fournit un rapport d'intervention détaillé utilisable dans vos démarches.
             Devis gratuit sous 24h.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
@@ -194,7 +194,7 @@ export default function ArticleCafardsResponsabilitePage() {
           <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>Articles liés</h2>
           <ul className="space-y-2 text-sm">
             <li><Link href="/blog/cafards-cuisine-que-faire" className="underline font-medium" style={{ color: "#1B4332" }}>Cafards dans la cuisine : que faire ?</Link></li>
-            <li><Link href="/blog/prix-desinsectisation-liege-2026" className="underline font-medium" style={{ color: "#1B4332" }}>Prix d&apos;une désinsectisation à Liège en 2026</Link></li>
+            <li><Link href="/blog/prix-desinsectisation-liege-2026" className="underline font-medium" style={{ color: "#1B4332" }}>Prix d'une désinsectisation à Liège en 2026</Link></li>
             <li><Link href="/desinsectisation-liege" className="underline font-medium" style={{ color: "#1B4332" }}>Désinsectisation Liège — service principal</Link></li>
           </ul>
         </section>

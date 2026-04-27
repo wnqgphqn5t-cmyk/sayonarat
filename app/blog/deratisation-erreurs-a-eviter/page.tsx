@@ -66,7 +66,7 @@ export default function ArticleErreursDeratisationPage() {
             <span className="text-xs text-green-300">23 avril 2026 · 5 min de lecture</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
-            Dératisation : les 6 erreurs<br />qui aggravent l&apos;infestation
+            Dératisation : les 6 erreurs<br />qui aggravent l'infestation
           </h1>
           <p className="text-green-100 text-lg">Par <strong>Victor F.</strong> — Fondateur de Sayonarat</p>
         </div>
@@ -77,7 +77,7 @@ export default function ArticleErreursDeratisationPage() {
         <div className="bg-green-50 border-l-4 rounded-r-xl p-5" style={{ borderColor: "#1B4332" }}>
           <p className="font-semibold text-gray-800 mb-2">En résumé</p>
           <p>
-            La plupart des infestations qui durent des mois sont la conséquence d&apos;erreurs commises
+            La plupart des infestations qui durent des mois sont la conséquence d'erreurs commises
             dès les premiers jours. Poser des pièges au mauvais endroit, utiliser du poison
             sans diagnostic, colmater avant le traitement — ces réflexes aggravent le problème
             au lieu de le résoudre.
@@ -165,7 +165,7 @@ export default function ArticleErreursDeratisationPage() {
           <ul className="space-y-2 text-sm">
             <li><Link href="/blog/comment-savoir-si-on-a-des-rats" className="underline font-medium" style={{ color: "#1B4332" }}>Comment savoir si on a des rats ? Les 7 signes</Link></li>
             <li><Link href="/blog/souris-ou-rat-difference" className="underline font-medium" style={{ color: "#1B4332" }}>Souris ou rat : comment faire la différence ?</Link></li>
-            <li><Link href="/blog/prix-deratisation-liege-2026" className="underline font-medium" style={{ color: "#1B4332" }}>Prix d&apos;une dératisation à Liège en 2026</Link></li>
+            <li><Link href="/blog/prix-deratisation-liege-2026" className="underline font-medium" style={{ color: "#1B4332" }}>Prix d'une dératisation à Liège en 2026</Link></li>
           </ul>
         </section>
 

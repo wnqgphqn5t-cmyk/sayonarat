@@ -91,12 +91,12 @@ export default function ArticleSeraingPage() {
         <div className="bg-green-50 border-l-4 rounded-r-xl p-5" style={{ borderColor: "#1B4332" }}>
           <p className="font-semibold text-gray-800 mb-2">En résumé</p>
           <p>
-            Seraing est l&apos;une des communes de la région liégeoise les plus touchées par les
+            Seraing est l'une des communes de la région liégeoise les plus touchées par les
             infestations de rats. Trois facteurs expliquent cela : la <strong>Meuse et ses berges</strong>,
             les <strong>friches industrielles</strong> (anciens sites ArcelorMittal) qui servent de
             réservoirs de population, et le <strong>bâti ouvrier dense</strong> avec caves communicantes.
             Un traitement professionnel avec colmatage est indispensable — sans fermer les accès,
-            les rats reviennent en moins d&apos;un mois.
+            les rats reviennent en moins d'un mois.
           </p>
         </div>
 
@@ -112,7 +112,7 @@ export default function ArticleSeraingPage() {
               </h3>
               <p>
                 Le rat brun est un excellent nageur. Il colonise naturellement les berges des cours
-                d&apos;eau et remonte les canalisations d&apos;égouts. La Meuse traverse Seraing sur
+                d'eau et remonte les canalisations d'égouts. La Meuse traverse Seraing sur
                 plusieurs kilomètres, et les quartiers de <strong>Jemeppe</strong> et
                 <strong> Ougrée</strong> — directement en bord de fleuve — sont les plus exposés.
                 Chaque automne, quand les températures baissent, les rats des berges migrent
@@ -128,14 +128,14 @@ export default function ArticleSeraingPage() {
                 Les anciens sites sidérurgiques en cours de reconversion représentent des milliers
                 de mètres carrés de friches, avec végétation dense, déchets et infrastructures
                 abandonnées. Ces zones constituent des <strong>réservoirs de population</strong>
-                considérables. Les rats s&apos;y reproduisent sans contrainte et colonisent les quartiers
+                considérables. Les rats s'y reproduisent sans contrainte et colonisent les quartiers
                 résidentiels voisins — notamment <strong>Seraing-centre, Boncelles</strong> et les
-                rues longeant l&apos;ancienne zone industrielle.
+                rues longeant l'ancienne zone industrielle.
               </p>
               <p className="mt-3">
                 La reconversion progressive de ces sites (logements, commerces) perturbe les
                 colonies établies et provoque des migrations vers les habitations voisines.
-                Les chantiers de rénovation sont souvent déclencheurs d&apos;infestations dans
+                Les chantiers de rénovation sont souvent déclencheurs d'infestations dans
                 les maisons adjacentes.
               </p>
             </div>
@@ -145,14 +145,14 @@ export default function ArticleSeraingPage() {
                 3. Le bâti ouvrier du 19e siècle
               </h3>
               <p>
-                Seraing s&apos;est développée autour de l&apos;industrie sidérurgique dès les années 1820.
+                Seraing s'est développée autour de l'industrie sidérurgique dès les années 1820.
                 Le parc immobilier est donc largement constitué de maisons ouvrières mitoyennes,
                 avec des caves souvent communicantes entre maisons, des murs épais et des
-                fondations en pierre qui offrent d&apos;innombrables voies de passage aux rongeurs.
+                fondations en pierre qui offrent d'innombrables voies de passage aux rongeurs.
               </p>
               <p className="mt-3">
-                Dans ces logements, les rats transitent d&apos;une maison à l&apos;autre sans jamais
-                passer par l&apos;extérieur. Un traitement efficace doit donc inclure l&apos;inspection
+                Dans ces logements, les rats transitent d'une maison à l'autre sans jamais
+                passer par l'extérieur. Un traitement efficace doit donc inclure l'inspection
                 et le colmatage des caves et passages entre mitoyens — pas seulement le logement
                 directement infesté.
               </p>
@@ -213,8 +213,8 @@ export default function ArticleSeraingPage() {
           <p>
             Sayonarat intervient à Seraing et dans toutes ses communes sous 24 à 48h. Nos
             techniciens connaissent les spécificités du bâti serésien — caves communicantes,
-            canalisations d&apos;époque, accès en sous-sol. Le traitement inclus systématiquement
-            un diagnostic des voies d&apos;entrée et un colmatage des points identifiés.
+            canalisations d'époque, accès en sous-sol. Le traitement inclus systématiquement
+            un diagnostic des voies d'entrée et un colmatage des points identifiés.
           </p>
         </section>
 
@@ -265,7 +265,7 @@ export default function ArticleSeraingPage() {
             </li>
             <li>
               <Link href="/blog/prix-deratisation-liege-2026" className="underline font-medium" style={{ color: "#1B4332" }}>
-                Prix d&apos;une dératisation à Liège en 2026
+                Prix d'une dératisation à Liège en 2026
               </Link>
             </li>
             <li>

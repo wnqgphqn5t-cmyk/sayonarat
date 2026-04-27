@@ -75,7 +75,7 @@ export default function FrelonAsiatiqueLiegePage() {
           <p className="text-green-100 text-lg max-w-2xl">
             Présent dans toute la province de Liège, le frelon asiatique est plus difficile
             à identifier — et plus dangereux à approcher — que le frelon commun.
-            Voici tout ce qu&apos;il faut savoir.
+            Voici tout ce qu'il faut savoir.
           </p>
         </div>
       </section>
@@ -85,7 +85,7 @@ export default function FrelonAsiatiqueLiegePage() {
         <div className="bg-red-50 border-l-4 border-red-500 p-5 rounded-r-xl mb-10">
           <p className="font-bold text-red-800 mb-1">⚠️ Urgence frelon asiatique</p>
           <p className="text-sm text-red-700">
-            Si vous repérez un nid de frelon asiatique, n&apos;approchez pas. Appelez immédiatement
+            Si vous repérez un nid de frelon asiatique, n'approchez pas. Appelez immédiatement
             le <a href="tel:+32466442454" className="font-bold underline">+32 466 44 24 54</a> —
             intervention prioritaire dans toute la région liégeoise.
           </p>
@@ -103,8 +103,8 @@ export default function FrelonAsiatiqueLiegePage() {
         <p className="text-gray-700 mb-8 leading-relaxed">
           Son expansion pose deux problèmes majeurs : une menace directe pour les personnes
           (attaque en masse si le nid est perturbé) et un impact écologique sévère sur les
-          colonies d&apos;abeilles domestiques et sauvages, dont il décime les butineuses
-          à l&apos;entrée des ruches.
+          colonies d'abeilles domestiques et sauvages, dont il décime les butineuses
+          à l'entrée des ruches.
         </p>
 
         <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>
@@ -145,7 +145,7 @@ export default function FrelonAsiatiqueLiegePage() {
         </h2>
         <p className="text-gray-700 mb-4 leading-relaxed">
           Contrairement au frelon commun qui niche souvent dans les combles et greniers,
-          le frelon asiatique préfère les emplacements en hauteur et à l&apos;extérieur.
+          le frelon asiatique préfère les emplacements en hauteur et à l'extérieur.
           À Liège et dans les communes voisines, les nids sont principalement trouvés :
         </p>
         <ul className="space-y-2 mb-6 text-gray-700">
@@ -163,10 +163,10 @@ export default function FrelonAsiatiqueLiegePage() {
           ))}
         </ul>
         <p className="text-gray-700 mb-8 leading-relaxed">
-          La saison de nidification s&apos;étend d&apos;avril (fondation par la reine) à novembre
+          La saison de nidification s'étend d'avril (fondation par la reine) à novembre
           (mort naturelle de la colonie par le gel). Un nid détecté en mai ou juin est
-          encore petit (taille d&apos;un poing) et beaucoup plus simple à traiter qu&apos;un nid
-          d&apos;août qui peut abriter jusqu&apos;à 6 000 individus.
+          encore petit (taille d'un poing) et beaucoup plus simple à traiter qu'un nid
+          d'août qui peut abriter jusqu'à 6 000 individus.
         </p>
 
         <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>
@@ -192,11 +192,11 @@ export default function FrelonAsiatiqueLiegePage() {
         </div>
 
         <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>
-          Combien coûte la destruction d&apos;un nid de frelon asiatique à Liège ?
+          Combien coûte la destruction d'un nid de frelon asiatique à Liège ?
         </h2>
         <p className="text-gray-700 mb-4 leading-relaxed">
-          Entre 120 € et 250 € selon la hauteur et l&apos;accessibilité du nid. Un nid en
-          arbuste ou en haie basse est moins cher à traiter qu&apos;un nid à 10 mètres dans
+          Entre 120 € et 250 € selon la hauteur et l'accessibilité du nid. Un nid en
+          arbuste ou en haie basse est moins cher à traiter qu'un nid à 10 mètres dans
           un arbre nécessitant une échelle ou une nacelle. Le devis est gratuit et établi
           sous 24h après description de la situation.
         </p>
@@ -205,8 +205,8 @@ export default function FrelonAsiatiqueLiegePage() {
           <p className="text-sm text-gray-700 mt-1">
             Certaines communes de la province de Liège participent aux frais de destruction
             des nids de frelon asiatique. Renseignez-vous auprès de votre administration
-            communale avant l&apos;intervention — Sayonarat peut vous fournir un document
-            justificatif après l&apos;intervention.
+            communale avant l'intervention — Sayonarat peut vous fournir un document
+            justificatif après l'intervention.
           </p>
         </div>
 

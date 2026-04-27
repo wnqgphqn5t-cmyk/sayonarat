@@ -175,7 +175,7 @@ export default function BlogPage() {
           </h1>
           <p className="text-green-100 text-lg max-w-2xl">
             Reconnaître une infestation, comprendre les prix, choisir le bon traitement.
-            Tout ce qu&apos;il faut savoir avant d&apos;appeler un professionnel.
+            Tout ce qu'il faut savoir avant d'appeler un professionnel.
           </p>
         </div>
       </section>
@@ -199,7 +199,7 @@ export default function BlogPage() {
               </h2>
               <p className="text-gray-600 text-sm leading-relaxed">{a.desc}</p>
               <span className="inline-block mt-4 text-sm font-semibold" style={{ color: "#1B4332" }}>
-                Lire l&apos;article →
+                Lire l'article →
               </span>
             </Link>
           ))}

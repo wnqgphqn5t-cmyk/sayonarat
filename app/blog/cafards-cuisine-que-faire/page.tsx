@@ -99,15 +99,15 @@ export default function ArticleCafardsPage() {
             de spray — ça disperse la colonie, <strong>2)</strong> retirez toute nourriture accessible,
             <strong> 3)</strong> identifiez les zones chaudes et humides infestées,
             <strong> 4)</strong> appelez un professionnel. Les blattes se reproduisent très vite —
-            chaque semaine d&apos;attente aggrave la situation.
+            chaque semaine d'attente aggrave la situation.
           </p>
         </div>
 
         <p>
-          La blatte germanique (<em>Blattella germanica</em>) est l&apos;espèce la plus fréquente dans
+          La blatte germanique (<em>Blattella germanica</em>) est l'espèce la plus fréquente dans
           les cuisines liégeoises. Elle mesure 1,5 cm, est brun clair avec deux bandes sombres sur
           le thorax, et ne sort presque jamais en plein jour. Si vous en voyez une le matin,
-          c&apos;est qu&apos;il y en a des dizaines cachées dans vos appareils électroménagers.
+          c'est qu'il y en a des dizaines cachées dans vos appareils électroménagers.
         </p>
 
         <section>
@@ -134,7 +134,7 @@ export default function ArticleCafardsPage() {
 
         <section>
           <h2 className="text-2xl font-bold mb-5" style={{ color: "#1B4332" }}>
-            Ce qu&apos;il faut faire immédiatement
+            Ce qu'il faut faire immédiatement
           </h2>
           <div className="space-y-4">
             {[
@@ -182,13 +182,13 @@ export default function ArticleCafardsPage() {
           <p className="mb-3">
             La blatte germanique a développé des résistances génétiques à de nombreux insecticides
             courants. Certaines populations à Liège sont résistantes aux pyréthrinoïdes — la famille
-            chimique la plus utilisée dans les sprays du supermarché. Elles le détectent et l&apos;évitent.
+            chimique la plus utilisée dans les sprays du supermarché. Elles le détectent et l'évitent.
           </p>
           <p>
             Les gels professionnels utilisent des principes actifs différents (fipronil, indoxacarbe,
             imidaclopride) en micro-doses ciblées. La blatte ingère le gel, retourne dans son nid
-            et contamine les autres via ses excréments — c&apos;est l&apos;effet &quot;cascade&quot; qui élimine
-            la colonie entière, y compris les individus qui n&apos;ont pas touché l&apos;appât directement.
+            et contamine les autres via ses excréments — c'est l'effet "cascade" qui élimine
+            la colonie entière, y compris les individus qui n'ont pas touché l'appât directement.
           </p>
         </section>
 
@@ -202,7 +202,7 @@ export default function ArticleCafardsPage() {
             de la cave commune ou des parties communes.
           </p>
           <p>
-            En Belgique, si l&apos;infestation provient des parties communes ou d&apos;un vice du bâtiment,
+            En Belgique, si l'infestation provient des parties communes ou d'un vice du bâtiment,
             le propriétaire est légalement responsable de la prise en charge. Signalez par écrit
             à votre propriétaire ou syndic. Si vous êtes propriétaire, une intervention rapide
             évite la propagation aux autres appartements — et les complications légales qui suivent.
@@ -257,7 +257,7 @@ export default function ArticleCafardsPage() {
             </li>
             <li>
               <Link href="/blog/cafards-appartement-que-faire" className="underline font-medium" style={{ color: "#1B4332" }}>
-                Cafards dans l&apos;appartement : que faire ?
+                Cafards dans l'appartement : que faire ?
               </Link>
             </li>
             <li>
@@ -267,7 +267,7 @@ export default function ArticleCafardsPage() {
             </li>
             <li>
               <Link href="/blog/prix-desinsectisation-liege-2026" className="underline font-medium" style={{ color: "#1B4332" }}>
-                Prix d&apos;une désinsectisation à Liège en 2026
+                Prix d'une désinsectisation à Liège en 2026
               </Link>
             </li>
           </ul>

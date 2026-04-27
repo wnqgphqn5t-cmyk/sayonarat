@@ -82,8 +82,8 @@ export default function ArticlePrixPage() {
             <span className="text-xs text-green-300">23 avril 2026 · 4 min de lecture</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
-            Prix d&apos;une dératisation à Liège en 2026 :<br />
-            ce qu&apos;il faut vraiment savoir
+            Prix d'une dératisation à Liège en 2026 :<br />
+            ce qu'il faut vraiment savoir
           </h1>
           <p className="text-green-100 text-lg">
             Par <strong>Victor F.</strong> — Expert en lutte antiparasitaire à Liège
@@ -97,15 +97,15 @@ export default function ArticlePrixPage() {
         <div className="bg-green-50 border-l-4 rounded-r-xl p-5" style={{ borderColor: "#1B4332" }}>
           <p className="font-semibold text-gray-800 mb-2">Réponse rapide</p>
           <p>
-            Le prix d&apos;une dératisation professionnelle à Liège varie entre <strong>150 € et 450 €</strong>,
+            Le prix d'une dératisation professionnelle à Liège varie entre <strong>150 € et 450 €</strong>,
             selon la superficie du logement, le type de rongeur et l'ampleur de l'infestation.
             Une intervention sérieuse comprend toujours un diagnostic, le traitement ciblé
-            et le colmatage des points d&apos;entrée.
+            et le colmatage des points d'entrée.
           </p>
         </div>
 
         <p>
-          La première question que posent nos clients, c&apos;est toujours le prix. C&apos;est normal.
+          La première question que posent nos clients, c'est toujours le prix. C'est normal.
           Mais avant de comparer des devis, il faut comprendre ce qui justifie les écarts — parfois
           du simple au triple pour une même prestation. Voici une grille tarifaire réelle, sans
           langue de bois.
@@ -213,14 +213,14 @@ export default function ArticlePrixPage() {
             Méfiez-vous des prix trop bas
           </h2>
           <p>
-            À Liège, on voit régulièrement des offres à 79 € ou 99 € pour une &quot;dératisation complète&quot;.
-            Dans la plupart des cas, il s&apos;agit d&apos;un passage unique sans diagnostic sérieux ni colmatage.
+            À Liège, on voit régulièrement des offres à 79 € ou 99 € pour une "dératisation complète".
+            Dans la plupart des cas, il s'agit d'un passage unique sans diagnostic sérieux ni colmatage.
             Résultat : les rongeurs recolonisent en 4 à 8 semaines et il faut recommencer — souvent
             plus cher que si on avait fait un travail sérieux dès le départ.
           </p>
           <p className="mt-3">
             Un prestataire certifié vous remettra systématiquement une <strong>fiche de données de sécurité</strong>
-            des produits utilisés et un rapport d&apos;intervention. C&apos;est une obligation légale en Belgique.
+            des produits utilisés et un rapport d'intervention. C'est une obligation légale en Belgique.
           </p>
         </section>
 
@@ -274,7 +274,7 @@ export default function ArticlePrixPage() {
             </li>
             <li>
               <Link href="/blog/punaises-de-lit-que-faire" className="underline font-medium" style={{ color: "#1B4332" }}>
-                Punaises de lit : que faire en cas d&apos;infestation à Liège ?
+                Punaises de lit : que faire en cas d'infestation à Liège ?
               </Link>
             </li>
             <li>

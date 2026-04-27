@@ -120,16 +120,16 @@ export default function ArticleSourisRatPage() {
 
         <section>
           <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>
-            Pourquoi c&apos;est important de savoir lequel ?
+            Pourquoi c'est important de savoir lequel ?
           </h2>
           <p className="mb-3">
-            Le traitement n&apos;est pas le même. Les rats sont beaucoup plus méfiants (néophobes) :
+            Le traitement n'est pas le même. Les rats sont beaucoup plus méfiants (néophobes) :
             ils évitent tout nouvel objet pendant plusieurs jours. Un piège mal placé ou un appât
             trop visible ne sera jamais touché. Le professionnel identifie les couloirs de passage
             réels (traces de frottement, urine fluorescente sous UV) avant de poser les dispositifs.
           </p>
           <p>
-            Les souris, à l&apos;inverse, sont curieuses et explorent rapidement. Elles sont plus
+            Les souris, à l'inverse, sont curieuses et explorent rapidement. Elles sont plus
             faciles à capturer mais se reproduisent plus vite — une femelle peut avoir
             8 à 10 portées de 5 à 8 petits par an.
           </p>
@@ -160,7 +160,7 @@ export default function ArticleSourisRatPage() {
         <div className="p-5 bg-yellow-50 border border-yellow-200 rounded-xl">
           <p className="font-semibold text-gray-900 mb-2">Rats ou souris à Liège — Intervention sous 48h</p>
           <p className="text-sm text-gray-600 mb-4">
-            Diagnostic complet, identification de l&apos;espèce, traitement adapté. Devis gratuit sous 24h.
+            Diagnostic complet, identification de l'espèce, traitement adapté. Devis gratuit sous 24h.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
             <a href="tel:+32466442454" className="inline-block px-5 py-3 rounded-lg font-bold text-center text-gray-900" style={{ backgroundColor: "#FFD700" }}>
@@ -188,7 +188,7 @@ export default function ArticleSourisRatPage() {
           <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>Articles liés</h2>
           <ul className="space-y-2 text-sm">
             <li><Link href="/blog/comment-savoir-si-on-a-des-rats" className="underline font-medium" style={{ color: "#1B4332" }}>Comment savoir si on a des rats ? Les 7 signes</Link></li>
-            <li><Link href="/blog/prix-deratisation-liege-2026" className="underline font-medium" style={{ color: "#1B4332" }}>Prix d&apos;une dératisation à Liège en 2026</Link></li>
+            <li><Link href="/blog/prix-deratisation-liege-2026" className="underline font-medium" style={{ color: "#1B4332" }}>Prix d'une dératisation à Liège en 2026</Link></li>
             <li><Link href="/deratisation-liege" className="underline font-medium" style={{ color: "#1B4332" }}>Dératisation Liège — service principal</Link></li>
           </ul>
         </section>

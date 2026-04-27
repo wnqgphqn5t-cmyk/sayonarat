@@ -82,7 +82,7 @@ export default function ArticleFourmisPage() {
           <p className="font-semibold text-gray-800 mb-2">Réponse rapide</p>
           <p>
             Si vous avez des fourmis : <strong>ne vaporisez pas de spray</strong> — ça disperse
-            la colonie sans tuer la reine. Identifiez l&apos;espèce, bloquez les points d&apos;entrée,
+            la colonie sans tuer la reine. Identifiez l'espèce, bloquez les points d'entrée,
             posez des appâts insecticides. Pour les fourmis pharaons en immeuble,
             appelez directement un professionnel.
           </p>
@@ -123,7 +123,7 @@ export default function ArticleFourmisPage() {
 
         <section>
           <h2 className="text-2xl font-bold mb-5" style={{ color: "#1B4332" }}>
-            Ce qu&apos;il ne faut pas faire
+            Ce qu'il ne faut pas faire
           </h2>
           <div className="bg-red-50 border border-red-200 rounded-xl p-5 space-y-3">
             {[
@@ -168,9 +168,9 @@ export default function ArticleFourmisPage() {
             La fourmi pharaon à Liège : un cas particulier
           </h2>
           <p className="mb-3">
-            La fourmi pharaon est l&apos;espèce la plus problématique dans les immeubles liégeois.
-            Elle affectionne les bâtiments chauffés toute l&apos;année — résidences, hôpitaux, restaurants.
-            Une colonie peut compter plusieurs millions d&apos;individus répartis en sous-colonies
+            La fourmi pharaon est l'espèce la plus problématique dans les immeubles liégeois.
+            Elle affectionne les bâtiments chauffés toute l'année — résidences, hôpitaux, restaurants.
+            Une colonie peut compter plusieurs millions d'individus répartis en sous-colonies
             avec plusieurs reines.
           </p>
           <p>

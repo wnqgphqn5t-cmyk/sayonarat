@@ -81,17 +81,17 @@ export default function ArticleFrelonsPage() {
         <div className="bg-green-50 border-l-4 rounded-r-xl p-5" style={{ borderColor: "#1B4332" }}>
           <p className="font-semibold text-gray-800 mb-2">Réponse rapide</p>
           <p>
-            Si vous découvrez un nid de frelons ou guêpes : <strong>ne l&apos;approchez pas</strong>,
-            <strong> n&apos;utilisez pas d&apos;eau</strong> ni de spray aérosol — cela provoque une attaque massive.
-            Appelez un professionnel. Un nid de frelons asiatiques doit être signalé à l&apos;AFSCA
+            Si vous découvrez un nid de frelons ou guêpes : <strong>ne l'approchez pas</strong>,
+            <strong> n'utilisez pas d'eau</strong> ni de spray aérosol — cela provoque une attaque massive.
+            Appelez un professionnel. Un nid de frelons asiatiques doit être signalé à l'AFSCA
             et traité obligatoirement par un expert certifié.
           </p>
         </div>
 
         <p>
           Chaque été, les appels pour nids de guêpes et frelons explosent en région liégeoise —
-          juillet et août sont les mois de pic. Les nids atteignent leur taille maximale en fin d&apos;été
-          (jusqu&apos;à 10 000 individus pour les guêpes germaniques) et les colonies deviennent plus
+          juillet et août sont les mois de pic. Les nids atteignent leur taille maximale en fin d'été
+          (jusqu'à 10 000 individus pour les guêpes germaniques) et les colonies deviennent plus
           agressives à mesure que la saison avance.
         </p>
 
@@ -150,7 +150,7 @@ export default function ArticleFrelonsPage() {
 
         <section>
           <h2 className="text-2xl font-bold mb-5" style={{ color: "#1B4332" }}>
-            Ce qu&apos;il ne faut SURTOUT pas faire
+            Ce qu'il ne faut SURTOUT pas faire
           </h2>
           <div className="bg-red-50 border border-red-200 rounded-xl p-5 space-y-3">
             {[
@@ -198,14 +198,14 @@ export default function ArticleFrelonsPage() {
           </h2>
           <p className="mb-3">
             Le frelon asiatique (<em>Vespa velutina nigrithorax</em>) est présent en Belgique depuis 2016.
-            Il est facilement reconnaissable : corps entièrement brun-noir, bande orangée sur l&apos;abdomen,
-            pattes jaunes à l&apos;extrémité. Contrairement au frelon commun, il construit des nids en hauteur
-            dans les arbres — souvent difficiles à repérer avant la fin de l&apos;été.
+            Il est facilement reconnaissable : corps entièrement brun-noir, bande orangée sur l'abdomen,
+            pattes jaunes à l'extrémité. Contrairement au frelon commun, il construit des nids en hauteur
+            dans les arbres — souvent difficiles à repérer avant la fin de l'été.
           </p>
           <p>
             Il représente une menace sérieuse pour les ruchers liégeois (il chasse les abeilles devant
             les ruches). En Wallonie, tout signalement est à faire via le portail{" "}
-            <strong>vespawatch.be</strong>. L&apos;intervention est obligatoirement professionnelle.
+            <strong>vespawatch.be</strong>. L'intervention est obligatoirement professionnelle.
           </p>
         </section>
 
@@ -241,7 +241,7 @@ export default function ArticleFrelonsPage() {
           <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>Articles liés</h2>
           <ul className="space-y-2 text-sm">
             <li><Link href="/blog/cafards-cuisine-que-faire" className="underline font-medium" style={{ color: "#1B4332" }}>Cafards dans la cuisine : que faire ?</Link></li>
-            <li><Link href="/blog/punaises-de-lit-que-faire" className="underline font-medium" style={{ color: "#1B4332" }}>Punaises de lit : que faire en cas d&apos;infestation ?</Link></li>
+            <li><Link href="/blog/punaises-de-lit-que-faire" className="underline font-medium" style={{ color: "#1B4332" }}>Punaises de lit : que faire en cas d'infestation ?</Link></li>
             <li><Link href="/guepes-frelons-liege" className="underline font-medium" style={{ color: "#1B4332" }}>Destruction nids guêpes & frelons Liège — service professionnel</Link></li>
           </ul>
         </section>

@@ -110,7 +110,7 @@ export default function PrixPunaisesLitPage() {
             </tbody>
           </table>
         </div>
-        <p className="text-sm text-gray-500 mb-8 italic">* Tarifs indicatifs pour Liège et communes voisines. Le devis définitif est établi après diagnostic du niveau d&apos;infestation.</p>
+        <p className="text-sm text-gray-500 mb-8 italic">* Tarifs indicatifs pour Liège et communes voisines. Le devis définitif est établi après diagnostic du niveau d'infestation.</p>
 
         <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>
           5 facteurs qui font varier le prix
