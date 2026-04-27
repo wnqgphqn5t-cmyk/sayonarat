@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
   title: "Comment savoir si on a des rats chez soi ? Les 7 signes — Sayonarat Liège",
@@ -289,6 +290,23 @@ export default function ArticleRatsPage() {
             </li>
           </ul>
         </section>
+
+        <Sources
+          sources={[
+            {
+              label: "SPF Santé Publique — Biocides et produits antiparasitaires homologués",
+              href: "https://www.health.belgium.be/fr/biocides",
+            },
+            {
+              label: "Sciensano — Leptospirose en Belgique : surveillance et prévention",
+              href: "https://www.sciensano.be/fr/maladies-infectieuses/leptospirose",
+            },
+            {
+              label: "ECDC — Rodent-borne diseases in Europe",
+              href: "https://www.ecdc.europa.eu/en/rodent-borne-diseases",
+            },
+          ]}
+        />
 
         <div className="border-t pt-6 text-sm text-gray-500 flex items-center gap-3">
           <div
