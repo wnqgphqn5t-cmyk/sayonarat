@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
   title: "Dératisation Seraing : pourquoi cette commune est exposée — Sayonarat",
@@ -279,6 +280,23 @@ export default function ArticleSeraingPage() {
             </li>
           </ul>
         </section>
+
+        <Sources
+          sources={[
+            {
+              label: "SPF Santé Publique — Biocides et produits antiparasitaires homologués",
+              href: "https://www.health.belgium.be/fr/biocides",
+            },
+            {
+              label: "Ville de Seraing — Services environnement et salubrité",
+              href: "https://www.seraing.be/",
+            },
+            {
+              label: "Sciensano — Surveillance des zoonoses en Belgique",
+              href: "https://www.sciensano.be/fr/maladies-infectieuses/leptospirose",
+            },
+          ]}
+        />
 
         <div className="border-t pt-6 text-sm text-gray-500 flex items-center gap-3">
           <div

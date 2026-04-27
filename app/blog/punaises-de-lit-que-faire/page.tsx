@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
   title: "Punaises de lit : que faire en cas d'infestation à Liège ? — Sayonarat",
@@ -322,6 +323,23 @@ export default function ArticlePunaisesPage() {
             </li>
           </ul>
         </section>
+
+        <Sources
+          sources={[
+            {
+              label: "SPF Santé Publique — Biocides et produits antiparasitaires homologués",
+              href: "https://www.health.belgium.be/fr/biocides",
+            },
+            {
+              label: "ECDC — Bed bugs: biology, impact and control",
+              href: "https://www.ecdc.europa.eu/en/disease-vectors/facts/bug-facts/bed-bugs",
+            },
+            {
+              label: "Sciensano — Surveillance entomologique en Belgique",
+              href: "https://www.sciensano.be/fr",
+            },
+          ]}
+        />
 
         <div className="border-t pt-6 text-sm text-gray-500 flex items-center gap-3">
           <div

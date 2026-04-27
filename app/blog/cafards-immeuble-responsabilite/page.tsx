@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
   title: "Cafards dans un immeuble : qui est responsable ? — Sayonarat Liège",
@@ -197,6 +198,23 @@ export default function ArticleCafardsResponsabilitePage() {
             <li><Link href="/desinsectisation-liege" className="underline font-medium" style={{ color: "#1B4332" }}>Désinsectisation Liège — service principal</Link></li>
           </ul>
         </section>
+
+        <Sources
+          sources={[
+            {
+              label: "SPF Santé Publique — Biocides et produits antiparasitaires homologués",
+              href: "https://www.health.belgium.be/fr/biocides",
+            },
+            {
+              label: "SPF Justice — Code civil belge, responsabilité locataire/propriétaire",
+              href: "https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=1804032132&table_name=loi",
+            },
+            {
+              label: "Service Public de Wallonie — Logement et salubrité",
+              href: "https://www.wallonie.be/fr/demarches/louer-un-logement",
+            },
+          ]}
+        />
 
         <div className="border-t pt-6 text-sm text-gray-500 flex items-center gap-3">
           <div className="w-10 h-10 rounded-full flex items-center justify-center font-bold text-white flex-shrink-0" style={{ backgroundColor: "#1B4332" }}>V</div>

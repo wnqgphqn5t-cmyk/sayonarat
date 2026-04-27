@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
   title: "Frelon asiatique à Liège : comment le reconnaître et que faire ?",
@@ -237,6 +238,23 @@ export default function FrelonAsiatiqueLiegePage() {
             </div>
           ))}
         </div>
+
+        <Sources
+          sources={[
+            {
+              label: "SPF Santé Publique — Espèces exotiques envahissantes en Belgique",
+              href: "https://www.health.belgium.be/fr/biocides",
+            },
+            {
+              label: "Vespa-Watch — Surveillance du frelon asiatique en Belgique",
+              href: "https://www.vespawatch.be/",
+            },
+            {
+              label: "Service Public de Wallonie — Frelon asiatique : signalement et gestion",
+              href: "https://www.wallonie.be/fr",
+            },
+          ]}
+        />
 
         <div className="border-t border-gray-100 pt-8">
           <p className="text-sm font-semibold mb-3" style={{ color: "#1B4332" }}>Articles liés</p>

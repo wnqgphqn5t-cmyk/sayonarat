@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
   title: "Punaises de lit en voyage : comment éviter de les ramener ? — Sayonarat",
@@ -184,6 +185,23 @@ export default function ArticlePunaisesVoyagePage() {
             <li><Link href="/punaises-de-lit-liege" className="underline font-medium" style={{ color: "#1B4332" }}>Traitement punaises de lit Liège</Link></li>
           </ul>
         </section>
+
+        <Sources
+          sources={[
+            {
+              label: "SPF Santé Publique — Conseils aux voyageurs",
+              href: "https://www.health.belgium.be/fr",
+            },
+            {
+              label: "ECDC — Bed bugs and travel: prevention tips",
+              href: "https://www.ecdc.europa.eu/en/disease-vectors/facts/bug-facts/bed-bugs",
+            },
+            {
+              label: "OMS — Hygiène et voyages internationaux",
+              href: "https://www.who.int/fr/travel-advice",
+            },
+          ]}
+        />
 
         <div className="border-t pt-6 text-sm text-gray-500 flex items-center gap-3">
           <div className="w-10 h-10 rounded-full flex items-center justify-center font-bold text-white flex-shrink-0" style={{ backgroundColor: "#1B4332" }}>V</div>

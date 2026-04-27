@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
   title: "Frelons et guêpes à Liège : que faire en cas de nid ? — Sayonarat",
@@ -244,6 +245,23 @@ export default function ArticleFrelonsPage() {
             <li><Link href="/guepes-frelons-liege" className="underline font-medium" style={{ color: "#1B4332" }}>Destruction nids guêpes & frelons Liège — service professionnel</Link></li>
           </ul>
         </section>
+
+        <Sources
+          sources={[
+            {
+              label: "SPF Santé Publique — Biocides et produits antiparasitaires homologués",
+              href: "https://www.health.belgium.be/fr/biocides",
+            },
+            {
+              label: "Vespa-Watch — Surveillance des frelons en Belgique",
+              href: "https://www.vespawatch.be/",
+            },
+            {
+              label: "ECDC — Hymenoptera stings and public health",
+              href: "https://www.ecdc.europa.eu/en",
+            },
+          ]}
+        />
 
         <div className="border-t pt-6 text-sm text-gray-500 flex items-center gap-3">
           <div className="w-10 h-10 rounded-full flex items-center justify-center font-bold text-white flex-shrink-0" style={{ backgroundColor: "#1B4332" }}>V</div>

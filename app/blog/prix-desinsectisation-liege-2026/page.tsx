@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
   title: "Prix d'une désinsectisation à Liège en 2026 — Sayonarat",
@@ -180,6 +181,23 @@ export default function ArticlePrixDesinsectisationPage() {
             <li><Link href="/desinsectisation-liege" className="underline font-medium" style={{ color: "#1B4332" }}>Désinsectisation Liège — service principal</Link></li>
           </ul>
         </section>
+
+        <Sources
+          sources={[
+            {
+              label: "SPF Santé Publique — Agrément des entreprises de lutte antiparasitaire",
+              href: "https://www.health.belgium.be/fr/biocides",
+            },
+            {
+              label: "SPF Economie — Prix et transparence des services en Belgique",
+              href: "https://economie.fgov.be/fr/themes/prix",
+            },
+            {
+              label: "AFSCA — Réglementation sur les produits biocides",
+              href: "https://www.afsca.be/",
+            },
+          ]}
+        />
 
         <div className="border-t pt-6 text-sm text-gray-500 flex items-center gap-3">
           <div className="w-10 h-10 rounded-full flex items-center justify-center font-bold text-white flex-shrink-0" style={{ backgroundColor: "#1B4332" }}>V</div>

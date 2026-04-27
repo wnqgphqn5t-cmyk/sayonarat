@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
   title: "Fourmis dans la maison : que faire ? Guide complet — Sayonarat Liège",
@@ -216,6 +217,23 @@ export default function ArticleFourmisPage() {
             <li><Link href="/fourmis-liege" className="underline font-medium" style={{ color: "#1B4332" }}>Traitement fourmis Liège — service professionnel</Link></li>
           </ul>
         </section>
+
+        <Sources
+          sources={[
+            {
+              label: "SPF Santé Publique — Biocides et produits antiparasitaires homologués",
+              href: "https://www.health.belgium.be/fr/biocides",
+            },
+            {
+              label: "AFSCA — Nuisibles et hygiène dans l'habitat",
+              href: "https://www.afsca.be/autocontrole/guidesautocontrole/",
+            },
+            {
+              label: "ECDC — Pest control in domestic environments",
+              href: "https://www.ecdc.europa.eu/en",
+            },
+          ]}
+        />
 
         <div className="border-t pt-6 text-sm text-gray-500 flex items-center gap-3">
           <div className="w-10 h-10 rounded-full flex items-center justify-center font-bold text-white flex-shrink-0" style={{ backgroundColor: "#1B4332" }}>V</div>

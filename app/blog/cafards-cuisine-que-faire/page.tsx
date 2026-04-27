@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
   title: "Cafards dans la cuisine : que faire ? Guide complet — Sayonarat Liège",
@@ -271,6 +272,23 @@ export default function ArticleCafardsPage() {
             </li>
           </ul>
         </section>
+
+        <Sources
+          sources={[
+            {
+              label: "SPF Santé Publique — Biocides et produits antiparasitaires homologués",
+              href: "https://www.health.belgium.be/fr/biocides",
+            },
+            {
+              label: "AFSCA — Hygiène alimentaire et lutte contre les nuisibles",
+              href: "https://www.afsca.be/autocontrole/guidesautocontrole/",
+            },
+            {
+              label: "OMS — Maladies transmises par les blattes",
+              href: "https://www.who.int/fr/news-room/fact-sheets/detail/food-safety",
+            },
+          ]}
+        />
 
         <div className="border-t pt-6 text-sm text-gray-500 flex items-center gap-3">
           <div

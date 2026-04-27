@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
   title: "Prix traitement punaises de lit Liège 2026 — Tarifs réels",
@@ -194,6 +195,23 @@ export default function PrixPunaisesLitPage() {
             </div>
           ))}
         </div>
+
+        <Sources
+          sources={[
+            {
+              label: "SPF Santé Publique — Biocides et produits antiparasitaires homologués",
+              href: "https://www.health.belgium.be/fr/biocides",
+            },
+            {
+              label: "ECDC — Bed bugs: economic and public health impact",
+              href: "https://www.ecdc.europa.eu/en/disease-vectors/facts/bug-facts/bed-bugs",
+            },
+            {
+              label: "SPF Economie — Transparence tarifaire des services",
+              href: "https://economie.fgov.be/fr/themes/prix",
+            },
+          ]}
+        />
 
         <div className="border-t border-gray-100 pt-8">
           <p className="text-sm font-semibold mb-3" style={{ color: "#1B4332" }}>Articles liés</p>

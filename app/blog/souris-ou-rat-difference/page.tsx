@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
   title: "Souris ou rat : comment faire la différence ? — Sayonarat Liège",
@@ -191,6 +192,23 @@ export default function ArticleSourisRatPage() {
             <li><Link href="/deratisation-liege" className="underline font-medium" style={{ color: "#1B4332" }}>Dératisation Liège — service principal</Link></li>
           </ul>
         </section>
+
+        <Sources
+          sources={[
+            {
+              label: "SPF Santé Publique — Biocides et produits antiparasitaires homologués",
+              href: "https://www.health.belgium.be/fr/biocides",
+            },
+            {
+              label: "Sciensano — Leptospirose en Belgique : surveillance et prévention",
+              href: "https://www.sciensano.be/fr/maladies-infectieuses/leptospirose",
+            },
+            {
+              label: "ECDC — Rodent-borne diseases in Europe",
+              href: "https://www.ecdc.europa.eu/en/rodent-borne-diseases",
+            },
+          ]}
+        />
 
         <div className="border-t pt-6 text-sm text-gray-500 flex items-center gap-3">
           <div className="w-10 h-10 rounded-full flex items-center justify-center font-bold text-white flex-shrink-0" style={{ backgroundColor: "#1B4332" }}>V</div>

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
   title: "Prix d'une dératisation à Liège en 2026 : tarifs réels — Sayonarat",
@@ -283,6 +284,23 @@ export default function ArticlePrixPage() {
             </li>
           </ul>
         </section>
+
+        <Sources
+          sources={[
+            {
+              label: "SPF Santé Publique — Agrément des entreprises de lutte antiparasitaire",
+              href: "https://www.health.belgium.be/fr/biocides",
+            },
+            {
+              label: "SPF Economie — Prix et transparence des services en Belgique",
+              href: "https://economie.fgov.be/fr/themes/prix",
+            },
+            {
+              label: "Service Public de Wallonie — Aides au logement et salubrité",
+              href: "https://www.wallonie.be/fr",
+            },
+          ]}
+        />
 
         <div className="border-t pt-6 text-sm text-gray-500 flex items-center gap-3">
           <div

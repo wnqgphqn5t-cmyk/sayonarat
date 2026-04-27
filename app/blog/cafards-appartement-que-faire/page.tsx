@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
   title: "Cafards dans un appartement : que faire ? Guide complet Liège",
@@ -198,6 +199,23 @@ export default function CafardsAppartementPage() {
             </div>
           ))}
         </div>
+
+        <Sources
+          sources={[
+            {
+              label: "SPF Santé Publique — Biocides et produits antiparasitaires homologués",
+              href: "https://www.health.belgium.be/fr/biocides",
+            },
+            {
+              label: "AFSCA — Hygiène alimentaire et nuisibles",
+              href: "https://www.afsca.be/autocontrole/guidesautocontrole/",
+            },
+            {
+              label: "Sciensano — Maladies transmises par les insectes",
+              href: "https://www.sciensano.be/fr/maladies-infectieuses",
+            },
+          ]}
+        />
 
         <div className="border-t border-gray-100 pt-8">
           <p className="text-sm font-semibold mb-3" style={{ color: "#1B4332" }}>Articles liés</p>

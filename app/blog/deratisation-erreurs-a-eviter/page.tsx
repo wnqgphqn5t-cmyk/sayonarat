@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
   title: "Dératisation : les 6 erreurs qui aggravent l'infestation — Sayonarat Liège",
@@ -167,6 +168,23 @@ export default function ArticleErreursDeratisationPage() {
             <li><Link href="/blog/prix-deratisation-liege-2026" className="underline font-medium" style={{ color: "#1B4332" }}>Prix d&apos;une dératisation à Liège en 2026</Link></li>
           </ul>
         </section>
+
+        <Sources
+          sources={[
+            {
+              label: "SPF Santé Publique — Biocides et produits antiparasitaires homologués",
+              href: "https://www.health.belgium.be/fr/biocides",
+            },
+            {
+              label: "OMS — Lutte antivectorielle : bonnes pratiques",
+              href: "https://www.who.int/fr/news-room/fact-sheets/detail/vector-borne-diseases",
+            },
+            {
+              label: "ECDC — Rodent control guidelines",
+              href: "https://www.ecdc.europa.eu/en/rodent-borne-diseases",
+            },
+          ]}
+        />
 
         <div className="border-t pt-6 text-sm text-gray-500 flex items-center gap-3">
           <div className="w-10 h-10 rounded-full flex items-center justify-center font-bold text-white flex-shrink-0" style={{ backgroundColor: "#1B4332" }}>V</div>
