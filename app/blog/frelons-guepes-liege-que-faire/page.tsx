@@ -14,7 +14,7 @@ const jsonLd = {
   headline: "Frelons et guêpes à Liège : que faire en cas de nid ?",
   description: "Guide complet : identifier un nid de frelons ou guêpes, quand appeler un professionnel et comment se déroule l'intervention à Liège.",
   datePublished: "2026-04-23",
-  dateModified: "2026-04-23",
+  dateModified: "2026-04-27",
   author: { "@type": "Person", name: "Victor F." },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://sayonarat.be" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://sayonarat.be/blog/frelons-guepes-liege-que-faire" },
@@ -67,7 +67,7 @@ export default function ArticleFrelonsPage() {
           </p>
           <div className="flex items-center gap-3 mb-4">
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-green-700 text-white">Désinsectisation</span>
-            <span className="text-xs text-green-300">23 avril 2026 · 5 min de lecture</span>
+            <span className="text-xs text-green-300">27 avril 2026 · 5 min de lecture</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
             Frelons et guêpes à Liège :<br />que faire en cas de nid ?
@@ -85,6 +85,15 @@ export default function ArticleFrelonsPage() {
             <strong> n'utilisez pas d'eau</strong> ni de spray aérosol — cela provoque une attaque massive.
             Appelez un professionnel. Un nid de frelons asiatiques doit être signalé à l'AFSCA
             et traité obligatoirement par un expert certifié.
+          </p>
+        </div>
+
+        <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-xl p-4">
+          <p className="font-semibold text-amber-800 text-sm">🌿 Printemps 2026 : la saison démarre maintenant</p>
+          <p className="text-sm text-gray-700 mt-1">
+            En avril, les reines fondatrices sortent de leur hibernation et commencent à construire leur nid.
+            Un nid repéré maintenant fait à peine la taille d'un poing — simple à traiter, intervention rapide.
+            En août, il peut abriter <strong>10 000 individus</strong> et l'intervention devient 2× plus longue et coûteuse.
           </p>
         </div>
 

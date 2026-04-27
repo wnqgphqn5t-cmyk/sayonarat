@@ -39,7 +39,7 @@ const jsonLd = {
   author: { "@type": "Organization", name: "Sayonarat" },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://sayonarat.be" },
   datePublished: "2026-04-23",
-  dateModified: "2026-04-23",
+  dateModified: "2026-04-27",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://sayonarat.be/blog/fourmis-pharaon-traitement" },
 };
 
@@ -67,7 +67,7 @@ export default function FourmisPharaonPage() {
           </p>
           <div className="flex items-center gap-3 mb-4">
             <span className="text-xs font-semibold px-3 py-1 rounded-full text-white" style={{ backgroundColor: "#1B4332", border: "1px solid #4ade80" }}>Désinsectisation</span>
-            <span className="text-xs text-green-300">23 avril 2026 · 5 min de lecture</span>
+            <span className="text-xs text-green-300">27 avril 2026 · 5 min de lecture</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
             Fourmis pharaon : pourquoi c'est si difficile à éliminer ?
@@ -94,6 +94,15 @@ export default function FourmisPharaonPage() {
         <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>
           La fourmi pharaon : un insecte à part
         </h2>
+        <div className="bg-green-50 border-l-4 rounded-r-xl p-4 mb-6" style={{ borderColor: "#1B4332" }}>
+          <p className="font-semibold text-sm" style={{ color: "#1B4332" }}>🌿 Printemps 2026 : les colonies s'activent</p>
+          <p className="text-sm text-gray-700 mt-1">
+            La hausse des températures printanières accélère le développement des colonies de fourmis pharaon.
+            Avril-mai est la période où les signalements augmentent dans les immeubles liégeois.
+            Un traitement initié maintenant évite la dispersion estivale de la colonie dans tout le bâtiment.
+          </p>
+        </div>
+
         <p className="text-gray-700 mb-4 leading-relaxed">
           <em>Monomorium pharaonis</em> — la fourmi pharaon — est originaire d'Afrique
           tropicale. Introduite en Europe via le commerce, elle s'est parfaitement

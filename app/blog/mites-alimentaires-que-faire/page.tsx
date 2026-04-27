@@ -14,7 +14,7 @@ const jsonLd = {
   headline: "Mites alimentaires : que faire ? Guide complet",
   description: "Identifier les mites alimentaires, étapes immédiates, erreurs à éviter et traitement professionnel à Liège.",
   datePublished: "2026-04-23",
-  dateModified: "2026-04-23",
+  dateModified: "2026-04-27",
   author: { "@type": "Person", name: "Victor F." },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://sayonarat.be" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://sayonarat.be/blog/mites-alimentaires-que-faire" },
@@ -67,7 +67,7 @@ export default function ArticleMitesPage() {
           </p>
           <div className="flex items-center gap-3 mb-4">
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-green-700 text-white">Désinsectisation</span>
-            <span className="text-xs text-green-300">23 avril 2026 · 5 min de lecture</span>
+            <span className="text-xs text-green-300">27 avril 2026 · 5 min de lecture</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
             Mites alimentaires :<br />que faire ?
@@ -86,6 +86,15 @@ export default function ArticleMitesPage() {
             <strong> 3)</strong> aspirez et lavez l'intérieur des placards avec du vinaigre blanc,
             <strong> 4)</strong> stockez les nouveaux produits dans des bocaux hermétiques.
             Si l'infestation persiste, appelez un professionnel.
+          </p>
+        </div>
+
+        <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-xl p-4">
+          <p className="font-semibold text-amber-800 text-sm">🌿 Grand nettoyage de printemps : le bon moment pour inspecter</p>
+          <p className="text-sm text-gray-700 mt-1">
+            Les larves de mites alimentaires peuvent survivre l'hiver dans un produit acheté en fin d'année.
+            Avril est le moment idéal pour inspecter vos placards : une infestation débutante traitée maintenant
+            évite une prolifération estivale qui touche toute la cuisine.
           </p>
         </div>
 

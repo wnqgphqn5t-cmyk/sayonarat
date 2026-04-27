@@ -14,7 +14,7 @@ const jsonLd = {
   headline: "Prix d'une désinsectisation à Liège en 2026",
   description: "Tarifs réels d'une désinsectisation à Liège selon le type d'insecte et la superficie.",
   datePublished: "2026-04-23",
-  dateModified: "2026-04-23",
+  dateModified: "2026-04-27",
   author: { "@type": "Person", name: "Victor F." },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://sayonarat.be" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://sayonarat.be/blog/prix-desinsectisation-liege-2026" },
@@ -74,7 +74,7 @@ export default function ArticlePrixDesinsectisationPage() {
           </p>
           <div className="flex items-center gap-3 mb-4">
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-green-700 text-white">Tarifs</span>
-            <span className="text-xs text-green-300">23 avril 2026 · 4 min de lecture</span>
+            <span className="text-xs text-green-300">27 avril 2026 · 4 min de lecture</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
             Prix d'une désinsectisation<br />à Liège en 2026
@@ -121,6 +121,15 @@ export default function ArticlePrixDesinsectisationPage() {
             </table>
           </div>
         </section>
+
+        <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl">
+          <p className="font-semibold text-amber-800 text-sm">🌿 Printemps 2026 : saison des nids de guêpes et fourmis</p>
+          <p className="text-sm text-gray-700 mt-1">
+            La saison des guêpes et frelons démarre en avril — les nids traités tôt (avril-mai) coûtent
+            moins cher que les nids d'été (colonies plus grandes, intervention plus longue).
+            Pour les fourmis, avril-mai est aussi le pic d'invasion : intervenir maintenant limite l'étendue du traitement.
+          </p>
+        </div>
 
         <section>
           <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>

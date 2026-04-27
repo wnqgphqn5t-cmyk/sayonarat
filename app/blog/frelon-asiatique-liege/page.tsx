@@ -39,7 +39,7 @@ const jsonLd = {
   author: { "@type": "Organization", name: "Sayonarat" },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://sayonarat.be" },
   datePublished: "2026-04-23",
-  dateModified: "2026-04-23",
+  dateModified: "2026-04-27",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://sayonarat.be/blog/frelon-asiatique-liege" },
 };
 
@@ -67,7 +67,7 @@ export default function FrelonAsiatiqueLiegePage() {
           </p>
           <div className="flex items-center gap-3 mb-4">
             <span className="text-xs font-semibold px-3 py-1 rounded-full text-white bg-amber-600">Désinsectisation</span>
-            <span className="text-xs text-green-300">23 avril 2026 · 6 min de lecture</span>
+            <span className="text-xs text-green-300">27 avril 2026 · 6 min de lecture</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
             Frelon asiatique à Liège : comment le reconnaître et que faire ?
@@ -162,12 +162,20 @@ export default function FrelonAsiatiqueLiegePage() {
             </li>
           ))}
         </ul>
-        <p className="text-gray-700 mb-8 leading-relaxed">
+        <p className="text-gray-700 mb-4 leading-relaxed">
           La saison de nidification s'étend d'avril (fondation par la reine) à novembre
           (mort naturelle de la colonie par le gel). Un nid détecté en mai ou juin est
           encore petit (taille d'un poing) et beaucoup plus simple à traiter qu'un nid
           d'août qui peut abriter jusqu'à 6 000 individus.
         </p>
+        <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-xl p-4 mb-8">
+          <p className="font-semibold text-amber-800 text-sm">🌿 Printemps 2026 : fenêtre de détection précoce ouverte</p>
+          <p className="text-sm text-gray-700 mt-1">
+            Fin avril 2026, les reines hivernantes cherchent un emplacement pour fonder leur colonie.
+            C'est le meilleur moment pour signaler un nid : petite taille, une seule intervention suffisante,
+            tarif minimal. Dès juin, les colonies comptent déjà plusieurs centaines d'individus.
+          </p>
+        </div>
 
         <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>
           Que faire si vous repérez un nid ?

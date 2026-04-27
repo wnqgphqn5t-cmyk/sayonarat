@@ -122,6 +122,15 @@ export default function GuepesFrellonsLiegePage() {
 
       <section className="py-14 px-4 max-w-4xl mx-auto">
 
+        <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl mb-8">
+          <p className="font-semibold text-amber-800 text-sm">🌿 Printemps 2026 : début de saison — agissez maintenant</p>
+          <p className="text-sm text-gray-700 mt-1">
+            En avril-mai, les reines fondatrices construisent leurs premiers nids. Un nid repéré maintenant
+            est encore petit (taille d'un poing) et traité en une seule intervention.
+            En juillet-août, les colonies atteignent 5 000 à 10 000 individus — délai d'intervention et tarif augmentés.
+          </p>
+        </div>
+
         <div className="bg-red-50 border-l-4 border-red-400 p-5 rounded-r-xl mb-10">
           <p className="font-semibold text-red-800">⚠️ Ne jamais traiter un nid soi-même de jour</p>
           <p className="text-sm text-gray-700 mt-1">

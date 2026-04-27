@@ -14,7 +14,7 @@ const jsonLd = {
   headline: "Fourmis dans la maison : que faire ? Guide complet",
   description: "Identifier l'espèce de fourmis, étapes immédiates, erreurs à éviter et traitement professionnel à Liège.",
   datePublished: "2026-04-23",
-  dateModified: "2026-04-23",
+  dateModified: "2026-04-27",
   author: { "@type": "Person", name: "Victor F." },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://sayonarat.be" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://sayonarat.be/blog/fourmis-maison-que-faire" },
@@ -67,7 +67,7 @@ export default function ArticleFourmisPage() {
           </p>
           <div className="flex items-center gap-3 mb-4">
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-green-700 text-white">Désinsectisation</span>
-            <span className="text-xs text-green-300">23 avril 2026 · 5 min de lecture</span>
+            <span className="text-xs text-green-300">27 avril 2026 · 5 min de lecture</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
             Fourmis dans la maison :<br />que faire ?
@@ -85,6 +85,15 @@ export default function ArticleFourmisPage() {
             la colonie sans tuer la reine. Identifiez l'espèce, bloquez les points d'entrée,
             posez des appâts insecticides. Pour les fourmis pharaons en immeuble,
             appelez directement un professionnel.
+          </p>
+        </div>
+
+        <div className="bg-green-50 border-l-4 rounded-r-xl p-4" style={{ borderColor: "#1B4332" }}>
+          <p className="font-semibold text-sm" style={{ color: "#1B4332" }}>🌿 Printemps 2026 : pic d'invasion en cours</p>
+          <p className="text-sm text-gray-700 mt-1">
+            En avril-mai, les colonies de fourmis sortent de leur ralentissement hivernal et envoient des
+            ouvrières en reconnaissance dans les logements. C'est la période la plus active pour les intrusions.
+            Un problème non traité maintenant peut devenir une infestation établie en quelques semaines.
           </p>
         </div>
 
