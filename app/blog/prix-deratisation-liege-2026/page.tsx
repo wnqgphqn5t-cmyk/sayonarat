@@ -121,16 +121,16 @@ export default function ArticlePrixPage() {
                 <tr style={{ backgroundColor: "#1B4332" }} className="text-white">
                   <th className="px-4 py-3 text-left">Type de bien</th>
                   <th className="px-4 py-3 text-left">Fourchette</th>
-                  <th className="px-4 py-3 text-left">Passages inclus</th>
+                  <th className="px-4 py-3 text-left">Inclus dans le tarif</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  ["Studio / appartement", "150 € – 220 €", "Selon diagnostic"],
-                  ["Maison unifamiliale", "220 € – 350 €", "2–3 passages"],
-                  ["Maison avec cave / jardin", "300 € – 450 €", "3 passages"],
-                  ["Commerce / restaurant", "350 € – 600 €", "3 passages + contrat"],
-                  ["Cave ou sous-sol seul", "120 € – 200 €", "Selon diagnostic"],
+                  ["Studio / appartement", "150 € – 220 €", "Diagnostic + traitement + colmatage"],
+                  ["Maison unifamiliale", "220 € – 350 €", "Diagnostic + traitement + colmatage"],
+                  ["Maison avec cave / jardin", "300 € – 450 €", "Diagnostic + traitement + colmatage + extérieur"],
+                  ["Commerce / restaurant", "350 € – 600 €", "Diagnostic + traitement + contrat suivi"],
+                  ["Cave ou sous-sol seul", "120 € – 200 €", "Diagnostic ciblé + traitement"],
                 ].map(([type, prix, passages], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-gray-50" : "bg-white"}>
                     <td className="px-4 py-3 font-medium text-gray-900">{type}</td>
