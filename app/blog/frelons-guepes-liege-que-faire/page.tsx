@@ -249,16 +249,16 @@ export default function ArticleFrelonsPage() {
         <Sources
           sources={[
             {
-              label: "SPF Santé Publique — Biocides et produits antiparasitaires homologués",
-              href: "https://www.health.belgium.be/fr/biocides",
+              label: "SPF Santé Publique — Liste des biocides autorisés en Belgique",
+              href: "https://www.health.belgium.be/fr/liste-des-biocides-autorises-et-rapport-annuel",
             },
             {
-              label: "Vespa-Watch — Surveillance des frelons en Belgique",
-              href: "https://www.vespawatch.be/",
+              label: "Vespa-Watch — Surveillance du frelon asiatique en Belgique",
+              href: "https://vespawatch.be/en/issue/",
             },
             {
-              label: "ECDC — Hymenoptera stings and public health",
-              href: "https://www.ecdc.europa.eu/en",
+              label: "Vespa-Watch — FAQ frelon asiatique",
+              href: "https://vespawatch.be/en/faq/",
             },
           ]}
         />

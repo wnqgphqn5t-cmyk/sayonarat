@@ -242,16 +242,16 @@ export default function FrelonAsiatiqueLiegePage() {
         <Sources
           sources={[
             {
-              label: "SPF Santé Publique — Espèces exotiques envahissantes en Belgique",
-              href: "https://www.health.belgium.be/fr/biocides",
+              label: "SPF Santé Publique — Liste des biocides autorisés en Belgique",
+              href: "https://www.health.belgium.be/fr/liste-des-biocides-autorises-et-rapport-annuel",
             },
             {
               label: "Vespa-Watch — Surveillance du frelon asiatique en Belgique",
-              href: "https://www.vespawatch.be/",
+              href: "https://vespawatch.be/en/issue/",
             },
             {
-              label: "Service Public de Wallonie — Frelon asiatique : signalement et gestion",
-              href: "https://www.wallonie.be/fr",
+              label: "Vespa-Watch — FAQ frelon asiatique",
+              href: "https://vespawatch.be/en/faq/",
             },
           ]}
         />

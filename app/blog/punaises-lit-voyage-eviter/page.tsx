@@ -189,16 +189,16 @@ export default function ArticlePunaisesVoyagePage() {
         <Sources
           sources={[
             {
-              label: "SPF Santé Publique — Conseils aux voyageurs",
-              href: "https://www.health.belgium.be/fr",
+              label: "SPF Santé Publique — Liste des biocides autorisés en Belgique",
+              href: "https://www.health.belgium.be/fr/liste-des-biocides-autorises-et-rapport-annuel",
             },
             {
-              label: "ECDC — Bed bugs and travel: prevention tips",
-              href: "https://www.ecdc.europa.eu/en/disease-vectors/facts/bug-facts/bed-bugs",
+              label: "Parlement Européen — Question parlementaire sur les punaises de lit (2023)",
+              href: "https://www.europarl.europa.eu/doceo/document/E-9-2023-003026_EN.html",
             },
             {
-              label: "OMS — Hygiène et voyages internationaux",
-              href: "https://www.who.int/fr/travel-advice",
+              label: "OMS — Conseils aux voyageurs et hygiène",
+              href: "https://www.who.int/news-room/fact-sheets/detail/food-safety",
             },
           ]}
         />

@@ -203,16 +203,16 @@ export default function CafardsAppartementPage() {
         <Sources
           sources={[
             {
-              label: "SPF Santé Publique — Biocides et produits antiparasitaires homologués",
-              href: "https://www.health.belgium.be/fr/biocides",
+              label: "SPF Santé Publique — Liste des biocides autorisés en Belgique",
+              href: "https://www.health.belgium.be/fr/liste-des-biocides-autorises-et-rapport-annuel",
             },
             {
-              label: "AFSCA — Hygiène alimentaire et nuisibles",
-              href: "https://www.afsca.be/autocontrole/guidesautocontrole/",
+              label: "OMS — Sécurité sanitaire des aliments",
+              href: "https://www.who.int/news-room/fact-sheets/detail/food-safety",
             },
             {
-              label: "Sciensano — Maladies transmises par les insectes",
-              href: "https://www.sciensano.be/fr/maladies-infectieuses",
+              label: "Sciensano — Institut de santé publique belge",
+              href: "https://www.sciensano.be/fr",
             },
           ]}
         />

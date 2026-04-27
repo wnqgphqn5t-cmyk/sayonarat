@@ -202,16 +202,16 @@ export default function ArticleCafardsResponsabilitePage() {
         <Sources
           sources={[
             {
-              label: "SPF Santé Publique — Biocides et produits antiparasitaires homologués",
-              href: "https://www.health.belgium.be/fr/biocides",
+              label: "SPF Santé Publique — Liste des biocides autorisés en Belgique",
+              href: "https://www.health.belgium.be/fr/liste-des-biocides-autorises-et-rapport-annuel",
             },
             {
-              label: "SPF Justice — Code civil belge, responsabilité locataire/propriétaire",
+              label: "SPF Justice — Code civil belge",
               href: "https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=1804032132&table_name=loi",
             },
             {
-              label: "Service Public de Wallonie — Logement et salubrité",
-              href: "https://www.wallonie.be/fr/demarches/louer-un-logement",
+              label: "Sciensano — Institut de santé publique belge",
+              href: "https://www.sciensano.be/fr",
             },
           ]}
         />

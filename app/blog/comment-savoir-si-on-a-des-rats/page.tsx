@@ -294,16 +294,16 @@ export default function ArticleRatsPage() {
         <Sources
           sources={[
             {
-              label: "SPF Santé Publique — Biocides et produits antiparasitaires homologués",
-              href: "https://www.health.belgium.be/fr/biocides",
+              label: "SPF Santé Publique — Liste des biocides autorisés en Belgique",
+              href: "https://www.health.belgium.be/fr/liste-des-biocides-autorises-et-rapport-annuel",
             },
             {
-              label: "Sciensano — Leptospirose en Belgique : surveillance et prévention",
-              href: "https://www.sciensano.be/fr/maladies-infectieuses/leptospirose",
+              label: "Sciensano — Leptospirose : surveillance épidémiologique en Belgique",
+              href: "https://www.sciensano.be/fr/sujets-sante/leptospirose",
             },
             {
-              label: "ECDC — Rodent-borne diseases in Europe",
-              href: "https://www.ecdc.europa.eu/en/rodent-borne-diseases",
+              label: "OMS — Sécurité sanitaire des aliments et rongeurs",
+              href: "https://www.who.int/news-room/fact-sheets/detail/food-safety",
             },
           ]}
         />

@@ -288,16 +288,16 @@ export default function ArticlePrixPage() {
         <Sources
           sources={[
             {
-              label: "SPF Santé Publique — Agrément des entreprises de lutte antiparasitaire",
-              href: "https://www.health.belgium.be/fr/biocides",
+              label: "SPF Santé Publique — Liste des biocides autorisés en Belgique",
+              href: "https://www.health.belgium.be/fr/liste-des-biocides-autorises-et-rapport-annuel",
             },
             {
-              label: "SPF Economie — Prix et transparence des services en Belgique",
+              label: "Sciensano — Leptospirose : surveillance épidémiologique en Belgique",
+              href: "https://www.sciensano.be/fr/sujets-sante/leptospirose",
+            },
+            {
+              label: "SPF Économie — Transparence des prix des services en Belgique",
               href: "https://economie.fgov.be/fr/themes/prix",
-            },
-            {
-              label: "Service Public de Wallonie — Aides au logement et salubrité",
-              href: "https://www.wallonie.be/fr",
             },
           ]}
         />

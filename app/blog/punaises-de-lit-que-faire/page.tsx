@@ -327,15 +327,15 @@ export default function ArticlePunaisesPage() {
         <Sources
           sources={[
             {
-              label: "SPF Santé Publique — Biocides et produits antiparasitaires homologués",
-              href: "https://www.health.belgium.be/fr/biocides",
+              label: "SPF Santé Publique — Liste des biocides autorisés en Belgique",
+              href: "https://www.health.belgium.be/fr/liste-des-biocides-autorises-et-rapport-annuel",
             },
             {
-              label: "ECDC — Bed bugs: biology, impact and control",
-              href: "https://www.ecdc.europa.eu/en/disease-vectors/facts/bug-facts/bed-bugs",
+              label: "Parlement Européen — Question parlementaire sur les punaises de lit (2023)",
+              href: "https://www.europarl.europa.eu/doceo/document/E-9-2023-003026_EN.html",
             },
             {
-              label: "Sciensano — Surveillance entomologique en Belgique",
+              label: "Sciensano — Institut de santé publique belge",
               href: "https://www.sciensano.be/fr",
             },
           ]}

@@ -210,16 +210,16 @@ export default function FourmisPharaonPage() {
         <Sources
           sources={[
             {
-              label: "SPF Santé Publique — Biocides et produits antiparasitaires homologués",
-              href: "https://www.health.belgium.be/fr/biocides",
+              label: "SPF Santé Publique — Liste des biocides autorisés en Belgique",
+              href: "https://www.health.belgium.be/fr/liste-des-biocides-autorises-et-rapport-annuel",
             },
             {
-              label: "CDC — Pharaoh ant control in healthcare settings",
-              href: "https://www.cdc.gov/niosh/topics/emres/arthropod.html",
+              label: "OMS — Sécurité sanitaire des aliments",
+              href: "https://www.who.int/news-room/fact-sheets/detail/food-safety",
             },
             {
-              label: "ECDC — Pest control in domestic environments",
-              href: "https://www.ecdc.europa.eu/en",
+              label: "Sciensano — Institut de santé publique belge",
+              href: "https://www.sciensano.be/fr",
             },
           ]}
         />

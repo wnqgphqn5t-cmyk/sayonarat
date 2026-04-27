@@ -16,7 +16,7 @@ export default function Sources({ sources }: { sources: Source[] }) {
             <a
               href={source.href}
               target="_blank"
-              rel="noopener noreferrer nofollow"
+              rel="noopener noreferrer"
               className="hover:text-gray-600 underline underline-offset-2 transition-colors"
             >
               {source.label}

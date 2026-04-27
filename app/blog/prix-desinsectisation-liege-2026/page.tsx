@@ -185,16 +185,16 @@ export default function ArticlePrixDesinsectisationPage() {
         <Sources
           sources={[
             {
-              label: "SPF Santé Publique — Agrément des entreprises de lutte antiparasitaire",
-              href: "https://www.health.belgium.be/fr/biocides",
+              label: "SPF Santé Publique — Liste des biocides autorisés en Belgique",
+              href: "https://www.health.belgium.be/fr/liste-des-biocides-autorises-et-rapport-annuel",
             },
             {
-              label: "SPF Economie — Prix et transparence des services en Belgique",
+              label: "SPF Économie — Transparence des prix des services en Belgique",
               href: "https://economie.fgov.be/fr/themes/prix",
             },
             {
-              label: "AFSCA — Réglementation sur les produits biocides",
-              href: "https://www.afsca.be/",
+              label: "Sciensano — Institut de santé publique belge",
+              href: "https://www.sciensano.be/fr",
             },
           ]}
         />
