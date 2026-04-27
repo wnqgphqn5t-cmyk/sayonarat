@@ -147,7 +147,7 @@ export default function ArticleRatsPage() {
                 num: "5",
                 titre: "Des traces de pattes ou de queue dans la poussière",
                 texte:
-                  "Les rats suivent toujours les mêmes chemins (on parle de "coulées"). Dans les zones poussiéreuses (cave, grenier), vous pouvez voir leurs empreintes de 4 doigts à l'avant et 5 à l'arrière, ainsi que la trace de leur queue.",
+                  "Les rats suivent toujours les mêmes chemins (on parle de « coulées »). Dans les zones poussiéreuses (cave, grenier), vous pouvez voir leurs empreintes de 4 doigts à l'avant et 5 à l'arrière, ainsi que la trace de leur queue.",
               },
               {
                 num: "6",
