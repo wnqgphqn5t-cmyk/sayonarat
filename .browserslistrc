@@ -1,0 +1,8 @@
+# Modern browsers only — drop polyfills for ES2020+ features
+# Saves ~14 KiB of unnecessary polyfills (Array.at, flat, flatMap, Object.fromEntries, etc.)
+chrome >= 87
+edge >= 88
+firefox >= 78
+safari >= 14
+not dead
+not op_mini all

@@ -142,8 +142,7 @@ export default function HomePage() {
           <div className="flex-1 text-center md:text-left">
             <div className="inline-flex items-center gap-2 backdrop-blur-md bg-white/10 border border-white/20 rounded-full px-4 py-1.5 mb-6">
               <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-green-400"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-green-400 shadow-[0_0_6px_rgba(74,222,128,0.8)]"></span>
               </span>
               <span className="text-sm font-medium">Disponible 7j/7 · Partout en Belgique</span>
             </div>
@@ -197,6 +196,7 @@ export default function HomePage() {
                 alt="Expert dératisation Belgique — diagnostic professionnel"
                 width={600}
                 height={450}
+                sizes="(max-width: 768px) 90vw, 448px"
                 className="relative rounded-2xl shadow-2xl object-cover w-full"
                 priority
               />
