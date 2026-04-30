@@ -37,10 +37,10 @@ const jsonLd = {
   headline: "Cafards dans un appartement : que faire ? Guide complet",
   description: "Guide pratique sur les cafards en appartement à Liège : causes, erreurs à éviter, méthodes efficaces et démarches pour les locataires.",
   author: { "@type": "Organization", name: "Sayonarat" },
-  publisher: { "@type": "Organization", name: "Sayonarat", url: "https://sayonarat.be" },
+  publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },
   datePublished: "2026-04-23",
   dateModified: "2026-04-23",
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://sayonarat.be/blog/cafards-appartement-que-faire" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.sayonarat.be/blog/cafards-appartement-que-faire" },
 };
 
 const faqSchema = {

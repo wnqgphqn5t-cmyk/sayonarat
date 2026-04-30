@@ -37,10 +37,10 @@ const jsonLd = {
   headline: "Frelon asiatique à Liège : comment le reconnaître et que faire ?",
   description: "Guide complet sur le frelon asiatique à Liège : identification, différences avec le frelon commun, localisation des nids et procédure d'intervention.",
   author: { "@type": "Organization", name: "Sayonarat" },
-  publisher: { "@type": "Organization", name: "Sayonarat", url: "https://sayonarat.be" },
+  publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },
   datePublished: "2026-04-23",
   dateModified: "2026-04-27",
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://sayonarat.be/blog/frelon-asiatique-liege" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.sayonarat.be/blog/frelon-asiatique-liege" },
 };
 
 const faqSchema = {

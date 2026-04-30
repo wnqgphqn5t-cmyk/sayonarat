@@ -12,7 +12,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ContactPage",
   name: "Contact Sayonarat — Devis gratuit dératisation Belgique",
-  url: "https://sayonarat.be/contact",
+  url: "https://www.sayonarat.be/contact",
   description: "Demandez un devis gratuit pour une dératisation ou désinsectisation en Belgique. Réponse sous 24h, 7j/7.",
   mainEntity: {
     "@type": "LocalBusiness",

@@ -52,7 +52,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "Sayonarat",
-  url: "https://sayonarat.be",
+  url: "https://www.sayonarat.be",
   description: "Plateforme de mise en relation avec des techniciens certifiés en dératisation et désinsectisation en Belgique.",
   foundingDate: "2023",
   founder: { "@type": "Person", name: "Victor F." },

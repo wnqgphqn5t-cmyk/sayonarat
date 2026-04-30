@@ -96,7 +96,7 @@ const jsonLd = {
   name: "Sayonarat — Dératisation & Désinsectisation Belgique",
   description:
     "Entreprise de dératisation et désinsectisation en Belgique. Intervention rapide 7j/7, techniciens certifiés, garantie 30 jours.",
-  url: "https://sayonarat.be",
+  url: "https://www.sayonarat.be",
   address: {
     "@type": "PostalAddress",
     addressLocality: "Liège",
@@ -118,7 +118,7 @@ const jsonLd = {
   email: "contact@sayonarat.be",
   priceRange: "€€",
   areaServed: "BE",
-  sameAs: ["https://sayonarat.be"],
+  sameAs: ["https://www.sayonarat.be"],
 };
 
 export default function HomePage() {

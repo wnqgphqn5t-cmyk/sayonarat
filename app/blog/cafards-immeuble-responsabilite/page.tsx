@@ -16,8 +16,8 @@ const jsonLd = {
   datePublished: "2026-04-23",
   dateModified: "2026-04-23",
   author: { "@type": "Person", name: "Victor F." },
-  publisher: { "@type": "Organization", name: "Sayonarat", url: "https://sayonarat.be" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://sayonarat.be/blog/cafards-immeuble-responsabilite" },
+  publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.sayonarat.be/blog/cafards-immeuble-responsabilite" },
 };
 
 const faq = [

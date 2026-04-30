@@ -20,11 +20,11 @@ const jsonLd = {
   publisher: {
     "@type": "Organization",
     name: "Sayonarat",
-    url: "https://sayonarat.be",
+    url: "https://www.sayonarat.be",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://sayonarat.be/blog/prix-deratisation-liege-2026",
+    "@id": "https://www.sayonarat.be/blog/prix-deratisation-liege-2026",
   },
 };
 

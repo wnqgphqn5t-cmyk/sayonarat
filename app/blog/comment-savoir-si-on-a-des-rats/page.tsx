@@ -20,11 +20,11 @@ const jsonLd = {
   publisher: {
     "@type": "Organization",
     name: "Sayonarat",
-    url: "https://sayonarat.be",
+    url: "https://www.sayonarat.be",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://sayonarat.be/blog/comment-savoir-si-on-a-des-rats",
+    "@id": "https://www.sayonarat.be/blog/comment-savoir-si-on-a-des-rats",
   },
 };
 

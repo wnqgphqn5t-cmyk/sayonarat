@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   title: "Élimination de Nuisibles en Belgique — Sayonarat",
   description:
     "Spécialiste en élimination de nuisibles en Belgique. Dératisation, désinsectisation, punaises de lit, guêpes, fourmis, cafards. Intervention sous 24h, techniciens certifiés SPF, garantie 30 jours.",
-  alternates: { canonical: "https://sayonarat.be/nuisibles" },
+  alternates: { canonical: "https://www.sayonarat.be/nuisibles" },
   openGraph: {
     title: "Élimination de Nuisibles en Belgique — Sayonarat",
     description:
       "Intervention rapide contre tous les nuisibles en Belgique. Techniciens certifiés SPF, garantie 30 jours, disponible 7j/7.",
-    url: "https://sayonarat.be/nuisibles",
+    url: "https://www.sayonarat.be/nuisibles",
     siteName: "Sayonarat",
     locale: "fr_BE",
     type: "website",
@@ -128,7 +128,7 @@ const jsonLd = {
       provider: {
         "@type": "LocalBusiness",
         name: "Sayonarat",
-        url: "https://sayonarat.be",
+        url: "https://www.sayonarat.be",
         telephone: "+32466442454",
         areaServed: "BE",
       },
