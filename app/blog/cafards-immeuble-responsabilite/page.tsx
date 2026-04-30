@@ -3,6 +3,7 @@ import Link from "next/link";
 import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/cafards-immeuble-responsabilite" },
   title: "Cafards dans un immeuble : qui est responsable ? — Sayonarat Liège",
   description:
     "Propriétaire ou locataire : qui doit payer la dératisation en cas de cafards dans un appartement ou un immeuble ? Le droit belge expliqué.",

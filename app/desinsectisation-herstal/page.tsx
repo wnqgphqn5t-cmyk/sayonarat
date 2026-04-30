@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/desinsectisation-herstal" },
   title: "Désinsectisation Herstal — Cafards, fourmis, guêpes",
   description:
     "Désinsectisation professionnelle à Herstal. Traitement cafards, fourmis, blattes, guêpes et frelons. Intervention sous 48h, devis gratuit.",

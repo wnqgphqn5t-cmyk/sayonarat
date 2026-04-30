@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/punaises-de-lit-herstal" },
   title: "Punaises de lit Herstal — Traitement professionnel",
   description:
     "Punaises de lit à Herstal ? Technicien certifié, traitement thermique ou chimique. Intervention sous 48h, devis gratuit sous 24h.",

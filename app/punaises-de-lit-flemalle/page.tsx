@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/punaises-de-lit-flemalle" },
   title: "Punaises de lit Flémalle — Traitement professionnel",
   description:
     "Punaises de lit à Flémalle ? Technicien certifié, traitement thermique ou chimique. Intervention sous 48h, devis gratuit sous 24h.",

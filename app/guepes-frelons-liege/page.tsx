@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/guepes-frelons-liege" },
   title: "Destruction nid guêpes et frelons Liège — Intervention rapide",
   description:
     "Nid de guêpes ou frelons à Liège ? Destruction sécurisée par technicien certifié. Intervention nocturne sous 48h, devis gratuit.",

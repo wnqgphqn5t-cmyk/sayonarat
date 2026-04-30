@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/deratisation-grace-hollogne" },
   title: "Dératisation Grâce-Hollogne — Intervention rapide",
   description:
     "Dératisation professionnelle à Grâce-Hollogne. Rats, souris, rongeurs. Zones industrielles et logistiques couvertes. Devis gratuit sous 24h, techniciens certifiés.",

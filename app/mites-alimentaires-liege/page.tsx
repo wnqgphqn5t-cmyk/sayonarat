@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/mites-alimentaires-liege" },
   title: "Mites alimentaires Liège — Traitement professionnel",
   description:
     "Vous avez des mites alimentaires à Liège ? Traitement professionnel contre les mites des denrées. Intervention sous 48h, devis gratuit.",

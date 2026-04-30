@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/deratisation-flemalle" },
   title: "Dératisation Flémalle — Intervention rapide",
   description:
     "Dératisation professionnelle à Flémalle. Rats, souris. Intervention sous 24h, devis gratuit, résultat garanti 30 jours.",

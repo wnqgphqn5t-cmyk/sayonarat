@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/punaises-de-lit-seraing" },
   title: "Punaises de lit Seraing — Traitement professionnel",
   description:
     "Punaises de lit à Seraing ? Traitement thermique ou chimique par technicien certifié. Intervention sous 48h, devis gratuit sous 24h.",

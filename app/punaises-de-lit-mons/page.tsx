@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/punaises-de-lit-mons" },
   title: "Punaises de lit Mons — Traitement garanti",
   description:
     "Traitement punaises de lit à Mons. Méthode thermique ou chimique. Centre historique, Grand-Place et quartiers mixtes couverts. Résultat garanti dès la 1ère intervention.",

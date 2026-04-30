@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/punaises-de-lit-beyne-heusay" },
   title: "Punaises de lit Beyne-Heusay — Traitement garanti",
   description:
     "Traitement punaises de lit à Beyne-Heusay. Thermique ou chimique. Résultat garanti. Devis gratuit sous 24h.",

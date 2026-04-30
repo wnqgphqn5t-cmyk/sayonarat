@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/desinsectisation-bruxelles" },
   title: "Désinsectisation Bruxelles — Cafards, fourmis, guêpes",
   description:
     "Désinsectisation professionnelle à Bruxelles. Cafards, fourmis, guêpes, punaises. Ixelles, Schaerbeek, Molenbeek, Anderlecht couverts. Devis gratuit sous 24h.",

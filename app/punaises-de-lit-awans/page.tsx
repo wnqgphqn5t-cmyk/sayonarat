@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/punaises-de-lit-awans" },
   title: "Punaises de lit Awans — Traitement garanti",
   description:
     "Traitement punaises de lit à Awans. Thermique ou chimique. Résultat garanti. Devis gratuit sous 24h.",

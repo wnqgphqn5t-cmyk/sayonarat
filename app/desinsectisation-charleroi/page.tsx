@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/desinsectisation-charleroi" },
   title: "Désinsectisation Charleroi — Cafards, fourmis, guêpes",
   description:
     "Désinsectisation professionnelle à Charleroi. Cafards, fourmis, guêpes. Bassin industriel, quartiers résidentiels couverts. Devis gratuit sous 24h, garantie 30 jours.",

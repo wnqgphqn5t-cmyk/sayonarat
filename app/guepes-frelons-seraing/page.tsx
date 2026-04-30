@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/guepes-frelons-seraing" },
   title: "Guêpes et frelons Seraing — Destruction nid rapide",
   description:
     "Nid de guêpes ou frelons à Seraing ? Destruction professionnelle sous 48h. Intervention nocturne sécurisée, garantie résultat. Devis gratuit.",

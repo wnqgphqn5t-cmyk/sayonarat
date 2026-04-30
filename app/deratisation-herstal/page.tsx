@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/deratisation-herstal" },
   title: "Dératisation Herstal — Intervention rapide",
   description:
     "Dératisation professionnelle à Herstal. Rats, souris, rongeurs. Intervention sous 24h, devis gratuit, techniciens certifiés.",

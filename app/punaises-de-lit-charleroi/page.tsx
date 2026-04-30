@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/punaises-de-lit-charleroi" },
   title: "Punaises de lit Charleroi — Traitement garanti",
   description:
     "Traitement punaises de lit à Charleroi. Méthode thermique ou chimique. Bassin industriel, quartiers résidentiels couverts. Résultat garanti dès la 1ère intervention.",

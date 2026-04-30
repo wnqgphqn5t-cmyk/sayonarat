@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/deratisation-beyne-heusay" },
   title: "Dératisation Beyne-Heusay — Intervention rapide",
   description:
     "Dératisation professionnelle à Beyne-Heusay. Rats, souris, rongeurs. Maisons individuelles et jardins. Devis gratuit sous 24h, techniciens certifiés.",

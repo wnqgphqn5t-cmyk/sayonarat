@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/desinsectisation-grace-hollogne" },
   title: "Désinsectisation Grâce-Hollogne — Cafards, fourmis, guêpes",
   description:
     "Désinsectisation professionnelle à Grâce-Hollogne. Cafards, fourmis, guêpes, mites. Intervention rapide, produits homologués, garantie 30 jours.",

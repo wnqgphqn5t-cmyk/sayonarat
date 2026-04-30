@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/deratisation-seraing" },
   title: "Dératisation Seraing — Intervention rapide",
   description:
     "Dératisation professionnelle à Seraing. Élimination rats et souris sous 24h. Devis gratuit, techniciens certifiés, résultat garanti 30 jours.",

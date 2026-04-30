@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/punaises-de-lit-namur" },
   title: "Punaises de lit Namur — Traitement garanti",
   description:
     "Traitement punaises de lit à Namur. Méthode thermique ou chimique. Confluence Sambre-Meuse, citadelle et quartiers résidentiels. Résultat garanti dès la 1ère intervention.",

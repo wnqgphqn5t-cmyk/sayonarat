@@ -3,6 +3,7 @@ import Link from "next/link";
 import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mites-alimentaires-que-faire" },
   title: "Mites alimentaires : que faire ? Guide complet — Sayonarat Liège",
   description:
     "Des mites dans vos placards à Liège ? Voici comment les identifier, les étapes à suivre immédiatement et quand appeler un professionnel.",

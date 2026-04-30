@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/desinsectisation-seraing" },
   title: "Désinsectisation Seraing — Cafards, fourmis, guêpes",
   description:
     "Désinsectisation professionnelle à Seraing. Traitement cafards, fourmis, blattes, guêpes et frelons. Intervention sous 48h, devis gratuit.",

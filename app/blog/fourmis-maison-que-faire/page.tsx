@@ -3,6 +3,7 @@ import Link from "next/link";
 import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/fourmis-maison-que-faire" },
   title: "Fourmis dans la maison : que faire ? Guide complet — Sayonarat Liège",
   description:
     "Des fourmis dans votre maison à Liège ? Voici comment identifier l'espèce, les étapes immédiates et quand appeler un professionnel.",

@@ -3,6 +3,7 @@ import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/contact" },
   title: "Contact — Devis gratuit dératisation Belgique",
   description:
     "Contactez Sayonarat pour un devis gratuit de dératisation ou désinsectisation en Belgique. Réponse sous 24h, 7 jours sur 7.",

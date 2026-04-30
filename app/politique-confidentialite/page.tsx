@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/politique-confidentialite" },
   title: "Politique de confidentialité",
   description: "Politique de confidentialité et traitement des données personnelles du site Sayonarat.",
 };

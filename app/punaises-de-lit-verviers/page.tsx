@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/punaises-de-lit-verviers" },
   title: "Punaises de lit Verviers — Traitement garanti",
   description:
     "Traitement punaises de lit à Verviers. Méthode thermique ou chimique. Vallée de la Vesdre, anciens bâtiments textiles. Résultat garanti dès la 1ère intervention. Devis gratuit.",

@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/deratisation-liege" },
   title: "Dératisation Liège — Élimination rats & souris",
   description:
     "Dératisation professionnelle à Liège. Élimination rats, souris, campagnols. Intervention sous 24h, devis gratuit. Traitement garanti 30 jours.",

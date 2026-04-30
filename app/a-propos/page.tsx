@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/a-propos" },
   title: "À propos de Sayonarat — Experts dératisation & désinsectisation Belgique",
   description:
     "Sayonarat est une équipe d'experts de la lutte antiparasitaire en Belgique. Notre mission : mettre en relation les particuliers et entreprises avec les meilleurs techniciens certifiés.",

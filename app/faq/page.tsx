@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/faq" },
   title: "FAQ — Questions fréquentes dératisation & nuisibles Belgique",
   description:
     "Toutes les réponses sur la dératisation, désinsectisation et punaises de lit en Belgique. Prix, délais, méthodes, garanties — sans jargon.",

@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/deratisation-bruxelles" },
   title: "Dératisation Bruxelles — Intervention rapide",
   description:
     "Dératisation professionnelle à Bruxelles. Rats dans immeubles, caves, canaux. Quartiers Ixelles, Schaerbeek, Molenbeek, Anderlecht couverts. Devis gratuit sous 24h.",

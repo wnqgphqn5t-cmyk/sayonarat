@@ -3,6 +3,7 @@ import Link from "next/link";
 import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/punaises-de-lit-que-faire" },
   title: "Punaises de lit : que faire en cas d'infestation à Liège ? — Sayonarat",
   description:
     "Vous avez trouvé des punaises de lit ? Voici les étapes à suivre immédiatement, ce qu'il ne faut pas faire, et quand appeler un professionnel à Liège.",

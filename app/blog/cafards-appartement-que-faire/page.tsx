@@ -3,6 +3,7 @@ import Link from "next/link";
 import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/cafards-appartement-que-faire" },
   title: "Cafards dans un appartement : que faire ? Guide complet Liège",
   description:
     "Cafards dans votre appartement à Liège ? Les erreurs à éviter, les causes réelles, et la seule méthode qui fonctionne vraiment. Guide pratique.",

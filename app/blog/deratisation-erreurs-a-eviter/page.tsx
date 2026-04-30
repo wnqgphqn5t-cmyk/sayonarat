@@ -3,6 +3,7 @@ import Link from "next/link";
 import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/deratisation-erreurs-a-eviter" },
   title: "Dératisation : les 6 erreurs qui aggravent l'infestation — Sayonarat Liège",
   description:
     "Poison en vrac, pièges mal placés, colmatage trop rapide : voici les erreurs les plus fréquentes qui font durer une infestation de rats à Liège.",

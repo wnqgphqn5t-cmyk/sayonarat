@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/deratisation-verviers" },
   title: "Dératisation Verviers — Intervention rapide",
   description:
     "Dératisation professionnelle à Verviers. Rats dans la vallée de la Vesdre, anciens bâtiments textiles, proximité Liège. Devis gratuit sous 24h, garantie 30 jours.",

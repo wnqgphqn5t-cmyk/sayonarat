@@ -3,6 +3,7 @@ import Link from "next/link";
 import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/prix-punaises-lit-liege-2026" },
   title: "Prix traitement punaises de lit Liège 2026 — Tarifs réels",
   description:
     "Combien coûte un traitement punaises de lit à Liège en 2026 ? Thermique vs chimique, superficie, facteurs de prix. Tarifs réels sans surprise.",

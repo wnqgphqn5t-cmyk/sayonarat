@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/deratisation-namur" },
   title: "Dératisation Namur — Intervention rapide",
   description:
     "Dératisation professionnelle à Namur. Rats des bords de Sambre et Meuse, citadelle, quartiers résidentiels. Devis gratuit sous 24h, garantie 30 jours.",

@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/punaises-de-lit-oupeye" },
   title: "Punaises de lit Oupeye — Traitement garanti",
   description:
     "Traitement punaises de lit à Oupeye. Méthode thermique ou chimique. Résultat garanti dès la 1ère intervention. Devis gratuit sous 24h.",

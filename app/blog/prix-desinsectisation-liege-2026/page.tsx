@@ -3,6 +3,7 @@ import Link from "next/link";
 import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/prix-desinsectisation-liege-2026" },
   title: "Prix d'une désinsectisation à Liège en 2026 — Sayonarat",
   description:
     "Combien coûte une désinsectisation à Liège ? Tarifs réels par type d'insecte, facteurs qui font varier le prix, sans frais cachés.",

@@ -3,6 +3,7 @@ import Link from "next/link";
 import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/comment-savoir-si-on-a-des-rats" },
   title: "Comment savoir si on a des rats chez soi ? Les 7 signes — Sayonarat Liège",
   description:
     "Bruits la nuit, traces, excréments, odeurs… Voici les 7 signes qui indiquent une infestation de rats ou souris. Et quand appeler un dératiseur à Liège.",

@@ -3,6 +3,7 @@ import Link from "next/link";
 import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/frelons-guepes-liege-que-faire" },
   title: "Frelons et guêpes à Liège : que faire en cas de nid ? — Sayonarat",
   description:
     "Vous avez un nid de frelons ou guêpes à Liège ? Voici quand agir, ce qu'il ne faut pas faire et comment un professionnel intervient en sécurité.",

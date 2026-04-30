@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/deratisation-awans" },
   title: "Dératisation Awans — Intervention rapide",
   description:
     "Dératisation professionnelle à Awans. Rats, souris, rongeurs des champs. Zones rurales couvertes. Devis gratuit sous 24h.",

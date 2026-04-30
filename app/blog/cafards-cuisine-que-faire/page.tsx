@@ -3,6 +3,7 @@ import Link from "next/link";
 import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/cafards-cuisine-que-faire" },
   title: "Cafards dans la cuisine : que faire ? Guide complet — Sayonarat Liège",
   description:
     "Vous avez trouvé des cafards dans votre cuisine à Liège ? Voici les étapes immédiates, les erreurs à éviter et quand appeler un professionnel.",

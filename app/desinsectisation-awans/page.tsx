@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/desinsectisation-awans" },
   title: "Désinsectisation Awans — Cafards, fourmis, guêpes",
   description:
     "Désinsectisation professionnelle à Awans. Cafards, fourmis, guêpes. Zones rurales et résidentielles. Devis gratuit sous 24h.",

@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/deratisation-oupeye" },
   title: "Dératisation Oupeye — Intervention rapide",
   description:
     "Dératisation professionnelle à Oupeye. Rats des berges, souris, rongeurs. Bords de Meuse et canal Albert couverts. Devis gratuit sous 24h.",

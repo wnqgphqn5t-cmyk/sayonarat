@@ -3,6 +3,7 @@ import Link from "next/link";
 import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/reconnaitre-punaise-de-lit" },
   title: "Comment reconnaître une punaise de lit ? Les signes — Sayonarat Liège",
   description:
     "Piqûres, taches, odeur : voici comment reconnaître une punaise de lit avec certitude. Guide complet pour Liège.",

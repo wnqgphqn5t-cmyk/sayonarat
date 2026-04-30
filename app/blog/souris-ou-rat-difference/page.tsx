@@ -3,6 +3,7 @@ import Link from "next/link";
 import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/souris-ou-rat-difference" },
   title: "Souris ou rat : comment faire la différence ? — Sayonarat Liège",
   description:
     "Bruits, crottes, traces : comment savoir si vous avez des rats ou des souris ? Les différences clés et ce que ça change pour le traitement.",

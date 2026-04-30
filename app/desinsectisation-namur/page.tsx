@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/desinsectisation-namur" },
   title: "Désinsectisation Namur — Cafards, fourmis, guêpes",
   description:
     "Désinsectisation professionnelle à Namur. Cafards, fourmis, guêpes, mites. Confluence Sambre-Meuse, citadelle et quartiers résidentiels. Devis gratuit sous 24h.",

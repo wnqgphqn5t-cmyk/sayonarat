@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/desinsectisation-liege" },
   title: "Désinsectisation Liège — Cafards, fourmis, blattes",
   description:
     "Désinsectisation professionnelle à Liège. Traitement cafards, fourmis, blattes, moustiques. Intervention sous 24h, produits homologués, résultat garanti.",

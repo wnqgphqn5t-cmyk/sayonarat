@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/guepes-frelons-flemalle" },
   title: "Guêpes et frelons Flémalle — Destruction nid rapide",
   description:
     "Nid de guêpes ou frelons à Flémalle ? Destruction professionnelle sous 48h. Intervention nocturne sécurisée, garantie résultat. Devis gratuit.",

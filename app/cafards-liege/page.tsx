@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cafards-liege" },
   title: "Cafards Liège — Élimination garantie, intervention rapide",
   description:
     "Infestation de cafards à Liège ? Traitement professionnel par gel insecticide ou pulvérisation. Résultat garanti, devis gratuit sous 24h. Techniciens certifiés.",

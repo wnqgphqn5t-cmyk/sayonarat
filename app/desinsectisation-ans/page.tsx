@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/desinsectisation-ans" },
   title: "Désinsectisation Ans — Cafards, fourmis, guêpes",
   description:
     "Désinsectisation professionnelle à Ans. Traitement cafards, fourmis, blattes, guêpes et frelons. Intervention sous 48h, devis gratuit.",

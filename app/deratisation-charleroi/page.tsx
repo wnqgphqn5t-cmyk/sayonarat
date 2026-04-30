@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/deratisation-charleroi" },
   title: "Dératisation Charleroi — Intervention rapide",
   description:
     "Dératisation professionnelle à Charleroi. Rats dans anciens sites industriels, sous-sols, bassin industriel. Devis gratuit sous 24h, garantie 30 jours.",

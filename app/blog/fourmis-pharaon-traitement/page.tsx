@@ -3,6 +3,7 @@ import Link from "next/link";
 import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/fourmis-pharaon-traitement" },
   title: "Fourmis pharaon : pourquoi c'est si difficile à éliminer ?",
   description:
     "La fourmi pharaon est l'insecte le plus difficile à traiter en intérieur. Pourquoi les sprays aggravent l'infestation, et la seule méthode qui fonctionne vraiment.",

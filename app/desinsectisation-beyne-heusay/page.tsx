@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/desinsectisation-beyne-heusay" },
   title: "Désinsectisation Beyne-Heusay — Cafards, fourmis, guêpes",
   description:
     "Désinsectisation professionnelle à Beyne-Heusay. Cafards, fourmis, guêpes. Intervention rapide, garantie 30 jours.",

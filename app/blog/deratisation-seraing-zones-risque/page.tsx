@@ -3,6 +3,7 @@ import Link from "next/link";
 import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/deratisation-seraing-zones-risque" },
   title: "Dératisation Seraing : pourquoi cette commune est exposée — Sayonarat",
   description:
     "Seraing est l'une des communes de Liège les plus exposées aux rats. Friches ArcelorMittal, bords de Meuse, caves anciennes : voici pourquoi et comment se protéger.",

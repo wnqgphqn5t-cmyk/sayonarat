@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/guepes-frelons-herstal" },
   title: "Guêpes et frelons Herstal — Destruction nid rapide",
   description:
     "Nid de guêpes ou frelons à Herstal ? Destruction professionnelle sous 48h. Intervention nocturne sécurisée, garantie résultat. Devis gratuit.",

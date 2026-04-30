@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/guepes-frelons-saint-nicolas" },
   title: "Guêpes et frelons Saint-Nicolas — Destruction nid",
   description:
     "Nid de guêpes ou frelons à Saint-Nicolas ? Destruction professionnelle sous 48h. Intervention nocturne sécurisée, garantie résultat. Devis gratuit.",

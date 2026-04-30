@@ -3,6 +3,7 @@ import Link from "next/link";
 import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/traitement-thermique-vs-chimique-punaises" },
   title: "Traitement thermique vs chimique : lequel choisir contre les punaises ? — Sayonarat",
   description:
     "Traitement thermique ou chimique contre les punaises de lit ? Comparatif complet : efficacité, prix, durée, contraintes. Pour bien choisir.",

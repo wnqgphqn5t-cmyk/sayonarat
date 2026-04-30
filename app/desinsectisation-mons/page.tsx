@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/desinsectisation-mons" },
   title: "Désinsectisation Mons — Cafards, fourmis, guêpes",
   description:
     "Désinsectisation professionnelle à Mons. Cafards, fourmis, guêpes. Centre historique, Grand-Place et quartiers mixtes couverts. Devis gratuit sous 24h, garantie 30 jours.",

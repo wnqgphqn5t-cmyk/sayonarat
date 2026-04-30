@@ -3,6 +3,7 @@ import Link from "next/link";
 import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/prix-deratisation-liege-2026" },
   title: "Prix d'une dératisation à Liège en 2026 : tarifs réels — Sayonarat",
   description:
     "Combien coûte une dératisation à Liège ? Tarifs réels 2026, ce qui fait varier le prix, ce que comprend une intervention pro. Sans frais cachés.",

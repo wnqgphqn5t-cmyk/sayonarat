@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/" },
   title: "Dératisation & Désinsectisation Belgique — Intervention rapide",
   description:
     "Dératisation, désinsectisation et punaises de lit partout en Belgique. Rats, cafards, guêpes, mites. Techniciens certifiés, devis gratuit sous 24h, garantie 30 jours.",

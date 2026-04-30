@@ -3,6 +3,7 @@ import Link from "next/link";
 import Sources from "@/components/Sources";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/punaises-lit-voyage-eviter" },
   title: "Punaises de lit en voyage : comment éviter de les ramener ? — Sayonarat",
   description:
     "Hôtel, Airbnb, transports : comment détecter les punaises de lit en voyage et éviter de les ramener chez vous. Checklist pratique.",

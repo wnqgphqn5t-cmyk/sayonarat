@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/deratisation-saint-nicolas" },
   title: "Dératisation Saint-Nicolas — Intervention rapide",
   description:
     "Dératisation professionnelle à Saint-Nicolas. Rats, souris. Intervention sous 24h, devis gratuit, résultat garanti 30 jours.",
