@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Inline critical CSS via critters → réduit le CSS render-blocking (~50-150ms)
+  experimental: {
+    optimizeCss: true,
+  },
 };
 
 export default nextConfig;
