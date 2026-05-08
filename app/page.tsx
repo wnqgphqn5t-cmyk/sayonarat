@@ -1,6 +1,57 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import {
+  RatIcon, CockroachIcon, BedBugIcon, WaspIcon, AntIcon, MothIcon,
+  BoltIcon, BadgeCheckIcon, ShieldCheckIcon, StarIcon,
+} from "@/components/Icons";
+import type { ComponentType, SVGProps } from "react";
+
+type ServiceCardProps = {
+  Icon: ComponentType<SVGProps<SVGSVGElement> & { className?: string }>;
+  title: string;
+  desc: string;
+  href: string;
+  featured?: boolean;
+  descLong?: string;
+  badge?: string;
+};
+
+function ServiceCard({ Icon, title, desc, href, featured, descLong, badge }: ServiceCardProps) {
+  if (featured) {
+    return (
+      <Link
+        href={href}
+        className="border border-gray-200 rounded-2xl p-7 hover:shadow-xl hover:border-green-300 transition-shadow block group"
+        style={{ minHeight: 200 }}
+      >
+        <div className="flex items-start justify-between mb-4">
+          <Icon className="w-14 h-14" style={{ color: "#1B4332" }} />
+          {badge && (
+            <span className="text-xs font-semibold px-3 py-1 rounded-full text-white" style={{ backgroundColor: "#1B4332" }}>
+              {badge}
+            </span>
+          )}
+        </div>
+        <h3 className="font-bold text-xl mb-3" style={{ color: "#1B4332" }}>{title}</h3>
+        <p className="text-sm text-gray-600 leading-relaxed mb-4">{descLong || desc}</p>
+        <span className="text-sm font-semibold group-hover:underline" style={{ color: "#1B4332" }}>
+          En savoir plus →
+        </span>
+      </Link>
+    );
+  }
+  return (
+    <Link
+      href={href}
+      className="border border-gray-200 rounded-2xl p-6 hover:shadow-lg hover:border-green-300 transition-shadow block"
+    >
+      <Icon className="w-10 h-10 mb-3" style={{ color: "#1B4332" }} />
+      <h3 className="font-bold text-base mb-2" style={{ color: "#1B4332" }}>{title}</h3>
+      <p className="text-sm text-gray-600">{desc}</p>
+    </Link>
+  );
+}
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
@@ -11,37 +62,39 @@ export const metadata: Metadata = {
 
 const services = [
   {
-    icon: "🐀",
+    Icon: RatIcon,
     title: "Dératisation",
     desc: "Élimination de rats et souris. Traitement des nids, pose de pièges, sécurisation des accès.",
+    descLong: "Rats, souris ou campagnols : nos techniciens identifient les points d'entrée, posent des stations d'appâtage certifiées et colmatent les accès. Résultat garanti sous 30 jours.",
     href: "/deratisation-liege",
+    badge: "Service phare",
   },
   {
-    icon: "🪲",
+    Icon: CockroachIcon,
     title: "Désinsectisation",
     desc: "Traitement contre cafards, fourmis, blattes. Produits homologués et sans danger.",
     href: "/desinsectisation-liege",
   },
   {
-    icon: "🛏️",
+    Icon: BedBugIcon,
     title: "Punaises de lit",
     desc: "Traitement thermique ou chimique des punaises. Résultat garanti dès la première intervention.",
     href: "/punaises-de-lit-liege",
   },
   {
-    icon: "🐝",
+    Icon: WaspIcon,
     title: "Guêpes & frelons",
     desc: "Destruction de nids de guêpes et frelons. Intervention nocturne sécurisée sous 48h.",
     href: "/guepes-frelons-liege",
   },
   {
-    icon: "🐜",
+    Icon: AntIcon,
     title: "Fourmis",
     desc: "Traitement par gel transmissible. Fourmis pharaon, charpentières ou des jardins.",
     href: "/fourmis-liege",
   },
   {
-    icon: "🦋",
+    Icon: MothIcon,
     title: "Mites alimentaires",
     desc: "Traitement contre les mites des denrées. Placards, réserves, garde-manger.",
     href: "/mites-alimentaires-liege",
@@ -231,7 +284,7 @@ export default function HomePage() {
                 href="/urgence"
                 className="border-2 border-white/40 backdrop-blur-sm text-white font-semibold px-8 py-4 rounded-xl hover:bg-white/10 transition-colors text-lg"
               >
-                🚨 Urgence 7j/7
+                Urgence 7j/7
               </Link>
             </div>
             <div className="flex flex-wrap gap-x-6 gap-y-1 justify-center md:justify-start text-sm text-green-200">
@@ -306,20 +359,21 @@ export default function HomePage() {
           Nos services
         </h2>
         <p className="text-center text-gray-500 mb-10">Traitement professionnel pour tous types de nuisibles</p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {services.map((s) => (
-            <Link
-              key={s.href}
-              href={s.href}
-              className="border border-gray-200 rounded-xl p-6 hover:shadow-lg hover:border-green-300 transition-all group block"
-            >
-              <div className="text-4xl mb-3">{s.icon}</div>
-              <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>
-                {s.title}
-              </h3>
-              <p className="text-sm text-gray-600">{s.desc}</p>
-            </Link>
-          ))}
+
+        <div className="space-y-5">
+          {/* Row 1 : featured (2fr) + 2 cartes */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5" style={{ gridTemplateColumns: "2fr 1fr 1fr" }}>
+            <ServiceCard {...services[0]} featured />
+            <ServiceCard {...services[1]} />
+            <ServiceCard {...services[2]} />
+          </div>
+
+          {/* Row 2 : 3 cartes égales */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+            <ServiceCard {...services[3]} />
+            <ServiceCard {...services[4]} />
+            <ServiceCard {...services[5]} />
+          </div>
         </div>
       </section>
 
@@ -359,14 +413,16 @@ export default function HomePage() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
-            { icon: "⚡", title: "Rapidité", desc: "Intervention en moins de 24h, même le week-end. Urgences traitées en priorité." },
-            { icon: "🎓", title: "Expertise certifiée", desc: "Techniciens certifiés phytosanitaires. Produits homologués conformes à la réglementation belge." },
-            { icon: "✅", title: "Résultat garanti", desc: "Suivi inclus pendant 30 jours. Si les nuisibles reviennent, on revient sans frais." },
-          ].map((item) => (
-            <div key={item.title} className="text-center">
-              <div className="text-4xl mb-3">{item.icon}</div>
-              <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>{item.title}</h3>
-              <p className="text-gray-600 text-sm">{item.desc}</p>
+            { Icon: BoltIcon, title: "Rapidité", desc: "Intervention en moins de 24h, même le week-end. Urgences traitées en priorité." },
+            { Icon: BadgeCheckIcon, title: "Expertise certifiée", desc: "Techniciens certifiés phytosanitaires. Produits homologués conformes à la réglementation belge." },
+            { Icon: ShieldCheckIcon, title: "Résultat garanti", desc: "Suivi inclus pendant 30 jours. Si les nuisibles reviennent, on revient sans frais." },
+          ].map(({ Icon, title, desc }) => (
+            <div key={title} className="text-center">
+              <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl mb-4" style={{ backgroundColor: "#f0fdf4" }}>
+                <Icon className="w-7 h-7" style={{ color: "#1B4332" }} />
+              </div>
+              <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>{title}</h3>
+              <p className="text-gray-600 text-sm">{desc}</p>
             </div>
           ))}
         </div>
@@ -410,12 +466,16 @@ export default function HomePage() {
         <p className="text-center text-gray-500 mb-10">Plus de 500 interventions réalisées en Belgique</p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
-            { name: "Sophie M.", ville: "Liège", note: "⭐⭐⭐⭐⭐", texte: "Problème de rats dans le grenier réglé en une intervention. Technicien professionnel et rapide. Je recommande vivement." },
-            { name: "David K.", ville: "Seraing", note: "⭐⭐⭐⭐⭐", texte: "Punaises de lit dans notre chambre. Sayonarat est intervenu le lendemain. Aucune trace depuis 2 mois. Parfait." },
-            { name: "Nathalie B.", ville: "Herstal", note: "⭐⭐⭐⭐⭐", texte: "Infestation de cafards dans la cuisine. Devis gratuit rapidement, intervention efficace. Prix correct pour la qualité." },
+            { name: "Sophie M.", ville: "Liège", texte: "Problème de rats dans le grenier réglé en une intervention. Technicien professionnel et rapide. Je recommande vivement." },
+            { name: "David K.", ville: "Seraing", texte: "Punaises de lit dans notre chambre. Sayonarat est intervenu le lendemain. Aucune trace depuis 2 mois. Parfait." },
+            { name: "Nathalie B.", ville: "Herstal", texte: "Infestation de cafards dans la cuisine. Devis gratuit rapidement, intervention efficace. Prix correct pour la qualité." },
           ].map((t) => (
             <div key={t.name} className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
-              <div className="text-xl mb-3">{t.note}</div>
+              <div className="flex gap-0.5 mb-3">
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <StarIcon key={i} className="w-4 h-4 text-yellow-400" />
+                ))}
+              </div>
               <p className="text-gray-600 text-sm mb-4 italic">&ldquo;{t.texte}&rdquo;</p>
               <div className="font-bold text-sm" style={{ color: "#1B4332" }}>{t.name} — {t.ville}</div>
             </div>

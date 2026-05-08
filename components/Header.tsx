@@ -7,19 +7,19 @@ const menu = [
   {
     categorie: "Nos nuisibles",
     liens: [
-      { label: "🐀 Rats & souris", href: "/deratisation-liege" },
-      { label: "🪳 Cafards & blattes", href: "/cafards-liege" },
-      { label: "🛏️ Punaises de lit", href: "/punaises-de-lit-liege" },
-      { label: "🐝 Guêpes & frelons", href: "/guepes-frelons-liege" },
-      { label: "🐜 Fourmis", href: "/fourmis-liege" },
-      { label: "🦋 Mites alimentaires", href: "/mites-alimentaires-liege" },
+      { label: "Rats & souris", href: "/deratisation-liege" },
+      { label: "Cafards & blattes", href: "/cafards-liege" },
+      { label: "Punaises de lit", href: "/punaises-de-lit-liege" },
+      { label: "Guêpes & frelons", href: "/guepes-frelons-liege" },
+      { label: "Fourmis", href: "/fourmis-liege" },
+      { label: "Mites alimentaires", href: "/mites-alimentaires-liege" },
       { label: "→ Tous les services", href: "/nuisibles" },
     ],
   },
   {
     categorie: "Informations",
     liens: [
-      { label: "🚨 Urgence 7j/7", href: "/urgence" },
+      { label: "Urgence 7j/7", href: "/urgence" },
       { label: "Blog", href: "/blog" },
       { label: "FAQ", href: "/faq" },
       { label: "À propos", href: "/a-propos" },
@@ -36,7 +36,7 @@ export default function Header() {
       <header style={{ backgroundColor: "#1B4332" }} className="text-white sticky top-0 z-50 shadow-md">
         <div className="max-w-6xl mx-auto px-4 py-1 text-right text-xs text-green-200 border-b border-green-700">
           <a href="tel:+32466442454" className="hover:text-yellow-300 transition-colors font-semibold">
-            📞 +32 466 44 24 54 — Disponible 7j/7
+            +32 466 44 24 54 — Disponible 7j/7
           </a>
         </div>
 
@@ -48,7 +48,7 @@ export default function Header() {
               href="tel:+32466442454"
               className="border border-white/30 text-white font-semibold px-4 py-2 rounded hover:bg-green-700 transition-colors text-sm hidden md:inline-flex items-center gap-1.5"
             >
-              📞 +32 466 44 24 54
+              +32 466 44 24 54
             </a>
             <Link
               href="/contact"
@@ -112,7 +112,7 @@ export default function Header() {
           style={{ backgroundColor: "#1B4332" }}
           className="flex-1 flex items-center justify-center gap-2 py-4 text-white font-bold text-sm"
         >
-          📞 Appeler
+          Appeler
         </a>
         <Link
           href="/contact"
