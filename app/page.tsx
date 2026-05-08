@@ -91,6 +91,53 @@ const faqs = [
   },
 ];
 
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "Dans quelles régions intervenez-vous en Belgique ?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Nous intervenons partout en Belgique francophone : région liégeoise, Namur, Bruxelles, Hainaut, Brabant wallon et Luxembourg. Contactez-nous pour confirmer la disponibilité dans votre commune.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Les traitements sont-ils dangereux pour mes animaux ?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Non. Nous utilisons des produits homologués en Belgique, sans danger pour les animaux de compagnie et les enfants après le temps de séchage recommandé (généralement 2h).",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Combien coûte une dératisation en Belgique ?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Le prix dépend de la superficie et du type de nuisible. Comptez entre 150 € et 400 € pour une intervention standard. Devis gratuit sous 24h.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Revenez-vous si le problème persiste ?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Oui. Toutes nos interventions incluent un suivi. Si les nuisibles reviennent dans les 30 jours, nous revenons sans frais supplémentaires.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Êtes-vous certifiés pour intervenir en Belgique ?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Oui. Nos partenaires disposent de la certification phytosanitaire obligatoire en Belgique pour l'application de produits antiparasitaires.",
+      },
+    },
+  ],
+};
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": ["LocalBusiness", "PestControlService"],
@@ -128,6 +175,10 @@ export default function HomePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
 
       {/* Hero */}
@@ -208,7 +259,7 @@ export default function HomePage() {
 
       {/* Stats */}
       <section className="py-10 px-4 border-b border-green-100" style={{ backgroundColor: "#f0fdf4" }}>
-        <div className="max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div className="max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-5 gap-6 text-center">
           {stats.map((s) => (
             <div key={s.label}>
               <div className="text-3xl font-bold" style={{ color: "#1B4332" }}>{s.val}</div>

@@ -15,8 +15,8 @@ const jsonLd = {
   headline: "Cafards dans la cuisine : que faire ? Guide complet pour Liège",
   description:
     "Étapes immédiates, erreurs à éviter et traitement professionnel contre les cafards à Liège.",
-  datePublished: "2026-04-23",
-  dateModified: "2026-04-23",
+  datePublished: "2026-03-15",
+  dateModified: "2026-03-15",
   author: { "@type": "Person", name: "Victor F." },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },
   mainEntityOfPage: {

@@ -39,8 +39,8 @@ const jsonLd = {
   description: "Guide complet sur les prix des traitements punaises de lit à Liège en 2026. Thermique vs chimique, facteurs de coût, garanties.",
   author: { "@type": "Organization", name: "Sayonarat" },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },
-  datePublished: "2026-04-23",
-  dateModified: "2026-04-23",
+  datePublished: "2026-04-10",
+  dateModified: "2026-04-10",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.sayonarat.be/blog/prix-punaises-lit-liege-2026" },
 };
 

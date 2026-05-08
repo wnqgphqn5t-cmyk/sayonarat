@@ -14,7 +14,7 @@ const jsonLd = {
   "@type": "Article",
   headline: "Fourmis dans la maison : que faire ? Guide complet",
   description: "Identifier l'espèce de fourmis, étapes immédiates, erreurs à éviter et traitement professionnel à Liège.",
-  datePublished: "2026-04-23",
+  datePublished: "2026-03-05",
   dateModified: "2026-04-27",
   author: { "@type": "Person", name: "Victor F." },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },

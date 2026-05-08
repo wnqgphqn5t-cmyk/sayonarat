@@ -14,7 +14,7 @@ const jsonLd = {
   "@type": "Article",
   headline: "Mites alimentaires : que faire ? Guide complet",
   description: "Identifier les mites alimentaires, étapes immédiates, erreurs à éviter et traitement professionnel à Liège.",
-  datePublished: "2026-04-23",
+  datePublished: "2026-02-04",
   dateModified: "2026-04-27",
   author: { "@type": "Person", name: "Victor F." },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },

@@ -15,8 +15,8 @@ const jsonLd = {
   headline: "Comment savoir si on a des rats chez soi ? Les 7 signes à ne pas ignorer",
   description:
     "Bruits la nuit, excréments, traces de morsures : comment identifier une infestation de rats ou souris avant qu'elle s'aggrave.",
-  datePublished: "2026-04-23",
-  dateModified: "2026-04-23",
+  datePublished: "2026-03-30",
+  dateModified: "2026-03-30",
   author: { "@type": "Person", name: "Victor F." },
   publisher: {
     "@type": "Organization",

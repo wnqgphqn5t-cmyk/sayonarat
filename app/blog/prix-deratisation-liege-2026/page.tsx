@@ -15,8 +15,8 @@ const jsonLd = {
   headline: "Prix d'une dératisation à Liège en 2026 : ce qu'il faut vraiment savoir",
   description:
     "Tarifs réels, facteurs qui font varier le prix et ce que comprend une intervention professionnelle de dératisation à Liège.",
-  datePublished: "2026-04-23",
-  dateModified: "2026-04-23",
+  datePublished: "2026-03-25",
+  dateModified: "2026-03-25",
   author: { "@type": "Person", name: "Victor F." },
   publisher: {
     "@type": "Organization",

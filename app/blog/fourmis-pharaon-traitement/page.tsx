@@ -39,7 +39,7 @@ const jsonLd = {
   description: "Guide spécialisé sur les fourmis pharaon : identification, pourquoi les traitements classiques échouent, et la seule méthode efficace.",
   author: { "@type": "Organization", name: "Sayonarat" },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },
-  datePublished: "2026-04-23",
+  datePublished: "2026-04-05",
   dateModified: "2026-04-27",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.sayonarat.be/blog/fourmis-pharaon-traitement" },
 };

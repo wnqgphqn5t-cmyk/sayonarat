@@ -15,8 +15,8 @@ const jsonLd = {
   headline: "Punaises de lit : que faire en cas d'infestation à Liège ?",
   description:
     "Étapes à suivre immédiatement, erreurs à éviter et traitement professionnel punaises de lit à Liège.",
-  datePublished: "2026-04-23",
-  dateModified: "2026-04-23",
+  datePublished: "2026-03-20",
+  dateModified: "2026-03-20",
   author: { "@type": "Person", name: "Victor F." },
   publisher: {
     "@type": "Organization",

@@ -14,7 +14,7 @@ const jsonLd = {
   "@type": "Article",
   headline: "Frelons et guêpes à Liège : que faire en cas de nid ?",
   description: "Guide complet : identifier un nid de frelons ou guêpes, quand appeler un professionnel et comment se déroule l'intervention à Liège.",
-  datePublished: "2026-04-23",
+  datePublished: "2026-01-28",
   dateModified: "2026-04-27",
   author: { "@type": "Person", name: "Victor F." },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },

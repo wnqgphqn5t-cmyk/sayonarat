@@ -15,8 +15,8 @@ const jsonLd = {
   headline: "Dératisation Seraing : pourquoi cette commune est particulièrement exposée aux rats",
   description:
     "Analyse des facteurs de risque à Seraing (friches industrielles, Meuse, bâti ancien) et comment protéger son logement.",
-  datePublished: "2026-04-23",
-  dateModified: "2026-04-23",
+  datePublished: "2026-03-10",
+  dateModified: "2026-03-10",
   author: { "@type": "Person", name: "Victor F." },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },
   mainEntityOfPage: {
