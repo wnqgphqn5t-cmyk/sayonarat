@@ -40,7 +40,7 @@ const jsonLd = {
   author: { "@type": "Organization", name: "Sayonarat" },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },
   datePublished: "2026-04-20",
-  dateModified: "2026-04-27",
+  dateModified: "2026-05-08",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.sayonarat.be/blog/frelon-asiatique-liege" },
 };
 
@@ -68,7 +68,7 @@ export default function FrelonAsiatiqueLiegePage() {
           </p>
           <div className="flex items-center gap-3 mb-4">
             <span className="text-xs font-semibold px-3 py-1 rounded-full text-white bg-amber-600">Désinsectisation</span>
-            <span className="text-xs text-green-300">27 avril 2026 · 6 min de lecture</span>
+            <span className="text-xs text-green-300">8 mai 2026 · 6 min de lecture</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
             Frelon asiatique à Liège : comment le reconnaître et que faire ?
@@ -172,9 +172,9 @@ export default function FrelonAsiatiqueLiegePage() {
         <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-xl p-4 mb-8">
           <p className="font-semibold text-amber-800 text-sm">🌿 Printemps 2026 : fenêtre de détection précoce ouverte</p>
           <p className="text-sm text-gray-700 mt-1">
-            Fin avril 2026, les reines hivernantes cherchent un emplacement pour fonder leur colonie.
-            C'est le meilleur moment pour signaler un nid : petite taille, une seule intervention suffisante,
-            tarif minimal. Dès juin, les colonies comptent déjà plusieurs centaines d'individus.
+            Mai 2026 : les nids fondés en avril commencent à grossir — une reine peut pondre jusqu'à 200 œufs par jour.
+            C'est encore le bon moment pour intervenir avant que la colonie atteigne plusieurs centaines d'individus.
+            Dès juillet, les nids de frelon asiatique peuvent compter plus de 3 000 individus et l'intervention devient nettement plus complexe.
           </p>
         </div>
 

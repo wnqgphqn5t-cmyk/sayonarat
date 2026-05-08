@@ -16,7 +16,7 @@ const jsonLd = {
   description:
     "Étapes à suivre immédiatement, erreurs à éviter et traitement professionnel punaises de lit à Liège.",
   datePublished: "2026-03-20",
-  dateModified: "2026-03-20",
+  dateModified: "2026-05-08",
   author: { "@type": "Person", name: "Victor F." },
   publisher: {
     "@type": "Organization",
@@ -80,7 +80,7 @@ export default function ArticlePunaisesPage() {
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-green-700 text-white">
               Punaises de lit
             </span>
-            <span className="text-xs text-green-300">23 avril 2026 · 6 min de lecture</span>
+            <span className="text-xs text-green-300">8 mai 2026 · 6 min de lecture</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
             Punaises de lit : que faire<br />en cas d'infestation à Liège ?
@@ -111,6 +111,16 @@ export default function ArticlePunaisesPage() {
           les appartements étudiants du quartier <strong>Féronstrée, Sainte-Marguerite</strong> et
           autour de l'Université de Liège. Elles se déplacent via les bagages, meubles d'occasion
           et vêtements — le marché de la Batte du dimanche est une voie de diffusion classique.
+        </p>
+        <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-xl p-4">
+          <p className="font-semibold text-amber-800 text-sm">Été 2026 : pic de contamination via les voyages</p>
+          <p className="text-sm text-gray-700 mt-1">
+            Mai à août, c'est la saison des voyages — et donc le pic des contaminations aux punaises de lit.
+            Hôtels, Airbnb, transports : une seule nuit dans un logement infesté suffit à ramener des punaises dans vos bagages.
+            Si vous rentrez de voyage avec des piqûres inexpliquées, inspectez votre matelas et vos valises avant de les ranger.
+          </p>
+        </div>
+        <p>
         </p>
 
         <section>

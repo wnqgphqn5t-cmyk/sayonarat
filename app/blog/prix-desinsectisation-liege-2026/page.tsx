@@ -15,7 +15,7 @@ const jsonLd = {
   headline: "Prix d'une désinsectisation à Liège en 2026",
   description: "Tarifs réels d'une désinsectisation à Liège selon le type d'insecte et la superficie.",
   datePublished: "2026-02-22",
-  dateModified: "2026-04-27",
+  dateModified: "2026-05-08",
   author: { "@type": "Person", name: "Victor F." },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.sayonarat.be/blog/prix-desinsectisation-liege-2026" },
@@ -75,7 +75,7 @@ export default function ArticlePrixDesinsectisationPage() {
           </p>
           <div className="flex items-center gap-3 mb-4">
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-green-700 text-white">Tarifs</span>
-            <span className="text-xs text-green-300">27 avril 2026 · 4 min de lecture</span>
+            <span className="text-xs text-green-300">8 mai 2026 · 4 min de lecture</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
             Prix d'une désinsectisation<br />à Liège en 2026

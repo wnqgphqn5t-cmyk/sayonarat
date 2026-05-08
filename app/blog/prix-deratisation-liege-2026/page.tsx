@@ -16,7 +16,7 @@ const jsonLd = {
   description:
     "Tarifs réels, facteurs qui font varier le prix et ce que comprend une intervention professionnelle de dératisation à Liège.",
   datePublished: "2026-03-25",
-  dateModified: "2026-03-25",
+  dateModified: "2026-05-08",
   author: { "@type": "Person", name: "Victor F." },
   publisher: {
     "@type": "Organization",
@@ -80,7 +80,7 @@ export default function ArticlePrixPage() {
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-green-700 text-white">
               Tarifs
             </span>
-            <span className="text-xs text-green-300">23 avril 2026 · 4 min de lecture</span>
+            <span className="text-xs text-green-300">8 mai 2026 · 4 min de lecture</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
             Prix d'une dératisation à Liège en 2026 :<br />
@@ -145,6 +145,14 @@ export default function ArticlePrixPage() {
           <p className="text-xs text-gray-400 mt-2">
             * Tarifs indicatifs pour la région de Liège. Prix hors TVA. Devis gratuit pour votre situation exacte.
           </p>
+          <div className="mt-4 bg-amber-50 border-l-4 border-amber-400 rounded-r-xl p-4">
+            <p className="font-semibold text-amber-800 text-sm">Printemps–été 2026 : vérifiez vos jardins et terrasses</p>
+            <p className="text-sm text-gray-700 mt-1">
+              Avec le retour des beaux jours, les rats étendent leur territoire vers les jardins et terrasses.
+              Les terriers creusés sous les dalles ou près des composteurs sont plus visibles au printemps.
+              C'est le bon moment pour inspecter et traiter avant que la colonie s'installe durablement.
+            </p>
+          </div>
         </section>
 
         <section>

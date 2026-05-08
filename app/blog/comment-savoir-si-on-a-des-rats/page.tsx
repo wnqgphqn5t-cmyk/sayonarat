@@ -16,7 +16,7 @@ const jsonLd = {
   description:
     "Bruits la nuit, excréments, traces de morsures : comment identifier une infestation de rats ou souris avant qu'elle s'aggrave.",
   datePublished: "2026-03-30",
-  dateModified: "2026-03-30",
+  dateModified: "2026-05-08",
   author: { "@type": "Person", name: "Victor F." },
   publisher: {
     "@type": "Organization",
@@ -80,7 +80,7 @@ export default function ArticleRatsPage() {
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-green-700 text-white">
               Dératisation
             </span>
-            <span className="text-xs text-green-300">23 avril 2026 · 5 min de lecture</span>
+            <span className="text-xs text-green-300">8 mai 2026 · 5 min de lecture</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
             Comment savoir si on a des rats chez soi ?<br />

@@ -40,7 +40,7 @@ const jsonLd = {
   author: { "@type": "Organization", name: "Sayonarat" },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },
   datePublished: "2026-04-10",
-  dateModified: "2026-04-10",
+  dateModified: "2026-05-08",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.sayonarat.be/blog/prix-punaises-lit-liege-2026" },
 };
 
@@ -68,7 +68,7 @@ export default function PrixPunaisesLitPage() {
           </p>
           <div className="flex items-center gap-3 mb-4">
             <span className="text-xs font-semibold px-3 py-1 rounded-full text-white" style={{ backgroundColor: "#7c3aed" }}>Tarifs</span>
-            <span className="text-xs text-green-300">23 avril 2026 · 5 min de lecture</span>
+            <span className="text-xs text-green-300">8 mai 2026 · 5 min de lecture</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
             Prix traitement punaises de lit Liège 2026 — Tarifs réels
@@ -111,7 +111,15 @@ export default function PrixPunaisesLitPage() {
             </tbody>
           </table>
         </div>
-        <p className="text-sm text-gray-500 mb-8 italic">* Tarifs indicatifs pour Liège et communes voisines. Le devis définitif est établi après diagnostic du niveau d'infestation.</p>
+        <p className="text-sm text-gray-500 mb-4 italic">* Tarifs indicatifs pour Liège et communes voisines. Le devis définitif est établi après diagnostic du niveau d'infestation.</p>
+        <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-xl p-4 mb-8">
+          <p className="font-semibold text-amber-800 text-sm">Été 2026 : délais plus longs, réservez à l'avance</p>
+          <p className="text-sm text-gray-700 mt-1">
+            De mai à août, les demandes d'intervention punaises de lit augmentent avec les retours de voyage.
+            Les délais d'intervention peuvent passer de 48h à 3–5 jours en période de forte demande.
+            Contactez-nous dès la détection — ne pas attendre aggrave l'infestation et augmente le coût du traitement.
+          </p>
+        </div>
 
         <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>
           5 facteurs qui font varier le prix
