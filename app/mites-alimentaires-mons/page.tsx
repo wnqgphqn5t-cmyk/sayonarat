@@ -66,7 +66,7 @@ export default function MitesAlimentairesMonsPage() {
         <div className="max-w-4xl mx-auto">
           <p className="text-green-300 text-sm mb-2">
             <Link href="/" className="hover:text-white">Accueil</Link> ›{" "}
-            <Link href="/mites-alimentaires-liege" className="hover:text-white">Mites alimentaires Liège</Link> ›{" "}
+            <Link href="/desinsectisation-mons" className="hover:text-white">Désinsectisation Mons</Link> ›{" "}
             Mons
           </p>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
@@ -124,6 +124,25 @@ export default function MitesAlimentairesMonsPage() {
           </p>
         </div>
 
+
+        <h2 className="text-xl font-bold mb-4" style={{ color: "#1B4332" }}>
+          Prévenir le retour des mites alimentaires
+        </h2>
+        <ul className="space-y-2 mb-10 text-sm text-gray-700">
+          {[
+            "Conservez farine, riz et céréales dans des boîtes hermétiques en verre ou plastique rigide",
+            "Vérifiez les emballages des produits secs avant de les ranger (jamais d'emballage endommagé)",
+            "Videz et nettoyez les placards alimentaires au moins une fois par an",
+            "Ne stockez pas de produits secs plus de 3 mois sans rotation des stocks",
+            "Placez des feuilles de laurier dans les placards — répulsif naturel contre les mites",
+          ].map((tip) => (
+            <li key={tip} className="flex items-start gap-2">
+              <span className="text-green-600 mt-0.5 font-bold">→</span>
+              <span>{tip}</span>
+            </li>
+          ))}
+        </ul>
+
         <h2 className="text-2xl font-bold mb-5" style={{ color: "#1B4332" }}>Questions fréquentes</h2>
         <div className="space-y-4 mb-12">
           {faqs.map((faq, i) => (
@@ -154,7 +173,6 @@ export default function MitesAlimentairesMonsPage() {
             <Link href="/mites-alimentaires-bruxelles" className="underline" style={{ color: "#1B4332" }}>Mites alimentaires Bruxelles</Link>
             <Link href="/mites-alimentaires-charleroi" className="underline" style={{ color: "#1B4332" }}>Mites alimentaires Charleroi</Link>
             <Link href="/mites-alimentaires-namur" className="underline" style={{ color: "#1B4332" }}>Mites alimentaires Namur</Link>
-            <Link href="/mites-alimentaires-liege" className="underline" style={{ color: "#1B4332" }}>Mites alimentaires Liège</Link>
           </div>
         </div>
       </section>

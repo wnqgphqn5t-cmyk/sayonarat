@@ -63,7 +63,7 @@ export default function GuepesFretonsCharleroiPage() {
         <div className="max-w-4xl mx-auto">
           <p className="text-green-300 text-sm mb-2">
             <Link href="/" className="hover:text-white">Accueil</Link> ›{" "}
-            <Link href="/guepes-frelons-liege" className="hover:text-white">Guêpes {"&"} frelons Liège</Link> ›{" "}
+            <Link href="/desinsectisation-charleroi" className="hover:text-white">Désinsectisation Charleroi</Link> ›{" "}
             Charleroi
           </p>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
@@ -150,7 +150,6 @@ export default function GuepesFretonsCharleroiPage() {
             { label: "Guêpes et frelons Bruxelles", href: "/guepes-frelons-bruxelles" },
             { label: "Guêpes et frelons Namur", href: "/guepes-frelons-namur" },
             { label: "Guêpes et frelons Mons", href: "/guepes-frelons-mons" },
-            { label: "Guêpes et frelons Liège", href: "/guepes-frelons-liege" }
           ].map((l) => (
             <Link key={l.href} href={l.href} className="underline font-medium" style={{ color: "#1B4332" }}>{l.label}</Link>
           ))}

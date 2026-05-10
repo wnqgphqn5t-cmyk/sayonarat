@@ -63,7 +63,7 @@ export default function FourmisNamurPage() {
         <div className="max-w-4xl mx-auto">
           <p className="text-green-300 text-sm mb-2">
             <Link href="/" className="hover:text-white">Accueil</Link> ›{" "}
-            <Link href="/fourmis-liege" className="hover:text-white">Fourmis Liège</Link> ›{" "}
+            <Link href="/desinsectisation-namur" className="hover:text-white">Désinsectisation Namur</Link> ›{" "}
             Namur
           </p>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
@@ -203,7 +203,6 @@ export default function FourmisNamurPage() {
             { label: "Fourmis Bruxelles", href: "/fourmis-bruxelles" },
             { label: "Fourmis Charleroi", href: "/fourmis-charleroi" },
             { label: "Fourmis Mons", href: "/fourmis-mons" },
-            { label: "Fourmis Liège", href: "/fourmis-liege" }
           ].map((l) => (
             <Link key={l.href} href={l.href} className="underline font-medium" style={{ color: "#1B4332" }}>{l.label}</Link>
           ))}

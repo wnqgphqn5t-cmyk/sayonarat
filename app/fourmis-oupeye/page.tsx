@@ -63,7 +63,7 @@ export default function FourmisOupeyePage() {
         <div className="max-w-4xl mx-auto">
           <p className="text-green-300 text-sm mb-2">
             <Link href="/" className="hover:text-white">Accueil</Link> ›{" "}
-            <Link href="/fourmis-liege" className="hover:text-white">Fourmis Liège</Link> ›{" "}
+            <Link href="/desinsectisation-oupeye" className="hover:text-white">Désinsectisation Oupeye</Link> ›{" "}
             Oupeye
           </p>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
@@ -199,7 +199,6 @@ export default function FourmisOupeyePage() {
         <h2 className="text-2xl font-bold mb-5" style={{ color: "#1B4332" }}>Traitement fourmis dans les villes voisines</h2>
         <div className="flex flex-wrap gap-3 text-sm">
           {[
-            { label: "Fourmis Liège", href: "/fourmis-liege" },
             { label: "Fourmis Liège", href: "/fourmis-liege" },
             { label: "Fourmis Herstal", href: "/fourmis-herstal" },
             { label: "Fourmis Awans", href: "/fourmis-awans" },

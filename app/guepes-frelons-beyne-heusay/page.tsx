@@ -63,7 +63,7 @@ export default function GuepesFretonsBeyneHeusayPage() {
         <div className="max-w-4xl mx-auto">
           <p className="text-green-300 text-sm mb-2">
             <Link href="/" className="hover:text-white">Accueil</Link> ›{" "}
-            <Link href="/guepes-frelons-liege" className="hover:text-white">Guêpes {"&"} frelons Liège</Link> ›{" "}
+            <Link href="/desinsectisation-beyne-heusay" className="hover:text-white">Désinsectisation Beyne-Heusay</Link> ›{" "}
             Beyne-Heusay
           </p>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
@@ -146,7 +146,6 @@ export default function GuepesFretonsBeyneHeusayPage() {
         <h2 className="text-2xl font-bold mb-5" style={{ color: "#1B4332" }}>Destruction nid guêpes dans les villes voisines</h2>
         <div className="flex flex-wrap gap-3 text-sm">
           {[
-            { label: "Guêpes et frelons Liège", href: "/guepes-frelons-liege" },
             { label: "Guêpes et frelons Liège", href: "/guepes-frelons-liege" },
             { label: "Guêpes et frelons Seraing", href: "/guepes-frelons-seraing" },
             { label: "Guêpes et frelons Verviers", href: "/guepes-frelons-verviers" },

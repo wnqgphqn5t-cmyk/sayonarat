@@ -71,7 +71,7 @@ export default function CafardsAwansPage() {
         <div className="max-w-4xl mx-auto">
           <p className="text-green-300 text-sm mb-2">
             <Link href="/" className="hover:text-white">Accueil</Link> ›{" "}
-            <Link href="/cafards-liege" className="hover:text-white">Cafards Liège</Link> ›{" "}
+            <Link href="/desinsectisation-awans" className="hover:text-white">Désinsectisation Awans</Link> ›{" "}
             Awans
           </p>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
@@ -139,6 +139,15 @@ export default function CafardsAwansPage() {
           ))}
         </ul>
 
+
+        <div className="bg-green-50 border border-green-200 rounded-xl p-4 mb-6 flex items-center gap-3">
+          <span className="text-2xl">✅</span>
+          <div>
+            <p className="font-bold text-sm" style={{ color: "#1B4332" }}>Garantie 30 jours incluse</p>
+            <p className="text-xs text-gray-600">Si des cafards réapparaissent dans les 30 jours suivant le traitement, le technicien revient sans frais.</p>
+          </div>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
           <div className="border-2 border-green-200 rounded-xl p-6">
             <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>Gel insecticide professionnel</h3>
@@ -156,6 +165,25 @@ export default function CafardsAwansPage() {
             </p>
             <div className="text-sm font-medium text-green-700">Efficace grandes surfaces · Locaux pro</div>
           </div>
+        </div>
+
+
+        <div className="bg-yellow-50 border-l-4 border-yellow-400 p-5 rounded-r-xl mb-8">
+          <p className="font-semibold text-gray-800 mb-3">Tarifs indicatifs — Cafards Awans</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
+            {[
+              { type: "Studio / 1 pièce", prix: "120 – 180 €" },
+              { type: "Appartement 2-3 pièces", prix: "180 – 260 €" },
+              { type: "Grand appartement / maison", prix: "260 – 380 €" },
+              { type: "Local professionnel / HoReCa", prix: "Sur devis" },
+            ].map((t) => (
+              <div key={t.type} className="flex justify-between bg-white rounded-lg px-4 py-2 border border-yellow-200">
+                <span className="text-gray-700">{t.type}</span>
+                <span className="font-bold" style={{ color: "#1B4332" }}>{t.prix}</span>
+              </div>
+            ))}
+          </div>
+          <p className="text-xs text-gray-500 mt-3">Devis gratuit et précis sous 24h après diagnostic sur place.</p>
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 mb-10">
@@ -198,7 +226,6 @@ export default function CafardsAwansPage() {
         </h2>
         <div className="flex flex-wrap gap-3 text-sm">
           {[
-            { label: "Cafards Liège", href: "/cafards-liege" },
             { label: "Cafards Liège", href: "/cafards-liege" },
             { label: "Cafards Ans", href: "/cafards-ans" },
             { label: "Cafards Oupeye", href: "/cafards-oupeye" },

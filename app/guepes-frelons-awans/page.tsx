@@ -63,7 +63,7 @@ export default function GuepesFretonsAwansPage() {
         <div className="max-w-4xl mx-auto">
           <p className="text-green-300 text-sm mb-2">
             <Link href="/" className="hover:text-white">Accueil</Link> ›{" "}
-            <Link href="/guepes-frelons-liege" className="hover:text-white">Guêpes {"&"} frelons Liège</Link> ›{" "}
+            <Link href="/desinsectisation-awans" className="hover:text-white">Désinsectisation Awans</Link> ›{" "}
             Awans
           </p>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
@@ -146,7 +146,6 @@ export default function GuepesFretonsAwansPage() {
         <h2 className="text-2xl font-bold mb-5" style={{ color: "#1B4332" }}>Destruction nid guêpes dans les villes voisines</h2>
         <div className="flex flex-wrap gap-3 text-sm">
           {[
-            { label: "Guêpes et frelons Liège", href: "/guepes-frelons-liege" },
             { label: "Guêpes et frelons Liège", href: "/guepes-frelons-liege" },
             { label: "Guêpes et frelons Ans", href: "/guepes-frelons-ans" },
             { label: "Guêpes et frelons Oupeye", href: "/guepes-frelons-oupeye" },
