@@ -194,6 +194,30 @@ export default function DesinsectisationLiegePage() {
         </div>
       </section>
 
+
+      <section className="py-12 px-4 max-w-4xl mx-auto">
+        <h2 className="text-2xl font-bold mb-5" style={{ color: "#1B4332" }}>
+          Traitements spécialisés à Liège
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
+          <Link href="/cafards-liege" className="border border-gray-200 rounded-xl p-5 hover:shadow-md hover:border-green-300 transition-all block">
+            <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>Cafards à Liège →</h3>
+            <p className="text-sm text-gray-600">Gel insecticide professionnel sans évacuation. Colonie éliminée à la source, résultat en 72h.</p>
+          </Link>
+          <Link href="/fourmis-liege" className="border border-gray-200 rounded-xl p-5 hover:shadow-md hover:border-green-300 transition-all block">
+            <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>Fourmis à Liège →</h3>
+            <p className="text-sm text-gray-600">Traitement adapté à l&apos;espèce : fourmis noires, pharaons, charpentières.</p>
+          </Link>
+          <Link href="/guepes-frelons-liege" className="border border-gray-200 rounded-xl p-5 hover:shadow-md hover:border-green-300 transition-all block">
+            <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>Guêpes &amp; frelons à Liège →</h3>
+            <p className="text-sm text-gray-600">Destruction de nid garantie sous 24h. Intervention sécurisée.</p>
+          </Link>
+          <Link href="/mites-alimentaires-liege" className="border border-gray-200 rounded-xl p-5 hover:shadow-md hover:border-green-300 transition-all block">
+            <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>Mites alimentaires à Liège →</h3>
+            <p className="text-sm text-gray-600">Traitement des placards et denrées contaminées. Garantie 30 jours incluse.</p>
+          </Link>
+        </div>
+      </section>
       <section className="py-12 px-4 bg-gray-50">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl font-bold mb-8 text-center" style={{ color: "#1B4332" }}>
