@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { RatIcon, CockroachIcon, BedBugIcon, WaspIcon, AntIcon, GraduationCapIcon, BoltIcon, ShieldCheckIcon, EuroIcon } from "@/components/Icons";
 
 export const metadata: Metadata = {
   title: "Élimination de Nuisibles en Belgique — Sayonarat",
@@ -228,7 +229,7 @@ export default function NuisiblesHub() {
                 key={service.title}
                 className="border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow"
               >
-                <div className="text-4xl mb-3">{service.icon}</div>
+                <div className="mb-3">{service.icon === "🐀" ? <RatIcon className="w-10 h-10" style={{ color: "#1B4332" }} /> : service.icon === "🪳" ? <CockroachIcon className="w-10 h-10" style={{ color: "#1B4332" }} /> : service.icon === "🛏️" ? <BedBugIcon className="w-10 h-10" style={{ color: "#1B4332" }} /> : service.icon === "🐝" ? <WaspIcon className="w-10 h-10" style={{ color: "#1B4332" }} /> : service.icon === "🐜" ? <AntIcon className="w-10 h-10" style={{ color: "#1B4332" }} /> : <CockroachIcon className="w-10 h-10" style={{ color: "#1B4332" }} />}</div>
                 <h3 className="text-xl font-bold text-green-900 mb-2">
                   {service.title}
                 </h3>
@@ -291,7 +292,7 @@ export default function NuisiblesHub() {
               },
             ].map((item) => (
               <div key={item.title} className="flex gap-4 bg-white p-5 rounded-xl shadow-sm">
-                <div className="text-3xl">{item.icon}</div>
+                <div className="flex-shrink-0">{item.icon === "🎓" ? <GraduationCapIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : item.icon === "⚡" ? <BoltIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : item.icon === "🛡️" ? <ShieldCheckIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : <EuroIcon className="w-8 h-8" style={{ color: "#1B4332" }} />}</div>
                 <div>
                   <h3 className="font-bold text-green-900 mb-1">{item.title}</h3>
                   <p className="text-gray-600 text-sm">{item.desc}</p>
