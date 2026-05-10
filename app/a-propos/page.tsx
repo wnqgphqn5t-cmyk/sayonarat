@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 
-import { BadgeCheckIcon, CheckCircleIcon, GraduationCapIcon, MapPinIcon } from "@/components/Icons";
+import { BadgeCheckIcon, BoltIcon, CheckCircleIcon, GraduationCapIcon, LockIcon, MapPinIcon, TargetIcon, UsersIcon } from "@/components/Icons";
 export const metadata: Metadata = {
   alternates: { canonical: "/a-propos" },
   title: "À propos de Sayonarat — Experts dératisation & désinsectisation Belgique",
@@ -174,7 +174,7 @@ export default function AProposPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {valeurs.map((v) => (
               <div key={v.titre} className="bg-white rounded-2xl p-6 border border-gray-100 hover:border-green-300 hover:shadow-md transition-all">
-                <div className="text-3xl mb-3">{v.emoji}</div>
+                <div className="mb-3">{v.emoji === "🎯" ? <TargetIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : v.emoji === "📍" ? <MapPinIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : v.emoji === "🔒" ? <LockIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : v.emoji === "🏅" ? <BadgeCheckIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : v.emoji === "⚡" ? <BoltIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : <UsersIcon className="w-8 h-8" style={{ color: "#1B4332" }} />}</div>
                 <h3 className="font-bold mb-2" style={{ color: "#1B4332" }}>{v.titre}</h3>
                 <p className="text-sm text-gray-600 leading-relaxed">{v.desc}</p>
               </div>

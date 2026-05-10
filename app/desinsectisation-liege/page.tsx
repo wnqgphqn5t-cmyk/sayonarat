@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import { CockroachIcon, AntIcon, MosquitoIcon, FlyIcon, WaspIcon, SpiderIcon } from "@/components/Icons";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/desinsectisation-liege" },
@@ -126,7 +127,7 @@ export default function DesinsectisationLiegePage() {
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-10">
           {insectes.map((i) => (
             <div key={i.label} className="flex items-center gap-3 p-4 bg-green-50 rounded-xl border border-green-100">
-              <span className="text-2xl">{i.icon}</span>
+              <span>{i.icon === "🪳" ? <CockroachIcon className="w-6 h-6" style={{ color: "#1B4332" }} /> : i.icon === "🐜" ? <AntIcon className="w-6 h-6" style={{ color: "#1B4332" }} /> : i.icon === "🦟" ? <MosquitoIcon className="w-6 h-6" style={{ color: "#1B4332" }} /> : i.icon === "🪰" ? <FlyIcon className="w-6 h-6" style={{ color: "#1B4332" }} /> : i.icon === "🐝" ? <WaspIcon className="w-6 h-6" style={{ color: "#1B4332" }} /> : <SpiderIcon className="w-6 h-6" style={{ color: "#1B4332" }} />}</span>
               <span className="font-medium text-sm" style={{ color: "#1B4332" }}>{i.label}</span>
             </div>
           ))}

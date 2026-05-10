@@ -326,3 +326,26 @@ export function MosquitoIcon({ className, ...props }: IconProps) {
     </svg>
   );
 }
+
+export function FlyIcon({ className, ...props }: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className={className} aria-hidden="true" {...props}>
+      <ellipse cx="12" cy="14" rx="3" ry="4" fill="currentColor" stroke="none"/>
+      <ellipse cx="8.5" cy="10" rx="5" ry="3" opacity="0.6" transform="rotate(-15 8.5 10)"/>
+      <ellipse cx="15.5" cy="10" rx="5" ry="3" opacity="0.6" transform="rotate(15 15.5 10)"/>
+      <circle cx="12" cy="8" r="2" fill="currentColor" stroke="none"/>
+      <path d="M10 7 L8 5M14 7 L16 5" strokeLinecap="round"/>
+    </svg>
+  );
+}
+
+export function SpiderIcon({ className, ...props }: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className={className} aria-hidden="true" {...props}>
+      <circle cx="12" cy="12" r="3" fill="currentColor" stroke="none"/>
+      <circle cx="12" cy="7" r="2" fill="currentColor" stroke="none"/>
+      <path d="M9 10 L4 7M9 11 L3 12M9 12.5 L3 16" strokeLinecap="round"/>
+      <path d="M15 10 L20 7M15 11 L21 12M15 12.5 L21 16" strokeLinecap="round"/>
+    </svg>
+  );
+}
