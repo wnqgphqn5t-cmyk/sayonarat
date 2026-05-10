@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+import { BeakerIcon, CheckCircleIcon, SearchIcon } from "@/components/Icons";
 export const metadata: Metadata = {
   alternates: { canonical: "/mites-alimentaires-liege" },
   title: "Mites alimentaires Liège — Traitement professionnel",
@@ -77,7 +78,7 @@ export default function MitesAlimentairesLiegePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
             <a href="tel:+32466442454" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-6 py-3 rounded-lg hover:opacity-90 transition-opacity inline-block text-center">
-              📞 +32 466 44 24 54
+              +32 466 44 24 54
             </a>
             <Link href="/contact" className="border-2 border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-white hover:text-green-900 transition-colors text-center">
               Devis gratuit →
@@ -111,7 +112,7 @@ export default function MitesAlimentairesLiegePage() {
             { icon: "✅", titre: "Garantie 30 jours", desc: "Retour sans frais si les mites réapparaissent dans le mois suivant l'intervention. Conseils de prévention inclus." },
           ].map((s) => (
             <div key={s.titre} className="border border-gray-200 rounded-xl p-5 hover:shadow-md transition-shadow">
-              <div className="text-3xl mb-3">{s.icon}</div>
+              <div className="mb-3">{s.icon === "🔍" ? <SearchIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : s.icon === "🧪" ? <BeakerIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : <CheckCircleIcon className="w-8 h-8 text-green-600" />}</div>
               <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>{s.titre}</h3>
               <p className="text-sm text-gray-600">{s.desc}</p>
             </div>
@@ -119,7 +120,7 @@ export default function MitesAlimentairesLiegePage() {
         </div>
 
         <div className="bg-yellow-50 border-l-4 border-yellow-400 p-5 rounded-r-xl mb-12">
-          <p className="font-semibold text-gray-800">⚠️ Erreur fréquente</p>
+          <p className="font-semibold text-gray-800">Erreur fréquente</p>
           <p className="text-sm text-gray-700 mt-1">
             Jeter uniquement les produits visiblement infestés ne suffit pas. Les œufs de mites
             sont microscopiques et peuvent se trouver dans des emballages en apparence intacts.
@@ -142,7 +143,7 @@ export default function MitesAlimentairesLiegePage() {
           <p className="text-green-200 mb-5 text-sm">Devis gratuit sous 24h. Intervention sous 48h.</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a href="tel:+32466442454" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-6 py-3 rounded-lg hover:opacity-90 transition-opacity">
-              📞 Appeler maintenant
+              Appeler maintenant
             </a>
             <Link href="/contact" className="border-2 border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-white hover:text-green-900 transition-colors">
               Demander un devis →
@@ -163,7 +164,7 @@ export default function MitesAlimentairesLiegePage() {
       {/* Articles liés */}
       <section className="py-10 px-4 max-w-4xl mx-auto">
         <h2 className="text-xl font-bold mb-4" style={{ color: "#1B4332" }}>
-          📖 Sur le même sujet
+          Sur le même sujet
         </h2>
         <div className="flex flex-wrap gap-3">
           {[

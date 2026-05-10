@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 
+import { BeakerIcon, CheckCircleIcon, SearchIcon, TargetIcon } from "@/components/Icons";
 export const metadata: Metadata = {
   alternates: { canonical: "/deratisation-verviers" },
   title: "Dératisation Verviers — Intervention rapide",
@@ -77,7 +78,7 @@ export default function DeratisationVerviersPage() {
               Devis gratuit sous 24h →
             </Link>
             <a href="tel:+32466442454" className="border-2 border-white text-white font-semibold px-8 py-3 rounded-lg hover:bg-white hover:text-green-900 transition-colors text-center">
-              📞 Appeler maintenant
+              Appeler maintenant
             </a>
           </div>
         </div>
@@ -111,7 +112,7 @@ export default function DeratisationVerviersPage() {
             { emoji: "✅", t: "Garantie 30 jours", d: "Retour sans frais si les rongeurs réapparaissent dans le mois suivant l'intervention." },
           ].map((c) => (
             <div key={c.t} className="bg-green-50 rounded-xl p-5 border border-green-100">
-              <div className="text-3xl mb-2">{c.emoji}</div>
+              <div className="mb-3">{c.emoji === "🔍" ? <SearchIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : c.emoji === "🎯" ? <TargetIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : c.emoji === "🧪" ? <BeakerIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : <CheckCircleIcon className="w-8 h-8 text-green-600" />}</div>
               <h3 className="font-bold mb-1" style={{ color: "#1B4332" }}>{c.t}</h3>
               <p className="text-sm text-gray-600">{c.d}</p>
             </div>
@@ -123,7 +124,7 @@ export default function DeratisationVerviersPage() {
             Demander un devis gratuit →
           </Link>
           <a href="tel:+32466442454" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center">
-            📞 Appeler maintenant
+            Appeler maintenant
           </a>
         </div>
       </section>

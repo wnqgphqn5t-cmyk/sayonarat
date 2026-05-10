@@ -184,7 +184,7 @@ export default function NuisiblesHub() {
               href="tel:+32466442454"
               className="bg-yellow-400 text-green-900 font-bold px-8 py-3 rounded-lg text-lg hover:bg-yellow-300 transition-colors"
             >
-              📞 +32 466 44 24 54
+              +32 466 44 24 54
             </a>
             <Link
               href="/contact"
@@ -369,7 +369,7 @@ export default function NuisiblesHub() {
             href="tel:+32466442454"
             className="bg-yellow-400 text-green-900 font-bold px-8 py-3 rounded-lg text-lg hover:bg-yellow-300 transition-colors"
           >
-            📞 Appeler maintenant
+            Appeler maintenant
           </a>
           <Link
             href="/contact"

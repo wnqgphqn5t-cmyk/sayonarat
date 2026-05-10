@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 
+import { CheckCircleIcon, WarningIcon } from "@/components/Icons";
 export const metadata: Metadata = {
   alternates: { canonical: "/cafards-mons" },
   title: "Cafards Mons — Élimination garantie, intervention rapide",
@@ -133,7 +134,7 @@ export default function CafardsMonsPage() {
         <ul className="space-y-3 mb-10">
           {signes.map((s) => (
             <li key={s} className="flex items-start gap-3">
-              <span className="text-amber-500 mt-0.5">⚠</span>
+              <WarningIcon className="w-4 h-4 text-amber-500 mt-0.5 flex-shrink-0" />
               <span className="text-gray-700">{s}</span>
             </li>
           ))}
@@ -141,7 +142,7 @@ export default function CafardsMonsPage() {
 
 
         <div className="bg-green-50 border border-green-200 rounded-xl p-4 mb-6 flex items-center gap-3">
-          <span className="text-2xl">✅</span>
+          <CheckCircleIcon className="w-7 h-7 text-green-600 flex-shrink-0" />
           <div>
             <p className="font-bold text-sm" style={{ color: "#1B4332" }}>Garantie 30 jours incluse</p>
             <p className="text-xs text-gray-600">Si des cafards réapparaissent dans les 30 jours suivant le traitement, le technicien revient sans frais.</p>

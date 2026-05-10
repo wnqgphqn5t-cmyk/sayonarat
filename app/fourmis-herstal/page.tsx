@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 
+import { BeakerIcon, CheckCircleIcon, SearchIcon } from "@/components/Icons";
 export const metadata: Metadata = {
   alternates: { canonical: "/fourmis-herstal" },
   title: "Fourmis Herstal — Traitement professionnel garanti",
@@ -136,7 +137,7 @@ export default function FourmisHerstalPage() {
             { emoji: "✅", t: "Garantie 30 jours", d: "Si des fourmis réapparaissent dans les 30 jours, retour sans frais. Inclus dans toutes nos interventions à Herstal." },
           ].map((card) => (
             <div key={card.t} className="bg-white border border-gray-200 rounded-xl p-5 shadow-sm">
-              <div className="text-3xl mb-2">{card.emoji}</div>
+              <div className="mb-3">{card.emoji === "🔍" ? <SearchIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : card.emoji === "🧪" ? <BeakerIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : <CheckCircleIcon className="w-8 h-8 text-green-600" />}</div>
               <h3 className="font-bold mb-1" style={{ color: "#1B4332" }}>{card.t}</h3>
               <p className="text-sm text-gray-600">{card.d}</p>
             </div>

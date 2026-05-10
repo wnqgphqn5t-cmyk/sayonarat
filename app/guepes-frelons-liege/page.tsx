@@ -112,7 +112,7 @@ export default function GuepesFrellonsLiegePage() {
           </div>
           <div className="flex flex-col sm:flex-row gap-3">
             <a href="tel:+32466442454" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-6 py-3 rounded-lg hover:opacity-90 transition-opacity inline-block text-center">
-              📞 +32 466 44 24 54
+              +32 466 44 24 54
             </a>
             <Link href="/contact" className="border-2 border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-white hover:text-green-900 transition-colors text-center">
               Devis gratuit →
@@ -133,7 +133,7 @@ export default function GuepesFrellonsLiegePage() {
         </div>
 
         <div className="bg-red-50 border-l-4 border-red-400 p-5 rounded-r-xl mb-10">
-          <p className="font-semibold text-red-800">⚠️ Ne jamais traiter un nid soi-même de jour</p>
+          <p className="font-semibold text-red-800">Ne jamais traiter un nid soi-même de jour</p>
           <p className="text-sm text-gray-700 mt-1">
             Une guêpe peut piquer plusieurs fois. Un nid actif contient entre 3 000 et 15 000 individus
             (frelons : jusqu&apos;à 700). Une attaque de masse peut être mortelle pour une personne allergique.
@@ -151,7 +151,7 @@ export default function GuepesFrellonsLiegePage() {
                 <th className="px-4 py-2 text-left">Critère</th>
                 <th className="px-4 py-2 text-left">Guêpe germanique</th>
                 <th className="px-4 py-2 text-left">Frelon commun</th>
-                <th className="px-4 py-2 text-left">Frelon asiatique ⚠️</th>
+                <th className="px-4 py-2 text-left">Frelon asiatique</th>
               </tr>
             </thead>
             <tbody>
@@ -247,7 +247,7 @@ export default function GuepesFrellonsLiegePage() {
       {/* Articles liés */}
       <section className="py-10 px-4 max-w-4xl mx-auto">
         <h2 className="text-xl font-bold mb-4" style={{ color: "#1B4332" }}>
-          📖 Sur le même sujet
+          Sur le même sujet
         </h2>
         <div className="flex flex-wrap gap-3">
           {[

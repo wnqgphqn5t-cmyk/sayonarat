@@ -98,7 +98,7 @@ export default function CafardsLiegePage() {
               href="tel:+32466442454"
               className="border-2 border-white text-white font-semibold px-8 py-3 rounded-lg hover:bg-white hover:text-green-900 transition-colors text-center"
             >
-              📞 Appeler maintenant
+              Appeler maintenant
             </a>
           </div>
         </div>
@@ -210,7 +210,7 @@ export default function CafardsLiegePage() {
             style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
             className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center"
           >
-            📞 Appeler maintenant
+            Appeler maintenant
           </a>
         </div>
       </section>
@@ -253,7 +253,7 @@ export default function CafardsLiegePage() {
       {/* Articles liés */}
       <section className="py-10 px-4 max-w-4xl mx-auto">
         <h2 className="text-xl font-bold mb-4" style={{ color: "#1B4332" }}>
-          📖 Sur le même sujet
+          Sur le même sujet
         </h2>
         <div className="flex flex-wrap gap-3">
           {[

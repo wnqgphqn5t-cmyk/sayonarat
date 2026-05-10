@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Sources from "@/components/Sources";
 
+import { FlameIcon } from "@/components/Icons";
 export const metadata: Metadata = {
   alternates: { canonical: "/blog/prix-punaises-lit-liege-2026" },
   title: "Prix traitement punaises de lit Liège 2026 — Tarifs réels",
@@ -149,7 +150,7 @@ export default function PrixPunaisesLitPage() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
           <div className="border-2 border-green-200 rounded-xl p-6">
-            <div className="text-3xl mb-3">🔥</div>
+            <div className="mb-3"><FlameIcon className="w-8 h-8" style={{ color: "#1B4332" }} /></div>
             <h3 className="font-bold text-lg mb-3" style={{ color: "#1B4332" }}>Choisir le thermique si…</h3>
             <ul className="space-y-2 text-sm text-gray-600">
               {["Infestation sévère ou installée depuis longtemps", "Vous voulez dormir chez vous dès le soir", "Vous avez des enfants ou des personnes sensibles aux produits chimiques", "Mobilier complexe (têtes de lit, rembourrage)"].map((s) => (
@@ -191,7 +192,7 @@ export default function PrixPunaisesLitPage() {
             style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
             className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center"
           >
-            📞 Devis gratuit sous 24h
+            Devis gratuit sous 24h
           </a>
         </div>
 

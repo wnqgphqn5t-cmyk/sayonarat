@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 
+import { EuroIcon, LockIcon, MapPinIcon } from "@/components/Icons";
 export const metadata: Metadata = {
   alternates: { canonical: "/contact" },
   title: "Contact — Devis gratuit dératisation Belgique",
@@ -65,7 +66,7 @@ export default function ContactPage() {
               { icon: "🔒", title: "Données protégées", desc: "Vos informations sont utilisées uniquement pour traiter votre demande." },
             ].map((item) => (
               <div key={item.title} className="flex gap-4 p-4 bg-green-50 rounded-xl border border-green-100">
-                <span className="text-2xl">{item.icon}</span>
+                <span>{item.icon === "📍" ? <MapPinIcon className="w-7 h-7" style={{ color: "#1B4332" }} /> : item.icon === "💶" ? <EuroIcon className="w-7 h-7" style={{ color: "#1B4332" }} /> : <LockIcon className="w-7 h-7" style={{ color: "#1B4332" }} />}</span>
                 <div>
                   <div className="font-semibold text-sm" style={{ color: "#1B4332" }}>{item.title}</div>
                   <div className="text-sm text-gray-600">{item.desc}</div>
@@ -84,7 +85,7 @@ export default function ContactPage() {
               style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
               className="block text-center font-bold py-3 rounded-lg hover:opacity-90 transition-opacity text-lg"
             >
-              📞 Appeler maintenant
+              Appeler maintenant
             </a>
           </div>
         </div>

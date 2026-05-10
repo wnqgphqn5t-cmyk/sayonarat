@@ -84,7 +84,7 @@ export default function FrelonAsiatiqueLiegePage() {
       <article className="py-14 px-4 max-w-3xl mx-auto">
 
         <div className="bg-red-50 border-l-4 border-red-500 p-5 rounded-r-xl mb-10">
-          <p className="font-bold text-red-800 mb-1">⚠️ Urgence frelon asiatique</p>
+          <p className="font-bold text-red-800 mb-1">Urgence frelon asiatique</p>
           <p className="text-sm text-red-700">
             Si vous repérez un nid de frelon asiatique, n'approchez pas. Appelez immédiatement
             le <a href="tel:+32466442454" className="font-bold underline">+32 466 44 24 54</a> —
@@ -232,7 +232,7 @@ export default function FrelonAsiatiqueLiegePage() {
             style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
             className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center"
           >
-            📞 Appeler maintenant
+            Appeler maintenant
           </a>
         </div>
 

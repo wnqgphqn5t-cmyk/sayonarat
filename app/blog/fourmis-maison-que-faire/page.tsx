@@ -115,7 +115,7 @@ export default function ArticleFourmisPage() {
               <tbody>
                 {[
                   ["Fourmi noire de jardin", "3–5 mm", "Noire", "Modérée"],
-                  ["Fourmi pharaon", "1,5–2 mm", "Jaune-orangée", "Très élevée ⚠️"],
+                  ["Fourmi pharaon", "1,5–2 mm", "Jaune-orangée", "Très élevée"],
                   ["Fourmi charpentière", "6–12 mm", "Noire", "Élevée"],
                   ["Fourmi d'Argentine", "2–3 mm", "Brun clair", "Élevée"],
                 ].map(([esp, taille, couleur, diff], i) => (

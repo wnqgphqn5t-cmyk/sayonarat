@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Sources from "@/components/Sources";
 
+import { CheckCircleIcon, GearIcon } from "@/components/Icons";
 export const metadata: Metadata = {
   alternates: { canonical: "/blog/cafards-appartement-que-faire" },
   title: "Cafards dans un appartement : que faire ? Guide complet Liège",
@@ -93,7 +94,7 @@ export default function CafardsAppartementPage() {
           48 heures plus tard, les cafards recolonisent les zones traitées.
         </p>
         <div className="bg-red-50 border-l-4 border-red-400 p-5 rounded-r-xl mb-8">
-          <p className="font-bold text-red-800 mb-1">❌ Ce qu'il ne faut pas faire</p>
+          <p className="font-bold text-red-800 mb-1">Ce qu'il ne faut pas faire</p>
           <ul className="text-sm text-red-700 space-y-1 mt-2">
             <li>• Spray insecticide du commerce (disperse la colonie)</li>
             <li>• Boucher les interstices avant le traitement (emprisonne les cafards dans les murs)</li>
@@ -143,10 +144,10 @@ export default function CafardsAppartementPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-8">
           {[
             { emoji: "✅", t: "Avantages du gel", items: ["Pas d'odeur, pas d'évacuation du logement", "Efficace sur les zones inaccessibles", "Action en 3 à 7 jours", "Cible toute la colonie, y compris les œufs"] },
-            { emoji: "⚙️", t: "Application professionnelle", items: ["Diagnostic des zones de transit et de ponte", "Application ciblée dans les recoins", "Produits homologués en Belgique", "Garantie 30 jours sur le résultat"] },
+            { emoji: "gear", t: "Application professionnelle", items: ["Diagnostic des zones de transit et de ponte", "Application ciblée dans les recoins", "Produits homologués en Belgique", "Garantie 30 jours sur le résultat"] },
           ].map((c) => (
             <div key={c.t} className="bg-green-50 rounded-xl p-5 border border-green-100">
-              <div className="text-2xl mb-2">{c.emoji}</div>
+              <div className="mb-2">{c.emoji === "✅" ? <CheckCircleIcon className="w-7 h-7 text-green-600" /> : <GearIcon className="w-7 h-7" style={{ color: "#1B4332" }} />}</div>
               <h3 className="font-bold mb-3" style={{ color: "#1B4332" }}>{c.t}</h3>
               <ul className="space-y-1">
                 {c.items.map((item) => (
@@ -187,7 +188,7 @@ export default function CafardsAppartementPage() {
             style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
             className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center"
           >
-            📞 Devis gratuit sous 24h
+            Devis gratuit sous 24h
           </a>
         </div>
 

@@ -89,7 +89,7 @@ export default function DeratisationHerstalPage() {
         </p>
 
         <div className="bg-yellow-50 border-l-4 border-yellow-400 p-5 rounded-r-xl mb-10">
-          <p className="font-semibold text-gray-800">📊 Bon à savoir</p>
+          <p className="font-semibold text-gray-800">Bon à savoir</p>
           <p className="text-sm text-gray-700 mt-1">
             Un rat peut passer par un trou de la taille d&apos;une pièce de 2€, une souris par 5mm.
             Les passages de câbles, joints de porte et fissures de fondation sont les entrées
@@ -113,7 +113,7 @@ export default function DeratisationHerstalPage() {
           </Link>
           <a href="tel:+32466442454" style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
             className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center">
-            📞 Appeler maintenant
+            Appeler maintenant
           </a>
         </div>
       </section>

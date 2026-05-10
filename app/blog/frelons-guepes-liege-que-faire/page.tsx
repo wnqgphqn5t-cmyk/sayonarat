@@ -123,7 +123,7 @@ export default function ArticleFrelonsPage() {
                 {[
                   ["Guêpe germanique", "1,2–1,7 cm", "Jaune vif + noir", "Modéré"],
                   ["Frelon commun", "2,5–3,5 cm", "Roux + jaune-brun", "Élevé"],
-                  ["Frelon asiatique", "2–3 cm", "Brun-noir + bande orange", "Très élevé ⚠️"],
+                  ["Frelon asiatique", "2–3 cm", "Brun-noir + bande orange", "Très élevé"],
                 ].map(([esp, taille, couleur, danger], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-gray-50" : "bg-white"}>
                     <td className="px-4 py-2 font-medium">{esp}</td>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 
+import { BeakerIcon, CheckCircleIcon, SearchIcon, TargetIcon } from "@/components/Icons";
 export const metadata: Metadata = {
   alternates: { canonical: "/fourmis-liege" },
   title: "Fourmis Liège — Traitement professionnel garanti",
@@ -138,7 +139,7 @@ export default function FourmisLiegePage() {
               href="tel:+32466442454"
               className="border-2 border-white text-white font-semibold px-8 py-3 rounded-lg hover:bg-white hover:text-green-900 transition-colors text-center"
             >
-              📞 Appeler maintenant
+              Appeler maintenant
             </a>
           </div>
         </div>
@@ -148,7 +149,7 @@ export default function FourmisLiegePage() {
       <section className="py-8 px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-red-50 border-l-4 border-red-500 p-5 rounded-r-xl">
-            <p className="font-bold text-red-800 mb-1">⚠️ N'utilisez pas de spray insecticide avant d'appeler</p>
+            <p className="font-bold text-red-800 mb-1">N'utilisez pas de spray insecticide avant d'appeler</p>
             <p className="text-sm text-red-700">
               Pour les fourmis pharaon (très fréquentes dans les immeubles liégeois), un spray provoque le <strong>budding</strong> :
               la colonie se divise en plusieurs nids avec de nouvelles reines. L'infestation empire. Attendez le diagnostic professionnel.
@@ -180,7 +181,7 @@ export default function FourmisLiegePage() {
           {especes.map((e) => (
             <div key={e.nom} className="bg-green-50 border border-green-100 rounded-xl p-5">
               <div className="flex items-center gap-2 mb-2">
-                <span className="text-2xl">{e.emoji}</span>
+                <span className="inline-block w-5 h-5 rounded-full flex-shrink-0" style={{ backgroundColor: e.emoji === "🟡" ? "#EAB308" : e.emoji === "🪵" ? "#92400E" : e.emoji === "🔴" ? "#DC2626" : "#111827" }}></span>
                 <h3 className="font-bold text-lg" style={{ color: "#1B4332" }}>{e.nom}</h3>
               </div>
               <div className="grid grid-cols-2 gap-1 text-xs text-gray-500 mb-3">
@@ -211,7 +212,7 @@ export default function FourmisLiegePage() {
             { emoji: "✅", t: "Garantie 30 jours", d: "Si des fourmis réapparaissent dans les 30 jours, retour sans frais. Inclus dans toutes nos interventions à Liège." },
           ].map((c) => (
             <div key={c.t} className="bg-white border border-gray-200 rounded-xl p-5 shadow-sm">
-              <div className="text-3xl mb-2">{c.emoji}</div>
+              <div className="mb-3">{c.emoji === "🔍" ? <SearchIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : c.emoji === "🎯" ? <TargetIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : c.emoji === "🧪" ? <BeakerIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : <CheckCircleIcon className="w-8 h-8 text-green-600" />}</div>
               <h3 className="font-bold mb-1" style={{ color: "#1B4332" }}>{c.t}</h3>
               <p className="text-sm text-gray-600">{c.d}</p>
             </div>
@@ -251,7 +252,7 @@ export default function FourmisLiegePage() {
             style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
             className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center"
           >
-            📞 Appeler maintenant
+            Appeler maintenant
           </a>
         </div>
       </section>
@@ -296,7 +297,7 @@ export default function FourmisLiegePage() {
       {/* Articles liés */}
       <section className="py-10 px-4 max-w-4xl mx-auto">
         <h2 className="text-xl font-bold mb-4" style={{ color: "#1B4332" }}>
-          📖 Sur le même sujet
+          Sur le même sujet
         </h2>
         <div className="flex flex-wrap gap-3">
           {[

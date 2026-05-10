@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 
+import { FlameIcon, PillIcon, WarningIcon } from "@/components/Icons";
 export const metadata: Metadata = {
   alternates: { canonical: "/punaises-de-lit-liege" },
   title: "Traitement Punaises de lit Liège — Élimination garantie",
@@ -131,7 +132,7 @@ export default function PunaisesLiegePage() {
         <ul className="space-y-3 mb-10">
           {signes.map((s) => (
             <li key={s} className="flex items-start gap-3">
-              <span className="text-red-500 mt-0.5">⚠️</span>
+              <WarningIcon className="w-4 h-4 text-red-500 mt-0.5 flex-shrink-0" />
               <span className="text-gray-700">{s}</span>
             </li>
           ))}
@@ -158,21 +159,21 @@ export default function PunaisesLiegePage() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
           <div className="border-2 border-green-200 rounded-xl p-6">
-            <div className="text-3xl mb-3">🔥</div>
+            <div className="mb-3"><FlameIcon className="w-8 h-8" style={{ color: "#1B4332" }} /></div>
             <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>Traitement thermique</h3>
             <p className="text-sm text-gray-600 mb-3">Chaleur portée à 60°C dans tout le logement pendant 6 à 8 heures. Tue punaises et œufs en une seule intervention, sans produit chimique.</p>
-            <div className="text-sm font-medium text-green-700">✅ Résultat en 1 passage · Dès le soir même</div>
+            <div className="text-sm font-medium text-green-700">Résultat en 1 passage · Dès le soir même</div>
           </div>
           <div className="border border-gray-200 rounded-xl p-6">
-            <div className="text-3xl mb-3">💊</div>
+            <div className="mb-3"><PillIcon className="w-8 h-8" style={{ color: "#1B4332" }} /></div>
             <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>Traitement chimique</h3>
             <p className="text-sm text-gray-600 mb-3">Insecticides professionnels à effet rémanent sur toutes les zones de ponte. Intervention ciblée sur toutes les zones de ponte, résultat garanti.</p>
-            <div className="text-sm font-medium text-green-700">✅ Moins coûteux · Efficace sur grandes surfaces</div>
+            <div className="text-sm font-medium text-green-700">Moins coûteux · Efficace sur grandes surfaces</div>
           </div>
         </div>
 
         <div className="bg-yellow-50 border-l-4 border-yellow-400 p-5 rounded-r-xl mb-10">
-          <p className="font-semibold text-gray-800">📊 Situation en Belgique</p>
+          <p className="font-semibold text-gray-800">Situation en Belgique</p>
           <p className="text-sm text-gray-700 mt-1">
             Les signalements de punaises de lit en Belgique sont en forte hausse depuis 2019.
             Liège est l&apos;une des villes les plus touchées en Wallonie, notamment en raison
@@ -193,7 +194,7 @@ export default function PunaisesLiegePage() {
             style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
             className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center"
           >
-            📞 Appeler maintenant
+            Appeler maintenant
           </a>
         </div>
       </section>
@@ -234,7 +235,7 @@ export default function PunaisesLiegePage() {
       {/* Articles liés */}
       <section className="py-10 px-4 max-w-4xl mx-auto">
         <h2 className="text-xl font-bold mb-4" style={{ color: "#1B4332" }}>
-          📖 Sur le même sujet
+          Sur le même sujet
         </h2>
         <div className="flex flex-wrap gap-3">
           {[

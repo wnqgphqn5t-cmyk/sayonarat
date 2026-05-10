@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 
+import { FlameIcon, PillIcon } from "@/components/Icons";
 export const metadata: Metadata = {
   alternates: { canonical: "/punaises-de-lit-namur" },
   title: "Punaises de lit Namur — Traitement garanti",
@@ -77,7 +78,7 @@ export default function PunaisesNamurPage() {
               Devis gratuit sous 24h →
             </Link>
             <a href="tel:+32466442454" className="border-2 border-white text-white font-semibold px-8 py-3 rounded-lg hover:bg-white hover:text-green-900 transition-colors text-center">
-              📞 Appeler maintenant
+              Appeler maintenant
             </a>
           </div>
         </div>
@@ -94,13 +95,13 @@ export default function PunaisesNamurPage() {
         <h2 className="text-2xl font-bold mb-6" style={{ color: "#1B4332" }}>Deux méthodes de traitement à Namur</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
           <div className="border-2 border-green-200 rounded-xl p-6">
-            <div className="text-3xl mb-3">🔥</div>
+            <div className="mb-3"><FlameIcon className="w-8 h-8" style={{ color: "#1B4332" }} /></div>
             <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>Traitement thermique</h3>
             <p className="text-sm text-gray-600 mb-3">Chaleur portée à 60°C+ pendant 6 à 8h. Détruit punaises et œufs en une seule session, sans produit chimique résiduel. Adapté aux maisons namuroises de toutes tailles.</p>
             <div className="text-sm font-medium text-green-700">✅ Résultat immédiat · Chambre accessible le soir même</div>
           </div>
           <div className="border border-gray-200 rounded-xl p-6">
-            <div className="text-3xl mb-3">💊</div>
+            <div className="mb-3"><PillIcon className="w-8 h-8" style={{ color: "#1B4332" }} /></div>
             <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>Traitement chimique</h3>
             <p className="text-sm text-gray-600 mb-3">Insecticide rémanent professionnel appliqué sur toutes les zones de ponte et de transit. Efficace et moins coûteux pour les infestations localisées.</p>
             <div className="text-sm font-medium text-green-700">✅ Moins coûteux · Adapté aux infestations débutantes</div>
@@ -120,7 +121,7 @@ export default function PunaisesNamurPage() {
             Demander un devis gratuit →
           </Link>
           <a href="tel:+32466442454" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center">
-            📞 Appeler maintenant
+            Appeler maintenant
           </a>
         </div>
       </section>

@@ -90,7 +90,7 @@ export default function DeratisationSeraingPage() {
         </p>
 
         <div className="bg-yellow-50 border-l-4 border-yellow-400 p-5 rounded-r-xl mb-10">
-          <p className="font-semibold text-gray-800">📊 Friches industrielles et rongeurs</p>
+          <p className="font-semibold text-gray-800">Friches industrielles et rongeurs</p>
           <p className="text-sm text-gray-700 mt-1">
             Les friches industrielles de Seraing abritent des colonies de rats estimées à
             plusieurs milliers d&apos;individus. En automne, ces colonies migrent massivement
@@ -117,7 +117,7 @@ export default function DeratisationSeraingPage() {
           </Link>
           <a href="tel:+32466442454" style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
             className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center">
-            📞 Appeler maintenant
+            Appeler maintenant
           </a>
         </div>
       </section>

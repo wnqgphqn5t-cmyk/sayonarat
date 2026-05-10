@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 
+import { AntIcon, CockroachIcon, MothIcon, WaspIcon } from "@/components/Icons";
 export const metadata: Metadata = {
   alternates: { canonical: "/desinsectisation-bruxelles" },
   title: "Désinsectisation Bruxelles — Cafards, fourmis, guêpes",
@@ -77,7 +78,7 @@ export default function DesinsectisationBruxellesPage() {
               Devis gratuit sous 24h →
             </Link>
             <a href="tel:+32466442454" className="border-2 border-white text-white font-semibold px-8 py-3 rounded-lg hover:bg-white hover:text-green-900 transition-colors text-center">
-              📞 Appeler maintenant
+              Appeler maintenant
             </a>
           </div>
         </div>
@@ -100,7 +101,7 @@ export default function DesinsectisationBruxellesPage() {
             { emoji: "🦋", t: "Mites alimentaires", d: "Traitement des placards et réserves contaminées dans les cuisines. Élimination complète des larves, œufs et adultes." },
           ].map((c) => (
             <div key={c.t} className="bg-green-50 rounded-xl p-5 border border-green-100">
-              <div className="text-3xl mb-2">{c.emoji}</div>
+              <div className="mb-3">{c.emoji === "🪳" ? <CockroachIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : c.emoji === "🐜" ? <AntIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : c.emoji === "🐝" ? <WaspIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : <MothIcon className="w-8 h-8" style={{ color: "#1B4332" }} />}</div>
               <h3 className="font-bold mb-1" style={{ color: "#1B4332" }}>{c.t}</h3>
               <p className="text-sm text-gray-600">{c.d}</p>
             </div>
@@ -112,7 +113,7 @@ export default function DesinsectisationBruxellesPage() {
             Demander un devis gratuit →
           </Link>
           <a href="tel:+32466442454" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center">
-            📞 Appeler maintenant
+            Appeler maintenant
           </a>
         </div>
       </section>

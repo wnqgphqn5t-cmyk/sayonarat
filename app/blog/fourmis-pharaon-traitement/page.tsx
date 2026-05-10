@@ -83,7 +83,7 @@ export default function FourmisPharaonPage() {
       <article className="py-14 px-4 max-w-3xl mx-auto">
 
         <div className="bg-red-50 border-l-4 border-red-400 p-5 rounded-r-xl mb-10">
-          <p className="font-bold text-red-800 mb-1">⚠️ N'utilisez surtout pas de spray</p>
+          <p className="font-bold text-red-800 mb-1">N'utilisez surtout pas de spray</p>
           <p className="text-sm text-red-700">
             Contrairement aux autres fourmis, vaporiser un insecticide sur des fourmis
             pharaon déclenche un mécanisme de survie : les reines fuient avec une partie
@@ -133,11 +133,11 @@ export default function FourmisPharaonPage() {
             </thead>
             <tbody>
               {[
-                ["Spray insecticide du commerce", "❌ Déclenche le budding — aggrave l'infestation"],
-                ["Poudre insecticide", "❌ Même effet — les fourmis évitent les zones traitées"],
-                ["Pièges classiques fourmis", "⚠️ Partiellement efficace sur les ouvrières seulement"],
+                ["Spray insecticide du commerce", "Déclenche le budding — aggrave l'infestation"],
+                ["Poudre insecticide", "Même effet — les fourmis évitent les zones traitées"],
+                ["Pièges classiques fourmis", "Partiellement efficace sur les ouvrières seulement"],
                 ["Gel appâtant professionnel", "✅ Seule méthode efficace — ingéré et transmis aux reines"],
-                ["Barrières physiques", "⚠️ Complémentaire seulement — ne détruit pas la colonie"],
+                ["Barrières physiques", "Complémentaire seulement — ne détruit pas la colonie"],
               ].map(([m, r], i) => (
                 <tr key={m} className={i % 2 === 0 ? "bg-gray-50" : "bg-white"}>
                   <td className="px-4 py-3 font-medium text-gray-800 border-b border-gray-100">{m}</td>
@@ -203,7 +203,7 @@ export default function FourmisPharaonPage() {
             style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
             className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center"
           >
-            📞 Devis gratuit sous 24h
+            Devis gratuit sous 24h
           </a>
         </div>
 

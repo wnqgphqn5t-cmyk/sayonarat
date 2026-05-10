@@ -226,7 +226,7 @@ export default function FaqPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
             <a href="tel:+32466442454" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-6 py-3 rounded-lg hover:opacity-90 transition-opacity inline-block text-center">
-              📞 +32 466 44 24 54
+              +32 466 44 24 54
             </a>
             <Link href="/contact" className="border-2 border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-white hover:text-green-900 transition-colors text-center">
               Devis gratuit →
@@ -273,7 +273,7 @@ export default function FaqPage() {
           <p className="text-green-200 mb-5 text-sm">Appelez-nous ou envoyez un message — réponse sous 24h.</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a href="tel:+32466442454" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-6 py-3 rounded-lg hover:opacity-90 transition-opacity">
-              📞 Appeler maintenant
+              Appeler maintenant
             </a>
             <Link href="/contact" className="border-2 border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-white hover:text-green-900 transition-colors">
               Envoyer un message →

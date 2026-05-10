@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+import { AntIcon, BadgeCheckIcon, BedBugIcon, BuildingIcon, CockroachIcon, EuroIcon, LockIcon, PhoneIcon, RatIcon, ShieldCheckIcon, WaspIcon } from "@/components/Icons";;
 export const metadata: Metadata = {
   alternates: { canonical: "/urgence" },
   title: "Urgence nuisibles Belgique — Intervention rapide 7j/7",
@@ -121,7 +122,7 @@ export default function UrgencePage() {
               style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
             >
               <span className="relative z-10 flex items-center justify-center gap-3">
-                <span className="text-2xl">📞</span>
+                <PhoneIcon className="w-6 h-6" />
                 <span>+32 466 44 24 54</span>
               </span>
             </a>
@@ -167,7 +168,7 @@ export default function UrgencePage() {
                 key={s.titre}
                 className="group relative bg-white rounded-2xl p-6 border border-gray-100 hover:border-green-300 hover:shadow-xl transition-all"
               >
-                <div className="text-4xl mb-4">{s.emoji}</div>
+                <div className="mb-4">{s.emoji === "🐝" ? <WaspIcon className="w-10 h-10" style={{ color: "#1B4332" }} /> : s.emoji === "🐀" ? <RatIcon className="w-10 h-10" style={{ color: "#1B4332" }} /> : s.emoji === "🛏️" ? <BedBugIcon className="w-10 h-10" style={{ color: "#1B4332" }} /> : s.emoji === "🪳" ? <CockroachIcon className="w-10 h-10" style={{ color: "#1B4332" }} /> : s.emoji === "🐜" ? <AntIcon className="w-10 h-10" style={{ color: "#1B4332" }} /> : <BuildingIcon className="w-10 h-10" style={{ color: "#1B4332" }} />}</div>
                 <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>{s.titre}</h3>
                 <p className="text-sm text-gray-600 mb-4 leading-relaxed">{s.desc}</p>
                 <div className="inline-flex items-center gap-2 text-xs font-semibold px-3 py-1 rounded-full" style={{ backgroundColor: "#FEF3C7", color: "#92400E" }}>
@@ -225,7 +226,7 @@ export default function UrgencePage() {
               { emoji: "🔒", t: "Discrétion totale", s: "Véhicules banalisés" },
             ].map((t) => (
               <div key={t.t}>
-                <div className="text-3xl mb-2">{t.emoji}</div>
+                <div className="mb-2">{t.emoji === "🏅" ? <BadgeCheckIcon className="w-8 h-8 mx-auto" style={{ color: "#1B4332" }} /> : t.emoji === "🛡️" ? <ShieldCheckIcon className="w-8 h-8 mx-auto" style={{ color: "#1B4332" }} /> : t.emoji === "💶" ? <EuroIcon className="w-8 h-8 mx-auto" style={{ color: "#1B4332" }} /> : <LockIcon className="w-8 h-8 mx-auto" style={{ color: "#1B4332" }} />}</div>
                 <div className="font-bold text-sm mb-1" style={{ color: "#1B4332" }}>{t.t}</div>
                 <div className="text-xs text-gray-500">{t.s}</div>
               </div>
@@ -269,7 +270,7 @@ export default function UrgencePage() {
             className="inline-flex items-center gap-4 rounded-2xl font-bold px-10 py-6 text-xl transition-all hover:scale-[1.02] shadow-2xl"
             style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
           >
-            <span className="text-3xl">📞</span>
+            <PhoneIcon className="w-7 h-7" />
             <span>+32 466 44 24 54</span>
           </a>
 

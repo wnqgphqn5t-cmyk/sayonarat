@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+import { BeakerIcon, CheckCircleIcon, SearchIcon } from "@/components/Icons";
 export const metadata: Metadata = {
   alternates: { canonical: "/mites-alimentaires-saint-nicolas" },
   title: "Mites alimentaires Saint-Nicolas — Traitement professionnel",
@@ -108,7 +109,7 @@ export default function MitesAlimentairesSaintNicolasPage() {
             { icon: "✅", titre: "Garantie 30 jours", desc: "Retour sans frais si les mites réapparaissent dans le mois suivant. Conseils de prévention inclus." },
           ].map((s) => (
             <div key={s.titre} className="border border-gray-200 rounded-xl p-5 hover:shadow-md transition-shadow">
-              <div className="text-3xl mb-3">{s.icon}</div>
+              <div className="mb-3">{s.icon === "🔍" ? <SearchIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : s.icon === "🧪" ? <BeakerIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : <CheckCircleIcon className="w-8 h-8 text-green-600" />}</div>
               <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>{s.titre}</h3>
               <p className="text-sm text-gray-600">{s.desc}</p>
             </div>

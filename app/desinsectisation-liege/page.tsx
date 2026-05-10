@@ -155,7 +155,7 @@ export default function DesinsectisationLiegePage() {
         </p>
 
         <div className="bg-yellow-50 border-l-4 border-yellow-400 p-5 rounded-r-xl mb-10">
-          <p className="font-semibold text-gray-800">📊 Le cas Liège</p>
+          <p className="font-semibold text-gray-800">Le cas Liège</p>
           <p className="text-sm text-gray-700 mt-1">
             Les fourmis charpentières sont également en forte progression dans les habitations
             liégeoises depuis 2022 — elles s&apos;installent dans le bois humide des charpentes et
@@ -189,7 +189,7 @@ export default function DesinsectisationLiegePage() {
             style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
             className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center"
           >
-            📞 Appeler maintenant
+            Appeler maintenant
           </a>
         </div>
       </section>

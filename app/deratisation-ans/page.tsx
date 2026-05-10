@@ -89,7 +89,7 @@ export default function DeratisationAnsPage() {
         </p>
 
         <div className="bg-yellow-50 border-l-4 border-yellow-400 p-5 rounded-r-xl mb-10">
-          <p className="font-semibold text-gray-800">📊 Chiffre clé</p>
+          <p className="font-semibold text-gray-800">Chiffre clé</p>
           <p className="text-sm text-gray-700 mt-1">
             La grande majorité des infestations de rongeurs commencent par un seul point d&apos;entrée non sécurisé.
             À Ans, ce sont souvent les passages de câbles de fibre optique installés récemment
@@ -113,7 +113,7 @@ export default function DeratisationAnsPage() {
           </Link>
           <a href="tel:+32466442454" style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
             className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center">
-            📞 Appeler maintenant
+            Appeler maintenant
           </a>
         </div>
       </section>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 
+import { CheckCircleIcon, MoonIcon, ShieldCheckIcon } from "@/components/Icons";
 export const metadata: Metadata = {
   alternates: { canonical: "/guepes-frelons-saint-nicolas" },
   title: "Guêpes et frelons Saint-Nicolas — Destruction nid",
@@ -77,7 +78,7 @@ export default function GuepesSaintNicolasPage() {
               Devis gratuit sous 24h →
             </Link>
             <a href="tel:+32466442454" className="border-2 border-white text-white font-semibold px-8 py-3 rounded-lg hover:bg-white hover:text-green-900 transition-colors text-center">
-              📞 Appeler maintenant
+              Appeler maintenant
             </a>
           </div>
         </div>
@@ -92,7 +93,7 @@ export default function GuepesSaintNicolasPage() {
         </div>
 
         <div className="bg-red-50 border-l-4 border-red-500 p-5 rounded-r-xl mb-10">
-          <p className="font-bold text-red-800 mb-1">⚠️ N&apos;approchez pas le nid</p>
+          <p className="font-bold text-red-800 mb-1">N&apos;approchez pas le nid</p>
           <p className="text-sm text-red-700">Une guêpe piquée émet des phéromones d&apos;alarme qui déclenchent l&apos;attaque collective de toute la colonie. Maintenez au minimum 5 mètres de distance.</p>
         </div>
 
@@ -111,7 +112,7 @@ export default function GuepesSaintNicolasPage() {
             { emoji: "✅", t: "Garantie 30 jours", d: "Retour offert sans frais si reprise d'activité." },
           ].map((c) => (
             <div key={c.t} className="bg-green-50 rounded-xl p-5 border border-green-100">
-              <div className="text-3xl mb-2">{c.emoji}</div>
+              <div className="mb-3">{c.emoji === "🌙" ? <MoonIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : c.emoji === "🛡️" ? <ShieldCheckIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : <CheckCircleIcon className="w-8 h-8 text-green-600" />}</div>
               <h3 className="font-bold mb-1" style={{ color: "#1B4332" }}>{c.t}</h3>
               <p className="text-sm text-gray-600">{c.d}</p>
             </div>
@@ -123,7 +124,7 @@ export default function GuepesSaintNicolasPage() {
             Demander un devis gratuit →
           </Link>
           <a href="tel:+32466442454" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center">
-            📞 Appeler maintenant
+            Appeler maintenant
           </a>
         </div>
       </section>

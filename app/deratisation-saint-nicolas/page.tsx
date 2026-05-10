@@ -90,7 +90,7 @@ export default function DeratisationSaintNicolasPage() {
         </p>
 
         <div className="bg-yellow-50 border-l-4 border-yellow-400 p-5 rounded-r-xl mb-10">
-          <p className="font-semibold text-gray-800">📊 Bon à savoir</p>
+          <p className="font-semibold text-gray-800">Bon à savoir</p>
           <p className="text-sm text-gray-700 mt-1">
             Les rongeurs parcourent jusqu&apos;à 3 km par nuit. Une infestation non traitée
             à Saint-Nicolas peut contaminer les habitations voisines de Seraing et Liège
@@ -114,7 +114,7 @@ export default function DeratisationSaintNicolasPage() {
           </Link>
           <a href="tel:+32466442454" style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
             className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center">
-            📞 Appeler maintenant
+            Appeler maintenant
           </a>
         </div>
       </section>

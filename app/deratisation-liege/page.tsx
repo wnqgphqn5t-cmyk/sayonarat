@@ -133,7 +133,7 @@ export default function DeratisationLiegePage() {
         </p>
 
         <div className="bg-yellow-50 border-l-4 border-yellow-400 p-5 rounded-r-xl mb-10">
-          <p className="font-semibold text-gray-800">📊 Chiffres Liège</p>
+          <p className="font-semibold text-gray-800">Chiffres Liège</p>
           <p className="text-sm text-gray-700 mt-1">
             Les signalements de rongeurs à Liège ont progressé chaque année depuis 2020,
             avec un pic en automne (octobre–novembre) quand les rats cherchent la chaleur des habitations.
@@ -184,7 +184,7 @@ export default function DeratisationLiegePage() {
             style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
             className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center"
           >
-            📞 Appeler maintenant
+            Appeler maintenant
           </a>
         </div>
       </section>
@@ -209,7 +209,7 @@ export default function DeratisationLiegePage() {
       {/* Articles liés */}
       <section className="py-10 px-4 max-w-4xl mx-auto">
         <h2 className="text-xl font-bold mb-4" style={{ color: "#1B4332" }}>
-          📖 Sur le même sujet
+          Sur le même sujet
         </h2>
         <div className="flex flex-wrap gap-3">
           {[

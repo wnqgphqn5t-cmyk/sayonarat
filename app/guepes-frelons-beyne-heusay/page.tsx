@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 
+import { CheckCircleIcon, MoonIcon, ShieldCheckIcon } from "@/components/Icons";;
 export const metadata: Metadata = {
   alternates: { canonical: "/guepes-frelons-beyne-heusay" },
   title: "Guêpes et frelons Beyne-Heusay — Destruction nid rapide",
@@ -111,7 +112,7 @@ export default function GuepesFretonsBeyneHeusayPage() {
             { emoji: "✅", t: "Garantie 30 jours", d: "Retour sans frais si reprise d'activité constatée." },
           ].map((card) => (
             <div key={card.t} className="bg-green-50 rounded-xl p-5 border border-green-100">
-              <div className="text-3xl mb-2">{card.emoji}</div>
+              <div className="mb-2">{card.emoji === "🌙" ? <MoonIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : card.emoji === "🛡️" ? <ShieldCheckIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : <CheckCircleIcon className="w-8 h-8 text-green-600" />}</div>
               <h3 className="font-bold mb-1" style={{ color: "#1B4332" }}>{card.t}</h3>
               <p className="text-sm text-gray-600">{card.d}</p>
             </div>

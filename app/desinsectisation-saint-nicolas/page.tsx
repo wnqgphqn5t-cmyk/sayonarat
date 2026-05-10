@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+import { AntIcon, BoltIcon, CheckCircleIcon, CockroachIcon, MosquitoIcon, TargetIcon, WaspIcon } from "@/components/Icons";
 export const metadata: Metadata = {
   alternates: { canonical: "/desinsectisation-saint-nicolas" },
   title: "Désinsectisation Saint-Nicolas — Cafards, fourmis, guêpes",
@@ -58,7 +59,7 @@ export default function DesinsectisationSaintNicolasPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
             <a href="tel:+32466442454" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-6 py-3 rounded-lg hover:opacity-90 transition-opacity inline-block text-center">
-              📞 +32 466 44 24 54
+              +32 466 44 24 54
             </a>
             <Link href="/contact" className="border-2 border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-white hover:text-green-900 transition-colors text-center">
               Devis gratuit →
@@ -91,7 +92,7 @@ export default function DesinsectisationSaintNicolasPage() {
             { icon: "🦟", titre: "Moustiques", desc: "Proximité de la Meuse favorable à la prolifération. Traitement larvicide des points d'eau stagnante." },
           ].map((s) => (
             <div key={s.titre} className="border border-gray-200 rounded-xl p-5 hover:shadow-md transition-shadow">
-              <div className="text-3xl mb-3">{s.icon}</div>
+              <div className="mb-3">{s.icon === "🪲" || s.icon === "🪳" ? <CockroachIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : s.icon === "🐜" ? <AntIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : s.icon === "🐝" ? <WaspIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : <MosquitoIcon className="w-8 h-8" style={{ color: "#1B4332" }} />}</div>
               <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>{s.titre}</h3>
               <p className="text-sm text-gray-600">{s.desc}</p>
             </div>
@@ -107,7 +108,7 @@ export default function DesinsectisationSaintNicolasPage() {
               { icon: "✅", titre: "Garantie 30 jours", desc: "Retour sans frais si les insectes réapparaissent dans le mois suivant l'intervention." },
             ].map((item) => (
               <div key={item.titre} className="text-center">
-                <div className="text-3xl mb-2">{item.icon}</div>
+                <div className="mb-3">{item.icon === "⚡" ? <BoltIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : item.icon === "🎯" ? <TargetIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : <CheckCircleIcon className="w-8 h-8 text-green-600" />}</div>
                 <h3 className="font-bold mb-1" style={{ color: "#1B4332" }}>{item.titre}</h3>
                 <p className="text-sm text-gray-600">{item.desc}</p>
               </div>
@@ -161,7 +162,7 @@ export default function DesinsectisationSaintNicolasPage() {
           <p className="text-green-200 mb-5 text-sm">Devis gratuit sous 24h. Intervention sous 48h.</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a href="tel:+32466442454" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-6 py-3 rounded-lg hover:opacity-90 transition-opacity">
-              📞 Appeler maintenant
+              Appeler maintenant
             </a>
             <Link href="/contact" className="border-2 border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-white hover:text-green-900 transition-colors">
               Demander un devis →

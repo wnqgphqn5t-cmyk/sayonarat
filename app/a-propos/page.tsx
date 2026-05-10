@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 
+import { BadgeCheckIcon, CheckCircleIcon, GraduationCapIcon, MapPinIcon } from "@/components/Icons";
 export const metadata: Metadata = {
   alternates: { canonical: "/a-propos" },
   title: "À propos de Sayonarat — Experts dératisation & désinsectisation Belgique",
@@ -104,9 +105,9 @@ export default function AProposPage() {
               <h3 className="text-2xl font-bold mb-2" style={{ color: "#1B4332" }}>Victor F.</h3>
               <p className="text-sm text-gray-600 mb-4">Expert antiparasitaire · Belgique</p>
               <div className="space-y-2 text-xs text-gray-500">
-                <div className="flex items-center gap-2"><span>🏅</span> Agréé phytosanitaire</div>
-                <div className="flex items-center gap-2"><span>📍</span> 10+ ans sur le terrain belge</div>
-                <div className="flex items-center gap-2"><span>🎓</span> Formation continue CEPA</div>
+                <div className="flex items-center gap-2"><BadgeCheckIcon className="w-4 h-4 inline" style={{ color: "#1B4332" }} /> Agréé phytosanitaire</div>
+                <div className="flex items-center gap-2"><MapPinIcon className="w-4 h-4 inline" style={{ color: "#1B4332" }} /> 10+ ans sur le terrain belge</div>
+                <div className="flex items-center gap-2"><GraduationCapIcon className="w-4 h-4 inline" style={{ color: "#1B4332" }} /> Formation continue CEPA</div>
               </div>
             </div>
           </div>
@@ -235,7 +236,7 @@ export default function AProposPage() {
                 { t: "Formation continue", s: "Mise à jour annuelle" },
               ].map((c) => (
                 <div key={c.t} className="bg-white rounded-xl p-4 border border-gray-100">
-                  <div className="text-xl mb-2">✅</div>
+                  <div className="mb-2"><CheckCircleIcon className="w-6 h-6 text-green-600" /></div>
                   <div className="font-bold text-sm" style={{ color: "#1B4332" }}>{c.t}</div>
                   <div className="text-xs text-gray-500 mt-0.5">{c.s}</div>
                 </div>
@@ -281,7 +282,7 @@ export default function AProposPage() {
               style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
               className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity"
             >
-              📞 Appeler maintenant
+              Appeler maintenant
             </a>
           </div>
         </div>

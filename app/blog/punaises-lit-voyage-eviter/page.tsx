@@ -120,7 +120,7 @@ export default function ArticlePunaisesVoyagePage() {
               { ok: false, texte: "Ne laissez pas votre valise ouverte sur le sol de la chambre pendant plusieurs heures" },
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3 p-3 rounded-lg border" style={{ borderColor: item.ok ? "#bbf7d0" : "#fecaca", backgroundColor: item.ok ? "#f0fdf4" : "#fff5f5" }}>
-                <span className="flex-shrink-0 font-bold text-sm">{item.ok ? "✅" : "❌"}</span>
+                <span className="flex-shrink-0 font-bold text-sm">{item.ok ? "✅" : ""}</span>
                 <span className="text-sm">{item.texte}</span>
               </div>
             ))}

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 
+import { BoltIcon, CheckCircleIcon, FlameIcon, PillIcon, TargetIcon } from "@/components/Icons";
 export const metadata: Metadata = {
   alternates: { canonical: "/punaises-de-lit-herstal" },
   title: "Punaises de lit Herstal — Traitement professionnel",
@@ -87,7 +88,7 @@ export default function PunaisesHerstalPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
             <a href="tel:+32466442454" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-6 py-3 rounded-lg hover:opacity-90 transition-opacity inline-block text-center">
-              📞 +32 466 44 24 54
+              +32 466 44 24 54
             </a>
             <Link href="/contact" className="border-2 border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-white hover:text-green-900 transition-colors text-center">
               Devis gratuit →
@@ -121,16 +122,16 @@ export default function PunaisesHerstalPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
           <div className="border-2 border-green-200 rounded-xl p-6">
-            <div className="text-3xl mb-3">🔥</div>
+            <div className="mb-3"><FlameIcon className="w-8 h-8" style={{ color: "#1B4332" }} /></div>
             <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>Traitement thermique</h3>
             <p className="text-sm text-gray-600 mb-3">Chaleur portée à 60°C dans tout le logement. Élimine punaises et œufs en une seule intervention. Logement habitable le soir même.</p>
-            <div className="text-sm font-medium text-green-700">✅ Résultat en 1 passage · Sans chimique</div>
+            <div className="text-sm font-medium text-green-700">Résultat en 1 passage · Sans chimique</div>
           </div>
           <div className="border border-gray-200 rounded-xl p-6">
-            <div className="text-3xl mb-3">💊</div>
+            <div className="mb-3"><PillIcon className="w-8 h-8" style={{ color: "#1B4332" }} /></div>
             <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>Traitement chimique</h3>
             <p className="text-sm text-gray-600 mb-3">Insecticides professionnels à effet rémanent sur toutes les zones de ponte. Adapté pour les grands logements et les immeubles collectifs.</p>
-            <div className="text-sm font-medium text-green-700">✅ Moins coûteux · Efficace sur grandes surfaces</div>
+            <div className="text-sm font-medium text-green-700">Moins coûteux · Efficace sur grandes surfaces</div>
           </div>
         </div>
 
@@ -143,7 +144,7 @@ export default function PunaisesHerstalPage() {
               { icon: "✅", titre: "Garantie 30 jours", desc: "Retour sans frais si les punaises réapparaissent dans le mois suivant." },
             ].map((item) => (
               <div key={item.titre} className="text-center">
-                <div className="text-3xl mb-2">{item.icon}</div>
+                <div className="mb-3">{item.icon === "⚡" ? <BoltIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : item.icon === "🎯" ? <TargetIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : <CheckCircleIcon className="w-8 h-8 text-green-600" />}</div>
                 <h3 className="font-bold mb-1" style={{ color: "#1B4332" }}>{item.titre}</h3>
                 <p className="text-sm text-gray-600">{item.desc}</p>
               </div>
@@ -173,7 +174,7 @@ export default function PunaisesHerstalPage() {
           <p className="text-green-200 mb-5 text-sm">Chaque nuit compte. Devis gratuit sous 24h, intervention sous 48h.</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a href="tel:+32466442454" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-6 py-3 rounded-lg hover:opacity-90 transition-opacity">
-              📞 Appeler maintenant
+              Appeler maintenant
             </a>
             <Link href="/contact" className="border-2 border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-white hover:text-green-900 transition-colors">
               Demander un devis →
