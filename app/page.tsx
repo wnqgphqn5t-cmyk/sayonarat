@@ -64,39 +64,39 @@ const services = [
   {
     Icon: RatIcon,
     title: "Dératisation",
-    desc: "Élimination de rats et souris. Traitement des nids, pose de pièges, sécurisation des accès.",
-    descLong: "Rats, souris ou campagnols : nos techniciens identifient les points d'entrée, posent des stations d'appâtage certifiées et colmatent les accès. Résultat garanti sous 30 jours.",
+    desc: "Rats, souris ou campagnols dans votre logement. On localise les nids, sécurise les accès et pose des stations d'appâtage certifiées.",
+    descLong: "Rats, souris ou campagnols dans votre logement. On localise les nids, sécurise les accès et pose des stations d'appâtage certifiées. Garantie 30 jours incluse.",
     href: "/deratisation-liege",
     badge: "Service phare",
   },
   {
     Icon: CockroachIcon,
     title: "Désinsectisation",
-    desc: "Traitement contre cafards, fourmis, blattes. Produits homologués et sans danger.",
+    desc: "Cafards, blattes ou fourmis en cuisine. On traite à la source avec des produits certifiés, sans danger pour les occupants.",
     href: "/desinsectisation-liege",
   },
   {
     Icon: BedBugIcon,
     title: "Punaises de lit",
-    desc: "Traitement thermique ou chimique des punaises. Résultat garanti dès la première intervention.",
+    desc: "Chaleur ou traitement chimique selon l'étendue. Efficace dès la première séance, avec suivi inclus.",
     href: "/punaises-de-lit-liege",
   },
   {
     Icon: WaspIcon,
     title: "Guêpes & frelons",
-    desc: "Destruction de nids de guêpes et frelons. Intervention nocturne sécurisée sous 48h.",
+    desc: "Destruction du nid en intervention nocturne sécurisée. Délai garanti sous 48h.",
     href: "/guepes-frelons-liege",
   },
   {
     Icon: AntIcon,
     title: "Fourmis",
-    desc: "Traitement par gel transmissible. Fourmis pharaon, charpentières ou des jardins.",
+    desc: "Gel transmissible qui atteint la reine. Efficace sur toutes les espèces, fourmis pharaon comprises.",
     href: "/fourmis-liege",
   },
   {
     Icon: MothIcon,
     title: "Mites alimentaires",
-    desc: "Traitement contre les mites des denrées. Placards, réserves, garde-manger.",
+    desc: "Traitement complet placards et réserves. On élimine les œufs et larves, pas seulement les adultes visibles.",
     href: "/mites-alimentaires-liege",
   },
 ];
@@ -256,8 +256,8 @@ export default function HomePage() {
               <span style={{ color: "#FBBF24" }}>partout en Belgique</span>
             </h1>
             <p className="text-lg text-green-100 max-w-2xl mb-6">
-              Technicien certifié chez vous en <strong>moins de 24h</strong>, partout en Belgique.
-              Produits homologués SPF, résultat garanti 30 jours — retour sans frais si réapparition.
+              Un technicien certifié SPF chez vous en <strong>moins de 24h</strong>, partout en Belgique.
+              Si le problème revient dans les 30 jours, on revient gratuitement.
             </p>
             <div className="flex flex-wrap gap-4 mb-8 text-sm">
               {[
@@ -338,9 +338,9 @@ export default function HomePage() {
               Un intérieur sain,<br />c&apos;est notre objectif
             </h2>
             <p className="text-gray-600 mb-5 leading-relaxed">
-              Après chaque intervention, notre objectif est simple : vous rendre un espace propre,
-              sécurisé et sans nuisibles. Nos techniciens ne repartent pas tant que le problème
-              n&apos;est pas réglé — et ils reviennent sans frais si besoin dans les 30 jours.
+              Un espace propre et sans nuisibles, c&apos;est notre seul objectif. Nos techniciens
+              ne repartent pas avant d&apos;avoir réglé le problème. Et si un signe réapparaît
+              dans les 30 jours, le retour est inclus sans frais.
             </p>
             <ul className="space-y-2 text-sm text-gray-700">
               {["Produits homologués, sans danger après séchage", "Colmatage des points d'entrée inclus", "Rapport d'intervention remis après chaque passage", "Suivi garanti 30 jours"].map((item) => (
@@ -362,7 +362,7 @@ export default function HomePage() {
 
         <div className="space-y-5">
           {/* Row 1 : featured (2fr) + 2 cartes */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5" style={{ gridTemplateColumns: "2fr 1fr 1fr" }}>
+          <div className="grid grid-cols-1 sm:[grid-template-columns:2fr_1fr_1fr] gap-5">
             <ServiceCard {...services[0]} featured />
             <ServiceCard {...services[1]} />
             <ServiceCard {...services[2]} />
@@ -413,9 +413,9 @@ export default function HomePage() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
-            { Icon: BoltIcon, title: "Rapidité", desc: "Intervention en moins de 24h, même le week-end. Urgences traitées en priorité." },
-            { Icon: BadgeCheckIcon, title: "Expertise certifiée", desc: "Techniciens certifiés phytosanitaires. Produits homologués conformes à la réglementation belge." },
-            { Icon: ShieldCheckIcon, title: "Résultat garanti", desc: "Suivi inclus pendant 30 jours. Si les nuisibles reviennent, on revient sans frais." },
+            { Icon: BoltIcon, title: "Rapidité", desc: "Présent chez vous en moins de 24h, week-end inclus. Les urgences passent en priorité." },
+            { Icon: BadgeCheckIcon, title: "Expertise certifiée", desc: "Certification phytosanitaire belge obligatoire. Produits conformes SPF, sans danger pour les occupants après séchage." },
+            { Icon: ShieldCheckIcon, title: "Garantie 30 jours", desc: "Si un nuisible réapparaît dans les 30 jours suivant l'intervention, on revient sans frais ni discussion." },
           ].map(({ Icon, title, desc }) => (
             <div key={title} className="text-center">
               <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl mb-4" style={{ backgroundColor: "#f0fdf4" }}>
@@ -506,8 +506,8 @@ export default function HomePage() {
           Un nuisible détecté ? Agissez maintenant.
         </h2>
         <p className="mb-8 max-w-xl mx-auto" style={{ color: "#bbf7d0" }}>
-          Plus vous attendez, plus l&apos;infestation s&apos;étend. Contactez-nous pour un devis gratuit
-          et une intervention rapide partout en Belgique.
+          Une infestation ne se règle pas seul. Plus on attend, plus elle s&apos;étend.
+          Devis gratuit sous 24h, technicien chez vous rapidement partout en Belgique.
         </p>
         <Link
           href="/contact"

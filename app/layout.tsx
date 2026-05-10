@@ -40,7 +40,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="fr" className={geist.className}>
-      <body className="min-h-screen flex flex-col pb-16 sm:pb-0">
+      <body className="min-h-screen flex flex-col pb-16 sm:pb-0 overflow-x-hidden">
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
