@@ -257,7 +257,7 @@ export default function HomePage() {
             </h1>
             <p className="text-lg text-green-100 max-w-2xl mb-6">
               Un technicien certifié SPF chez vous en <strong>moins de 24h</strong>, partout en Belgique.
-              Si le problème revient dans les 30 jours, on revient gratuitement.
+              Résultat garanti 30 jours — retour sans frais si besoin.
             </p>
             <div className="flex flex-wrap gap-4 mb-8 text-sm">
               {[
