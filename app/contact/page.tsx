@@ -25,10 +25,20 @@ const jsonLd = {
   },
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Accueil", item: "https://www.sayonarat.be/" },
+    { "@type": "ListItem", position: 2, name: "Contact", item: "https://www.sayonarat.be/contact" },
+  ],
+};
+
 export default function ContactPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       {/* Hero */}
       <section style={{ backgroundColor: "#1B4332" }} className="text-white py-14 px-4">
         <div className="max-w-4xl mx-auto">

@@ -61,11 +61,22 @@ const tarifs = [
   { insecte: "Moustiques (jardin)", fourchette: "90 € – 200 €", passages: "1 passage", note: "Traitement larvicide" },
 ];
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Accueil", item: "https://www.sayonarat.be/" },
+    { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.sayonarat.be/blog" },
+    { "@type": "ListItem", position: 3, name: "Prix désinsectisation", item: "https://www.sayonarat.be/blog/prix-desinsectisation-liege-2026" },
+  ],
+};
+
 export default function ArticlePrixDesinsectisationPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <section style={{ backgroundColor: "#1B4332" }} className="text-white py-14 px-4">
         <div className="max-w-3xl mx-auto">

@@ -65,11 +65,22 @@ const faqSchema = {
   })),
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Accueil", item: "https://www.sayonarat.be/" },
+    { "@type": "ListItem", position: 2, name: "Désinsectisation Liège", item: "https://www.sayonarat.be/desinsectisation-liege" },
+    { "@type": "ListItem", position: 3, name: "Cafards Liège", item: "https://www.sayonarat.be/cafards-liege" },
+  ],
+};
+
 export default function CafardsLiegePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* Hero */}
       <section style={{ backgroundColor: "#1B4332" }} className="text-white py-14 px-4">

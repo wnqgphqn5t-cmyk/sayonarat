@@ -49,11 +49,22 @@ const faqSchema = {
   })),
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Accueil", item: "https://www.sayonarat.be/" },
+    { "@type": "ListItem", position: 2, name: "Désinsectisation Liège", item: "https://www.sayonarat.be/desinsectisation-liege" },
+    { "@type": "ListItem", position: 3, name: "Ans", item: "https://www.sayonarat.be/desinsectisation-ans" },
+  ],
+};
+
 export default function DesinsectisationAnsPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <section style={{ backgroundColor: "#1B4332" }} className="text-white py-14 px-4">
         <div className="max-w-4xl mx-auto">

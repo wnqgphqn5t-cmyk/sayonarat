@@ -7,9 +7,19 @@ export const metadata: Metadata = {
   description: "Politique de confidentialité et traitement des données personnelles du site Sayonarat.",
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Accueil", item: "https://www.sayonarat.be/" },
+    { "@type": "ListItem", position: 2, name: "Politique de confidentialité", item: "https://www.sayonarat.be/politique-confidentialite" },
+  ],
+};
+
 export default function PolitiqueConfidentialitePage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <section style={{ backgroundColor: "#1B4332" }} className="text-white py-14 px-4">
         <div className="max-w-4xl mx-auto">
           <p className="text-green-300 text-sm mb-2">
