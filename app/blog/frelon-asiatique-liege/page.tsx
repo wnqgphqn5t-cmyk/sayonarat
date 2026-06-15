@@ -98,7 +98,7 @@ export default function FrelonAsiatiqueLiegePage() {
           <p className="font-bold text-red-800 mb-1">Urgence frelon asiatique</p>
           <p className="text-sm text-red-700">
             Si vous repérez un nid de frelon asiatique, n'approchez pas. Appelez immédiatement
-            le <a href="tel:+32466442454" className="font-bold underline">+32 466 44 24 54</a> —
+            le <a href="tel:" className="font-bold underline">+32 466 44 24 54</a> —
             intervention prioritaire dans toute la région liégeoise.
           </p>
         </div>
@@ -239,7 +239,7 @@ export default function FrelonAsiatiqueLiegePage() {
             Voir notre service guêpes & frelons →
           </Link>
           <a
-            href="tel:+32466442454"
+            href="tel:"
             style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
             className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center"
           >

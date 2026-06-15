@@ -130,7 +130,7 @@ const jsonLd = {
         "@type": "LocalBusiness",
         name: "Sayonarat",
         url: "https://www.sayonarat.be",
-        telephone: "+32466442454",
+        telephone: "",
         areaServed: "BE",
       },
       areaServed: "BE",
@@ -182,7 +182,7 @@ export default function NuisiblesHub() {
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
-              href="tel:+32466442454"
+              href="tel:"
               className="bg-yellow-400 text-green-900 font-bold px-8 py-3 rounded-lg text-lg hover:bg-yellow-300 transition-colors"
             >
               +32 466 44 24 54
@@ -367,7 +367,7 @@ export default function NuisiblesHub() {
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <a
-            href="tel:+32466442454"
+            href="tel:"
             className="bg-yellow-400 text-green-900 font-bold px-8 py-3 rounded-lg text-lg hover:bg-yellow-300 transition-colors"
           >
             Appeler maintenant

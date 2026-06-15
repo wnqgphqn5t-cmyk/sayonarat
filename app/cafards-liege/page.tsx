@@ -47,7 +47,7 @@ const jsonLd = {
   provider: {
     "@type": "LocalBusiness",
     name: "Sayonarat",
-    telephone: "+32466442454",
+    telephone: "",
     address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Liège",
@@ -106,7 +106,7 @@ export default function CafardsLiegePage() {
               Devis gratuit sous 24h →
             </Link>
             <a
-              href="tel:+32466442454"
+              href="tel:"
               className="border-2 border-white text-white font-semibold px-8 py-3 rounded-lg hover:bg-white hover:text-green-900 transition-colors text-center"
             >
               Appeler maintenant
@@ -217,7 +217,7 @@ export default function CafardsLiegePage() {
             Demander un devis gratuit →
           </Link>
           <a
-            href="tel:+32466442454"
+            href="tel:"
             style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
             className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center"
           >

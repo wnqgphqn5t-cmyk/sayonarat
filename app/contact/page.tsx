@@ -19,7 +19,7 @@ const jsonLd = {
   mainEntity: {
     "@type": "LocalBusiness",
     name: "Sayonarat",
-    telephone: "+32466442454",
+    telephone: "",
     email: "contact@sayonarat.be",
     address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
@@ -91,7 +91,7 @@ export default function ContactPage() {
               Appelez-nous directement pour une intervention le jour même.
             </p>
             <a
-              href="tel:+32466442454"
+              href="tel:"
               style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
               className="block text-center font-bold py-3 rounded-lg hover:opacity-90 transition-opacity text-lg"
             >

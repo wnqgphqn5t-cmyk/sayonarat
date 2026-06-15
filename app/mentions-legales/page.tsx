@@ -39,7 +39,7 @@ export default function MentionsLegalesPage() {
             Responsable : Victor F.<br />
             Adresse : Liège, Belgique<br />
             Email : <a href="mailto:contact@sayonarat.be" className="underline" style={{ color: "#1B4332" }}>contact@sayonarat.be</a><br />
-            Téléphone : <a href="tel:+32466442454" className="underline" style={{ color: "#1B4332" }}>+32 466 44 24 54</a><br />
+            Téléphone : <a href="tel:" className="underline" style={{ color: "#1B4332" }}>+32 466 44 24 54</a><br />
             Numéro de TVA : en cours d&apos;enregistrement
           </p>
         </div>

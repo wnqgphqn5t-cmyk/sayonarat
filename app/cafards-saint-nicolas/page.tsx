@@ -44,7 +44,7 @@ const jsonLd = {
   provider: {
     "@type": "LocalBusiness",
     name: "Sayonarat",
-    telephone: "+32466442454",
+    telephone: "",
     address: { "@type": "PostalAddress", addressLocality: "Saint-Nicolas", postalCode: "4420", addressCountry: "BE" },
   },
   areaServed: "Saint-Nicolas",
@@ -103,7 +103,7 @@ export default function CafardsSaintNicolasPage() {
               Devis gratuit sous 24h →
             </Link>
             <a
-              href="tel:+32466442454"
+              href="tel:"
               className="border-2 border-white text-white font-semibold px-8 py-3 rounded-lg hover:bg-white hover:text-green-900 transition-colors text-center"
             >
               Appeler maintenant
@@ -207,7 +207,7 @@ export default function CafardsSaintNicolasPage() {
             Demander un devis gratuit →
           </Link>
           <a
-            href="tel:+32466442454"
+            href="tel:"
             style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
             className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center"
           >

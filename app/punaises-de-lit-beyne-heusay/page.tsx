@@ -35,7 +35,7 @@ const jsonLd = {
   provider: {
     "@type": "LocalBusiness",
     name: "Sayonarat",
-    telephone: "+32466442454",
+    telephone: "",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Liège",
@@ -109,7 +109,7 @@ export default function PunaisesLitBeyneHeusayPage() {
               Devis gratuit sous 24h →
             </Link>
             <a
-              href="tel:+32466442454"
+              href="tel:"
               style={{ backgroundColor: "white", color: "#1B4332" }}
               className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity inline-block text-center"
             >

@@ -127,7 +127,7 @@ export default function ContactForm() {
       {error && (
         <div className="bg-red-50 border border-red-200 rounded-lg px-4 py-3 text-sm text-red-700">
           Envoi échoué. Veuillez réessayer ou appelez-nous au{" "}
-          <a href="tel:+32466442454" className="font-semibold underline">+32 466 44 24 54</a>.
+          <a href="tel:" className="font-semibold underline">+32 466 44 24 54</a>.
         </div>
       )}
 

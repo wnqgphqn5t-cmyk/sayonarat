@@ -210,7 +210,7 @@ export default function FourmisPharaonPage() {
             Voir notre service fourmis Liège →
           </Link>
           <a
-            href="tel:+32466442454"
+            href="tel:"
             style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
             className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center"
           >

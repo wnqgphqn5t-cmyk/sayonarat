@@ -59,7 +59,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "EmergencyService",
   name: "Sayonarat — Urgence nuisibles Belgique",
-  telephone: "+32466442454",
+  telephone: "",
   areaServed: "BE",
   availableService: {
     "@type": "Service",
@@ -117,7 +117,7 @@ export default function UrgencePage() {
 
           <div className="flex flex-col sm:flex-row gap-4 mb-10">
             <a
-              href="tel:+32466442454"
+              href="tel:"
               className="group relative overflow-hidden rounded-2xl font-bold px-8 py-5 text-center text-lg transition-all hover:scale-[1.02] shadow-2xl"
               style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
             >
@@ -266,7 +266,7 @@ export default function UrgencePage() {
           </p>
 
           <a
-            href="tel:+32466442454"
+            href="tel:"
             className="inline-flex items-center gap-4 rounded-2xl font-bold px-10 py-6 text-xl transition-all hover:scale-[1.02] shadow-2xl"
             style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
           >

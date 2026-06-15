@@ -16,7 +16,7 @@ const jsonLd = {
   provider: {
     "@type": "LocalBusiness",
     name: "Sayonarat",
-    telephone: "+32466442454",
+    telephone: "",
     address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Saint-Nicolas",
@@ -80,7 +80,7 @@ export default function DesinsectisationSaintNicolasPage() {
             en désinsectisation. Cafards, fourmis, guêpes, frelons — intervention sous 48h.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
-            <a href="tel:+32466442454" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-6 py-3 rounded-lg hover:opacity-90 transition-opacity inline-block text-center">
+            <a href="tel:" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-6 py-3 rounded-lg hover:opacity-90 transition-opacity inline-block text-center">
               +32 466 44 24 54
             </a>
             <Link href="/contact" className="border-2 border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-white hover:text-green-900 transition-colors text-center">
@@ -183,7 +183,7 @@ export default function DesinsectisationSaintNicolasPage() {
           <h2 className="text-xl font-bold mb-2">Un insecte nuisible à Saint-Nicolas ?</h2>
           <p className="text-green-200 mb-5 text-sm">Devis gratuit sous 24h. Intervention sous 48h.</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <a href="tel:+32466442454" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-6 py-3 rounded-lg hover:opacity-90 transition-opacity">
+            <a href="tel:" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-6 py-3 rounded-lg hover:opacity-90 transition-opacity">
               Appeler maintenant
             </a>
             <Link href="/contact" className="border-2 border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-white hover:text-green-900 transition-colors">

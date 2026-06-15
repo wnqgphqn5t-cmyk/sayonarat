@@ -244,7 +244,7 @@ export default function ArticleRatsPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <a
-                href="tel:+32466442454"
+                href="tel:"
                 className="inline-block px-5 py-3 rounded-lg font-bold text-center text-gray-900"
                 style={{ backgroundColor: "#FFD700" }}
               >
