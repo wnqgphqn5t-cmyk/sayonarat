@@ -15,8 +15,8 @@ export const metadata: Metadata = {
     "Dératisation et désinsectisation partout en Belgique. Rats, souris, cafards, punaises de lit, guêpes, frelons. Techniciens certifiés, devis gratuit sous 24h, garantie 30 jours.",
   metadataBase: new URL("https://www.sayonarat.be"),
   icons: {
-    icon: "/favicon.ico",
-    apple: "/icon.svg",
+    icon: "/sayonarat-icon.png",
+    apple: "/sayonarat-icon.png",
   },
   openGraph: {
     siteName: "Sayonarat — Dératisation & Désinsectisation Belgique",
