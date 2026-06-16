@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 import { AntIcon, BoltIcon, CheckCircleIcon, CockroachIcon, MosquitoIcon, TargetIcon, WaspIcon } from "@/components/Icons";
+import { phone } from "@/lib/site";
 export const metadata: Metadata = {
   alternates: { canonical: "/desinsectisation-saint-nicolas" },
   title: "Désinsectisation Saint-Nicolas — Cafards, fourmis, guêpes",
@@ -16,7 +17,7 @@ const jsonLd = {
   provider: {
     "@type": "LocalBusiness",
     name: "Sayonarat",
-    telephone: "",
+    telephone: phone,
     address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Saint-Nicolas",

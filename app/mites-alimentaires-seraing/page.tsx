@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 import { BeakerIcon, CheckCircleIcon, SearchIcon } from "@/components/Icons";
+import { phone } from "@/lib/site";
 export const metadata: Metadata = {
   alternates: { canonical: "/mites-alimentaires-seraing" },
   title: "Mites alimentaires Seraing — Traitement professionnel",
@@ -16,7 +17,7 @@ const jsonLd = {
   provider: {
     "@type": "LocalBusiness",
     name: "Sayonarat",
-    telephone: "",
+    telephone: phone,
     address: { "@type": "PostalAddress", addressLocality: "Seraing", postalCode: "4100", addressCountry: "BE" },
   },
   areaServed: "Seraing",

@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { CheckCircleIcon, MoonIcon, ShieldCheckIcon } from "@/components/Icons";;
+import { phone } from "@/lib/site";
 export const metadata: Metadata = {
   alternates: { canonical: "/guepes-frelons-verviers" },
   title: "Guêpes et frelons Verviers — Destruction nid rapide",
@@ -36,7 +37,7 @@ const jsonLd = {
   provider: {
     "@type": "LocalBusiness",
     name: "Sayonarat",
-    telephone: "",
+    telephone: phone,
     address: { "@type": "PostalAddress", addressLocality: "Verviers", postalCode: "4800", addressCountry: "BE" },
   },
   areaServed: "Verviers",

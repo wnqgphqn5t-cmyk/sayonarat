@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { CockroachIcon, AntIcon, MosquitoIcon, FlyIcon, WaspIcon, SpiderIcon } from "@/components/Icons";
+import { phone } from "@/lib/site";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/desinsectisation-liege" },
@@ -49,7 +50,7 @@ const jsonLd = {
   provider: {
     "@type": "LocalBusiness",
     name: "Sayonarat",
-    telephone: "",
+    telephone: phone,
     address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Liège",

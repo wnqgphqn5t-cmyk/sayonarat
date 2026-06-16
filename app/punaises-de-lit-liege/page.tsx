@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { FlameIcon, PillIcon, WarningIcon } from "@/components/Icons";
+import { phone } from "@/lib/site";
 export const metadata: Metadata = {
   alternates: { canonical: "/punaises-de-lit-liege" },
   title: "Traitement Punaises de lit Liège — Élimination garantie",
@@ -48,7 +49,7 @@ const jsonLd = {
   provider: {
     "@type": "LocalBusiness",
     name: "Sayonarat",
-    telephone: "",
+    telephone: phone,
     address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Liège",

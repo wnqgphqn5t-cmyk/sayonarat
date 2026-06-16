@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { CheckCircleIcon, MoonIcon, ShieldCheckIcon } from "@/components/Icons";;
+import { phone } from "@/lib/site";
 export const metadata: Metadata = {
   alternates: { canonical: "/guepes-frelons-bruxelles" },
   title: "Guêpes et frelons Bruxelles — Destruction nid rapide",
@@ -36,7 +37,7 @@ const jsonLd = {
   provider: {
     "@type": "LocalBusiness",
     name: "Sayonarat",
-    telephone: "",
+    telephone: phone,
     address: { "@type": "PostalAddress", addressLocality: "Bruxelles", postalCode: "1000", addressCountry: "BE" },
   },
   areaServed: "Bruxelles",

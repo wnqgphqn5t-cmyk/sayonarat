@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { BoltIcon, CheckCircleIcon, FlameIcon, PillIcon, TargetIcon } from "@/components/Icons";
+import { phone } from "@/lib/site";
 export const metadata: Metadata = {
   alternates: { canonical: "/punaises-de-lit-flemalle" },
   title: "Punaises de lit Flémalle — Traitement professionnel",
@@ -17,7 +18,7 @@ const jsonLd = {
   provider: {
     "@type": "LocalBusiness",
     name: "Sayonarat",
-    telephone: "",
+    telephone: phone,
     address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Flémalle",

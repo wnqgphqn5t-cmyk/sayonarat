@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { CheckCircleIcon, WarningIcon } from "@/components/Icons";
+import { phone } from "@/lib/site";
 export const metadata: Metadata = {
   alternates: { canonical: "/cafards-saint-nicolas" },
   title: "Cafards Saint-Nicolas — Élimination garantie, intervention rapide",
@@ -44,7 +45,7 @@ const jsonLd = {
   provider: {
     "@type": "LocalBusiness",
     name: "Sayonarat",
-    telephone: "",
+    telephone: phone,
     address: { "@type": "PostalAddress", addressLocality: "Saint-Nicolas", postalCode: "4420", addressCountry: "BE" },
   },
   areaServed: "Saint-Nicolas",

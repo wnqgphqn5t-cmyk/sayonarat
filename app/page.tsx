@@ -6,6 +6,7 @@ import {
   BoltIcon, BadgeCheckIcon, ShieldCheckIcon, StarIcon,
 } from "@/components/Icons";
 import type { ComponentType, SVGProps } from "react";
+import { phone } from "@/lib/site";
 
 type ServiceCardProps = {
   Icon: ComponentType<SVGProps<SVGSVGElement> & { className?: string }>;
@@ -215,7 +216,7 @@ const jsonLd = {
     opens: "07:00",
     closes: "22:00",
   },
-  telephone: "",
+  telephone: phone,
   email: "contact@sayonarat.be",
   priceRange: "€€",
   areaServed: "BE",

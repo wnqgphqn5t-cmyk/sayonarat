@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { CheckCircleIcon, WarningIcon } from "@/components/Icons";
+import { phone } from "@/lib/site";
 export const metadata: Metadata = {
   alternates: { canonical: "/cafards-charleroi" },
   title: "Cafards Charleroi — Élimination garantie, intervention rapide",
@@ -44,7 +45,7 @@ const jsonLd = {
   provider: {
     "@type": "LocalBusiness",
     name: "Sayonarat",
-    telephone: "",
+    telephone: phone,
     address: { "@type": "PostalAddress", addressLocality: "Charleroi", postalCode: "6000", addressCountry: "BE" },
   },
   areaServed: "Charleroi",

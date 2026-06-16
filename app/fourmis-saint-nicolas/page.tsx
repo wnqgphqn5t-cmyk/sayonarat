@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { BeakerIcon, CheckCircleIcon, SearchIcon } from "@/components/Icons";
+import { phone } from "@/lib/site";
 export const metadata: Metadata = {
   alternates: { canonical: "/fourmis-saint-nicolas" },
   title: "Fourmis Saint-Nicolas — Traitement professionnel garanti",
@@ -36,7 +37,7 @@ const jsonLd = {
   provider: {
     "@type": "LocalBusiness",
     name: "Sayonarat",
-    telephone: "",
+    telephone: phone,
     address: { "@type": "PostalAddress", addressLocality: "Saint-Nicolas", postalCode: "4420", addressCountry: "BE" },
   },
   areaServed: "Saint-Nicolas",

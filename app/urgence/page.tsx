@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 import { AntIcon, BadgeCheckIcon, BedBugIcon, BuildingIcon, CockroachIcon, EuroIcon, LockIcon, PhoneIcon, RatIcon, ShieldCheckIcon, WaspIcon } from "@/components/Icons";;
+import { phone } from "@/lib/site";
 export const metadata: Metadata = {
   alternates: { canonical: "/urgence" },
   title: "Urgence nuisibles Belgique — Intervention rapide 7j/7",
@@ -59,7 +60,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "EmergencyService",
   name: "Sayonarat — Urgence nuisibles Belgique",
-  telephone: "",
+  telephone: phone,
   areaServed: "BE",
   availableService: {
     "@type": "Service",

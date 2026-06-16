@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { BadgeCheckIcon, BoltIcon, CheckCircleIcon, GraduationCapIcon, LockIcon, MapPinIcon, TargetIcon, UsersIcon } from "@/components/Icons";
+import { phone } from "@/lib/site";
 export const metadata: Metadata = {
   alternates: { canonical: "/a-propos" },
   title: "À propos de Sayonarat — Experts dératisation & désinsectisation Belgique",
@@ -59,7 +60,7 @@ const jsonLd = {
   foundingDate: "2023",
   founder: { "@type": "Person", name: "Victor F." },
   address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
-  telephone: "",
+  telephone: phone,
   email: "contact@sayonarat.be",
   areaServed: "BE",
 };

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import { phone } from "@/lib/site";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/deratisation-beyne-heusay" },
@@ -35,7 +36,7 @@ const jsonLd = {
   provider: {
     "@type": "LocalBusiness",
     name: "Sayonarat",
-    telephone: "",
+    telephone: phone,
     address: {
       "@type": "PostalAddress",
       addressLocality: "Liège",

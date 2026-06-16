@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { CheckCircleIcon, WarningIcon } from "@/components/Icons";
+import { phone } from "@/lib/site";
 export const metadata: Metadata = {
   alternates: { canonical: "/cafards-namur" },
   title: "Cafards Namur — Élimination garantie, intervention rapide",
@@ -44,7 +45,7 @@ const jsonLd = {
   provider: {
     "@type": "LocalBusiness",
     name: "Sayonarat",
-    telephone: "",
+    telephone: phone,
     address: { "@type": "PostalAddress", addressLocality: "Namur", postalCode: "5000", addressCountry: "BE" },
   },
   areaServed: "Namur",

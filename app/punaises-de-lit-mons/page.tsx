@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { FlameIcon, PillIcon } from "@/components/Icons";
+import { phone } from "@/lib/site";
 export const metadata: Metadata = {
   alternates: { canonical: "/punaises-de-lit-mons" },
   title: "Punaises de lit Mons — Traitement garanti",
@@ -36,7 +37,7 @@ const jsonLd = {
   provider: {
     "@type": "LocalBusiness",
     name: "Sayonarat",
-    telephone: "",
+    telephone: phone,
     address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Mons",

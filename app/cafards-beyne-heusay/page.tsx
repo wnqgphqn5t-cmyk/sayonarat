@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { CheckCircleIcon, WarningIcon } from "@/components/Icons";
+import { phone } from "@/lib/site";
 export const metadata: Metadata = {
   alternates: { canonical: "/cafards-beyne-heusay" },
   title: "Cafards Beyne-Heusay — Élimination garantie, intervention rapide",
@@ -44,7 +45,7 @@ const jsonLd = {
   provider: {
     "@type": "LocalBusiness",
     name: "Sayonarat",
-    telephone: "",
+    telephone: phone,
     address: { "@type": "PostalAddress", addressLocality: "Beyne-Heusay", postalCode: "4610", addressCountry: "BE" },
   },
   areaServed: "Beyne-Heusay",

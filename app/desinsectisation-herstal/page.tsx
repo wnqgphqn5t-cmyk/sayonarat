@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { AntIcon, BoltIcon, CheckCircleIcon, ClipboardIcon, CockroachIcon, MosquitoIcon, WaspIcon } from "@/components/Icons";
+import { phone } from "@/lib/site";
 export const metadata: Metadata = {
   alternates: { canonical: "/desinsectisation-herstal" },
   title: "Désinsectisation Herstal — Cafards, fourmis, guêpes",
@@ -17,7 +18,7 @@ const jsonLd = {
   provider: {
     "@type": "LocalBusiness",
     name: "Sayonarat",
-    telephone: "",
+    telephone: phone,
     address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Herstal",

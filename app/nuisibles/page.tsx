@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { RatIcon, CockroachIcon, BedBugIcon, WaspIcon, AntIcon, GraduationCapIcon, BoltIcon, ShieldCheckIcon, EuroIcon } from "@/components/Icons";
+import { phone } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Élimination de Nuisibles en Belgique — Sayonarat",
@@ -130,7 +131,7 @@ const jsonLd = {
         "@type": "LocalBusiness",
         name: "Sayonarat",
         url: "https://www.sayonarat.be",
-        telephone: "",
+        telephone: phone,
         areaServed: "BE",
       },
       areaServed: "BE",

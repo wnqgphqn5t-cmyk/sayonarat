@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 import { BeakerIcon, CheckCircleIcon, SearchIcon } from "@/components/Icons";
+import { phone } from "@/lib/site";
 export const metadata: Metadata = {
   alternates: { canonical: "/mites-alimentaires-beyne-heusay" },
   title: "Mites alimentaires Beyne-Heusay — Traitement professionnel",
@@ -16,7 +17,7 @@ const jsonLd = {
   provider: {
     "@type": "LocalBusiness",
     name: "Sayonarat",
-    telephone: "",
+    telephone: phone,
     address: { "@type": "PostalAddress", addressLocality: "Beyne-Heusay", postalCode: "4610", addressCountry: "BE" },
   },
   areaServed: "Beyne-Heusay",

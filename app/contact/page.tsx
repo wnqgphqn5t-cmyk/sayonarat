@@ -3,6 +3,7 @@ import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 
 import { EuroIcon, LockIcon, MapPinIcon } from "@/components/Icons";
+import { phone } from "@/lib/site";
 export const metadata: Metadata = {
   alternates: { canonical: "/contact" },
   title: "Contact — Devis gratuit dératisation Belgique",
@@ -19,7 +20,7 @@ const jsonLd = {
   mainEntity: {
     "@type": "LocalBusiness",
     name: "Sayonarat",
-    telephone: "",
+    telephone: phone,
     email: "contact@sayonarat.be",
     address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },

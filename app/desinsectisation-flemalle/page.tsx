@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 import { AntIcon, BoltIcon, CheckCircleIcon, ClipboardIcon, CockroachIcon, MosquitoIcon, WaspIcon } from "@/components/Icons";
+import { phone } from "@/lib/site";
 export const metadata: Metadata = {
   alternates: { canonical: "/desinsectisation-flemalle" },
   title: "Désinsectisation Flémalle — Cafards, fourmis, guêpes",
@@ -16,7 +17,7 @@ const jsonLd = {
   provider: {
     "@type": "LocalBusiness",
     name: "Sayonarat",
-    telephone: "",
+    telephone: phone,
     address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Flémalle",

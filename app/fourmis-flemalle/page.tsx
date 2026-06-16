@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { BeakerIcon, CheckCircleIcon, SearchIcon } from "@/components/Icons";
+import { phone } from "@/lib/site";
 export const metadata: Metadata = {
   alternates: { canonical: "/fourmis-flemalle" },
   title: "Fourmis Flémalle — Traitement professionnel garanti",
@@ -36,7 +37,7 @@ const jsonLd = {
   provider: {
     "@type": "LocalBusiness",
     name: "Sayonarat",
-    telephone: "",
+    telephone: phone,
     address: { "@type": "PostalAddress", addressLocality: "Flémalle", postalCode: "4400", addressCountry: "BE" },
   },
   areaServed: "Flémalle",

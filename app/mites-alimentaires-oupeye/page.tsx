@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 import { BeakerIcon, CheckCircleIcon, SearchIcon } from "@/components/Icons";
+import { phone } from "@/lib/site";
 export const metadata: Metadata = {
   alternates: { canonical: "/mites-alimentaires-oupeye" },
   title: "Mites alimentaires Oupeye — Traitement professionnel",
@@ -16,7 +17,7 @@ const jsonLd = {
   provider: {
     "@type": "LocalBusiness",
     name: "Sayonarat",
-    telephone: "",
+    telephone: phone,
     address: { "@type": "PostalAddress", addressLocality: "Oupeye", postalCode: "4680", addressCountry: "BE" },
   },
   areaServed: "Oupeye",
