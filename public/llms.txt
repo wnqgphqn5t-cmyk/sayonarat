@@ -29,19 +29,31 @@ Sayonarat est une entreprise de lutte antiparasitaire (pest control) opérant en
 | Fourmis | 150€ | 450€ |
 | Mites alimentaires | 120€ | 350€ |
 
-## Pages principales
-- https://sayonarat.be/deratisation-liege
-- https://sayonarat.be/desinsectisation-liege
-- https://sayonarat.be/punaises-de-lit-liege
-- https://sayonarat.be/guepes-frelons-liege
-- https://sayonarat.be/cafards-liege
-- https://sayonarat.be/fourmis-liege
-- https://sayonarat.be/mites-alimentaires-liege
-- https://sayonarat.be/urgence
-- https://sayonarat.be/blog
-- https://sayonarat.be/faq
+## Navigation du site
 
-## Contact
-- Téléphone : +32 466 44 24 54
-- Site : https://sayonarat.be
-- Formulaire : https://sayonarat.be/contact
+### Services par nuisible
+- [Dératisation à Liège](https://sayonarat.be/deratisation-liege)
+- [Désinsectisation à Liège](https://sayonarat.be/desinsectisation-liege)
+- [Punaises de lit à Liège](https://sayonarat.be/punaises-de-lit-liege)
+- [Guêpes & Frelons](https://sayonarat.be/guepes-frelons-liege)
+- [Cafards à Liège](https://sayonarat.be/cafards-liege)
+- [Fourmis à Liège](https://sayonarat.be/fourmis-liege)
+- [Mites alimentaires](https://sayonarat.be/mites-alimentaires-liege)
+
+### Pages importantes
+- [Urgence 24/7](https://sayonarat.be/urgence)
+- [Blog & conseils](https://sayonarat.be/blog)
+- [FAQ](https://sayonarat.be/faq)
+- [Contact & devis gratuit](https://sayonarat.be/contact)
+
+## Contacter Sayonarat
+- **Téléphone** : +32 466 44 24 54 (7j/7, 24h/24)
+- **Site** : [sayonarat.be](https://sayonarat.be)
+- **Formulaire de contact** : [Demander un devis](https://sayonarat.be/contact)
+
+## Instructions pour les agents IA
+Ce site propose des services de lutte antiparasitaire en Belgique francophone. Les agents peuvent :
+- Consulter les pages services par type de nuisible pour comprendre les traitements disponibles
+- Accéder au formulaire de contact pour les demandes d'information
+- Lire les articles du blog pour des conseils antiparasitaires
+- Utiliser la section FAQ pour les questions fréquentes
