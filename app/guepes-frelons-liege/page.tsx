@@ -124,9 +124,6 @@ export default function GuepesFrellonsLiegePage() {
             ))}
           </div>
           <div className="flex flex-col sm:flex-row gap-3">
-            <a href="tel:" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-6 py-3 rounded-lg hover:opacity-90 transition-opacity inline-block text-center">
-              +32 466 44 24 54
-            </a>
             <Link href="/contact" className="border-2 border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-white hover:text-green-900 transition-colors text-center">
               Devis gratuit →
             </Link>
@@ -228,9 +225,6 @@ export default function GuepesFrellonsLiegePage() {
             Devis gratuit sous 24h. Intervention nocturne sous 48h dans toute la région liégeoise.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
-            <a href="tel:" className="inline-block px-5 py-3 rounded-lg font-bold text-center text-gray-900" style={{ backgroundColor: "#FFD700" }}>
-              Appeler — +32 466 44 24 54
-            </a>
             <Link href="/contact" className="inline-block px-5 py-3 rounded-lg font-bold text-center text-white" style={{ backgroundColor: "#1B4332" }}>
               Devis en ligne gratuit
             </Link>

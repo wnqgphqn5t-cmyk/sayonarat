@@ -251,13 +251,6 @@ export default function ArticlePrixPage() {
             Intervention possible sous 48h dans toute la région liégeoise.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
-            <a
-              href="tel:"
-              className="inline-block px-5 py-3 rounded-lg font-bold text-center text-gray-900"
-              style={{ backgroundColor: "#FFD700" }}
-            >
-              Appeler — +32 466 44 24 54
-            </a>
             <Link
               href="/contact"
               className="inline-block px-5 py-3 rounded-lg font-bold text-center text-white"

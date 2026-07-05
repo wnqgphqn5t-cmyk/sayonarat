@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
-import { AntIcon, BadgeCheckIcon, BedBugIcon, BuildingIcon, CockroachIcon, EuroIcon, LockIcon, PhoneIcon, RatIcon, ShieldCheckIcon, WaspIcon } from "@/components/Icons";;
+import { AntIcon, BadgeCheckIcon, BedBugIcon, BuildingIcon, CockroachIcon, EuroIcon, LockIcon, RatIcon, ShieldCheckIcon, WaspIcon } from "@/components/Icons";
 import { phone } from "@/lib/site";
 export const metadata: Metadata = {
   alternates: { canonical: "/urgence" },
   title: "Urgence nuisibles Belgique — Intervention rapide 7j/7",
   description:
-    "Situation urgente avec des nuisibles en Belgique ? Nid de guêpes actif, rats dans la maison, punaises de lit : intervention rapide 7j/7. Appelez le +32 466 44 24 54.",
+    "Situation urgente avec des nuisibles en Belgique ? Nid de guêpes actif, rats dans la maison, punaises de lit : intervention rapide 7j/7. Demandez une intervention en ligne.",
 };
 
 const scenarios = [
@@ -50,7 +50,7 @@ const scenarios = [
 ];
 
 const etapes = [
-  { num: "1", titre: "Appelez", desc: "Décrochez et composez le +32 466 44 24 54. Disponible 7j/7." },
+  { num: "1", titre: "Contactez-nous", desc: "Décrivez votre situation via le formulaire de contact. Disponible 7j/7." },
   { num: "2", titre: "Diagnostic", desc: "Nous qualifions la situation et confirmons le créneau d'intervention." },
   { num: "3", titre: "Intervention", desc: "Un technicien certifié se déplace avec le matériel adapté." },
   { num: "4", titre: "Suivi", desc: "Garantie 30 jours incluse. Retour offert si réinfestation." },
@@ -117,21 +117,12 @@ export default function UrgencePage() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-10">
-            <a
-              href="tel:"
-              className="group relative overflow-hidden rounded-2xl font-bold px-8 py-5 text-center text-lg transition-all hover:scale-[1.02] shadow-2xl"
-              style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
-            >
-              <span className="relative z-10 flex items-center justify-center gap-3">
-                <PhoneIcon className="w-6 h-6" />
-                <span>+32 466 44 24 54</span>
-              </span>
-            </a>
             <Link
               href="/contact"
-              className="rounded-2xl font-semibold px-8 py-5 text-center text-lg border-2 border-white/30 backdrop-blur-sm hover:bg-white/10 transition-colors"
+              className="rounded-2xl font-bold px-8 py-5 text-center text-lg transition-all hover:scale-[1.02] shadow-2xl"
+              style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
             >
-              Demander un rappel →
+              Demander une intervention →
             </Link>
           </div>
 
@@ -159,7 +150,7 @@ export default function UrgencePage() {
               Situations traitées en urgence
             </p>
             <h2 className="text-3xl md:text-4xl font-bold" style={{ color: "#1B4332" }}>
-              Dans quels cas appeler immédiatement ?
+              Dans quels cas nous contacter immédiatement ?
             </h2>
           </div>
 
@@ -190,7 +181,7 @@ export default function UrgencePage() {
               Comment ça marche
             </p>
             <h2 className="text-3xl md:text-4xl font-bold" style={{ color: "#1B4332" }}>
-              De l&apos;appel à la résolution
+              De la demande à la résolution
             </h2>
           </div>
 
@@ -253,31 +244,26 @@ export default function UrgencePage() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-amber-400"></span>
             </span>
-            <span className="text-sm font-medium">Ligne d&apos;urgence active</span>
+            <span className="text-sm font-medium">Équipe d&apos;urgence disponible</span>
           </div>
 
           <h2 className="text-3xl md:text-5xl font-bold mb-6 tracking-tight">
             N&apos;attendez pas.<br />
-            <span style={{ color: "#FBBF24" }}>Appelez maintenant.</span>
+            <span style={{ color: "#FBBF24" }}>Contactez-nous maintenant.</span>
           </h2>
 
           <p className="text-green-100 text-lg mb-10 max-w-xl mx-auto">
             Plus vous attendez, plus l&apos;infestation s&apos;étend et plus le traitement coûte cher.
-            Un simple appel suffit pour déclencher l&apos;intervention.
+            Une simple demande suffit pour déclencher l&apos;intervention.
           </p>
 
-          <a
-            href="tel:"
+          <Link
+            href="/contact"
             className="inline-flex items-center gap-4 rounded-2xl font-bold px-10 py-6 text-xl transition-all hover:scale-[1.02] shadow-2xl"
             style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
           >
-            <PhoneIcon className="w-7 h-7" />
-            <span>+32 466 44 24 54</span>
-          </a>
-
-          <p className="mt-6 text-sm text-green-200">
-            Ou <Link href="/contact" className="underline hover:text-white">demandez un rappel en ligne</Link>
-          </p>
+            Demander une intervention →
+          </Link>
         </div>
       </section>
     </>

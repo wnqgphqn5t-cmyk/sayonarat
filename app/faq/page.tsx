@@ -60,7 +60,7 @@ const faqSchema = {
     {
       "@type": "Question",
       name: "Comment obtenir un devis ?",
-      acceptedAnswer: { "@type": "Answer", text: "Par téléphone au +32 466 44 24 54 ou via le formulaire de contact. Décrivez votre situation (type de nuisible, superficie approximative, localisation) et vous recevez une estimation sous 24h. Aucun déplacement n'est requis pour établir le devis." },
+      acceptedAnswer: { "@type": "Answer", text: "Via le formulaire de contact : décrivez votre situation (type de nuisible, superficie approximative, localisation) et vous recevez une estimation sous 24h. Aucun déplacement n'est requis pour établir le devis." },
     },
   ],
 };
@@ -83,7 +83,7 @@ const sections = [
       },
       {
         q: "Comment obtenir un devis ?",
-        a: "Par téléphone au +32 466 44 24 54 ou via le formulaire de contact. Décrivez votre situation (type de nuisible, superficie approximative, localisation) et vous recevez une estimation sous 24h. Aucun déplacement n'est requis pour établir le devis.",
+        a: "Via le formulaire de contact : décrivez votre situation (type de nuisible, superficie approximative, localisation) et vous recevez une estimation sous 24h. Aucun déplacement n'est requis pour établir le devis.",
       },
       {
         q: "Êtes-vous certifiés pour intervenir en Belgique ?",
@@ -235,9 +235,6 @@ export default function FaqPage() {
             désinsectisation et punaises de lit en Belgique, sans jargon.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
-            <a href="tel:" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-6 py-3 rounded-lg hover:opacity-90 transition-opacity inline-block text-center">
-              +32 466 44 24 54
-            </a>
             <Link href="/contact" className="border-2 border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-white hover:text-green-900 transition-colors text-center">
               Devis gratuit →
             </Link>

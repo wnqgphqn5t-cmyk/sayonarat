@@ -236,13 +236,6 @@ export default function ArticleSeraingPage() {
             Devis gratuit, diagnostic complet, colmatage inclus. Garantie 30 jours.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
-            <a
-              href="tel:"
-              className="inline-block px-5 py-3 rounded-lg font-bold text-center text-gray-900"
-              style={{ backgroundColor: "#FFD700" }}
-            >
-              Appeler — +32 466 44 24 54
-            </a>
             <Link
               href="/deratisation-seraing"
               className="inline-block px-5 py-3 rounded-lg font-bold text-center text-white"

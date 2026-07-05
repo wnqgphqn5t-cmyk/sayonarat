@@ -35,21 +35,13 @@ export default function Header() {
     <>
       <header style={{ backgroundColor: "#1B4332" }} className="text-white sticky top-0 z-50 shadow-md">
         <div className="max-w-6xl mx-auto px-4 py-1 text-right text-xs text-green-200 border-b border-green-700">
-          <a href="tel:" className="hover:text-yellow-300 transition-colors font-semibold">
-            +32 466 44 24 54 — Disponible 7j/7
-          </a>
+          <span className="font-semibold">Disponible 7j/7</span>
         </div>
 
         <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
           <Logo onClick={() => setOpen(false)} />
 
           <div className="flex items-center gap-3">
-            <a
-              href="tel:"
-              className="border border-white/30 text-white font-semibold px-4 py-2 rounded hover:bg-green-700 transition-colors text-sm hidden md:inline-flex items-center gap-1.5"
-            >
-              +32 466 44 24 54
-            </a>
             <Link
               href="/contact"
               className="bg-yellow-400 text-green-900 font-bold px-4 py-2 rounded hover:bg-yellow-300 transition-colors text-sm hidden sm:inline-block"
@@ -107,13 +99,6 @@ export default function Header() {
 
       {/* Barre flottante mobile */}
       <div className="fixed bottom-0 left-0 right-0 z-50 sm:hidden flex border-t border-green-800 shadow-2xl">
-        <a
-          href="tel:"
-          style={{ backgroundColor: "#1B4332" }}
-          className="flex-1 flex items-center justify-center gap-2 py-4 text-white font-bold text-sm"
-        >
-          Appeler
-        </a>
         <Link
           href="/contact"
           style={{ backgroundColor: "#FBBF24", color: "#14532d" }}

@@ -97,8 +97,8 @@ export default function FrelonAsiatiqueLiegePage() {
         <div className="bg-red-50 border-l-4 border-red-500 p-5 rounded-r-xl mb-10">
           <p className="font-bold text-red-800 mb-1">Urgence frelon asiatique</p>
           <p className="text-sm text-red-700">
-            Si vous repérez un nid de frelon asiatique, n'approchez pas. Appelez immédiatement
-            le <a href="tel:" className="font-bold underline">+32 466 44 24 54</a> —
+            Si vous repérez un nid de frelon asiatique, n'approchez pas.{" "}
+            <Link href="/contact" className="font-bold underline">Contactez-nous immédiatement</Link> —
             intervention prioritaire dans toute la région liégeoise.
           </p>
         </div>

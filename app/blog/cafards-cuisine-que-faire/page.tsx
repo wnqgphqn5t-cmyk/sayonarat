@@ -228,13 +228,6 @@ export default function ArticleCafardsPage() {
             la région liégeoise. Gel professionnel, résultat garanti, devis gratuit sous 24h.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
-            <a
-              href="tel:"
-              className="inline-block px-5 py-3 rounded-lg font-bold text-center text-gray-900"
-              style={{ backgroundColor: "#FFD700" }}
-            >
-              Appeler — +32 466 44 24 54
-            </a>
             <Link
               href="/desinsectisation-liege"
               className="inline-block px-5 py-3 rounded-lg font-bold text-center text-white"

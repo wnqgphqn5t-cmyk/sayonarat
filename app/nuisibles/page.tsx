@@ -182,12 +182,6 @@ export default function NuisiblesHub() {
             SPF, disponibles 7j/7.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <a
-              href="tel:"
-              className="bg-yellow-400 text-green-900 font-bold px-8 py-3 rounded-lg text-lg hover:bg-yellow-300 transition-colors"
-            >
-              +32 466 44 24 54
-            </a>
             <Link
               href="/contact"
               className="border border-white/40 text-white font-semibold px-8 py-3 rounded-lg hover:bg-white/10 transition-colors"
