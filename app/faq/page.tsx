@@ -25,7 +25,7 @@ const faqSchema = {
     {
       "@type": "Question",
       name: "Le traitement est-il garanti ?",
-      acceptedAnswer: { "@type": "Answer", text: "Oui. Toutes les interventions sont couvertes par une garantie 30 jours. Si les nuisibles réapparaissent dans le mois suivant l'intervention, un technicien revient sans frais supplémentaires." },
+      acceptedAnswer: { "@type": "Answer", text: "Oui. Toutes les interventions sont couvertes par une garantie de réintervention. Si les nuisibles réapparaissent dans le mois suivant l'intervention, un technicien revient sans frais supplémentaires." },
     },
     {
       "@type": "Question",
@@ -45,7 +45,7 @@ const faqSchema = {
     {
       "@type": "Question",
       name: "Faut-il plusieurs interventions pour éliminer les nuisibles ?",
-      acceptedAnswer: { "@type": "Answer", text: "Pas systématiquement. Le nombre de passages est déterminé après diagnostic selon l'ampleur de l'infestation. Dans la majorité des cas, une seule intervention suffit. La garantie 30 jours couvre un retour sans frais si nécessaire." },
+      acceptedAnswer: { "@type": "Answer", text: "Pas systématiquement. Le nombre de passages est déterminé après diagnostic selon l'ampleur de l'infestation. Dans la majorité des cas, une seule intervention suffit. La garantie de réintervention couvre un retour sans frais si nécessaire." },
     },
     {
       "@type": "Question",
@@ -87,7 +87,7 @@ const sections = [
       },
       {
         q: "Êtes-vous certifiés pour intervenir en Belgique ?",
-        a: "Oui. Nos partenaires techniciens disposent de la certification phytosanitaire obligatoire en Belgique (agréation AFSCA) pour l'application de produits antiparasitaires. Tous les produits utilisés sont homologués conformément à la réglementation belge.",
+        a: "Oui. Nos techniciens sont formés à l'usage professionnel des biocides et enregistrés auprès du SPF Santé publique, conformément à la réglementation belge (Arrêté Royal du 8 mai 2014). Tous les produits utilisés sont autorisés en Belgique.",
       },
     ],
   },
@@ -108,7 +108,7 @@ const sections = [
       },
       {
         q: "Le traitement est-il garanti ?",
-        a: "Oui. Toutes les interventions sont couvertes par une garantie 30 jours. Si les nuisibles réapparaissent dans le mois suivant l'intervention, un technicien revient sans frais supplémentaires.",
+        a: "Oui. Toutes les interventions sont couvertes par une garantie de réintervention. Si les nuisibles réapparaissent dans le mois suivant l'intervention, un technicien revient sans frais supplémentaires.",
       },
       {
         q: "Y a-t-il des frais cachés ?",
@@ -141,7 +141,7 @@ const sections = [
       },
       {
         q: "Faut-il plusieurs interventions ?",
-        a: "Pas systématiquement. Le nombre de passages est déterminé après diagnostic. Dans la majorité des cas, une seule intervention suffit. La garantie 30 jours couvre un retour sans frais si nécessaire.",
+        a: "Pas systématiquement. Le nombre de passages est déterminé après diagnostic. Dans la majorité des cas, une seule intervention suffit. La garantie de réintervention couvre un retour sans frais si nécessaire.",
       },
     ],
   },

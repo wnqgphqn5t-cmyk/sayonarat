@@ -83,7 +83,7 @@ export default function GuepesHerstalPage() {
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-6">
             Nid de guêpes ou frelon détecté à Herstal ? Nos techniciens interviennent
-            sous 48h, de nuit, avec l&apos;équipement adapté. Garantie 30 jours.
+            sous 48h, de nuit, avec l&apos;équipement adapté. Garantie de réintervention.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/contact" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center">
@@ -120,8 +120,8 @@ export default function GuepesHerstalPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-10">
           {[
             { emoji: "🌙", t: "Intervention nocturne", d: "Quand les guêpes sont au nid. Sécurité maximale pour tous." },
-            { emoji: "🛡️", t: "Équipement intégral", d: "Protection certifiée. Aucun risque de piqûre pour le technicien." },
-            { emoji: "✅", t: "Garantie 30 jours", d: "Retour offert si reprise d'activité du nid." },
+            { emoji: "🛡️", t: "Équipement intégral", d: "Protection intégrale. Aucun risque de piqûre pour le technicien." },
+            { emoji: "✅", t: "Garantie incluse", d: "Retour offert si reprise d'activité du nid." },
           ].map((c) => (
             <div key={c.t} className="bg-green-50 rounded-xl p-5 border border-green-100">
               <div className="mb-3">{c.emoji === "🌙" ? <MoonIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : c.emoji === "🛡️" ? <ShieldCheckIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : <CheckCircleIcon className="w-8 h-8 text-green-600" />}</div>

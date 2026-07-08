@@ -8,19 +8,19 @@ export const metadata: Metadata = {
   alternates: { canonical: "/a-propos" },
   title: "À propos de Sayonarat — Experts dératisation & désinsectisation Belgique",
   description:
-    "Sayonarat est une équipe d'experts de la lutte antiparasitaire en Belgique. Notre mission : mettre en relation les particuliers et entreprises avec les meilleurs techniciens certifiés.",
+    "Sayonarat est une équipe d'experts de la lutte antiparasitaire en Belgique. Notre mission : mettre en relation les particuliers et entreprises avec les meilleurs techniciens professionnels.",
 };
 
 const valeurs = [
   {
     emoji: "🎯",
     titre: "Résultat garanti",
-    desc: "Chaque intervention est couverte par une garantie 30 jours. Si le problème persiste, nous revenons gratuitement.",
+    desc: "Chaque intervention est couverte par une garantie de réintervention. Si le problème persiste, nous revenons gratuitement.",
   },
   {
     emoji: "📍",
     titre: "Ancrage 100% local",
-    desc: "Techniciens certifiés locaux partout en Belgique. Rapidité et connaissance du terrain à chaque intervention.",
+    desc: "Techniciens professionnels locaux partout en Belgique. Rapidité et connaissance du terrain à chaque intervention.",
   },
   {
     emoji: "🔒",
@@ -29,8 +29,8 @@ const valeurs = [
   },
   {
     emoji: "🏅",
-    titre: "Techniciens certifiés",
-    desc: "Tous nos intervenants possèdent l'agrément phytosanitaire belge. Produits professionnels homologués.",
+    titre: "Techniciens professionnels",
+    desc: "Tous nos intervenants sont enregistrés au SPF Santé publique pour l'usage professionnel des biocides. Produits professionnels homologués.",
   },
   {
     emoji: "⚡",
@@ -46,7 +46,7 @@ const valeurs = [
 
 const timeline = [
   { annee: "2023", titre: "La frustration", desc: "Victor F. constate que trouver un technicien disponible à Liège relève du parcours du combattant — délais longs, prix opaques, qualité variable." },
-  { annee: "2024", titre: "Le déclic", desc: "Réunion d'une équipe de techniciens phytosanitaires expérimentés autour d'un objectif commun : un service local, rapide et transparent." },
+  { annee: "2024", titre: "Le déclic", desc: "Réunion d'une équipe de techniciens antiparasitaires expérimentés autour d'un objectif commun : un service local, rapide et transparent." },
   { annee: "2025", titre: "Le lancement", desc: "Ouverture du service à Liège et aux 5 communes voisines : Seraing, Herstal, Ans, Saint-Nicolas, Flémalle." },
   { annee: "2026", titre: "L'expansion", desc: "Plus de 500 interventions réalisées, extension aux services guêpes/frelons et mites alimentaires. Couverture étendue à toute la Belgique francophone." },
 ];
@@ -56,7 +56,7 @@ const jsonLd = {
   "@type": "Organization",
   name: "Sayonarat",
   url: "https://www.sayonarat.be",
-  description: "Plateforme de mise en relation avec des techniciens certifiés en dératisation et désinsectisation en Belgique.",
+  description: "Plateforme de mise en relation avec des techniciens professionnels en dératisation et désinsectisation en Belgique.",
   foundingDate: "2023",
   founder: { "@type": "Person", name: "Victor F." },
   address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
@@ -104,7 +104,7 @@ export default function AProposPage() {
             priority
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
-            <p className="text-white font-semibold text-lg">Nos techniciens certifiés, prêts à intervenir sous 24h</p>
+            <p className="text-white font-semibold text-lg">Nos techniciens professionnels, prêts à intervenir sous 24h</p>
           </div>
         </div>
 
@@ -116,9 +116,9 @@ export default function AProposPage() {
               <h3 className="text-2xl font-bold mb-2" style={{ color: "#1B4332" }}>Victor F.</h3>
               <p className="text-sm text-gray-600 mb-4">Expert antiparasitaire · Belgique</p>
               <div className="space-y-2 text-xs text-gray-500">
-                <div className="flex items-center gap-2"><BadgeCheckIcon className="w-4 h-4 inline" style={{ color: "#1B4332" }} /> Agréé phytosanitaire</div>
+                <div className="flex items-center gap-2"><BadgeCheckIcon className="w-4 h-4 inline" style={{ color: "#1B4332" }} /> Enregistré biocides SPF</div>
                 <div className="flex items-center gap-2"><MapPinIcon className="w-4 h-4 inline" style={{ color: "#1B4332" }} /> 10+ ans sur le terrain belge</div>
-                <div className="flex items-center gap-2"><GraduationCapIcon className="w-4 h-4 inline" style={{ color: "#1B4332" }} /> Formation continue CEPA</div>
+                <div className="flex items-center gap-2"><GraduationCapIcon className="w-4 h-4 inline" style={{ color: "#1B4332" }} /> Formation continue</div>
               </div>
             </div>
           </div>
@@ -129,15 +129,15 @@ export default function AProposPage() {
             </h2>
             <p className="text-gray-700 mb-4 leading-relaxed">
               Sayonarat a été fondé par Victor F. et une équipe d&apos;experts de la lutte
-              antiparasitaire avec un constat simple : trouver un technicien certifié
+              antiparasitaire avec un constat simple : trouver un technicien professionnel
               et disponible rapidement en Belgique est souvent un parcours du combattant.
               Les délais sont longs, les prix peu transparents, et la qualité variable.
             </p>
             <p className="text-gray-700 mb-4 leading-relaxed">
               Notre réponse : créer une plateforme de mise en relation qui connecte
-              les particuliers et entreprises de Belgique avec des techniciens certifiés
-              phytosanitaires, disponibles sous 24h, aux tarifs clairs et avec une
-              garantie de résultat.
+              les particuliers et entreprises de Belgique avec des techniciens professionnels
+              en lutte antiparasitaire, disponibles sous 24h, aux tarifs clairs et avec une
+              garantie de réintervention.
             </p>
             <p className="text-gray-700 leading-relaxed">
               Nous connaissons le terrain belge — ses zones urbaines, son bâti ancien,
@@ -205,7 +205,7 @@ export default function AProposPage() {
               { n: "1", t: "Contact", d: "Vous appelez ou remplissez le formulaire. Qualification gratuite." },
               { n: "2", t: "Diagnostic", d: "Le technicien identifie l'espèce, l'ampleur et les points d'entrée." },
               { n: "3", t: "Traitement", d: "Intervention adaptée : appâts, pulvérisation, chaleur, piégeage." },
-              { n: "4", t: "Suivi", d: "Garantie 30 jours. Recommandations pour éviter la récidive." },
+              { n: "4", t: "Suivi", d: "Garantie de réintervention. Recommandations pour éviter la récidive." },
             ].map((e) => (
               <div key={e.n} className="bg-white border border-gray-100 rounded-2xl p-5 shadow-sm">
                 <div
@@ -225,13 +225,13 @@ export default function AProposPage() {
         <div className="mb-20 rounded-2xl p-8 md:p-10" style={{ backgroundColor: "#F9FAFB" }}>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
-              <p className="text-xs uppercase tracking-widest font-semibold mb-2" style={{ color: "#FBBF24" }}>Certifications & conformité</p>
+              <p className="text-xs uppercase tracking-widest font-semibold mb-2" style={{ color: "#FBBF24" }}>Conformité réglementaire</p>
               <h2 className="text-2xl md:text-3xl font-bold mb-4" style={{ color: "#1B4332" }}>
                 Un cadre réglementaire strict
               </h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Tous nos techniciens possèdent l&apos;agrément phytosanitaire délivré par le
-                SPF Santé publique. Les produits utilisés sont homologués en Belgique et
+                Tous nos techniciens sont formés à l&apos;usage professionnel des biocides et
+                enregistrés auprès du SPF Santé publique. Les produits utilisés sont homologués en Belgique et
                 appliqués dans le respect des doses et des zones autorisées.
               </p>
               <p className="text-gray-700 leading-relaxed text-sm">
@@ -241,7 +241,7 @@ export default function AProposPage() {
             </div>
             <div className="grid grid-cols-2 gap-3">
               {[
-                { t: "Agrément phytosanitaire", s: "SPF Santé publique" },
+                { t: "Enregistrement biocides", s: "SPF Santé publique" },
                 { t: "Produits homologués", s: "Biocides autorisés BE" },
                 { t: "Conformité AFSCA", s: "Pros de l'alimentaire" },
                 { t: "Formation continue", s: "Mise à jour annuelle" },
@@ -277,7 +277,7 @@ export default function AProposPage() {
             Un problème de nuisibles en Belgique ?
           </h2>
           <p className="text-gray-600 mb-8 max-w-xl mx-auto">
-            Contactez-nous pour un devis gratuit. Un technicien certifié intervient
+            Contactez-nous pour un devis gratuit. Un technicien professionnel intervient
             chez vous sous 24h partout en Belgique.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

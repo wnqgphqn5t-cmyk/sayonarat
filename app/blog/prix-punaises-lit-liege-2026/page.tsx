@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     q: "Y a-t-il des frais cachés dans un traitement punaises de lit ?",
-    a: "Chez Sayonarat, le prix communiqué avant intervention est le prix final. Aucun frais de déplacement supplémentaire, aucune facturation à la surprise. La garantie 30 jours est incluse dans toutes nos prestations.",
+    a: "Chez Sayonarat, le prix communiqué avant intervention est le prix final. Aucun frais de déplacement supplémentaire, aucune facturation à la surprise. La garantie de réintervention est incluse dans toutes nos prestations.",
   },
 ];
 
@@ -142,7 +142,7 @@ export default function PrixPunaisesLitPage() {
             { n: "2", t: "La superficie à traiter", d: "Le prix augmente proportionnellement à la surface. Pour une chambre isolée dans un grand appartement, seule la zone infestée peut être traitée — ce qui réduit le coût." },
             { n: "3", t: "L'ampleur de l'infestation", d: "Une infestation débutante (quelques punaises) est moins coûteuse à traiter qu'une infestation installée depuis plusieurs semaines. Agir tôt est toujours moins cher." },
             { n: "4", t: "Le type de mobilier", d: "Cadres de lit en bois massif, têtes de lit rembourrées, bibliothèques encastrées : plus le mobilier est complexe, plus le traitement est long et donc coûteux." },
-            { n: "5", t: "La garantie et le suivi", d: "Un traitement professionnel inclut une garantie de 30 jours. Méfiez-vous des offres très basses sans garantie de résultat — elles reviennent souvent plus cher au total." },
+            { n: "5", t: "La garantie et le suivi", d: "Un traitement professionnel inclut une garantie de réintervention. Méfiez-vous des offres très basses sans garantie de résultat — elles reviennent souvent plus cher au total." },
           ].map((e) => (
             <div key={e.n} className="flex gap-4 p-5 bg-gray-50 rounded-xl border border-gray-100">
               <div className="w-8 h-8 rounded-lg flex items-center justify-center font-bold text-sm shrink-0" style={{ backgroundColor: "#1B4332", color: "#FBBF24" }}>

@@ -148,7 +148,7 @@ export default function ArticleErreursDeratisationPage() {
         <div className="p-5 bg-yellow-50 border border-yellow-200 rounded-xl">
           <p className="font-semibold text-gray-900 mb-2">Dératisation professionnelle à Liège</p>
           <p className="text-sm text-gray-600 mb-4">
-            Diagnostic complet, traitement adapté à votre situation, colmatage inclus. Garantie 30 jours.
+            Diagnostic complet, traitement adapté à votre situation, colmatage inclus. Garantie de réintervention.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
             <Link href="/deratisation-liege" className="inline-block px-5 py-3 rounded-lg font-bold text-center text-white" style={{ backgroundColor: "#1B4332" }}>

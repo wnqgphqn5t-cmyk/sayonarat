@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/desinsectisation-verviers" },
   title: "Désinsectisation Verviers — Cafards, fourmis, guêpes",
   description:
-    "Désinsectisation professionnelle à Verviers. Cafards, fourmis, guêpes. Vallée de la Vesdre, anciens bâtiments textiles couverts. Devis gratuit sous 24h, garantie 30 jours.",
+    "Désinsectisation professionnelle à Verviers. Cafards, fourmis, guêpes. Vallée de la Vesdre, anciens bâtiments textiles couverts. Devis gratuit sous 24h, garantie de réintervention.",
 };
 
 const faqs = [
@@ -41,7 +41,7 @@ const jsonLd = {
     address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Verviers",
-  description: "Désinsectisation professionnelle à Verviers. Cafards, fourmis, guêpes dans la vallée de la Vesdre et les anciens bâtiments textiles. Produits homologués, garantie 30 jours.",
+  description: "Désinsectisation professionnelle à Verviers. Cafards, fourmis, guêpes dans la vallée de la Vesdre et les anciens bâtiments textiles. Produits homologués, garantie de réintervention.",
   serviceType: "PestControl",
 };
 
@@ -83,7 +83,7 @@ export default function DesinsectisationVerviersPage() {
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-6">
             Insectes nuisibles à Verviers ? Intervention rapide dans la vallée de la Vesdre
-            et tous les quartiers verviétois. Produits homologués, garantie 30 jours.
+            et tous les quartiers verviétois. Produits homologués, garantie de réintervention.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/contact" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center">
@@ -150,7 +150,7 @@ export default function DesinsectisationVerviersPage() {
           </Link>
           <Link href="/mites-alimentaires-verviers" className="border border-gray-200 rounded-xl p-5 hover:shadow-md hover:border-green-300 transition-all block">
             <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>Mites alimentaires à Verviers →</h3>
-            <p className="text-sm text-gray-600">Traitement des placards et denrées contaminées. Garantie 30 jours incluse.</p>
+            <p className="text-sm text-gray-600">Traitement des placards et denrées contaminées. Garantie de réintervention incluse.</p>
           </Link>
         </div>
       </section>
@@ -184,7 +184,7 @@ export default function DesinsectisationVerviersPage() {
 
       <section style={{ backgroundColor: "#1B4332" }} className="py-14 px-4 text-white text-center">
         <h2 className="text-2xl font-bold mb-3">Insectes à Verviers ?</h2>
-        <p className="mb-6" style={{ color: "#bbf7d0" }}>Devis gratuit sous 24h, intervention rapide, garantie 30 jours.</p>
+        <p className="mb-6" style={{ color: "#bbf7d0" }}>Devis gratuit sous 24h, intervention rapide, garantie de réintervention.</p>
         <Link href="/contact" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity inline-block">
           Demander un devis gratuit →
         </Link>

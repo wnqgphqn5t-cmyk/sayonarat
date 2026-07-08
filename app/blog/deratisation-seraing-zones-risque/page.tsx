@@ -208,7 +208,7 @@ export default function ArticleSeraingPage() {
               "Supprimer les sources d'eau stagnante dans le jardin (soucoupes, bâches, etc.)",
               "Stocker les poubelles dans des conteneurs hermétiques — les rats s'y nourrissent la nuit",
               "Entretenir les espaces verts proches : les herbes hautes et tas de bois sont des cachettes idéales",
-              "Traiter avec un professionnel certifié qui inclut l'inspection des caves mitoyennes",
+              "Traiter avec un professionnel qui inclut l'inspection des caves mitoyennes",
             ].map((item, i) => (
               <li key={i} className="flex items-start gap-2">
                 <span className="text-green-600 font-bold mt-0.5 flex-shrink-0">✓</span>
@@ -233,7 +233,7 @@ export default function ArticleSeraingPage() {
         <div className="p-5 bg-yellow-50 border border-yellow-200 rounded-xl">
           <p className="font-semibold text-gray-900 mb-2">Dératisation à Seraing — Intervention sous 48h</p>
           <p className="text-sm text-gray-600 mb-4">
-            Devis gratuit, diagnostic complet, colmatage inclus. Garantie 30 jours.
+            Devis gratuit, diagnostic complet, colmatage inclus. Garantie de réintervention.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
             <Link

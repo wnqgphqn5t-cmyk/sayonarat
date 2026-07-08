@@ -44,7 +44,7 @@ const faqs = [
   },
   {
     q: "Les mites alimentaires reviennent-elles après traitement ?",
-    a: "Oui si la source n'est pas éliminée. Un produit contaminé non jeté (même en cave ou en réserve) suffit à relancer une infestation. Le technicien identifie toutes les sources potentielles lors de l'intervention. Notre garantie 30 jours couvre un retour sans frais en cas de réapparition.",
+    a: "Oui si la source n'est pas éliminée. Un produit contaminé non jeté (même en cave ou en réserve) suffit à relancer une infestation. Le technicien identifie toutes les sources potentielles lors de l'intervention. Notre garantie de réintervention couvre un retour sans frais en cas de réapparition.",
   },
 ];
 
@@ -118,7 +118,7 @@ export default function MitesAlimentairesLiegePage() {
           {[
             { icon: "🔍", titre: "Diagnostic complet", desc: "Identification de toutes les sources d'infestation : placards, réserves, cave, garde-manger. Les œufs sont souvent dans des produits en apparence intacts." },
             { icon: "🧪", titre: "Traitement ciblé", desc: "Insecticide de contact appliqué dans les fissures, joints et recoins des placards. Traitement des zones de ponte et de transit des larves." },
-            { icon: "✅", titre: "Garantie 30 jours", desc: "Retour sans frais si les mites réapparaissent dans le mois suivant l'intervention. Conseils de prévention inclus." },
+            { icon: "✅", titre: "Garantie incluse", desc: "Retour sans frais si les mites réapparaissent dans le mois suivant l'intervention. Conseils de prévention inclus." },
           ].map((s) => (
             <div key={s.titre} className="border border-gray-200 rounded-xl p-5 hover:shadow-md transition-shadow">
               <div className="mb-3">{s.icon === "🔍" ? <SearchIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : s.icon === "🧪" ? <BeakerIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : <CheckCircleIcon className="w-8 h-8 text-green-600" />}</div>
@@ -195,7 +195,7 @@ export default function MitesAlimentairesLiegePage() {
       <section style={{ backgroundColor: "#1B4332" }} className="py-14 px-4 text-white text-center">
         <h2 className="text-2xl font-bold mb-3">Mites alimentaires à Liège ?</h2>
         <p className="mb-6" style={{ color: "#bbf7d0" }}>
-          Devis gratuit sous 24h. Un technicien certifié intervient rapidement dans toute la région liégeoise.
+          Devis gratuit sous 24h. Un technicien professionnel intervient rapidement dans toute la région liégeoise.
         </p>
         <Link
           href="/contact"

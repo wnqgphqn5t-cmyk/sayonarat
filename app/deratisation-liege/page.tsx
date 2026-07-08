@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/deratisation-liege" },
   title: "Dératisation Liège — Élimination rats & souris",
   description:
-    "Dératisation professionnelle à Liège. Élimination rats, souris, campagnols. Intervention sous 24h, devis gratuit. Traitement garanti 30 jours.",
+    "Dératisation professionnelle à Liège. Élimination rats, souris, campagnols. Intervention sous 24h, devis gratuit. Garantie de réintervention incluse.",
 };
 
 const faqs = [
@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     q: "Combien de temps dure une intervention de dératisation ?",
-    a: "Entre 1h et 3h selon la superficie. Le technicien réalise un diagnostic complet, identifie les couloirs de passage et pose les appâts aux points stratégiques. Résultat garanti sous 30 jours.",
+    a: "Entre 1h et 3h selon la superficie. Le technicien réalise un diagnostic complet, identifie les couloirs de passage et pose les appâts aux points stratégiques. Résultat rapide, garantie de réintervention incluse.",
   },
   {
     q: "Les produits utilisés sont-ils dangereux ?",
@@ -28,7 +28,7 @@ const faqs = [
   },
   {
     q: "La dératisation fonctionne-t-elle dès la première intervention ?",
-    a: "Dans la majorité des cas, oui. Nous offrons un suivi de 30 jours avec retour sans frais si les nuisibles réapparaissent.",
+    a: "Dans la majorité des cas, oui. Nous offrons un suivi avec retour sans frais pendant la période de garantie si les nuisibles réapparaissent.",
   },
 ];
 
@@ -93,9 +93,9 @@ export default function DeratisationLiegePage() {
             Dératisation Liège — Intervention rapide | Sayonarat
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-4">
-            Rats ou souris à Liège ? Technicien certifié chez vous en <strong>moins de 24h</strong>,
+            Rats ou souris à Liège ? Technicien professionnel chez vous en <strong>moins de 24h</strong>,
             dès 150€. Appâts rodenticides homologués SPF, colmatage des accès inclus.
-            Garantie 30 jours — retour sans frais si réapparition.
+            Garantie de réintervention — retour sans frais si réapparition.
           </p>
           <div className="flex flex-wrap gap-3 mb-6 text-sm">
             {[
@@ -151,7 +151,7 @@ export default function DeratisationLiegePage() {
           canalisations — c&apos;est le vecteur d&apos;entrée n°1 dans les maisons liégeoises.
         </p>
         <p className="text-gray-700 mb-8 leading-relaxed">
-          Un technicien certifié identifie les points d&apos;entrée exacts, sécurise les accès
+          Un technicien professionnel identifie les points d&apos;entrée exacts, sécurise les accès
           et pose des boîtiers homologués inaccessibles aux enfants et animaux. C&apos;est la
           différence entre une solution temporaire et une élimination définitive.
         </p>
@@ -172,7 +172,7 @@ export default function DeratisationLiegePage() {
           {[
             { step: "1", title: "Diagnostic sur place", desc: "Le technicien inspecte caves, combles, canalisations et extérieur. Il identifie les traces fraîches, nids et couloirs de passage." },
             { step: "2", title: "Traitement ciblé", desc: "Pose de boîtiers à appâts sécurisés aux points stratégiques. Sécurisation des entrées pour empêcher de nouveaux rongeurs." },
-            { step: "3", title: "Garantie 30 jours", desc: "Si les nuisibles réapparaissent dans le mois suivant l'intervention, on revient sans frais supplémentaires." },
+            { step: "3", title: "Garantie de réintervention", desc: "Si les nuisibles réapparaissent dans le mois suivant l'intervention, on revient sans frais supplémentaires." },
           ].map((s) => (
             <div key={s.step} className="bg-green-50 rounded-xl p-5 border border-green-100">
               <div className="text-2xl font-bold mb-2" style={{ color: "#1B4332" }}>Étape {s.step}</div>
@@ -259,7 +259,7 @@ export default function DeratisationLiegePage() {
       <section style={{ backgroundColor: "#1B4332" }} className="py-14 px-4 text-white text-center">
         <h2 className="text-2xl font-bold mb-3">Rats ou souris détectés à Liège ?</h2>
         <p className="mb-6" style={{ color: "#bbf7d0" }}>
-          Agissez vite. Un technicien certifié peut intervenir chez vous dès demain.
+          Agissez vite. Un technicien professionnel peut intervenir chez vous dès demain.
         </p>
         <Link
           href="/contact"

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/deratisation-saint-nicolas" },
   title: "Dératisation Saint-Nicolas — Intervention rapide",
   description:
-    "Dératisation professionnelle à Saint-Nicolas. Rats, souris. Intervention sous 24h, devis gratuit, résultat garanti 30 jours.",
+    "Dératisation professionnelle à Saint-Nicolas. Rats, souris. Intervention sous 24h, devis gratuit, garantie de réintervention incluse.",
 };
 
 const faqs = [
@@ -27,7 +27,7 @@ const faqs = [
   },
   {
     q: "Proposez-vous des contrats de prévention pour les professionnels ?",
-    a: "Oui. Pour les restaurants, épiceries et entrepôts, nous proposons des contrats de prévention avec des visites régulières et un rapport d'intervention certifié.",
+    a: "Oui. Pour les restaurants, épiceries et entrepôts, nous proposons des contrats de prévention avec des visites régulières et un rapport d'intervention détaillé.",
   },
 ];
 
@@ -77,7 +77,7 @@ export default function DeratisationSaintNicolasPage() {
             Dératisation Saint-Nicolas — Intervention rapide | Sayonarat
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-6">
-            Rongeurs à Saint-Nicolas ? Sayonarat vous met en contact avec un technicien certifié
+            Rongeurs à Saint-Nicolas ? Sayonarat vous met en contact avec un technicien professionnel
             disponible sous 24h. Traitement professionnel, résultat garanti.
           </p>
           <Link href="/contact" style={{ backgroundColor: "#FBBF24", color: "#14532d" }}

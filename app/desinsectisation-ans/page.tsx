@@ -78,7 +78,7 @@ export default function DesinsectisationAnsPage() {
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-6">
             Sayonarat met en relation les habitants et entreprises d&apos;Ans avec des techniciens
-            certifiés en désinsectisation. Intervention sous 48h, devis gratuit.
+            formés en désinsectisation. Intervention sous 48h, devis gratuit.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
             <Link href="/contact" className="border-2 border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-white hover:text-green-900 transition-colors text-center">
@@ -125,7 +125,7 @@ export default function DesinsectisationAnsPage() {
             {[
               { icon: "⚡", titre: "Intervention sous 48h", desc: "Particuliers et professionnels. Loncin, Alleur, Xhendremael, Ghlin couverts." },
               { icon: "🎯", titre: "Diagnostic complet", desc: "Identification de l'espèce, des zones infestées et des voies d'entrée." },
-              { icon: "✅", titre: "Garantie 30 jours", desc: "Retour sans frais si les insectes réapparaissent dans le mois suivant l'intervention." },
+              { icon: "✅", titre: "Garantie incluse", desc: "Retour sans frais si les insectes réapparaissent dans le mois suivant l'intervention." },
             ].map((item) => (
               <div key={item.titre} className="text-center">
                 <div className="mb-3">{item.icon === "⚡" ? <BoltIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : item.icon === "🎯" ? <TargetIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : <CheckCircleIcon className="w-8 h-8 text-green-600" />}</div>
@@ -156,7 +156,7 @@ export default function DesinsectisationAnsPage() {
           </Link>
           <Link href="/mites-alimentaires-ans" className="border border-gray-200 rounded-xl p-5 hover:shadow-md hover:border-green-300 transition-all block">
             <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>Mites alimentaires à Ans →</h3>
-            <p className="text-sm text-gray-600">Traitement des placards et denrées contaminées. Garantie 30 jours incluse.</p>
+            <p className="text-sm text-gray-600">Traitement des placards et denrées contaminées. Garantie de réintervention incluse.</p>
           </Link>
         </div>
       </section>

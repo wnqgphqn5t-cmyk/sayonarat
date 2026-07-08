@@ -46,7 +46,7 @@ const jsonLd = {
   },
   areaServed: "Awans",
   description:
-    "Traitement punaises de lit à Awans. Méthode thermique ou chimique. Garantie 30 jours, retour sans frais si réinfestation.",
+    "Traitement punaises de lit à Awans. Méthode thermique ou chimique. Garantie de réintervention, retour sans frais si réinfestation.",
   serviceType: "PestControl",
 };
 
@@ -97,8 +97,8 @@ export default function PunaisesLitAwansPage() {
             Punaises de lit Awans — Traitement garanti
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-6">
-            Punaises de lit à Awans ? Un technicien certifié intervient sous 24h.
-            Traitement thermique ou chimique selon votre logement. Garantie 30 jours,
+            Punaises de lit à Awans ? Un technicien professionnel intervient sous 24h.
+            Traitement thermique ou chimique selon votre logement. Garantie de réintervention,
             retour sans frais si réinfestation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
@@ -151,7 +151,7 @@ export default function PunaisesLitAwansPage() {
             <p className="text-gray-700 leading-relaxed">
               Nous intervenons dans toute la commune d&apos;Awans avec un diagnostic
               préalable pour choisir la méthode la plus adaptée à votre situation.
-              Garantie 30 jours sur tous nos traitements.
+              Garantie de réintervention sur tous nos traitements.
             </p>
           </div>
         </div>
@@ -248,7 +248,7 @@ export default function PunaisesLitAwansPage() {
       >
         <h2 className="text-2xl font-bold mb-3">Punaises de lit à Awans ?</h2>
         <p className="mb-6" style={{ color: "#bbf7d0" }}>
-          Diagnostic sous 24h. Traitement garanti 30 jours. Retour sans frais si réinfestation.
+          Diagnostic sous 24h. Garantie de réintervention incluse. Retour sans frais si réinfestation.
         </p>
         <Link
           href="/contact"

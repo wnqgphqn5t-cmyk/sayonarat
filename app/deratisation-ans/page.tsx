@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/deratisation-ans" },
   title: "Dératisation Ans — Intervention rapide",
   description:
-    "Dératisation professionnelle à Ans. Rats, souris. Intervention sous 24h, devis gratuit, résultat garanti 30 jours.",
+    "Dératisation professionnelle à Ans. Rats, souris. Intervention sous 24h, devis gratuit, garantie de réintervention incluse.",
 };
 
 const faqs = [
@@ -77,8 +77,8 @@ export default function DeratisationAnsPage() {
             Dératisation Ans — Intervention rapide | Sayonarat
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-6">
-            Rats ou souris à Ans ? Un dératiseur professionnel certifié intervient chez vous
-            sous 24h. Traitement adapté, produits homologués, garantie 30 jours.
+            Rats ou souris à Ans ? Un dératiseur professionnel intervient chez vous
+            sous 24h. Traitement adapté, produits homologués, garantie de réintervention.
           </p>
           <Link href="/contact" style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
             className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity inline-block">

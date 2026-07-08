@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/guepes-frelons-liege" },
   title: "Destruction nid guêpes et frelons Liège — Intervention rapide",
   description:
-    "Nid de guêpes ou frelons à Liège ? Destruction sécurisée par technicien certifié. Intervention nocturne sous 48h, devis gratuit.",
+    "Nid de guêpes ou frelons à Liège ? Destruction sécurisée par technicien professionnel. Intervention nocturne sous 48h, devis gratuit.",
 };
 
 const jsonLd = {
@@ -108,7 +108,7 @@ export default function GuepesFrellonsLiegePage() {
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-4">
             Nid de guêpes ou frelons à Liège ? <strong>Intervention nocturne sécurisée sous 48h</strong>, dès 90€.
-            Frelon asiatique traité en priorité. Technicien équipé, garantie 30 jours.
+            Frelon asiatique traité en priorité. Technicien équipé, garantie de réintervention.
           </p>
           <div className="flex flex-wrap gap-3 mb-6 text-sm">
             {[
@@ -277,7 +277,7 @@ export default function GuepesFrellonsLiegePage() {
       <section style={{ backgroundColor: "#1B4332" }} className="py-14 px-4 text-white text-center">
         <h2 className="text-2xl font-bold mb-3">Nid de guêpes ou frelons à Liège ?</h2>
         <p className="mb-6" style={{ color: "#bbf7d0" }}>
-          N&apos;intervenez pas seul. Un technicien certifié peut intervenir sous 48h dans toute la région liégeoise.
+          N&apos;intervenez pas seul. Un technicien professionnel peut intervenir sous 48h dans toute la région liégeoise.
         </p>
         <Link
           href="/contact"

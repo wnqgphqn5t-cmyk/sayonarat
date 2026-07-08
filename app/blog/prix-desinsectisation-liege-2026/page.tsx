@@ -28,7 +28,7 @@ const faq = [
   },
   {
     q: "Faut-il payer si le traitement ne fonctionne pas ?",
-    a: "Non. Sayonarat offre une garantie 30 jours : si les insectes réapparaissent dans le mois suivant l'intervention, un technicien revient sans frais supplémentaires.",
+    a: "Non. Sayonarat offre une garantie de réintervention : si les insectes réapparaissent dans le mois suivant l'intervention, un technicien revient sans frais supplémentaires.",
   },
   {
     q: "Le prix inclut-il les produits utilisés ?",
@@ -153,7 +153,7 @@ export default function ArticlePrixDesinsectisationPage() {
               { titre: "La superficie du logement", desc: "Un studio de 35m² et une maison de 180m² ne requièrent pas la même quantité de produit ni le même temps d'intervention." },
               { titre: "L'ampleur de l'infestation", desc: "Une infestation détectée tôt (quelques individus) coûte moins cher à traiter qu'une infestation établie depuis plusieurs mois." },
               { titre: "L'accessibilité", desc: "Un nid de guêpes au sol coûte moins cher à traiter qu'un nid en toiture nécessitant une nacelle ou une échelle de toit." },
-              { titre: "Le nombre de passages", desc: "Le nombre d'interventions est déterminé après diagnostic selon l'ampleur de l'infestation. La garantie 30 jours couvre un retour sans frais si nécessaire." },
+              { titre: "Le nombre de passages", desc: "Le nombre d'interventions est déterminé après diagnostic selon l'ampleur de l'infestation. La garantie de réintervention couvre un retour sans frais si nécessaire." },
             ].map((item, i) => (
               <li key={i} className="flex items-start gap-3 p-4 bg-green-50 rounded-xl border border-green-100">
                 <span className="text-green-600 font-bold flex-shrink-0">→</span>

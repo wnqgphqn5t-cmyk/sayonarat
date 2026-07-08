@@ -78,7 +78,7 @@ export default function DesinsectisationSeraingPage() {
             Désinsectisation Seraing — Cafards, fourmis, guêpes
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-6">
-            Sayonarat met en relation les habitants de Seraing avec des techniciens certifiés
+            Sayonarat met en relation les habitants de Seraing avec des techniciens professionnels
             en désinsectisation. Cafards, fourmis, blattes, guêpes, frelons — intervention sous 48h.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
@@ -146,9 +146,9 @@ export default function DesinsectisationSeraingPage() {
           <h2 className="text-xl font-bold mb-4" style={{ color: "#1B4332" }}>Notre intervention à Seraing</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { icon: "⚡", titre: "Intervention sous 48h", desc: "Technicien certifié disponible rapidement à Seraing et communes voisines." },
+              { icon: "⚡", titre: "Intervention sous 48h", desc: "Technicien professionnel disponible rapidement à Seraing et communes voisines." },
               { icon: "🎯", titre: "Diagnostic complet", desc: "Identification de l'espèce, des zones infestées et des voies d'entrée." },
-              { icon: "✅", titre: "Garantie 30 jours", desc: "Retour sans frais si les insectes réapparaissent dans le mois suivant." },
+              { icon: "✅", titre: "Garantie incluse", desc: "Retour sans frais si les insectes réapparaissent dans le mois suivant." },
             ].map((item) => (
               <div key={item.titre} className="text-center">
                 <div className="mb-3">{item.icon === "⚡" ? <BoltIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : item.icon === "🎯" ? <TargetIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : <CheckCircleIcon className="w-8 h-8 text-green-600" />}</div>
@@ -179,7 +179,7 @@ export default function DesinsectisationSeraingPage() {
           </Link>
           <Link href="/mites-alimentaires-seraing" className="border border-gray-200 rounded-xl p-5 hover:shadow-md hover:border-green-300 transition-all block">
             <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>Mites alimentaires à Seraing →</h3>
-            <p className="text-sm text-gray-600">Traitement des placards et denrées contaminées. Garantie 30 jours incluse.</p>
+            <p className="text-sm text-gray-600">Traitement des placards et denrées contaminées. Garantie de réintervention incluse.</p>
           </Link>
         </div>
       </section>

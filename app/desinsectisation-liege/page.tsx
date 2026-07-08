@@ -39,7 +39,7 @@ const faqs = [
   },
   {
     q: "Faut-il une deuxième intervention ?",
-    a: "Le nombre de passages est déterminé lors du diagnostic selon l'ampleur de l'infestation. La garantie 30 jours couvre un retour sans frais si nécessaire.",
+    a: "Le nombre de passages est déterminé lors du diagnostic selon l'ampleur de l'infestation. La garantie de réintervention couvre un retour sans frais si nécessaire.",
   },
 ];
 
@@ -93,7 +93,7 @@ export default function DesinsectisationLiegePage() {
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-4">
             Cafards, fourmis ou guêpes à Liège ? Gel insecticide professionnel <strong>sans évacuation requise</strong>.
-            Technicien certifié sous 24h, produits homologués SPF, dès 120€. Garantie 30 jours.
+            Technicien professionnel sous 24h, produits homologués SPF, dès 120€. Garantie de réintervention.
           </p>
           <div className="flex flex-wrap gap-3 mb-6 text-sm">
             {[
@@ -226,7 +226,7 @@ export default function DesinsectisationLiegePage() {
           </Link>
           <Link href="/mites-alimentaires-liege" className="border border-gray-200 rounded-xl p-5 hover:shadow-md hover:border-green-300 transition-all block">
             <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>Mites alimentaires à Liège →</h3>
-            <p className="text-sm text-gray-600">Traitement des placards et denrées contaminées. Garantie 30 jours incluse.</p>
+            <p className="text-sm text-gray-600">Traitement des placards et denrées contaminées. Garantie de réintervention incluse.</p>
           </Link>
         </div>
       </section>

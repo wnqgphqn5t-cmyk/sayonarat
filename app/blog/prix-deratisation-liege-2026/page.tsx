@@ -40,11 +40,11 @@ const faq = [
   },
   {
     q: "Pourquoi éviter les entreprises trop bon marché ?",
-    a: "Une dératisation à moins de 80 € est souvent un traitement partiel ou sans suivi. Les rongeurs recolonisent rapidement si tous les points d'entrée ne sont pas colmatés. Un vrai traitement comprend : diagnostic, pose d'appâts rodenticides certifiés, colmatage, et au moins 1 passage de contrôle.",
+    a: "Une dératisation à moins de 80 € est souvent un traitement partiel ou sans suivi. Les rongeurs recolonisent rapidement si tous les points d'entrée ne sont pas colmatés. Un vrai traitement comprend : diagnostic, pose d'appâts rodenticides autorisés (SPF), colmatage, et au moins 1 passage de contrôle.",
   },
   {
     q: "Combien de passages sont nécessaires pour éliminer les rats ?",
-    a: "Le nombre de passages est défini lors du diagnostic selon l'ampleur de l'infestation. Un traitement type comprend : pose des appâts, contrôle des captures, renouvellement des stations si nécessaire, puis colmatage des entrées. La garantie 30 jours couvre tout résultat insuffisant.",
+    a: "Le nombre de passages est défini lors du diagnostic selon l'ampleur de l'infestation. Un traitement type comprend : pose des appâts, contrôle des captures, renouvellement des stations si nécessaire, puis colmatage des entrées. La garantie de réintervention couvre tout résultat insuffisant.",
   },
 ];
 
@@ -195,7 +195,7 @@ export default function ArticlePrixPage() {
               {
                 titre: "5. Le nombre de passages de contrôle",
                 texte:
-                  "Un traitement professionnel sérieux comprend un diagnostic initial, le traitement ciblé et le colmatage des points d'entrée. La garantie 30 jours couvre un retour sans frais si nécessaire.",
+                  "Un traitement professionnel sérieux comprend un diagnostic initial, le traitement ciblé et le colmatage des points d'entrée. La garantie de réintervention couvre un retour sans frais si nécessaire.",
               },
             ].map((item, i) => (
               <div key={i} className="border-l-4 pl-4" style={{ borderColor: "#1B4332" }}>
@@ -214,7 +214,7 @@ export default function ArticlePrixPage() {
             {[
               "Diagnostic sur place : identification du rongeur, cartographie des points d'entrée et de passage",
               "Pose de stations d'appâtage sécurisées (conformes à la réglementation biocides belge)",
-              "Utilisation de rodenticides certifiés, efficaces dès 5 à 7 jours",
+              "Utilisation de rodenticides autorisés (SPF), efficaces dès 5 à 7 jours",
               "Conseils immédiats : stockage des aliments, hygiène, zones à risque",
               "Passage de contrôle à J+7 ou J+10 : vérification, renouvellement si nécessaire",
               "Colmatage des principaux points d'entrée identifiés",
@@ -239,7 +239,7 @@ export default function ArticlePrixPage() {
             plus cher que si on avait fait un travail sérieux dès le départ.
           </p>
           <p className="mt-3">
-            Un prestataire certifié vous remettra systématiquement une <strong>fiche de données de sécurité</strong>
+            Un prestataire professionnel vous remettra systématiquement une <strong>fiche de données de sécurité</strong>
             des produits utilisés et un rapport d'intervention. C'est une obligation légale en Belgique.
           </p>
         </section>

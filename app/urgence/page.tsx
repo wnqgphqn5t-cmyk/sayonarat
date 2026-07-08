@@ -52,8 +52,8 @@ const scenarios = [
 const etapes = [
   { num: "1", titre: "Contactez-nous", desc: "Décrivez votre situation via le formulaire de contact. Disponible 7j/7." },
   { num: "2", titre: "Diagnostic", desc: "Nous qualifions la situation et confirmons le créneau d'intervention." },
-  { num: "3", titre: "Intervention", desc: "Un technicien certifié se déplace avec le matériel adapté." },
-  { num: "4", titre: "Suivi", desc: "Garantie 30 jours incluse. Retour offert si réinfestation." },
+  { num: "3", titre: "Intervention", desc: "Un technicien professionnel se déplace avec le matériel adapté." },
+  { num: "4", titre: "Suivi", desc: "Garantie de réintervention incluse. Retour offert si réinfestation." },
 ];
 
 const jsonLd = {
@@ -112,7 +112,7 @@ export default function UrgencePage() {
 
           <p className="text-green-100 text-lg md:text-xl max-w-2xl mb-10 leading-relaxed">
             Nid de guêpes actif, rats aperçus, punaises de lit, cafards :
-            chaque heure compte. Nos techniciens certifiés interviennent
+            chaque heure compte. Nos techniciens professionnels interviennent
             rapidement partout en Belgique.
           </p>
 
@@ -212,8 +212,8 @@ export default function UrgencePage() {
         <div className="max-w-5xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
-              { emoji: "🏅", t: "Techniciens certifiés", s: "Agrément phytosanitaire belge" },
-              { emoji: "🛡️", t: "Garantie 30 jours", s: "Retour offert si réinfestation" },
+              { emoji: "🏅", t: "Techniciens professionnels", s: "Enregistrés au SPF Santé publique" },
+              { emoji: "🛡️", t: "Garantie incluse", s: "Retour offert si réinfestation" },
               { emoji: "💶", t: "Devis gratuit", s: "Prix annoncé avant intervention" },
               { emoji: "🔒", t: "Discrétion totale", s: "Véhicules banalisés" },
             ].map((t) => (

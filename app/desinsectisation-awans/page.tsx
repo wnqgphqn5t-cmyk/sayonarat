@@ -98,8 +98,8 @@ export default function DesinsectisationAwansPage() {
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-6">
             Insectes nuisibles à Awans ? Guêpes dans les haies et les combles, fourmis
-            en maison de campagne, cafards — un technicien certifié intervient sous 24h.
-            Zones rurales et résidentielles couvertes. Garantie 30 jours.
+            en maison de campagne, cafards — un technicien professionnel intervient sous 24h.
+            Zones rurales et résidentielles couvertes. Garantie de réintervention.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
@@ -152,7 +152,7 @@ export default function DesinsectisationAwansPage() {
             </p>
             <p className="text-gray-700 leading-relaxed">
               Nous intervenons dans toute la commune, y compris les fermes et
-              bâtiments agricoles. Produits homologués, techniciens certifiés.
+              bâtiments agricoles. Produits homologués, techniciens professionnels.
             </p>
           </div>
         </div>
@@ -179,7 +179,7 @@ export default function DesinsectisationAwansPage() {
           </Link>
           <Link href="/mites-alimentaires-awans" className="border border-gray-200 rounded-xl p-5 hover:shadow-md hover:border-green-300 transition-all block">
             <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>Mites alimentaires à Awans →</h3>
-            <p className="text-sm text-gray-600">Traitement des placards et denrées contaminées. Garantie 30 jours incluse.</p>
+            <p className="text-sm text-gray-600">Traitement des placards et denrées contaminées. Garantie de réintervention incluse.</p>
           </Link>
         </div>
       </section>
@@ -276,7 +276,7 @@ export default function DesinsectisationAwansPage() {
       >
         <h2 className="text-2xl font-bold mb-3">Insectes nuisibles à Awans ?</h2>
         <p className="mb-6" style={{ color: "#bbf7d0" }}>
-          Intervention sous 24h. Devis gratuit. Garantie 30 jours.
+          Intervention sous 24h. Devis gratuit. Garantie de réintervention.
         </p>
         <Link
           href="/contact"

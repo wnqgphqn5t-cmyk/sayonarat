@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     template: "%s | Sayonarat",
   },
   description:
-    "Dératisation et désinsectisation partout en Belgique. Rats, souris, cafards, punaises de lit, guêpes, frelons. Techniciens certifiés, devis gratuit sous 24h, garantie 30 jours.",
+    "Dératisation et désinsectisation partout en Belgique. Rats, souris, cafards, punaises de lit, guêpes, frelons. Techniciens professionnels, devis gratuit sous 24h, garantie de réintervention.",
   metadataBase: new URL("https://www.sayonarat.be"),
   icons: {
     icon: "/sayonarat-icon.png",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Dératisation & Désinsectisation Belgique — Sayonarat",
     description:
-      "Techniciens certifiés partout en Belgique. Devis gratuit sous 24h, garantie 30 jours.",
+      "Techniciens professionnels partout en Belgique. Devis gratuit sous 24h, garantie de réintervention.",
     images: ["/hero-technicien.jpg"],
   },
 };

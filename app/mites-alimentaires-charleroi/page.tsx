@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/mites-alimentaires-charleroi" },
   title: "Mites alimentaires Charleroi — Traitement professionnel",
   description:
-    "Mites alimentaires à Charleroi ? Traitement professionnel contre les mites des denrées. Intervention sous 48h, devis gratuit. Garantie 30 jours.",
+    "Mites alimentaires à Charleroi ? Traitement professionnel contre les mites des denrées. Intervention sous 48h, devis gratuit. Garantie de réintervention.",
 };
 
 const jsonLd = {
@@ -44,7 +44,7 @@ const faqs = [
   },
   {
     q: "Les mites alimentaires reviennent-elles après traitement ?",
-    a: "Oui si la source n'est pas éliminée. Un produit contaminé non jeté suffit à relancer une infestation. Le technicien identifie toutes les sources lors de l'intervention. Notre garantie 30 jours couvre un retour sans frais en cas de réapparition.",
+    a: "Oui si la source n'est pas éliminée. Un produit contaminé non jeté suffit à relancer une infestation. Le technicien identifie toutes les sources lors de l'intervention. Notre garantie de réintervention couvre un retour sans frais en cas de réapparition.",
   },
 ];
 
@@ -115,7 +115,7 @@ export default function MitesAlimentairesCharleroiPage() {
           {[
             { icon: "🔍", titre: "Diagnostic complet", desc: "Identification de toutes les sources : placards, réserves, cave, garde-manger. Les œufs sont souvent dans des produits en apparence intacts." },
             { icon: "🧪", titre: "Traitement ciblé", desc: "Insecticide de contact appliqué dans les fissures, joints et recoins des placards. Traitement des zones de ponte et de transit des larves." },
-            { icon: "✅", titre: "Garantie 30 jours", desc: "Retour sans frais si les mites réapparaissent dans le mois suivant. Conseils de prévention inclus." },
+            { icon: "✅", titre: "Garantie incluse", desc: "Retour sans frais si les mites réapparaissent dans le mois suivant. Conseils de prévention inclus." },
           ].map((s) => (
             <div key={s.titre} className="border border-gray-200 rounded-xl p-5 hover:shadow-md transition-shadow">
               <div className="mb-3">{s.icon === "🔍" ? <SearchIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : s.icon === "🧪" ? <BeakerIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : <CheckCircleIcon className="w-8 h-8 text-green-600" />}</div>
@@ -190,7 +190,7 @@ export default function MitesAlimentairesCharleroiPage() {
       <section style={{ backgroundColor: "#1B4332" }} className="py-14 px-4 text-white text-center">
         <h2 className="text-2xl font-bold mb-3">Mites alimentaires à Charleroi ?</h2>
         <p className="mb-6" style={{ color: "#bbf7d0" }}>
-          Devis gratuit sous 24h. Un technicien certifié intervient rapidement.
+          Devis gratuit sous 24h. Un technicien professionnel intervient rapidement.
         </p>
         <Link
           href="/contact"

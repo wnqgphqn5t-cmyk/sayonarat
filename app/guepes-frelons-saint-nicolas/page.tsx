@@ -83,7 +83,7 @@ export default function GuepesSaintNicolasPage() {
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-6">
             Nid de guêpes ou frelon détecté à Saint-Nicolas ? Intervention nocturne
-            sous 48h, équipement certifié, garantie 30 jours.
+            sous 48h, équipement professionnel, garantie de réintervention.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/contact" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center">
@@ -121,7 +121,7 @@ export default function GuepesSaintNicolasPage() {
           {[
             { emoji: "🌙", t: "Intervention nocturne", d: "Guêpes regroupées et moins agressives. Sécurité optimale." },
             { emoji: "🛡️", t: "Équipement intégral", d: "Combinaison et masque professionnels. Produits homologués." },
-            { emoji: "✅", t: "Garantie 30 jours", d: "Retour offert sans frais si reprise d'activité." },
+            { emoji: "✅", t: "Garantie incluse", d: "Retour offert sans frais si reprise d'activité." },
           ].map((c) => (
             <div key={c.t} className="bg-green-50 rounded-xl p-5 border border-green-100">
               <div className="mb-3">{c.emoji === "🌙" ? <MoonIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : c.emoji === "🛡️" ? <ShieldCheckIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : <CheckCircleIcon className="w-8 h-8 text-green-600" />}</div>

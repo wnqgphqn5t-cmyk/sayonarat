@@ -92,7 +92,7 @@ export default function PunaisesLiegePage() {
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-4">
             Punaises de lit à Liège : traitement thermique à 60°C ou chimique. <strong>Chambre accessible le soir même</strong>.
-            Technicien certifié sous 24h, dès 150€. Garantie 30 jours incluse.
+            Technicien professionnel sous 24h, dès 150€. Garantie de réintervention incluse.
           </p>
           <div className="flex flex-wrap gap-3 mb-6 text-sm">
             {[

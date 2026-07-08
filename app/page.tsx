@@ -58,22 +58,22 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
   title: "Dératisation & Désinsectisation Belgique — Intervention rapide",
   description:
-    "Dératisation, désinsectisation et punaises de lit partout en Belgique. Rats, cafards, guêpes, mites. Techniciens certifiés, devis gratuit sous 24h, garantie 30 jours.",
+    "Dératisation, désinsectisation et punaises de lit partout en Belgique. Rats, cafards, guêpes, mites. Techniciens professionnels, devis gratuit sous 24h, garantie de réintervention.",
 };
 
 const services = [
   {
     Icon: RatIcon,
     title: "Dératisation",
-    desc: "Rats, souris ou campagnols dans votre logement. On localise les nids, sécurise les accès et pose des stations d'appâtage certifiées.",
-    descLong: "Rats, souris ou campagnols dans votre logement. On localise les nids, sécurise les accès et pose des stations d'appâtage certifiées. Garantie 30 jours incluse.",
+    desc: "Rats, souris ou campagnols dans votre logement. On localise les nids, sécurise les accès et pose des stations d'appâtage sécurisées.",
+    descLong: "Rats, souris ou campagnols dans votre logement. On localise les nids, sécurise les accès et pose des stations d'appâtage sécurisées. Garantie de réintervention incluse.",
     href: "/deratisation-liege",
     badge: "Service phare",
   },
   {
     Icon: CockroachIcon,
     title: "Désinsectisation",
-    desc: "Cafards, blattes ou fourmis en cuisine. On traite à la source avec des produits certifiés, sans danger pour les occupants.",
+    desc: "Cafards, blattes ou fourmis en cuisine. On traite à la source avec des produits autorisés, sans danger pour les occupants.",
     href: "/desinsectisation-liege",
   },
   {
@@ -137,11 +137,11 @@ const faqs = [
   },
   {
     q: "Revenez-vous si le problème persiste ?",
-    a: "Oui. Toutes nos interventions incluent un suivi. Si les nuisibles reviennent dans les 30 jours, nous revenons sans frais supplémentaires.",
+    a: "Oui. Toutes nos interventions incluent un suivi. Si les nuisibles reviennent pendant la période de garantie, nous revenons sans frais supplémentaires.",
   },
   {
     q: "Êtes-vous certifiés pour intervenir en Belgique ?",
-    a: "Oui. Nos partenaires disposent de la certification phytosanitaire obligatoire en Belgique pour l'application de produits antiparasitaires.",
+    a: "Oui. Nos techniciens sont formés à l'usage professionnel des biocides et enregistrés auprès du SPF Santé publique, conformément à la réglementation belge. Tous les produits utilisés sont autorisés en Belgique.",
   },
 ];
 
@@ -178,7 +178,7 @@ const faqJsonLd = {
       name: "Revenez-vous si le problème persiste ?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Oui. Toutes nos interventions incluent un suivi. Si les nuisibles reviennent dans les 30 jours, nous revenons sans frais supplémentaires.",
+        text: "Oui. Toutes nos interventions incluent un suivi. Si les nuisibles reviennent pendant la période de garantie, nous revenons sans frais supplémentaires.",
       },
     },
     {
@@ -186,7 +186,7 @@ const faqJsonLd = {
       name: "Êtes-vous certifiés pour intervenir en Belgique ?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Oui. Nos partenaires disposent de la certification phytosanitaire obligatoire en Belgique pour l'application de produits antiparasitaires.",
+        text: "Oui. Nos techniciens sont formés à l'usage professionnel des biocides et enregistrés auprès du SPF Santé publique, conformément à la réglementation belge. Tous les produits utilisés sont autorisés en Belgique.",
       },
     },
   ],
@@ -197,7 +197,7 @@ const jsonLd = {
   "@type": ["LocalBusiness", "PestControlService"],
   name: "Sayonarat — Dératisation & Désinsectisation Belgique",
   description:
-    "Entreprise de dératisation et désinsectisation en Belgique. Intervention rapide 7j/7, techniciens certifiés, garantie 30 jours.",
+    "Entreprise de dératisation et désinsectisation en Belgique. Intervention rapide 7j/7, techniciens professionnels, garantie de réintervention.",
   url: "https://www.sayonarat.be",
   address: {
     "@type": "PostalAddress",
@@ -257,8 +257,8 @@ export default function HomePage() {
               <span style={{ color: "#FBBF24" }}>partout en Belgique</span>
             </h1>
             <p className="text-lg text-green-100 max-w-2xl mb-6">
-              Un technicien certifié SPF chez vous en <strong>moins de 24h</strong>, partout en Belgique.
-              Chaque intervention inclut un suivi 30 jours offert.
+              Un technicien enregistré au SPF chez vous en <strong>moins de 24h</strong>, partout en Belgique.
+              Chaque intervention inclut un suivi de contrôle offert.
             </p>
             <div className="flex flex-wrap gap-4 mb-8 text-sm">
               {[
@@ -289,8 +289,8 @@ export default function HomePage() {
               </Link>
             </div>
             <div className="flex flex-wrap gap-x-6 gap-y-1 justify-center md:justify-start text-sm text-green-200">
-              <span>✓ Techniciens certifiés</span>
-              <span>✓ Garantie 30 jours</span>
+              <span>✓ Techniciens professionnels</span>
+              <span>✓ Garantie de réintervention</span>
               <span>✓ Devis gratuit</span>
             </div>
           </div>
@@ -341,10 +341,10 @@ export default function HomePage() {
             <p className="text-gray-600 mb-5 leading-relaxed">
               Un espace propre et sans nuisibles, c&apos;est notre seul objectif. Nos techniciens
               ne repartent pas avant d&apos;avoir réglé le problème. Et si un signe réapparaît
-              dans les 30 jours, le retour est inclus sans frais.
+              pendant la période de garantie, le retour est inclus sans frais.
             </p>
             <ul className="space-y-2 text-sm text-gray-700">
-              {["Produits homologués, sans danger après séchage", "Colmatage des points d'entrée inclus", "Rapport d'intervention remis après chaque passage", "Suivi garanti 30 jours"].map((item) => (
+              {["Produits homologués, sans danger après séchage", "Colmatage des points d'entrée inclus", "Rapport d'intervention remis après chaque passage", "Garantie de réintervention incluse"].map((item) => (
                 <li key={item} className="flex items-center gap-2">
                   <span className="text-green-600 font-bold">✓</span> {item}
                 </li>
@@ -415,8 +415,8 @@ export default function HomePage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
             { Icon: BoltIcon, title: "Rapidité", desc: "Présent chez vous en moins de 24h, week-end inclus. Les urgences passent en priorité." },
-            { Icon: BadgeCheckIcon, title: "Expertise certifiée", desc: "Certification phytosanitaire belge obligatoire. Produits conformes SPF, sans danger pour les occupants après séchage." },
-            { Icon: ShieldCheckIcon, title: "Garantie 30 jours", desc: "Si un nuisible réapparaît dans les 30 jours suivant l'intervention, on revient sans frais ni discussion." },
+            { Icon: BadgeCheckIcon, title: "Produits autorisés", desc: "Biocides autorisés par le SPF Santé publique, sans danger pour les occupants après séchage." },
+            { Icon: ShieldCheckIcon, title: "Garantie de réintervention", desc: "Si un nuisible réapparaît pendant la période de garantie, on revient sans frais ni discussion." },
           ].map(({ Icon, title, desc }) => (
             <div key={title} className="text-center">
               <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl mb-4" style={{ backgroundColor: "#f0fdf4" }}>

@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: "Combien de temps dure un traitement cafards dans un appartement ?",
-    a: "L'intervention elle-même dure entre 1h et 2h pour un appartement standard. Les résultats du gel insecticide apparaissent en 3 à 7 jours. Pour une infestation importante, une vérification est faite selon le diagnostic initial. La garantie couvre 30 jours.",
+    a: "L'intervention elle-même dure entre 1h et 2h pour un appartement standard. Les résultats du gel insecticide apparaissent en 3 à 7 jours. Pour une infestation importante, une vérification est faite selon le diagnostic initial. Une garantie de réintervention est incluse.",
   },
   {
     q: "Faut-il vider les placards avant le traitement cafards ?",
@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     q: "Les cafards peuvent-ils revenir après le traitement ?",
-    a: "Si l'infestation provient de voisins ou des parties communes non traitées, oui. C'est pourquoi la garantie 30 jours est importante. Si des cafards réapparaissent dans ce délai, une nouvelle intervention est réalisée gratuitement. Pour éviter la récidive, signalez l'infestation à votre syndicat si vous êtes en immeuble.",
+    a: "Si l'infestation provient de voisins ou des parties communes non traitées, oui. C'est pourquoi la garantie de réintervention est importante. Si des cafards réapparaissent dans ce délai, une nouvelle intervention est réalisée gratuitement. Pour éviter la récidive, signalez l'infestation à votre syndicat si vous êtes en immeuble.",
   },
 ];
 
@@ -155,7 +155,7 @@ export default function CafardsAppartementPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-8">
           {[
             { emoji: "✅", t: "Avantages du gel", items: ["Pas d'odeur, pas d'évacuation du logement", "Efficace sur les zones inaccessibles", "Action en 3 à 7 jours", "Cible toute la colonie, y compris les œufs"] },
-            { emoji: "gear", t: "Application professionnelle", items: ["Diagnostic des zones de transit et de ponte", "Application ciblée dans les recoins", "Produits homologués en Belgique", "Garantie 30 jours sur le résultat"] },
+            { emoji: "gear", t: "Application professionnelle", items: ["Diagnostic des zones de transit et de ponte", "Application ciblée dans les recoins", "Produits homologués en Belgique", "Garantie de réintervention sur le résultat"] },
           ].map((c) => (
             <div key={c.t} className="bg-green-50 rounded-xl p-5 border border-green-100">
               <div className="mb-2">{c.emoji === "✅" ? <CheckCircleIcon className="w-7 h-7 text-green-600" /> : <GearIcon className="w-7 h-7" style={{ color: "#1B4332" }} />}</div>

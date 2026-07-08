@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/desinsectisation-grace-hollogne" },
   title: "Désinsectisation Grâce-Hollogne — Cafards, fourmis, guêpes",
   description:
-    "Désinsectisation professionnelle à Grâce-Hollogne. Cafards, fourmis, guêpes, mites. Intervention rapide, produits homologués, garantie 30 jours.",
+    "Désinsectisation professionnelle à Grâce-Hollogne. Cafards, fourmis, guêpes, mites. Intervention rapide, produits homologués, garantie de réintervention.",
 };
 
 const faqs = [
@@ -41,7 +41,7 @@ const jsonLd = {
     address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Grâce-Hollogne",
-  description: "Désinsectisation professionnelle à Grâce-Hollogne. Cafards, fourmis, guêpes. Produits homologués, garantie 30 jours.",
+  description: "Désinsectisation professionnelle à Grâce-Hollogne. Cafards, fourmis, guêpes. Produits homologués, garantie de réintervention.",
   serviceType: "PestControl",
 };
 
@@ -83,7 +83,7 @@ export default function DesinsectisationGraceHolognePage() {
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-6">
             Infestation d&apos;insectes à Grâce-Hollogne ? Intervention rapide chez les particuliers
-            et professionnels. Produits homologués, garantie 30 jours.
+            et professionnels. Produits homologués, garantie de réintervention.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/contact" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center">
@@ -109,7 +109,7 @@ export default function DesinsectisationGraceHolognePage() {
           {[
             { emoji: "🪳", t: "Cafards et blattes", d: "Traitement par gel insecticide professionnel. Sans évacuation, sans odeur. Résultat en 3 à 7 jours." },
             { emoji: "🐜", t: "Fourmis et fourmis pharaon", d: "Appâts gel transmissibles à toute la colonie, y compris les reines. Seule méthode efficace sur fourmis pharaon." },
-            { emoji: "🐝", t: "Guêpes et frelons", d: "Destruction de nid nocturne. Frelon asiatique traité en priorité. Garantie 30 jours." },
+            { emoji: "🐝", t: "Guêpes et frelons", d: "Destruction de nid nocturne. Frelon asiatique traité en priorité. Garantie de réintervention." },
             { emoji: "🦋", t: "Mites alimentaires", d: "Traitement des placards et réserves. Élimination des larves et œufs. Conseils de prévention inclus." },
           ].map((c) => (
             <div key={c.t} className="bg-green-50 rounded-xl p-5 border border-green-100">
@@ -150,7 +150,7 @@ export default function DesinsectisationGraceHolognePage() {
           </Link>
           <Link href="/mites-alimentaires-grace-hollogne" className="border border-gray-200 rounded-xl p-5 hover:shadow-md hover:border-green-300 transition-all block">
             <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>Mites alimentaires à Grâce-Hollogne →</h3>
-            <p className="text-sm text-gray-600">Traitement des placards et denrées contaminées. Garantie 30 jours incluse.</p>
+            <p className="text-sm text-gray-600">Traitement des placards et denrées contaminées. Garantie de réintervention incluse.</p>
           </Link>
         </div>
       </section>
@@ -184,7 +184,7 @@ export default function DesinsectisationGraceHolognePage() {
 
       <section style={{ backgroundColor: "#1B4332" }} className="py-14 px-4 text-white text-center">
         <h2 className="text-2xl font-bold mb-3">Insectes à Grâce-Hollogne ?</h2>
-        <p className="mb-6" style={{ color: "#bbf7d0" }}>Devis gratuit sous 24h, intervention rapide, garantie 30 jours.</p>
+        <p className="mb-6" style={{ color: "#bbf7d0" }}>Devis gratuit sous 24h, intervention rapide, garantie de réintervention.</p>
         <Link href="/contact" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity inline-block">
           Demander un devis gratuit →
         </Link>

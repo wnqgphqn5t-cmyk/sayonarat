@@ -41,7 +41,7 @@ const jsonLd = {
     address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Bruxelles",
-  description: "Service de dératisation professionnelle à Bruxelles. Rats, souris, rongeurs dans immeubles et quartiers urbains. Techniciens certifiés, garantie 30 jours.",
+  description: "Service de dératisation professionnelle à Bruxelles. Rats, souris, rongeurs dans immeubles et quartiers urbains. Techniciens professionnels, garantie de réintervention.",
   serviceType: "PestControl",
 };
 
@@ -83,7 +83,7 @@ export default function DeratisationBruxellesPage() {
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-6">
             Rats ou souris à Bruxelles ? Intervention sous 24h dans tous les quartiers —
-            Ixelles, Schaerbeek, Molenbeek, Anderlecht. Techniciens certifiés, garantie 30 jours.
+            Ixelles, Schaerbeek, Molenbeek, Anderlecht. Techniciens professionnels, garantie de réintervention.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/contact" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center">
@@ -120,8 +120,8 @@ export default function DeratisationBruxellesPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-10">
           {[
             { emoji: "🔍", t: "Diagnostic précis", d: "Identification de l'espèce (rat brun, souris domestique), repérage des couloirs et points d'entrée dans l'immeuble." },
-            { emoji: "🎯", t: "Traitement ciblé", d: "Appâts rodenticides certifiés, colmatage des accès, protection durable contre les réinfestations en milieu urbain dense." },
-            { emoji: "✅", t: "Garantie 30 jours", d: "Retour sans frais si les rongeurs réapparaissent dans le mois suivant l'intervention." },
+            { emoji: "🎯", t: "Traitement ciblé", d: "Appâts rodenticides autorisés (SPF), colmatage des accès, protection durable contre les réinfestations en milieu urbain dense." },
+            { emoji: "✅", t: "Garantie incluse", d: "Retour sans frais si les rongeurs réapparaissent dans le mois suivant l'intervention." },
           ].map((c) => (
             <div key={c.t} className="bg-green-50 rounded-xl p-5 border border-green-100">
               <div className="mb-3">{c.emoji === "🔍" ? <SearchIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : c.emoji === "🎯" ? <TargetIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : c.emoji === "🧪" ? <BeakerIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : <CheckCircleIcon className="w-8 h-8 text-green-600" />}</div>
@@ -172,7 +172,7 @@ export default function DeratisationBruxellesPage() {
 
       <section style={{ backgroundColor: "#1B4332" }} className="py-14 px-4 text-white text-center">
         <h2 className="text-2xl font-bold mb-3">Rongeurs à Bruxelles ?</h2>
-        <p className="mb-6" style={{ color: "#bbf7d0" }}>Intervention sous 24h, devis gratuit, garantie 30 jours.</p>
+        <p className="mb-6" style={{ color: "#bbf7d0" }}>Intervention sous 24h, devis gratuit, garantie de réintervention.</p>
         <Link href="/contact" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity inline-block">
           Demander un devis gratuit →
         </Link>

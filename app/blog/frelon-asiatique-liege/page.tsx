@@ -197,7 +197,7 @@ export default function FrelonAsiatiqueLiegePage() {
             { n: "1", t: "Ne pas approcher", d: "Maintenez au moins 5 mètres de distance. N'agitez pas les bras, ne frappez pas le nid — toute vibration déclenche une attaque." },
             { n: "2", t: "Ne pas traiter soi-même", d: "Les bombes insecticides du commerce sont inefficaces sur les nids en hauteur et peuvent provoquer une attaque massive. Sans combinaison intégrale, le risque est réel." },
             { n: "3", t: "Repérer l'emplacement", d: "Notez la position précise du nid (arbre, hauteur estimée, orientation). Ces informations aident le technicien à préparer son intervention." },
-            { n: "4", t: "Appeler un professionnel", d: "Sayonarat intervient sous 48h dans toute la région liégeoise. Intervention nocturne, équipement intégral, garantie 30 jours." },
+            { n: "4", t: "Appeler un professionnel", d: "Sayonarat intervient sous 48h dans toute la région liégeoise. Intervention nocturne, équipement intégral, garantie de réintervention." },
           ].map((e) => (
             <div key={e.n} className="flex gap-4 p-5 bg-green-50 rounded-xl border border-green-100">
               <div className="w-8 h-8 rounded-lg flex items-center justify-center font-bold text-sm shrink-0" style={{ backgroundColor: "#1B4332", color: "#FBBF24" }}>

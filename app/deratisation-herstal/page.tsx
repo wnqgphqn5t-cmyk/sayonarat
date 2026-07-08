@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/deratisation-herstal" },
   title: "Dératisation Herstal — Intervention rapide",
   description:
-    "Dératisation professionnelle à Herstal. Rats, souris, rongeurs. Intervention sous 24h, devis gratuit, techniciens certifiés.",
+    "Dératisation professionnelle à Herstal. Rats, souris, rongeurs. Intervention sous 24h, devis gratuit, techniciens professionnels.",
 };
 
 const faqs = [
@@ -77,8 +77,8 @@ export default function DeratisationHerstalPage() {
             Dératisation Herstal — Intervention rapide | Sayonarat
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-6">
-            Rats ou souris à Herstal ? Un technicien certifié intervient chez vous sous 24h.
-            Diagnostic gratuit sur place, traitement adapté, garantie 30 jours.
+            Rats ou souris à Herstal ? Un technicien professionnel intervient chez vous sous 24h.
+            Diagnostic gratuit sur place, traitement adapté, garantie de réintervention.
           </p>
           <Link href="/contact" style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
             className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity inline-block">
@@ -102,7 +102,7 @@ export default function DeratisationHerstalPage() {
           Les entreprises de la zone industrielle sont particulièrement vulnérables :
           une infestation non déclarée dans un entrepôt alimentaire peut entraîner
           une fermeture administrative. Nos techniciens établissent des rapports
-          d&apos;intervention certifiés, conformes aux exigences AFSCA pour les professionnels.
+          d&apos;intervention détaillés, conformes aux exigences AFSCA pour les professionnels.
         </p>
         <p className="text-gray-700 mb-8 leading-relaxed">
           Pour les particuliers, nous intervenons dans tout Herstal : centre,

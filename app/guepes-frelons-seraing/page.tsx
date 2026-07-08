@@ -83,7 +83,7 @@ export default function GuepesSeraingPage() {
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-6">
             Nid de guêpes ou frelon dans vos combles, jardin ou façade à Seraing ?
-            Intervention nocturne sécurisée sous 48h. Techniciens équipés et certifiés.
+            Intervention nocturne sécurisée sous 48h. Techniciens équipés et formés.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/contact" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center">
@@ -116,14 +116,14 @@ export default function GuepesSeraingPage() {
           À Seraing, les zones à risque sont les habitations anciennes de Jemeppe, Ougrée et du Val Saint-Lambert, où les combles non isolés offrent un refuge idéal aux guêpes germaniques. Les terrains proches de la Meuse et les jardins avec haies denses attirent également les frelons en été.
         </p>
         <p className="text-gray-700 mb-8 leading-relaxed">
-          Nos techniciens interviennent de nuit, lorsque les guêpes sont toutes rentrées au nid et moins actives. Le nid est traité avec un insecticide professionnel, puis neutralisé. La garantie couvre tout retour d&apos;activité dans les 30 jours.
+          Nos techniciens interviennent de nuit, lorsque les guêpes sont toutes rentrées au nid et moins actives. Le nid est traité avec un insecticide professionnel, puis neutralisé. La garantie de réintervention couvre tout retour d&apos;activité.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-10">
           {[
             { emoji: "🌙", t: "Intervention nocturne", d: "Quand les guêpes sont au nid et moins agressives. Sécurité maximale." },
             { emoji: "🛡️", t: "Équipement intégral", d: "Combinaison, gants et masque professionnels. Aucun risque pour le technicien." },
-            { emoji: "✅", t: "Garantie 30 jours", d: "Si le nid reprend de l'activité, nous revenons sans frais supplémentaires." },
+            { emoji: "✅", t: "Garantie incluse", d: "Si le nid reprend de l'activité, nous revenons sans frais supplémentaires." },
           ].map((c) => (
             <div key={c.t} className="bg-green-50 rounded-xl p-5 border border-green-100">
               <div className="mb-3">{c.emoji === "🌙" ? <MoonIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : c.emoji === "🛡️" ? <ShieldCheckIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : <CheckCircleIcon className="w-8 h-8 text-green-600" />}</div>

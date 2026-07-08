@@ -97,8 +97,8 @@ export default function PunaisesLitBeyneHeusayPage() {
             Punaises de lit Beyne-Heusay — Traitement garanti
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-6">
-            Punaises de lit à Beyne-Heusay ? Un technicien certifié intervient sous 24h.
-            Traitement thermique ou chimique selon votre situation. Garantie 30 jours,
+            Punaises de lit à Beyne-Heusay ? Un technicien professionnel intervient sous 24h.
+            Traitement thermique ou chimique selon votre situation. Garantie de réintervention,
             retour sans frais si réinfestation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
@@ -149,8 +149,8 @@ export default function PunaisesLitBeyneHeusayPage() {
               obligatoire pour choisir la méthode la plus adaptée à votre logement.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              Nous garantissons le résultat : retour sans frais si réinfestation
-              constatée dans les 30 jours suivant le traitement.
+              Garantie de réintervention : retour sans frais si réinfestation
+              constatée pendant la période de garantie.
             </p>
           </div>
         </div>
@@ -244,7 +244,7 @@ export default function PunaisesLitBeyneHeusayPage() {
       >
         <h2 className="text-2xl font-bold mb-3">Punaises de lit à Beyne-Heusay ?</h2>
         <p className="mb-6" style={{ color: "#bbf7d0" }}>
-          Diagnostic sous 24h. Traitement garanti 30 jours. Retour sans frais si réinfestation.
+          Diagnostic sous 24h. Garantie de réintervention incluse. Retour sans frais si réinfestation.
         </p>
         <Link
           href="/contact"

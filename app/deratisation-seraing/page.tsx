@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/deratisation-seraing" },
   title: "Dératisation Seraing — Intervention rapide",
   description:
-    "Dératisation professionnelle à Seraing. Élimination rats et souris sous 24h. Devis gratuit, techniciens certifiés, résultat garanti 30 jours.",
+    "Dératisation professionnelle à Seraing. Élimination rats et souris sous 24h. Devis gratuit, techniciens professionnels, garantie de réintervention incluse.",
 };
 
 const faqs = [
@@ -78,7 +78,7 @@ export default function DeratisationSeraingPage() {
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-6">
             Problème de rongeurs à Seraing ? Un dératiseur professionnel intervient chez vous
-            sous 24h. Traitement certifié, produits homologués, suivi garanti 30 jours.
+            sous 24h. Traitement professionnel, produits homologués, garantie de réintervention incluse.
           </p>
           <Link href="/contact" style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
             className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity inline-block">

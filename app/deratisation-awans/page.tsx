@@ -46,7 +46,7 @@ const jsonLd = {
   },
   areaServed: "Awans",
   description:
-    "Dératisation professionnelle à Awans. Campagnols des champs, rats de ferme, souris. Zones rurales et résidentielles. Intervention sous 24h, garantie 30 jours.",
+    "Dératisation professionnelle à Awans. Campagnols des champs, rats de ferme, souris. Zones rurales et résidentielles. Intervention sous 24h, garantie de réintervention.",
   serviceType: "PestControl",
 };
 
@@ -96,8 +96,8 @@ export default function DeratisationAwansPage() {
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-6">
             Rongeurs à Awans ? Campagnols des champs, rats de ferme, souris — un
-            dératiseur professionnel certifié intervient sous 24h dans toute la commune.
-            Zones rurales et résidentielles couvertes. Garantie 30 jours.
+            dératiseur professionnel intervient sous 24h dans toute la commune.
+            Zones rurales et résidentielles couvertes. Garantie de réintervention.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
@@ -199,9 +199,9 @@ export default function DeratisationAwansPage() {
               >
                 3
               </div>
-              <h3 className="font-bold text-gray-900 mb-2">Garantie 30 jours</h3>
+              <h3 className="font-bold text-gray-900 mb-2">Garantie de réintervention</h3>
               <p className="text-gray-600 text-sm leading-relaxed">
-                Retour sans frais si réinfestation dans les 30 jours. Sécurisation
+                Retour sans frais si réinfestation pendant la période de garantie. Sécurisation
                 des points d&apos;entrée et conseils de prévention spécifiques
                 au milieu rural.
               </p>
@@ -257,7 +257,7 @@ export default function DeratisationAwansPage() {
       >
         <h2 className="text-2xl font-bold mb-3">Rongeurs à Awans ?</h2>
         <p className="mb-6" style={{ color: "#bbf7d0" }}>
-          Intervention sous 24h. Devis gratuit et sans engagement. Garantie 30 jours.
+          Intervention sous 24h. Devis gratuit et sans engagement. Garantie de réintervention.
         </p>
         <Link
           href="/contact"

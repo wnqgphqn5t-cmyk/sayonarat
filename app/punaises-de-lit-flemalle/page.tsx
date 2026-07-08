@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/punaises-de-lit-flemalle" },
   title: "Punaises de lit Flémalle — Traitement professionnel",
   description:
-    "Punaises de lit à Flémalle ? Technicien certifié, traitement thermique ou chimique. Intervention sous 48h, devis gratuit sous 24h.",
+    "Punaises de lit à Flémalle ? Technicien professionnel, traitement thermique ou chimique. Intervention sous 48h, devis gratuit sous 24h.",
 };
 
 const jsonLd = {
@@ -63,7 +63,7 @@ const faqs = [
   },
   {
     q: "Le traitement est-il garanti si les punaises reviennent ?",
-    a: "Oui. Sayonarat offre une garantie 30 jours : si les punaises réapparaissent dans le mois suivant l'intervention, un technicien revient sans frais supplémentaires.",
+    a: "Oui. Sayonarat offre une garantie de réintervention : si les punaises réapparaissent dans le mois suivant l'intervention, un technicien revient sans frais supplémentaires.",
   },
 ];
 
@@ -95,7 +95,7 @@ export default function PunaisesFlEmallePage() {
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-6">
             Punaises de lit à Flémalle ? Sayonarat met en contact les habitants de Flémalle
-            avec un technicien certifié disponible sous 48h. Traitement thermique ou chimique,
+            avec un technicien professionnel disponible sous 48h. Traitement thermique ou chimique,
             résultat garanti.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
@@ -149,9 +149,9 @@ export default function PunaisesFlEmallePage() {
           <h2 className="text-xl font-bold mb-4" style={{ color: "#1B4332" }}>Intervention à Flémalle</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { icon: "⚡", titre: "Sous 48h", desc: "Technicien certifié disponible rapidement à Flémalle et communes voisines." },
+              { icon: "⚡", titre: "Sous 48h", desc: "Technicien professionnel disponible rapidement à Flémalle et communes voisines." },
               { icon: "🎯", titre: "Diagnostic complet", desc: "Inspection approfondie : matelas, sommier, plinthes, cadres de portes." },
-              { icon: "✅", titre: "Garantie 30 jours", desc: "Retour sans frais si les punaises réapparaissent dans le mois suivant." },
+              { icon: "✅", titre: "Garantie incluse", desc: "Retour sans frais si les punaises réapparaissent dans le mois suivant." },
             ].map((item) => (
               <div key={item.titre} className="text-center">
                 <div className="mb-3">{item.icon === "⚡" ? <BoltIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : item.icon === "🎯" ? <TargetIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : <CheckCircleIcon className="w-8 h-8 text-green-600" />}</div>

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/punaises-de-lit-seraing" },
   title: "Punaises de lit Seraing — Traitement professionnel",
   description:
-    "Punaises de lit à Seraing ? Traitement thermique ou chimique par technicien certifié. Intervention sous 48h, devis gratuit sous 24h.",
+    "Punaises de lit à Seraing ? Traitement thermique ou chimique par technicien professionnel. Intervention sous 48h, devis gratuit sous 24h.",
 };
 
 const jsonLd = {
@@ -95,7 +95,7 @@ export default function PunaisesSeraingPage() {
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-6">
             Des punaises de lit à Seraing ? Sayonarat met en contact les habitants de Seraing
-            avec un technicien certifié disponible sous 48h. Traitement thermique ou chimique,
+            avec un technicien professionnel disponible sous 48h. Traitement thermique ou chimique,
             résultat garanti.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
@@ -149,9 +149,9 @@ export default function PunaisesSeraingPage() {
           <h2 className="text-xl font-bold mb-4" style={{ color: "#1B4332" }}>Intervention à Seraing</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { icon: "⚡", titre: "Sous 48h", desc: "Technicien certifié disponible rapidement à Seraing et communes voisines." },
+              { icon: "⚡", titre: "Sous 48h", desc: "Technicien professionnel disponible rapidement à Seraing et communes voisines." },
               { icon: "🎯", titre: "Diagnostic complet", desc: "Identification des zones infestées, voies de propagation entre appartements." },
-              { icon: "✅", titre: "Garantie 30 jours", desc: "Retour sans frais si les punaises réapparaissent dans le mois suivant." },
+              { icon: "✅", titre: "Garantie incluse", desc: "Retour sans frais si les punaises réapparaissent dans le mois suivant." },
             ].map((item) => (
               <div key={item.titre} className="text-center">
                 <div className="mb-3">{item.icon === "⚡" ? <BoltIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : item.icon === "🎯" ? <TargetIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : <CheckCircleIcon className="w-8 h-8 text-green-600" />}</div>

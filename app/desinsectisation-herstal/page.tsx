@@ -79,7 +79,7 @@ export default function DesinsectisationHerstalPage() {
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-6">
             Sayonarat met en relation les habitants et entreprises de Herstal avec des techniciens
-            certifiés en désinsectisation. Intervention sous 48h, devis gratuit.
+            formés en désinsectisation. Intervention sous 48h, devis gratuit.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
             <Link href="/contact" className="border-2 border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-white hover:text-green-900 transition-colors text-center">
@@ -91,7 +91,7 @@ export default function DesinsectisationHerstalPage() {
 
       <section className="py-14 px-4 max-w-4xl mx-auto">
         <div className="relative rounded-2xl overflow-hidden shadow-lg h-64 md:h-80 mb-10">
-          <Image src="/nid-guepes.jpg" alt="Destruction nid de guêpes à Herstal par technicien certifié" fill className="object-cover" priority />
+          <Image src="/nid-guepes.jpg" alt="Destruction nid de guêpes à Herstal par technicien professionnel" fill className="object-cover" priority />
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end p-5">
             <p className="text-white text-sm font-medium">Intervention professionnelle contre guêpes et insectes à Herstal</p>
           </div>
@@ -134,7 +134,7 @@ export default function DesinsectisationHerstalPage() {
             {[
               { icon: "⚡", titre: "Intervention sous 48h", desc: "Particuliers et professionnels. Zone de Milmort, Vottem, Liers, Pontisse couverte." },
               { icon: "📋", titre: "Rapport AFSCA", desc: "Rapport d'intervention conforme pour les établissements soumis aux contrôles sanitaires." },
-              { icon: "✅", titre: "Garantie 30 jours", desc: "Retour sans frais si les insectes réapparaissent dans le mois suivant l'intervention." },
+              { icon: "✅", titre: "Garantie incluse", desc: "Retour sans frais si les insectes réapparaissent dans le mois suivant l'intervention." },
             ].map((item) => (
               <div key={item.titre} className="text-center">
                 <div className="mb-3">{item.icon === "⚡" ? <BoltIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : item.icon === "📋" ? <ClipboardIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : <CheckCircleIcon className="w-8 h-8 text-green-600" />}</div>
@@ -165,7 +165,7 @@ export default function DesinsectisationHerstalPage() {
           </Link>
           <Link href="/mites-alimentaires-herstal" className="border border-gray-200 rounded-xl p-5 hover:shadow-md hover:border-green-300 transition-all block">
             <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>Mites alimentaires à Herstal →</h3>
-            <p className="text-sm text-gray-600">Traitement des placards et denrées contaminées. Garantie 30 jours incluse.</p>
+            <p className="text-sm text-gray-600">Traitement des placards et denrées contaminées. Garantie de réintervention incluse.</p>
           </Link>
         </div>
       </section>

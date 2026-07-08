@@ -96,7 +96,7 @@ export default function ArticleFrelonsPage() {
             Si vous découvrez un nid de frelons ou guêpes : <strong>ne l'approchez pas</strong>,
             <strong> n'utilisez pas d'eau</strong> ni de spray aérosol — cela provoque une attaque massive.
             Appelez un professionnel. Un nid de frelons asiatiques doit être signalé à l'AFSCA
-            et traité obligatoirement par un expert certifié.
+            et traité par un professionnel équipé.
           </p>
         </div>
 

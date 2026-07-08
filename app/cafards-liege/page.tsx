@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/cafards-liege" },
   title: "Cafards Liège — Élimination garantie, intervention rapide",
   description:
-    "Infestation de cafards à Liège ? Traitement professionnel par gel insecticide ou pulvérisation. Résultat garanti, devis gratuit sous 24h. Techniciens certifiés.",
+    "Infestation de cafards à Liège ? Traitement professionnel par gel insecticide ou pulvérisation. Résultat garanti, devis gratuit sous 24h. Techniciens professionnels.",
 };
 
 const signes = [
@@ -95,7 +95,7 @@ export default function CafardsLiegePage() {
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-6">
             Une infestation de cafards s&apos;étend vite et ne disparaît pas seule.
-            Sayonarat vous met en contact avec un technicien certifié à Liège,
+            Sayonarat vous met en contact avec un technicien professionnel à Liège,
             disponible sous 24h, pour un traitement efficace et durable.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">

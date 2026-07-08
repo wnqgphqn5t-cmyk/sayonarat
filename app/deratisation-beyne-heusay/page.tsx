@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/deratisation-beyne-heusay" },
   title: "Dératisation Beyne-Heusay — Intervention rapide",
   description:
-    "Dératisation professionnelle à Beyne-Heusay. Rats, souris, rongeurs. Maisons individuelles et jardins. Devis gratuit sous 24h, techniciens certifiés.",
+    "Dératisation professionnelle à Beyne-Heusay. Rats, souris, rongeurs. Maisons individuelles et jardins. Devis gratuit sous 24h, techniciens professionnels.",
 };
 
 const faqs = [
@@ -46,7 +46,7 @@ const jsonLd = {
   },
   areaServed: "Beyne-Heusay",
   description:
-    "Dératisation professionnelle à Beyne-Heusay. Rats, souris, campagnols, mulots. Intervention sous 24h, garantie 30 jours.",
+    "Dératisation professionnelle à Beyne-Heusay. Rats, souris, campagnols, mulots. Intervention sous 24h, garantie de réintervention.",
   serviceType: "PestControl",
 };
 
@@ -96,8 +96,8 @@ export default function DeratisationBeyneHeusayPage() {
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-6">
             Rongeurs à Beyne-Heusay ? Campagnols, mulots, rats ou souris — un dératiseur
-            certifié intervient sous 24h. Traitement adapté aux maisons individuelles et
-            jardins. Garantie 30 jours, retour sans frais si réinfestation.
+            professionnel intervient sous 24h. Traitement adapté aux maisons individuelles et
+            jardins. Garantie de réintervention, retour sans frais si réinfestation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
@@ -195,9 +195,9 @@ export default function DeratisationBeyneHeusayPage() {
               >
                 3
               </div>
-              <h3 className="font-bold text-gray-900 mb-2">Garantie 30 jours</h3>
+              <h3 className="font-bold text-gray-900 mb-2">Garantie de réintervention</h3>
               <p className="text-gray-600 text-sm leading-relaxed">
-                Retour sans frais si réinfestation dans les 30 jours. Sécurisation des
+                Retour sans frais si réinfestation pendant la période de garantie. Sécurisation des
                 points d&apos;entrée et conseils de prévention fournis.
               </p>
             </div>
@@ -252,7 +252,7 @@ export default function DeratisationBeyneHeusayPage() {
       >
         <h2 className="text-2xl font-bold mb-3">Rongeurs à Beyne-Heusay ?</h2>
         <p className="mb-6" style={{ color: "#bbf7d0" }}>
-          Intervention sous 24h. Devis gratuit et sans engagement. Garantie 30 jours.
+          Intervention sous 24h. Devis gratuit et sans engagement. Garantie de réintervention.
         </p>
         <Link
           href="/contact"

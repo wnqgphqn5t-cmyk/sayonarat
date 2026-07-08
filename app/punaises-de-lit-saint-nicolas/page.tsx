@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/punaises-de-lit-saint-nicolas" },
   title: "Punaises de lit Saint-Nicolas — Traitement professionnel",
   description:
-    "Punaises de lit à Saint-Nicolas ? Technicien certifié, traitement thermique ou chimique. Intervention sous 48h, devis gratuit.",
+    "Punaises de lit à Saint-Nicolas ? Technicien professionnel, traitement thermique ou chimique. Intervention sous 48h, devis gratuit.",
 };
 
 const jsonLd = {
@@ -95,7 +95,7 @@ export default function PunaiseSaintNicolasPage() {
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-6">
             Punaises de lit à Saint-Nicolas ? Sayonarat met en contact les habitants de Saint-Nicolas
-            avec un technicien certifié disponible sous 48h. Traitement thermique ou chimique,
+            avec un technicien professionnel disponible sous 48h. Traitement thermique ou chimique,
             résultat garanti.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
@@ -148,9 +148,9 @@ export default function PunaiseSaintNicolasPage() {
           <h2 className="text-xl font-bold mb-4" style={{ color: "#1B4332" }}>Intervention à Saint-Nicolas</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { icon: "⚡", titre: "Sous 48h", desc: "Technicien certifié disponible rapidement à Saint-Nicolas et communes voisines." },
+              { icon: "⚡", titre: "Sous 48h", desc: "Technicien professionnel disponible rapidement à Saint-Nicolas et communes voisines." },
               { icon: "🎯", titre: "Diagnostic complet", desc: "Inspection de toutes les zones de ponte : matelas, cadre, plinthes, prises." },
-              { icon: "✅", titre: "Garantie 30 jours", desc: "Retour sans frais si les punaises réapparaissent dans le mois suivant." },
+              { icon: "✅", titre: "Garantie incluse", desc: "Retour sans frais si les punaises réapparaissent dans le mois suivant." },
             ].map((item) => (
               <div key={item.titre} className="text-center">
                 <div className="mb-3">{item.icon === "⚡" ? <BoltIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : item.icon === "🎯" ? <TargetIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : <CheckCircleIcon className="w-8 h-8 text-green-600" />}</div>

@@ -26,7 +26,7 @@ const faqs = [
   },
   {
     q: "Combien de temps dure le traitement à Verviers ?",
-    a: "Le traitement thermique dure 6 à 8h — vous pouvez dormir chez vous le soir même. Le traitement chimique dure 1 à 2h avec une absence de 4 à 6h recommandée. Garantie 30 jours incluse dans les deux cas.",
+    a: "Le traitement thermique dure 6 à 8h — vous pouvez dormir chez vous le soir même. Le traitement chimique dure 1 à 2h avec une absence de 4 à 6h recommandée. Garantie de réintervention incluse dans les deux cas.",
   },
 ];
 
@@ -121,9 +121,9 @@ export default function PunaisesVerviersPage() {
         </div>
 
         <div className="bg-yellow-50 border-l-4 border-yellow-400 p-5 rounded-r-xl mb-10">
-          <p className="font-semibold text-gray-800">📋 Garantie 30 jours incluse</p>
+          <p className="font-semibold text-gray-800">📋 Garantie de réintervention incluse</p>
           <p className="text-sm text-gray-700 mt-1">
-            Toutes nos interventions à Verviers sont couvertes par une garantie 30 jours.
+            Toutes nos interventions à Verviers sont couvertes par une garantie de réintervention.
             Si des punaises de lit réapparaissent dans ce délai, nous revenons sans frais supplémentaires.
           </p>
         </div>

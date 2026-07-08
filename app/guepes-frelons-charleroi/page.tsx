@@ -84,7 +84,7 @@ export default function GuepesFretonsCharleroiPage() {
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-6">
             Nid de guêpes dans vos combles ou jardin à Charleroi ? Intervention nocturne
-            professionnelle sous 48h. Techniciens certifiés, garantie 30 jours.
+            professionnelle sous 48h. Techniciens professionnels, garantie de réintervention.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/contact" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center">
@@ -120,8 +120,8 @@ export default function GuepesFretonsCharleroiPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-10">
           {[
             { emoji: "🌙", t: "Intervention nocturne", d: "Sécurité maximale — guêpes au repos, colonie regroupée au nid." },
-            { emoji: "🛡️", t: "Équipement certifié", d: "Protection intégrale. Produits professionnels homologués CE." },
-            { emoji: "✅", t: "Garantie 30 jours", d: "Retour sans frais si reprise d'activité constatée." },
+            { emoji: "🛡️", t: "Équipement professionnel", d: "Protection intégrale. Produits professionnels homologués CE." },
+            { emoji: "✅", t: "Garantie incluse", d: "Retour sans frais si reprise d'activité constatée." },
           ].map((card) => (
             <div key={card.t} className="bg-green-50 rounded-xl p-5 border border-green-100">
               <div className="mb-2">{card.emoji === "🌙" ? <MoonIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : card.emoji === "🛡️" ? <ShieldCheckIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : <CheckCircleIcon className="w-8 h-8 text-green-600" />}</div>

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/deratisation-grace-hollogne" },
   title: "Dératisation Grâce-Hollogne — Intervention rapide",
   description:
-    "Dératisation professionnelle à Grâce-Hollogne. Rats, souris, rongeurs. Zones industrielles et logistiques couvertes. Devis gratuit sous 24h, techniciens certifiés.",
+    "Dératisation professionnelle à Grâce-Hollogne. Rats, souris, rongeurs. Zones industrielles et logistiques couvertes. Devis gratuit sous 24h, techniciens professionnels.",
 };
 
 const faqs = [
@@ -26,7 +26,7 @@ const faqs = [
   },
   {
     q: "Combien de temps dure le traitement ?",
-    a: "Entre 1h30 et 3h selon la superficie et l'accessibilité des zones infestées. Le technicien réalise un diagnostic, identifie les couloirs de passage et pose les appâts aux points stratégiques. Garantie 30 jours incluse.",
+    a: "Entre 1h30 et 3h selon la superficie et l'accessibilité des zones infestées. Le technicien réalise un diagnostic, identifie les couloirs de passage et pose les appâts aux points stratégiques. Garantie de réintervention incluse.",
   },
 ];
 
@@ -41,7 +41,7 @@ const jsonLd = {
     address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
   areaServed: "Grâce-Hollogne",
-  description: "Service de dératisation professionnelle à Grâce-Hollogne. Rats, souris, rongeurs. Techniciens certifiés, garantie 30 jours.",
+  description: "Service de dératisation professionnelle à Grâce-Hollogne. Rats, souris, rongeurs. Techniciens professionnels, garantie de réintervention.",
   serviceType: "PestControl",
 };
 
@@ -115,8 +115,8 @@ export default function DeratisationGraceHologgnePage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-10">
           {[
             { emoji: "🔍", t: "Diagnostic précis", d: "Identification de l'espèce, des couloirs de passage et des points d'entrée avant tout traitement." },
-            { emoji: "🎯", t: "Traitement ciblé", d: "Appâts rodenticides certifiés, colmatage des accès, protection durable." },
-            { emoji: "✅", t: "Garantie 30 jours", d: "Retour sans frais si les rongeurs réapparaissent dans le mois suivant." },
+            { emoji: "🎯", t: "Traitement ciblé", d: "Appâts rodenticides autorisés (SPF), colmatage des accès, protection durable." },
+            { emoji: "✅", t: "Garantie incluse", d: "Retour sans frais si les rongeurs réapparaissent dans le mois suivant." },
           ].map((c) => (
             <div key={c.t} className="bg-green-50 rounded-xl p-5 border border-green-100">
               <div className="mb-3">{c.emoji === "🔍" ? <SearchIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : c.emoji === "🎯" ? <TargetIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : c.emoji === "🧪" ? <BeakerIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : <CheckCircleIcon className="w-8 h-8 text-green-600" />}</div>
@@ -167,7 +167,7 @@ export default function DeratisationGraceHologgnePage() {
 
       <section style={{ backgroundColor: "#1B4332" }} className="py-14 px-4 text-white text-center">
         <h2 className="text-2xl font-bold mb-3">Rats ou souris à Grâce-Hollogne ?</h2>
-        <p className="mb-6" style={{ color: "#bbf7d0" }}>Intervention sous 24h, devis gratuit, garantie 30 jours.</p>
+        <p className="mb-6" style={{ color: "#bbf7d0" }}>Intervention sous 24h, devis gratuit, garantie de réintervention.</p>
         <Link href="/contact" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity inline-block">
           Demander un devis gratuit →
         </Link>

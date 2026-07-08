@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/fourmis-oupeye" },
   title: "Fourmis Oupeye — Traitement professionnel garanti",
   description:
-    "Invasion de fourmis à Oupeye ? Fourmis charpentières, pharaon, des jardins. Traitement par gel transmissible. Devis gratuit sous 24h, garantie 30 jours.",
+    "Invasion de fourmis à Oupeye ? Fourmis charpentières, pharaon, des jardins. Traitement par gel transmissible. Devis gratuit sous 24h, garantie de réintervention.",
 };
 
 const faqs = [
@@ -26,7 +26,7 @@ const faqs = [
   },
   {
     q: "Combien de temps pour éliminer les fourmis ?",
-    a: "Pour les fourmis des jardins : 1 à 2 semaines après application du gel. Pour les fourmis pharaon : 3 à 6 semaines — les ouvrières rapportent le gel à la reine. Une garantie 30 jours est incluse dans tous nos traitements à Oupeye.",
+    a: "Pour les fourmis des jardins : 1 à 2 semaines après application du gel. Pour les fourmis pharaon : 3 à 6 semaines — les ouvrières rapportent le gel à la reine. Une garantie de réintervention est incluse dans tous nos traitements à Oupeye.",
   },
 ];
 
@@ -41,7 +41,7 @@ const jsonLd = {
     address: { "@type": "PostalAddress", addressLocality: "Oupeye", postalCode: "4680", addressCountry: "BE" },
   },
   areaServed: "Oupeye",
-  description: "Traitement professionnel contre les fourmis à Oupeye. Fourmis pharaon, charpentières, des jardins. Gel transmissible, garantie 30 jours.",
+  description: "Traitement professionnel contre les fourmis à Oupeye. Fourmis pharaon, charpentières, des jardins. Gel transmissible, garantie de réintervention.",
   serviceType: "PestControl",
 };
 
@@ -84,7 +84,7 @@ export default function FourmisOupeyePage() {
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-6">
             Fourmis pharaon, charpentières ou des jardins ? Traitement par gel transmissible,
-            la seule méthode qui élimine la reine et la colonie entière. Garantie 30 jours.
+            la seule méthode qui élimine la reine et la colonie entière. Garantie de réintervention.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
@@ -146,7 +146,7 @@ export default function FourmisOupeyePage() {
           {[
             { emoji: "🔍", t: "Diagnostic d'espèce", d: "Identification précise de l'espèce avant toute intervention — le traitement diffère selon qu'il s'agit de fourmis pharaon, charpentières ou communes." },
             { emoji: "🧪", t: "Gel en micro-doses", d: "Application ciblée derrière les plinthes, sous les appareils, dans les fissures. Aucune odeur, aucune évacuation requise." },
-            { emoji: "✅", t: "Garantie 30 jours", d: "Si des fourmis réapparaissent dans les 30 jours, retour sans frais. Inclus dans toutes nos interventions à Oupeye." },
+            { emoji: "✅", t: "Garantie incluse", d: "Si des fourmis réapparaissent pendant la période de garantie, retour sans frais. Inclus dans toutes nos interventions à Oupeye." },
           ].map((card) => (
             <div key={card.t} className="bg-white border border-gray-200 rounded-xl p-5 shadow-sm">
               <div className="mb-3">{card.emoji === "🔍" ? <SearchIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : card.emoji === "🧪" ? <BeakerIcon className="w-8 h-8" style={{ color: "#1B4332" }} /> : <CheckCircleIcon className="w-8 h-8 text-green-600" />}</div>
@@ -225,7 +225,7 @@ export default function FourmisOupeyePage() {
       <section style={{ backgroundColor: "#1B4332" }} className="py-14 px-4 text-white text-center">
         <h2 className="text-2xl font-bold mb-3">Fourmis à Oupeye ?</h2>
         <p className="mb-6" style={{ color: "#bbf7d0" }}>
-          Diagnostic gratuit sous 24h — gel transmissible, garantie 30 jours.
+          Diagnostic gratuit sous 24h — gel transmissible, garantie de réintervention.
         </p>
         <Link
           href="/contact"

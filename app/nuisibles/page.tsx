@@ -6,12 +6,12 @@ import { phone } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Élimination de Nuisibles en Belgique — Sayonarat",
   description:
-    "Spécialiste en élimination de nuisibles en Belgique. Dératisation, désinsectisation, punaises de lit, guêpes, fourmis, cafards. Intervention sous 24h, techniciens certifiés SPF, garantie 30 jours.",
+    "Spécialiste en élimination de nuisibles en Belgique. Dératisation, désinsectisation, punaises de lit, guêpes, fourmis, cafards. Intervention sous 24h, techniciens enregistrés au SPF, garantie de réintervention.",
   alternates: { canonical: "https://www.sayonarat.be/nuisibles" },
   openGraph: {
     title: "Élimination de Nuisibles en Belgique — Sayonarat",
     description:
-      "Intervention rapide contre tous les nuisibles en Belgique. Techniciens certifiés SPF, garantie 30 jours, disponible 7j/7.",
+      "Intervention rapide contre tous les nuisibles en Belgique. Techniciens enregistrés au SPF, garantie de réintervention, disponible 7j/7.",
     url: "https://www.sayonarat.be/nuisibles",
     siteName: "Sayonarat",
     locale: "fr_BE",
@@ -115,7 +115,7 @@ const faqs = [
   },
   {
     q: "Y a-t-il une garantie ?",
-    a: "Oui, toutes nos interventions sont couvertes par une garantie de 30 jours. En cas de réapparition des nuisibles dans ce délai, nous revenons sans frais supplémentaires.",
+    a: "Oui, toutes nos interventions sont couvertes par une garantie de réintervention. En cas de réapparition des nuisibles dans ce délai, nous revenons sans frais supplémentaires.",
   },
 ];
 
@@ -126,7 +126,7 @@ const jsonLd = {
       "@type": "Service",
       name: "Élimination de Nuisibles en Belgique",
       description:
-        "Services professionnels de dératisation, désinsectisation et traitement des nuisibles en Belgique. Techniciens certifiés SPF, intervention sous 24h, garantie 30 jours.",
+        "Services professionnels de dératisation, désinsectisation et traitement des nuisibles en Belgique. Techniciens enregistrés au SPF, intervention sous 24h, garantie de réintervention.",
       provider: {
         "@type": "LocalBusiness",
         name: "Sayonarat",
@@ -171,14 +171,14 @@ export default function NuisiblesHub() {
       <section style={{ background: "#1B4332" }} className="text-white py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-yellow-400 font-semibold text-sm uppercase tracking-widest mb-3">
-            ✓ SPF Homologué · Intervention sous 24h · Garantie 30 jours
+            ✓ SPF Homologué · Intervention sous 24h · Garantie de réintervention
           </p>
           <h1 className="text-3xl md:text-5xl font-bold mb-4">
             Élimination de Nuisibles en Belgique
           </h1>
           <p className="text-lg text-white/80 mb-8 max-w-2xl mx-auto">
             Rats, cafards, punaises de lit, guêpes… Sayonarat intervient contre
-            tous les nuisibles dans toute la Belgique. Techniciens certifiés
+            tous les nuisibles dans toute la Belgique. Techniciens professionnels
             SPF, disponibles 7j/7.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
@@ -267,7 +267,7 @@ export default function NuisiblesHub() {
             {[
               {
                 icon: "🎓",
-                title: "Techniciens certifiés SPF",
+                title: "Techniciens enregistrés au SPF",
                 desc: "Tous nos techniciens sont agréés par le SPF Santé Publique belge. Produits homologués, méthodes professionnelles.",
               },
               {
@@ -277,8 +277,8 @@ export default function NuisiblesHub() {
               },
               {
                 icon: "🛡️",
-                title: "Garantie 30 jours",
-                desc: "Si les nuisibles réapparaissent dans les 30 jours suivant l'intervention, nous revenons sans frais.",
+                title: "Garantie de réintervention",
+                desc: "Si les nuisibles réapparaissent pendant la période de garantie, nous revenons sans frais.",
               },
               {
                 icon: "💰",
@@ -358,7 +358,7 @@ export default function NuisiblesHub() {
         </h2>
         <p className="text-white/80 mb-8 max-w-xl mx-auto">
           Contactez Sayonarat maintenant. Devis gratuit, intervention sous 24h,
-          garantie 30 jours incluse.
+          garantie de réintervention incluse.
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <a

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/deratisation-flemalle" },
   title: "Dératisation Flémalle — Intervention rapide",
   description:
-    "Dératisation professionnelle à Flémalle. Rats, souris. Intervention sous 24h, devis gratuit, résultat garanti 30 jours.",
+    "Dératisation professionnelle à Flémalle. Rats, souris. Intervention sous 24h, devis gratuit, garantie de réintervention incluse.",
 };
 
 const faqs = [
@@ -77,8 +77,8 @@ export default function DeratisationFlemallePage() {
             Dératisation Flémalle — Intervention rapide | Sayonarat
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-6">
-            Rats ou souris à Flémalle ? Un technicien certifié intervient sous 24h.
-            Traitement efficace, produits homologués, garantie 30 jours incluse.
+            Rats ou souris à Flémalle ? Un technicien professionnel intervient sous 24h.
+            Traitement efficace, produits homologués, garantie de réintervention incluse.
           </p>
           <Link href="/contact" style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
             className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity inline-block">

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/desinsectisation-beyne-heusay" },
   title: "Désinsectisation Beyne-Heusay — Cafards, fourmis, guêpes",
   description:
-    "Désinsectisation professionnelle à Beyne-Heusay. Cafards, fourmis, guêpes. Intervention rapide, garantie 30 jours.",
+    "Désinsectisation professionnelle à Beyne-Heusay. Cafards, fourmis, guêpes. Intervention rapide, garantie de réintervention.",
 };
 
 const faqs = [
@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     q: "Le traitement est-il sans danger pour mes enfants et animaux ?",
-    a: "Oui. Nous utilisons des produits biocides homologués en Belgique, appliqués par des techniciens certifiés. Nous vous indiquons les précautions à prendre pendant et après le traitement (aération, absence temporaire si nécessaire).",
+    a: "Oui. Nous utilisons des produits biocides homologués en Belgique, appliqués par des techniciens professionnels. Nous vous indiquons les précautions à prendre pendant et après le traitement (aération, absence temporaire si nécessaire).",
   },
 ];
 
@@ -46,7 +46,7 @@ const jsonLd = {
   },
   areaServed: "Beyne-Heusay",
   description:
-    "Désinsectisation professionnelle à Beyne-Heusay. Cafards, fourmis, guêpes, mites. Intervention rapide, garantie 30 jours.",
+    "Désinsectisation professionnelle à Beyne-Heusay. Cafards, fourmis, guêpes, mites. Intervention rapide, garantie de réintervention.",
   serviceType: "PestControl",
 };
 
@@ -98,8 +98,8 @@ export default function DesinsectisationBeyneHeusayPage() {
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-6">
             Insectes nuisibles à Beyne-Heusay ? Guêpes dans les combles, cafards en
-            cuisine, fourmis dans le jardin — un technicien certifié intervient sous 24h.
-            Garantie 30 jours, retour sans frais si réinfestation.
+            cuisine, fourmis dans le jardin — un technicien professionnel intervient sous 24h.
+            Garantie de réintervention, retour sans frais si réinfestation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
@@ -178,7 +178,7 @@ export default function DesinsectisationBeyneHeusayPage() {
           </Link>
           <Link href="/mites-alimentaires-beyne-heusay" className="border border-gray-200 rounded-xl p-5 hover:shadow-md hover:border-green-300 transition-all block">
             <h3 className="font-bold text-lg mb-2" style={{ color: "#1B4332" }}>Mites alimentaires à Beyne-Heusay →</h3>
-            <p className="text-sm text-gray-600">Traitement des placards et denrées contaminées. Garantie 30 jours incluse.</p>
+            <p className="text-sm text-gray-600">Traitement des placards et denrées contaminées. Garantie de réintervention incluse.</p>
           </Link>
         </div>
       </section>
@@ -279,7 +279,7 @@ export default function DesinsectisationBeyneHeusayPage() {
       >
         <h2 className="text-2xl font-bold mb-3">Insectes nuisibles à Beyne-Heusay ?</h2>
         <p className="mb-6" style={{ color: "#bbf7d0" }}>
-          Intervention sous 24h. Devis gratuit. Garantie 30 jours.
+          Intervention sous 24h. Devis gratuit. Garantie de réintervention.
         </p>
         <Link
           href="/contact"
