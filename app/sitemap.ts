@@ -5,7 +5,8 @@ const BASE_URL = "https://www.sayonarat.be";
 // Dates based on actual last content change per batch
 const D_CORE = new Date("2026-05-10");    // main service + city pages
 const D_BLOG = new Date("2026-05-08");    // blog posts (published date)
-const D_STATIC = new Date("2026-04-30");  // utility pages (contact, legal)
+const D_STATIC = new Date("2026-04-30");  // utility pages (contact, faq)
+const D_LEGAL = new Date("2026-07-08");   // legal pages (rewritten)
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
@@ -89,8 +90,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/faq`, lastModified: D_BLOG, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/contact`, lastModified: D_STATIC, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/a-propos`, lastModified: D_STATIC, changeFrequency: "monthly", priority: 0.5 },
-    { url: `${BASE_URL}/mentions-legales`, lastModified: D_STATIC, changeFrequency: "yearly", priority: 0.3 },
-    { url: `${BASE_URL}/politique-confidentialite`, lastModified: D_STATIC, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${BASE_URL}/mentions-legales`, lastModified: D_LEGAL, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${BASE_URL}/politique-confidentialite`, lastModified: D_LEGAL, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${BASE_URL}/conditions-generales`, lastModified: D_LEGAL, changeFrequency: "yearly", priority: 0.3 },
     // Cafards × 14 villes
     { url: `${BASE_URL}/cafards-ans`, lastModified: D_CORE, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE_URL}/cafards-awans`, lastModified: D_CORE, changeFrequency: "weekly", priority: 0.8 },

@@ -23,7 +23,7 @@ export default function Footer() {
         <div>
           <h3 className="font-bold text-lg mb-3">Sayonarat</h3>
           <p className="text-green-200 text-sm leading-relaxed">
-            Dératisation et désinsectisation partout en Belgique. Techniciens certifiés,
+            Dératisation et désinsectisation partout en Belgique. Techniciens professionnels,
             intervention rapide 7j/7.
           </p>
           <p className="mt-4 text-yellow-300 font-semibold text-sm">📞 Devis gratuit en 24h</p>
@@ -59,6 +59,7 @@ export default function Footer() {
         <Link href="/a-propos" className="hover:text-white transition-colors">À propos</Link>
         <Link href="/mentions-legales" className="hover:text-white transition-colors">Mentions légales</Link>
         <Link href="/politique-confidentialite" className="hover:text-white transition-colors">Confidentialité</Link>
+        <Link href="/conditions-generales" className="hover:text-white transition-colors">CGV</Link>
       </div>
     </footer>
   );
