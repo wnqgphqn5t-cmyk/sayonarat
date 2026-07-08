@@ -17,7 +17,7 @@ const jsonLd = {
     "Étapes à suivre immédiatement, erreurs à éviter et traitement professionnel punaises de lit à Liège.",
   datePublished: "2026-03-20",
   dateModified: "2026-05-08",
-  author: { "@type": "Person", name: "Victor F." },
+  author: { "@type": "Organization", name: "L'équipe Sayonarat" },
   publisher: {
     "@type": "Organization",
     name: "Sayonarat",
@@ -97,7 +97,7 @@ export default function ArticlePunaisesPage() {
             Punaises de lit : que faire<br />en cas d'infestation à Liège ?
           </h1>
           <p className="text-green-100 text-lg">
-            Par <strong>Victor F.</strong> — Expert en lutte antiparasitaire à Liège
+            Par <strong>L&apos;équipe Sayonarat</strong>
           </p>
         </div>
       </section>
@@ -364,8 +364,8 @@ export default function ArticlePunaisesPage() {
             V
           </div>
           <div>
-            <p className="font-semibold text-gray-800">Victor F.</p>
-            <p>Fondateur de Sayonarat</p>
+            <p className="font-semibold text-gray-800">L&apos;équipe Sayonarat</p>
+            <p>Lutte antiparasitaire en Belgique</p>
           </div>
         </div>
 

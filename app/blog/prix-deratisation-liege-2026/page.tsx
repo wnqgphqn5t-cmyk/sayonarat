@@ -17,7 +17,7 @@ const jsonLd = {
     "Tarifs réels, facteurs qui font varier le prix et ce que comprend une intervention professionnelle de dératisation à Liège.",
   datePublished: "2026-03-25",
   dateModified: "2026-05-08",
-  author: { "@type": "Person", name: "Victor F." },
+  author: { "@type": "Organization", name: "L'équipe Sayonarat" },
   publisher: {
     "@type": "Organization",
     name: "Sayonarat",
@@ -98,7 +98,7 @@ export default function ArticlePrixPage() {
             ce qu'il faut vraiment savoir
           </h1>
           <p className="text-green-100 text-lg">
-            Par <strong>Victor F.</strong> — Expert en lutte antiparasitaire à Liège
+            Par <strong>L&apos;équipe Sayonarat</strong>
           </p>
         </div>
       </section>
@@ -323,8 +323,8 @@ export default function ArticlePrixPage() {
             V
           </div>
           <div>
-            <p className="font-semibold text-gray-800">Victor F.</p>
-            <p>Fondateur de Sayonarat</p>
+            <p className="font-semibold text-gray-800">L&apos;équipe Sayonarat</p>
+            <p>Lutte antiparasitaire en Belgique</p>
           </div>
         </div>
 

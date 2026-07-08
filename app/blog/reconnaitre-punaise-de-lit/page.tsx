@@ -16,7 +16,7 @@ const jsonLd = {
   description: "Identifier les punaises de lit : piqûres, taches, odeur, œufs. Guide complet pour Liège.",
   datePublished: "2026-02-28",
   dateModified: "2026-02-28",
-  author: { "@type": "Person", name: "Victor F." },
+  author: { "@type": "Organization", name: "L'équipe Sayonarat" },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.sayonarat.be/blog/reconnaitre-punaise-de-lit" },
 };
@@ -84,7 +84,7 @@ export default function ArticlePunaisesReconnaitrePage() {
           <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
             Comment reconnaître<br />une punaise de lit ?
           </h1>
-          <p className="text-green-100 text-lg">Par <strong>Victor F.</strong> — Fondateur de Sayonarat</p>
+          <p className="text-green-100 text-lg">Par <strong>L&apos;équipe Sayonarat</strong></p>
         </div>
       </section>
 
@@ -237,10 +237,10 @@ export default function ArticlePunaisesReconnaitrePage() {
         />
 
         <div className="border-t pt-6 text-sm text-gray-500 flex items-center gap-3">
-          <div className="w-10 h-10 rounded-full flex items-center justify-center font-bold text-white flex-shrink-0" style={{ backgroundColor: "#1B4332" }}>V</div>
+          <div className="w-10 h-10 rounded-full flex items-center justify-center font-bold text-white flex-shrink-0" style={{ backgroundColor: "#1B4332" }}>S</div>
           <div>
-            <p className="font-semibold text-gray-800">Victor F.</p>
-            <p>Fondateur de Sayonarat</p>
+            <p className="font-semibold text-gray-800">L&apos;équipe Sayonarat</p>
+            <p>Lutte antiparasitaire en Belgique</p>
           </div>
         </div>
 

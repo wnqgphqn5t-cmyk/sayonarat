@@ -17,7 +17,7 @@ const jsonLd = {
     "Bruits la nuit, excréments, traces de morsures : comment identifier une infestation de rats ou souris avant qu'elle s'aggrave.",
   datePublished: "2026-03-30",
   dateModified: "2026-05-08",
-  author: { "@type": "Person", name: "Victor F." },
+  author: { "@type": "Organization", name: "L'équipe Sayonarat" },
   publisher: {
     "@type": "Organization",
     name: "Sayonarat",
@@ -98,7 +98,7 @@ export default function ArticleRatsPage() {
             Les 7 signes à ne pas ignorer
           </h1>
           <p className="text-green-100 text-lg">
-            Par <strong>Victor F.</strong> — Expert en lutte antiparasitaire à Liège
+            Par <strong>L&apos;équipe Sayonarat</strong>
           </p>
         </div>
       </section>
@@ -321,8 +321,8 @@ export default function ArticleRatsPage() {
             V
           </div>
           <div>
-            <p className="font-semibold text-gray-800">Victor F.</p>
-            <p>Fondateur de Sayonarat</p>
+            <p className="font-semibold text-gray-800">L&apos;équipe Sayonarat</p>
+            <p>Lutte antiparasitaire en Belgique</p>
           </div>
         </div>
 

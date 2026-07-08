@@ -45,10 +45,10 @@ const valeurs = [
 ];
 
 const timeline = [
-  { annee: "2023", titre: "La frustration", desc: "Victor F. constate que trouver un technicien disponible à Liège relève du parcours du combattant — délais longs, prix opaques, qualité variable." },
+  { annee: "2023", titre: "La frustration", desc: "Un constat s'impose : trouver un technicien disponible à Liège relève du parcours du combattant — délais longs, prix opaques, qualité variable." },
   { annee: "2024", titre: "Le déclic", desc: "Réunion d'une équipe de techniciens antiparasitaires expérimentés autour d'un objectif commun : un service local, rapide et transparent." },
   { annee: "2025", titre: "Le lancement", desc: "Ouverture du service à Liège et aux 5 communes voisines : Seraing, Herstal, Ans, Saint-Nicolas, Flémalle." },
-  { annee: "2026", titre: "L'expansion", desc: "Plus de 500 interventions réalisées, extension aux services guêpes/frelons et mites alimentaires. Couverture étendue à toute la Belgique francophone." },
+  { annee: "2026", titre: "L'expansion", desc: "Extension aux services guêpes/frelons et mites alimentaires. Couverture étendue à toute la Belgique francophone." },
 ];
 
 const jsonLd = {
@@ -58,7 +58,6 @@ const jsonLd = {
   url: "https://www.sayonarat.be",
   description: "Plateforme de mise en relation avec des techniciens professionnels en dératisation et désinsectisation en Belgique.",
   foundingDate: "2023",
-  founder: { "@type": "Person", name: "Victor F." },
   address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   telephone: phone,
   email: "contact@sayonarat.be",
@@ -112,12 +111,12 @@ export default function AProposPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-start mb-16">
           <div className="md:col-span-1">
             <div className="rounded-2xl p-6 border-2 border-green-100 bg-green-50">
-              <p className="text-xs uppercase tracking-widest font-semibold mb-3" style={{ color: "#FBBF24" }}>Fondateur</p>
-              <h3 className="text-2xl font-bold mb-2" style={{ color: "#1B4332" }}>Victor F.</h3>
-              <p className="text-sm text-gray-600 mb-4">Expert antiparasitaire · Belgique</p>
+              <p className="text-xs uppercase tracking-widest font-semibold mb-3" style={{ color: "#FBBF24" }}>Qui sommes-nous</p>
+              <h3 className="text-2xl font-bold mb-2" style={{ color: "#1B4332" }}>L&apos;équipe Sayonarat</h3>
+              <p className="text-sm text-gray-600 mb-4">Lutte antiparasitaire · Belgique</p>
               <div className="space-y-2 text-xs text-gray-500">
-                <div className="flex items-center gap-2"><BadgeCheckIcon className="w-4 h-4 inline" style={{ color: "#1B4332" }} /> Enregistré biocides SPF</div>
-                <div className="flex items-center gap-2"><MapPinIcon className="w-4 h-4 inline" style={{ color: "#1B4332" }} /> 10+ ans sur le terrain belge</div>
+                <div className="flex items-center gap-2"><BadgeCheckIcon className="w-4 h-4 inline" style={{ color: "#1B4332" }} /> Enregistrés biocides SPF</div>
+                <div className="flex items-center gap-2"><MapPinIcon className="w-4 h-4 inline" style={{ color: "#1B4332" }} /> Interventions partout en Belgique</div>
                 <div className="flex items-center gap-2"><GraduationCapIcon className="w-4 h-4 inline" style={{ color: "#1B4332" }} /> Formation continue</div>
               </div>
             </div>
@@ -128,8 +127,8 @@ export default function AProposPage() {
               Notre mission
             </h2>
             <p className="text-gray-700 mb-4 leading-relaxed">
-              Sayonarat a été fondé par Victor F. et une équipe d&apos;experts de la lutte
-              antiparasitaire avec un constat simple : trouver un technicien professionnel
+              Sayonarat est né d&apos;un constat simple, partagé par des professionnels
+              de la lutte antiparasitaire : trouver un technicien professionnel
               et disponible rapidement en Belgique est souvent un parcours du combattant.
               Les délais sont longs, les prix peu transparents, et la qualité variable.
             </p>

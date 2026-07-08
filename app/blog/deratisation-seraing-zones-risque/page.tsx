@@ -17,7 +17,7 @@ const jsonLd = {
     "Analyse des facteurs de risque à Seraing (friches industrielles, Meuse, bâti ancien) et comment protéger son logement.",
   datePublished: "2026-03-10",
   dateModified: "2026-03-10",
-  author: { "@type": "Person", name: "Victor F." },
+  author: { "@type": "Organization", name: "L'équipe Sayonarat" },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },
   mainEntityOfPage: {
     "@type": "WebPage",
@@ -93,7 +93,7 @@ export default function ArticleSeraingPage() {
             Dératisation Seraing :<br />pourquoi cette commune est<br />particulièrement exposée
           </h1>
           <p className="text-green-100 text-lg">
-            Par <strong>Victor F.</strong> — Expert en lutte antiparasitaire à Liège
+            Par <strong>L&apos;équipe Sayonarat</strong>
           </p>
         </div>
       </section>
@@ -311,8 +311,8 @@ export default function ArticleSeraingPage() {
             V
           </div>
           <div>
-            <p className="font-semibold text-gray-800">Victor F.</p>
-            <p>Fondateur de Sayonarat</p>
+            <p className="font-semibold text-gray-800">L&apos;équipe Sayonarat</p>
+            <p>Lutte antiparasitaire en Belgique</p>
           </div>
         </div>
 

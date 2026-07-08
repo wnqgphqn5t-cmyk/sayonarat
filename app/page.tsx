@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import {
   RatIcon, CockroachIcon, BedBugIcon, WaspIcon, AntIcon, MothIcon,
-  BoltIcon, BadgeCheckIcon, ShieldCheckIcon, StarIcon,
+  BoltIcon, BadgeCheckIcon, ShieldCheckIcon,
 } from "@/components/Icons";
 import type { ComponentType, SVGProps } from "react";
 import { phone } from "@/lib/site";
@@ -456,31 +456,6 @@ export default function HomePage() {
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Témoignages */}
-      <section className="py-16 px-4 max-w-5xl mx-auto">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-2" style={{ color: "#1B4332" }}>
-          Ce que disent nos clients
-        </h2>
-        <p className="text-center text-gray-500 mb-10">Plus de 500 interventions réalisées en Belgique</p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {[
-            { name: "Sophie M.", ville: "Liège", texte: "Problème de rats dans le grenier réglé en une intervention. Technicien professionnel et rapide. Je recommande vivement." },
-            { name: "David K.", ville: "Seraing", texte: "Punaises de lit dans notre chambre. Sayonarat est intervenu le lendemain. Aucune trace depuis 2 mois. Parfait." },
-            { name: "Nathalie B.", ville: "Herstal", texte: "Infestation de cafards dans la cuisine. Devis gratuit rapidement, intervention efficace. Prix correct pour la qualité." },
-          ].map((t) => (
-            <div key={t.name} className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
-              <div className="flex gap-0.5 mb-3">
-                {Array.from({ length: 5 }).map((_, i) => (
-                  <StarIcon key={i} className="w-4 h-4 text-yellow-400" />
-                ))}
-              </div>
-              <p className="text-gray-600 text-sm mb-4 italic">&ldquo;{t.texte}&rdquo;</p>
-              <div className="font-bold text-sm" style={{ color: "#1B4332" }}>{t.name} — {t.ville}</div>
-            </div>
-          ))}
         </div>
       </section>
 
