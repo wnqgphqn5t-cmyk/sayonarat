@@ -151,7 +151,7 @@ export default function MitesAlimentairesLiegePage() {
           <h2 className="text-xl font-bold mb-2">Des mites alimentaires à Liège ?</h2>
           <p className="text-green-200 mb-5 text-sm">Devis gratuit sous 24h. Intervention sous 48h.</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <a href="tel:" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-6 py-3 rounded-lg hover:opacity-90 transition-opacity">
+            <a href="tel:+32472487954" style={{ backgroundColor: "#FBBF24", color: "#14532d" }} className="font-bold px-6 py-3 rounded-lg hover:opacity-90 transition-opacity">
               Appeler maintenant
             </a>
             <Link href="/contact" className="border-2 border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-white hover:text-green-900 transition-colors">

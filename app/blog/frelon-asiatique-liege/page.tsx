@@ -239,7 +239,7 @@ export default function FrelonAsiatiqueLiegePage() {
             Voir notre service guêpes & frelons →
           </Link>
           <a
-            href="tel:"
+            href="tel:+32472487954"
             style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
             className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-center"
           >

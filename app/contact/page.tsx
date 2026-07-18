@@ -92,7 +92,7 @@ export default function ContactPage() {
               Appelez-nous directement pour une intervention le jour même.
             </p>
             <a
-              href="tel:"
+              href="tel:+32472487954"
               style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
               className="block text-center font-bold py-3 rounded-lg hover:opacity-90 transition-opacity text-lg"
             >

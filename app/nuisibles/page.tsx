@@ -362,7 +362,7 @@ export default function NuisiblesHub() {
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <a
-            href="tel:"
+            href="tel:+32472487954"
             className="bg-yellow-400 text-green-900 font-bold px-8 py-3 rounded-lg text-lg hover:bg-yellow-300 transition-colors"
           >
             Appeler maintenant

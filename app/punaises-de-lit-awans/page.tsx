@@ -110,7 +110,7 @@ export default function PunaisesLitAwansPage() {
               Devis gratuit sous 24h →
             </Link>
             <a
-              href="tel:"
+              href="tel:+32472487954"
               style={{ backgroundColor: "white", color: "#1B4332" }}
               className="font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity inline-block text-center"
             >
