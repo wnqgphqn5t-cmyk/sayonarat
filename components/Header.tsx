@@ -42,6 +42,12 @@ export default function Header() {
           <Logo onClick={() => setOpen(false)} />
 
           <div className="flex items-center gap-3">
+            <a
+              href="tel:+32472487954"
+              className="hidden sm:inline-flex items-center gap-1.5 text-white font-semibold text-sm hover:text-yellow-300 transition-colors"
+            >
+              <span aria-hidden="true">📞</span> 0472 48 79 54
+            </a>
             <Link
               href="/contact"
               className="bg-yellow-400 text-green-900 font-bold px-4 py-2 rounded hover:bg-yellow-300 transition-colors text-sm hidden sm:inline-block"
@@ -99,6 +105,13 @@ export default function Header() {
 
       {/* Barre flottante mobile */}
       <div className="fixed bottom-0 left-0 right-0 z-50 sm:hidden flex border-t border-green-800 shadow-2xl">
+        <a
+          href="tel:+32472487954"
+          style={{ backgroundColor: "#14532d" }}
+          className="flex-1 flex items-center justify-center gap-2 py-4 font-bold text-sm text-white"
+        >
+          📞 Appeler
+        </a>
         <Link
           href="/contact"
           style={{ backgroundColor: "#FBBF24", color: "#14532d" }}

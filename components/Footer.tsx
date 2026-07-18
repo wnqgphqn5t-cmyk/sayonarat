@@ -26,7 +26,12 @@ export default function Footer() {
             Dératisation et désinsectisation partout en Belgique. Techniciens professionnels,
             intervention rapide 7j/7.
           </p>
-          <p className="mt-4 text-yellow-300 font-semibold text-sm">📞 Devis gratuit en 24h</p>
+          <a
+            href="tel:+32472487954"
+            className="mt-4 inline-flex items-center gap-2 text-yellow-300 font-semibold text-sm hover:text-yellow-200 transition-colors"
+          >
+            📞 0472 48 79 54
+          </a>
         </div>
 
         <div>

@@ -117,10 +117,16 @@ export default function UrgencePage() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-10">
-            <Link
-              href="/contact"
+            <a
+              href="tel:+32472487954"
               className="rounded-2xl font-bold px-8 py-5 text-center text-lg transition-all hover:scale-[1.02] shadow-2xl"
               style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
+            >
+              📞 0472 48 79 54
+            </a>
+            <Link
+              href="/contact"
+              className="rounded-2xl font-bold px-8 py-5 text-center text-lg transition-all hover:scale-[1.02] border-2 border-white/40 backdrop-blur-sm text-white"
             >
               Demander une intervention →
             </Link>
@@ -257,13 +263,21 @@ export default function UrgencePage() {
             Une simple demande suffit pour déclencher l&apos;intervention.
           </p>
 
-          <Link
-            href="/contact"
-            className="inline-flex items-center gap-4 rounded-2xl font-bold px-10 py-6 text-xl transition-all hover:scale-[1.02] shadow-2xl"
-            style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
-          >
-            Demander une intervention →
-          </Link>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="tel:+32472487954"
+              className="inline-flex items-center justify-center gap-2 rounded-2xl font-bold px-10 py-6 text-xl transition-all hover:scale-[1.02] shadow-2xl"
+              style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
+            >
+              📞 0472 48 79 54
+            </a>
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center gap-4 rounded-2xl font-bold px-10 py-6 text-xl transition-all hover:scale-[1.02] border-2 border-white/40 backdrop-blur-sm text-white"
+            >
+              Demander une intervention →
+            </Link>
+          </div>
         </div>
       </section>
     </>

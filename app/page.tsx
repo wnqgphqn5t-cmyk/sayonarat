@@ -273,17 +273,23 @@ export default function HomePage() {
                 </div>
               ))}
             </div>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-6">
+            <div className="flex flex-col sm:flex-row flex-wrap gap-4 justify-center md:justify-start mb-6">
               <Link
                 href="/contact"
                 style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
-                className="font-bold px-8 py-4 rounded-xl hover:opacity-90 transition-opacity text-lg shadow-lg"
+                className="font-bold px-8 py-4 rounded-xl hover:opacity-90 transition-opacity text-lg shadow-lg text-center"
               >
                 Demander un devis gratuit
               </Link>
+              <a
+                href="tel:+32472487954"
+                className="flex items-center justify-center gap-2 border-2 border-white/40 backdrop-blur-sm text-white font-semibold px-8 py-4 rounded-xl hover:bg-white/10 transition-colors text-lg"
+              >
+                📞 0472 48 79 54
+              </a>
               <Link
                 href="/urgence"
-                className="border-2 border-white/40 backdrop-blur-sm text-white font-semibold px-8 py-4 rounded-xl hover:bg-white/10 transition-colors text-lg"
+                className="border-2 border-white/40 backdrop-blur-sm text-white font-semibold px-8 py-4 rounded-xl hover:bg-white/10 transition-colors text-lg text-center"
               >
                 Urgence 7j/7
               </Link>
@@ -485,13 +491,22 @@ export default function HomePage() {
           Une infestation ne se règle pas seul. Plus on attend, plus elle s&apos;étend.
           Devis gratuit sous 24h, technicien chez vous rapidement partout en Belgique.
         </p>
-        <Link
-          href="/contact"
-          style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
-          className="font-bold px-10 py-4 rounded-lg hover:opacity-90 transition-opacity text-lg inline-block"
-        >
-          Devis gratuit en 24h →
-        </Link>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <Link
+            href="/contact"
+            style={{ backgroundColor: "#FBBF24", color: "#14532d" }}
+            className="font-bold px-10 py-4 rounded-lg hover:opacity-90 transition-opacity text-lg inline-block"
+          >
+            Devis gratuit en 24h →
+          </Link>
+          <a
+            href="tel:+32472487954"
+            style={{ borderColor: "#FBBF24", color: "#FBBF24" }}
+            className="border-2 font-bold px-10 py-4 rounded-lg hover:bg-white/10 transition-colors text-lg inline-flex items-center justify-center gap-2"
+          >
+            📞 0472 48 79 54
+          </a>
+        </div>
       </section>
     </>
   );
