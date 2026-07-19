@@ -257,7 +257,7 @@ export default function HomePage() {
               <span style={{ color: "#FBBF24" }}>partout en Belgique</span>
             </h1>
             <p className="text-lg text-green-100 max-w-2xl mb-6">
-              Un technicien enregistré au SPF chez vous en <strong>moins de 24h</strong>, partout en Belgique.
+              Un expert intervient chez vous en <strong>moins de 24h</strong>, partout en Belgique.
               Chaque intervention inclut un suivi de contrôle offert.
             </p>
             <div className="flex flex-wrap gap-4 mb-8 text-sm">
