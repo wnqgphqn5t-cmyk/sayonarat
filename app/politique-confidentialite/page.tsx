@@ -40,7 +40,7 @@ export default function PolitiqueConfidentialitePage() {
             Kalken 9, bte 8, 1070 Anderlecht, Belgique (TVA BE 1039.714.690), est responsable du
             traitement de vos données personnelles au sens du Règlement (UE) 2016/679 (« RGPD »)
             et de la loi belge du 30 juillet 2018. Pour toute question relative à vos données :{" "}
-            <a href="mailto:contact@sayonarat.be" className="underline" style={{ color: "#1B4332" }}>contact@sayonarat.be</a>.
+            <a href="mailto:contact@antinox.be" className="underline" style={{ color: "#1B4332" }}>contact@antinox.be</a>.
           </p>
         </div>
 
@@ -114,7 +114,7 @@ export default function PolitiqueConfidentialitePage() {
             Conformément aux articles 15 à 22 du RGPD, vous disposez d&apos;un droit d&apos;accès, de
             rectification, d&apos;effacement, de limitation du traitement, de portabilité et
             d&apos;opposition. Pour exercer ces droits, adressez votre demande à{" "}
-            <a href="mailto:contact@sayonarat.be" className="underline" style={{ color: "#1B4332" }}>contact@sayonarat.be</a>{" "}
+            <a href="mailto:contact@antinox.be" className="underline" style={{ color: "#1B4332" }}>contact@antinox.be</a>{" "}
             ; une preuve d&apos;identité pourra être demandée. Une réponse vous sera apportée dans un
             délai d&apos;un mois.
           </p>
@@ -148,7 +148,7 @@ export default function PolitiqueConfidentialitePage() {
         </div>
 
         <div className="pt-4 border-t border-gray-100 text-sm text-gray-500">
-          Pour toute question : <a href="mailto:contact@sayonarat.be" className="underline" style={{ color: "#1B4332" }}>contact@sayonarat.be</a>
+          Pour toute question : <a href="mailto:contact@antinox.be" className="underline" style={{ color: "#1B4332" }}>contact@antinox.be</a>
           {" "}·{" "}
           <Link href="/mentions-legales" className="underline" style={{ color: "#1B4332" }}>Mentions légales</Link>
           {" "}·{" "}

@@ -41,7 +41,7 @@ export default function MentionsLegalesPage() {
             Siège social : Avenue Frans van Kalken 9, bte 8, 1070 Anderlecht, Belgique<br />
             TVA : BE 1039.714.690<br />
             RPM : tribunal de l&apos;entreprise francophone de Bruxelles<br />
-            E-mail : <a href="mailto:contact@sayonarat.be" className="underline" style={{ color: "#1B4332" }}>contact@sayonarat.be</a>
+            E-mail : <a href="mailto:contact@antinox.be" className="underline" style={{ color: "#1B4332" }}>contact@antinox.be</a>
           </p>
         </div>
 

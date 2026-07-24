@@ -217,7 +217,7 @@ const jsonLd = {
     closes: "22:00",
   },
   telephone: phone,
-  email: "contact@sayonarat.be",
+  email: "contact@antinox.be",
   priceRange: "€€",
   areaServed: "BE",
   sameAs: ["https://www.sayonarat.be"],

@@ -26,8 +26,8 @@ function Article({ title, children }: { title: string; children: React.ReactNode
 }
 
 const EMAIL = (
-  <a href="mailto:contact@sayonarat.be" className="underline" style={{ color: "#1B4332" }}>
-    contact@sayonarat.be
+  <a href="mailto:contact@antinox.be" className="underline" style={{ color: "#1B4332" }}>
+    contact@antinox.be
   </a>
 );
 
@@ -215,7 +215,7 @@ export default function ConditionsGeneralesPage() {
           <p>
             Formulaire type de rétractation — à compléter et renvoyer uniquement si vous
             souhaitez vous rétracter : « À l&apos;attention d&apos;Antinox SRL (Sayonarat), Avenue Frans
-            van Kalken 9, bte 8, 1070 Anderlecht, contact@sayonarat.be : Je/nous (*) vous
+            van Kalken 9, bte 8, 1070 Anderlecht, contact@antinox.be : Je/nous (*) vous
             notifie/notifions (*) par la présente ma/notre (*) rétractation du contrat portant
             sur la prestation de services ci-dessous : — Commandé le (*) : — Nom du/des
             consommateur(s) : — Adresse du/des consommateur(s) : — Date : — Signature

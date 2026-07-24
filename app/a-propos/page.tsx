@@ -60,7 +60,7 @@ const jsonLd = {
   foundingDate: "2023",
   address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   telephone: phone,
-  email: "contact@sayonarat.be",
+  email: "contact@antinox.be",
   areaServed: "BE",
 };
 

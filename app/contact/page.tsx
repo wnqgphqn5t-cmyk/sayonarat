@@ -21,7 +21,7 @@ const jsonLd = {
     "@type": "LocalBusiness",
     name: "Sayonarat",
     telephone: phone,
-    email: "contact@sayonarat.be",
+    email: "contact@antinox.be",
     address: { "@type": "PostalAddress", addressLocality: "Liège", postalCode: "4000", addressCountry: "BE" },
   },
 };
