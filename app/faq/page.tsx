@@ -30,7 +30,7 @@ const faqSchema = {
     {
       "@type": "Question",
       name: "Les produits utilisés sont-ils dangereux pour les enfants et les animaux ?",
-      acceptedAnswer: { "@type": "Answer", text: "Non, après le temps de séchage recommandé (généralement 2 à 4 heures). Les produits utilisés sont homologués en Belgique par l'AFSCA. Pendant l'intervention, il est recommandé de quitter le logement avec les animaux de compagnie. Le technicien vous indique le délai précis avant réintégration." },
+      acceptedAnswer: { "@type": "Answer", text: "Non, après le temps de séchage recommandé (généralement 2 à 4 heures). Les produits utilisés sont des biocides autorisés en Belgique par le SPF Santé publique. Pendant l'intervention, il est recommandé de quitter le logement avec les animaux de compagnie. Le technicien vous indique le délai précis avant réintégration." },
     },
     {
       "@type": "Question",

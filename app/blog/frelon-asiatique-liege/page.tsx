@@ -191,10 +191,10 @@ export default function FrelonAsiatiqueLiegePage() {
           <p className="text-sm text-gray-700 mt-1">
             Août et septembre sont les mois où la plupart des nids sont enfin repérés : la colonie
             est à son maximum et le va-et-vient des ouvrières devient impossible à manquer.
-            C'est aussi la période où l'intervention est la plus complexe — un nid d'août peut
-            abriter plusieurs milliers d'individus, contre quelques centaines au printemps.
-            Ne restez pas à observer un nid en hauteur : notez sa position et faites appel à un
-            professionnel équipé.
+            Le piège : à ce stade, la reine a déjà produit les futures fondatrices qui hiverneront
+            pour fonder d'autres nids au printemps suivant. Un nid détecté en août ne se traite donc
+            pas seulement pour la sécurité immédiate. Ne restez pas à observer un nid en hauteur :
+            notez sa position, photographiez-le de loin, et faites appel à un professionnel équipé.
           </p>
         </div>
 

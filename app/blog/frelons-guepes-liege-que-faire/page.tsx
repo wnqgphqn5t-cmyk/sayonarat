@@ -113,10 +113,12 @@ export default function ArticleFrelonsPage() {
         </div>
 
         <p>
-          Chaque été, les appels pour nids de guêpes et frelons explosent en région liégeoise —
-          juillet et août sont les mois de pic. Les nids atteignent leur taille maximale en fin d'été
-          (jusqu'à 10 000 individus pour les guêpes germaniques) et les colonies deviennent plus
-          agressives à mesure que la saison avance.
+          Passé le premier gel, le problème se règle seul : la colonie meurt et le nid n'est jamais
+          recolonisé l'année suivante. C'est la raison pour laquelle un nid réellement isolé — fond
+          de jardin, faîtage inaccessible — peut être laissé en place. Tout l'enjeu est donc de
+          trancher entre les deux cas : un nid qu'on peut ignorer jusqu'en novembre, et un nid qui
+          impose une intervention parce qu'il est sur un passage, en intérieur, ou près d'une
+          personne allergique — chez qui une seule piqûre peut déclencher un choc anaphylactique.
         </p>
 
         <section>

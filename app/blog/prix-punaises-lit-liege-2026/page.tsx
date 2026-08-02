@@ -99,10 +99,10 @@ export default function PrixPunaisesLitPage() {
           <p className="text-gray-700 leading-relaxed">
             Un traitement punaises de lit à Liège coûte entre <strong>150 € et 450 €</strong> :
             comptez 150–300 € en chimique et 250–450 € en thermique pour un logement standard.
-            Le facteur de prix n°1 est la surface à traiter, pas la méthode. Le thermique coûte
-            plus cher au départ mais tue les œufs en une seule session — sur une infestation
-            installée, c'est souvent le moins cher au total. Le devis définitif est établi après
-            diagnostic du niveau d'infestation.
+            Deux paramètres pèsent autant l'un que l'autre : la méthode choisie et la surface à
+            traiter. Le thermique coûte plus cher au départ mais tue les œufs en une seule session —
+            sur une infestation installée, c'est souvent le moins cher au total. Le devis définitif
+            est établi après diagnostic du niveau d'infestation.
           </p>
         </div>
 
