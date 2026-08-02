@@ -16,7 +16,7 @@ const jsonLd = {
   description:
     "Tarifs réels, facteurs qui font varier le prix et ce que comprend une intervention professionnelle de dératisation à Liège.",
   datePublished: "2026-03-25",
-  dateModified: "2026-05-08",
+  dateModified: "2026-08-02",
   author: { "@type": "Organization", name: "L'équipe Sayonarat" },
   publisher: {
     "@type": "Organization",
@@ -91,7 +91,7 @@ export default function ArticlePrixPage() {
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-green-700 text-white">
               Tarifs
             </span>
-            <span className="text-xs text-green-300">8 mai 2026 · 4 min de lecture</span>
+            <span className="text-xs text-green-300">2 août 2026 · 4 min de lecture</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
             Prix d'une dératisation à Liège en 2026 :<br />
@@ -157,11 +157,13 @@ export default function ArticlePrixPage() {
             * Tarifs indicatifs pour la région de Liège. Prix hors TVA. Devis gratuit pour votre situation exacte.
           </p>
           <div className="mt-4 bg-amber-50 border-l-4 border-amber-400 rounded-r-xl p-4">
-            <p className="font-semibold text-amber-800 text-sm">Printemps–été 2026 : vérifiez vos jardins et terrasses</p>
+            <p className="font-semibold text-amber-800 text-sm">Août 2026 : traiter maintenant coûte moins cher qu'en octobre</p>
             <p className="text-sm text-gray-700 mt-1">
-              Avec le retour des beaux jours, les rats étendent leur territoire vers les jardins et terrasses.
-              Les terriers creusés sous les dalles ou près des composteurs sont plus visibles au printemps.
-              C'est le bon moment pour inspecter et traiter avant que la colonie s'installe durablement.
+              En août, les colonies de rats sont encore majoritairement dehors — jardins, terrasses,
+              abords de composteurs — et les terriers restent visibles sous les dalles et les haies.
+              Dès les premières nuits froides d'octobre, ces mêmes colonies migrent vers les caves et
+              les vides sanitaires : l'infestation devient intérieure, plus étendue, et le traitement
+              plus long. Un diagnostic en fin d'été reste dans la fourchette basse du tableau ci-dessus.
             </p>
           </div>
         </section>
@@ -306,11 +308,11 @@ export default function ArticlePrixPage() {
             },
             {
               label: "Sciensano — Leptospirose : surveillance épidémiologique en Belgique",
-              href: "https://www.sciensano.be/fr/sujets-sante/leptospirose",
+              href: "https://www.sciensano.be/fr/topics/leptospirose",
             },
             {
-              label: "SPF Économie — Transparence des prix des services en Belgique",
-              href: "https://economie.fgov.be/fr/themes/prix",
+              label: "SPF Économie — Indication des prix : obligations légales en Belgique",
+              href: "https://economie.fgov.be/fr/themes/ventes/politique-des-prix/indication-des-prix",
             },
           ]}
         />
@@ -320,7 +322,7 @@ export default function ArticlePrixPage() {
             className="w-10 h-10 rounded-full flex items-center justify-center font-bold text-white flex-shrink-0"
             style={{ backgroundColor: "#1B4332" }}
           >
-            V
+            S
           </div>
           <div>
             <p className="font-semibold text-gray-800">L&apos;équipe Sayonarat</p>

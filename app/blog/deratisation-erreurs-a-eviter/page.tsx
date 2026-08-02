@@ -186,7 +186,7 @@ export default function ArticleErreursDeratisationPage() {
             },
             {
               label: "Sciensano — Leptospirose : surveillance épidémiologique en Belgique",
-              href: "https://www.sciensano.be/fr/sujets-sante/leptospirose",
+              href: "https://www.sciensano.be/fr/topics/leptospirose",
             },
             {
               label: "OMS — Sécurité sanitaire des aliments et rongeurs",

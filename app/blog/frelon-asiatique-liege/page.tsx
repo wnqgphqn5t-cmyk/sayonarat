@@ -24,11 +24,11 @@ const faqs = [
   },
   {
     q: "Que faire si je vois un frelon asiatique à Liège ?",
-    a: "1) Ne pas l'approcher ni essayer de le capturer. 2) Observer où il vole pour repérer l'emplacement du nid. 3) Contacter Sayonarat ou la commune pour signalement. 4) Ne jamais tenter de détruire le nid soi-même — risque d'attaque massive.",
+    a: "1) Ne pas l'approcher ni essayer de le capturer. 2) Observer où il vole pour repérer l'emplacement du nid. 3) Signaler l'observation via le formulaire « espèces exotiques envahissantes » de l'Observatoire de la biodiversité de Wallonie (SPW) — une photo augmente fortement les chances de validation. 4) Ne jamais tenter de détruire le nid soi-même — risque d'attaque massive.",
   },
   {
     q: "Le frelon asiatique est-il protégé en Belgique ?",
-    a: "Non. Le frelon asiatique est une espèce exotique invasive non protégée. Sa destruction est autorisée et recommandée par les autorités belges, à condition d'être réalisée par un professionnel équipé. Le frelon commun, lui, bénéficie d'une protection partielle comme auxiliaire naturel.",
+    a: "Non. Le frelon asiatique est une espèce exotique envahissante préoccupante pour l'Union européenne, et n'est pas protégé. En Wallonie, il n'existe cependant aucune obligation légale de signaler ou de détruire un nid : le Service public de Wallonie encourage la notification, et la destruction reste un choix du propriétaire — à confier à un professionnel équipé. Le frelon commun, lui, est un auxiliaire naturel qu'il vaut mieux laisser en place s'il ne présente pas de danger.",
   },
 ];
 
@@ -37,10 +37,10 @@ const jsonLd = {
   "@type": "Article",
   headline: "Frelon asiatique à Liège : comment le reconnaître et que faire ?",
   description: "Guide complet sur le frelon asiatique à Liège : identification, différences avec le frelon commun, localisation des nids et procédure d'intervention.",
-  author: { "@type": "Organization", name: "Sayonarat" },
+  author: { "@type": "Organization", name: "L'équipe Sayonarat" },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },
   datePublished: "2026-04-20",
-  dateModified: "2026-05-08",
+  dateModified: "2026-08-02",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.sayonarat.be/blog/frelon-asiatique-liege" },
 };
 
@@ -79,7 +79,7 @@ export default function FrelonAsiatiqueLiegePage() {
           </p>
           <div className="flex items-center gap-3 mb-4">
             <span className="text-xs font-semibold px-3 py-1 rounded-full text-white bg-amber-600">Désinsectisation</span>
-            <span className="text-xs text-green-300">8 mai 2026 · 6 min de lecture</span>
+            <span className="text-xs text-green-300">2 août 2026 · 6 min de lecture</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
             Frelon asiatique à Liège : comment le reconnaître et que faire ?
@@ -108,9 +108,15 @@ export default function FrelonAsiatiqueLiegePage() {
         </h2>
         <p className="text-gray-700 mb-4 leading-relaxed">
           Arrivé en France en 2004 via un chargement de poteries en provenance de Chine,
-          le frelon asiatique (<em>Vespa velutina nigrithorax</em>) a colonisé la Belgique
-          à partir de 2011. En 2026, il est désormais présent dans toute la province de Liège,
-          y compris dans les communes urbaines comme Seraing, Herstal et Ans.
+          le frelon asiatique (<em>Vespa velutina nigrithorax</em>) a atteint la Belgique
+          fin 2016, avec une première observation à Tournai. Dix ans plus tard, il est
+          solidement implanté sur l'ensemble du territoire wallon — dont toute la province
+          de Liège, y compris les communes urbaines comme Seraing, Herstal et Ans.
+        </p>
+        <p className="text-gray-700 mb-4 leading-relaxed">
+          L'ampleur de l'expansion est difficile à saisir depuis un jardin : le Service public
+          de Wallonie estime que l'espèce a construit <strong>près d'un million de nids en
+          Europe occidentale durant le seul été 2025</strong>.
         </p>
         <p className="text-gray-700 mb-8 leading-relaxed">
           Son expansion pose deux problèmes majeurs : une menace directe pour les personnes
@@ -181,11 +187,14 @@ export default function FrelonAsiatiqueLiegePage() {
           d'août qui peut abriter jusqu'à 6 000 individus.
         </p>
         <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-xl p-4 mb-8">
-          <p className="font-semibold text-amber-800 text-sm">🌿 Printemps 2026 : fenêtre de détection précoce ouverte</p>
+          <p className="font-semibold text-amber-800 text-sm">Août 2026 : les nids deviennent visibles — et bien plus gros</p>
           <p className="text-sm text-gray-700 mt-1">
-            Mai 2026 : les nids fondés en avril commencent à grossir — une reine peut pondre jusqu'à 200 œufs par jour.
-            C'est encore le bon moment pour intervenir avant que la colonie atteigne plusieurs centaines d'individus.
-            Dès juillet, les nids de frelon asiatique peuvent compter plus de 3 000 individus et l'intervention devient nettement plus complexe.
+            Août et septembre sont les mois où la plupart des nids sont enfin repérés : la colonie
+            est à son maximum et le va-et-vient des ouvrières devient impossible à manquer.
+            C'est aussi la période où l'intervention est la plus complexe — un nid d'août peut
+            abriter plusieurs milliers d'individus, contre quelques centaines au printemps.
+            Ne restez pas à observer un nid en hauteur : notez sa position et faites appel à un
+            professionnel équipé.
           </p>
         </div>
 
@@ -266,8 +275,12 @@ export default function FrelonAsiatiqueLiegePage() {
               href: "https://www.health.belgium.be/fr/liste-des-biocides-autorises-et-rapport-annuel",
             },
             {
-              label: "Vespa-Watch — Surveillance du frelon asiatique en Belgique",
-              href: "https://vespawatch.be/en/issue/",
+              label: "SPW Biodiversité — Cohabiter avec le frelon asiatique en Wallonie",
+              href: "https://biodiversite.wallonie.be/frelon",
+            },
+            {
+              label: "Observatoire de la biodiversité de Wallonie — Formulaire de signalement (Vespa velutina)",
+              href: "https://observatoire.biodiversite.wallonie.be/enquetes/enquete.aspx?e=invasives&tax=Vespa_velutina",
             },
             {
               label: "Vespa-Watch — FAQ frelon asiatique",

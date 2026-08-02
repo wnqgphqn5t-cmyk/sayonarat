@@ -16,7 +16,7 @@ const jsonLd = {
   description:
     "Bruits la nuit, excréments, traces de morsures : comment identifier une infestation de rats ou souris avant qu'elle s'aggrave.",
   datePublished: "2026-03-30",
-  dateModified: "2026-05-08",
+  dateModified: "2026-08-02",
   author: { "@type": "Organization", name: "L'équipe Sayonarat" },
   publisher: {
     "@type": "Organization",
@@ -91,7 +91,7 @@ export default function ArticleRatsPage() {
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-green-700 text-white">
               Dératisation
             </span>
-            <span className="text-xs text-green-300">8 mai 2026 · 5 min de lecture</span>
+            <span className="text-xs text-green-300">2 août 2026 · 5 min de lecture</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
             Comment savoir si on a des rats chez soi ?<br />
@@ -123,6 +123,18 @@ export default function ArticleRatsPage() {
           Le problème : les rats sont nocturnes et discrets. Une infestation peut s'installer pendant des
           semaines avant qu'on la détecte.
         </p>
+
+        <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-xl p-4">
+          <p className="font-semibold text-amber-800 text-sm">Fin d'été : la fenêtre avant la migration d'automne</p>
+          <p className="text-sm text-gray-700 mt-1">
+            Les signes listés ci-dessous se multiplient à partir de fin septembre : quand les nuits
+            refroidissent, les rats quittent jardins, égouts et abords de composteurs pour chercher
+            chaleur et nourriture à l'intérieur. Les premiers bruits nocturnes dans les murs
+            apparaissent souvent à ce moment-là. Repérer les signes extérieurs maintenant — terriers
+            sous les dalles, coulées le long des murs de jardin — évite de découvrir le problème
+            une fois qu'il est dans la cave.
+          </p>
+        </div>
 
         <section>
           <h2 className="text-2xl font-bold mb-5" style={{ color: "#1B4332" }}>
@@ -304,7 +316,7 @@ export default function ArticleRatsPage() {
             },
             {
               label: "Sciensano — Leptospirose : surveillance épidémiologique en Belgique",
-              href: "https://www.sciensano.be/fr/sujets-sante/leptospirose",
+              href: "https://www.sciensano.be/fr/topics/leptospirose",
             },
             {
               label: "OMS — Sécurité sanitaire des aliments et rongeurs",
@@ -318,7 +330,7 @@ export default function ArticleRatsPage() {
             className="w-10 h-10 rounded-full flex items-center justify-center font-bold text-white flex-shrink-0"
             style={{ backgroundColor: "#1B4332" }}
           >
-            V
+            S
           </div>
           <div>
             <p className="font-semibold text-gray-800">L&apos;équipe Sayonarat</p>

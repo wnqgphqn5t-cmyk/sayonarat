@@ -47,7 +47,7 @@ const faqSchema = {
     {
       "@type": "Question",
       name: "Le frelon asiatique est-il présent à Liège ?",
-      acceptedAnswer: { "@type": "Answer", text: "Oui. Le frelon asiatique (Vespa velutina) est signalé en progression en Wallonie depuis 2019. Il est reconnaissable à sa couleur brun-noir avec une bande orangée. C'est une espèce invasive protocolée par l'AFSCA — son nid doit être signalé et traité par un professionnel." },
+      acceptedAnswer: { "@type": "Answer", text: "Oui. Le frelon asiatique (Vespa velutina) est présent en Belgique depuis 2016 et implanté sur tout le territoire wallon. Il est reconnaissable à sa couleur brun-noir avec une bande orangée. C'est une espèce exotique envahissante : en Wallonie, le signalement n'est pas obligatoire mais encouragé via l'Observatoire de la biodiversité (SPW), et la destruction du nid doit être confiée à un professionnel équipé." },
     },
     {
       "@type": "Question",
@@ -72,7 +72,7 @@ const faqs = [
   },
   {
     q: "Le frelon asiatique est-il présent à Liège ?",
-    a: "Oui. Le frelon asiatique (Vespa velutina) est signalé en progression en Wallonie depuis 2019. Il est reconnaissable à sa couleur brun-noir avec une bande orangée. C'est une espèce invasive protocolée par l'AFSCA — son nid doit être signalé et traité par un professionnel.",
+    a: "Oui. Le frelon asiatique (Vespa velutina) est présent en Belgique depuis 2016 et implanté sur tout le territoire wallon. Il est reconnaissable à sa couleur brun-noir avec une bande orangée. C'est une espèce exotique envahissante : en Wallonie, le signalement n'est pas obligatoire mais encouragé via l'Observatoire de la biodiversité (SPW), et la destruction du nid doit être confiée à un professionnel équipé.",
   },
   {
     q: "Doit-on obligatoirement détruire un nid de guêpes ?",
@@ -170,7 +170,7 @@ export default function GuepesFrellonsLiegePage() {
                 ["Couleur", "Jaune et noir vif", "Brun-roux et jaune", "Brun-noir, bande orange"],
                 ["Nid", "Papier gris, sol ou combles", "Papier brun, arbres ou combles", "Sphérique, haut perché"],
                 ["Dangerosité", "Modérée", "Élevée", "Très élevée, espèce invasive"],
-                ["Signalement", "Non obligatoire", "Non obligatoire", "Obligatoire (AFSCA)"],
+                ["Signalement", "Non obligatoire", "Non obligatoire", "Encouragé (Observatoire SPW)"],
               ].map(([crit, guepe, frelon, asiatique], i) => (
                 <tr key={i} className={i % 2 === 0 ? "bg-gray-50" : "bg-white"}>
                   <td className="px-4 py-2 font-medium">{crit}</td>

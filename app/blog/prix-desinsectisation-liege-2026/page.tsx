@@ -15,7 +15,7 @@ const jsonLd = {
   headline: "Prix d'une désinsectisation à Liège en 2026",
   description: "Tarifs réels d'une désinsectisation à Liège selon le type d'insecte et la superficie.",
   datePublished: "2026-02-22",
-  dateModified: "2026-05-08",
+  dateModified: "2026-08-02",
   author: { "@type": "Organization", name: "L'équipe Sayonarat" },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.sayonarat.be/blog/prix-desinsectisation-liege-2026" },
@@ -28,7 +28,7 @@ const faq = [
   },
   {
     q: "Faut-il payer si le traitement ne fonctionne pas ?",
-    a: "Non. Sayonarat offre une garantie de réintervention : si les insectes réapparaissent dans le mois suivant l'intervention, un technicien revient sans frais supplémentaires.",
+    a: "Non. Sayonarat applique une garantie de réintervention : si le traitement s'avère insuffisant, un technicien revient sans frais supplémentaires. Les conditions et la durée exactes figurent dans les conditions générales.",
   },
   {
     q: "Le prix inclut-il les produits utilisés ?",
@@ -51,11 +51,11 @@ const faqSchema = {
 };
 
 const tarifs = [
-  { insecte: "Cafards (appartement)", fourchette: "120 € – 250 €", passages: "Selon diagnostic", note: "Gel professionnel, garantie 30j" },
+  { insecte: "Cafards (appartement)", fourchette: "120 € – 250 €", passages: "Selon diagnostic", note: "Gel professionnel, réintervention incluse" },
   { insecte: "Cafards (maison)", fourchette: "180 € – 350 €", passages: "Selon diagnostic", note: "Selon superficie" },
   { insecte: "Fourmis noires", fourchette: "120 € – 250 €", passages: "Selon diagnostic", note: "Appât insecticide ciblé" },
   { insecte: "Fourmis pharaons", fourchette: "200 € – 400 €", passages: "Selon diagnostic", note: "Traitement complexe, multi-passages" },
-  { insecte: "Nid de guêpes (accessible)", fourchette: "90 € – 180 €", passages: "1 passage nocturne", note: "Destruction garantie" },
+  { insecte: "Nid de guêpes (accessible)", fourchette: "90 € – 180 €", passages: "1 passage nocturne", note: "Retrait du nid inclus" },
   { insecte: "Nid de frelons", fourchette: "120 € – 220 €", passages: "1 passage nocturne", note: "Frelon asiatique : tarif majoré" },
   { insecte: "Mites alimentaires", fourchette: "120 € – 280 €", passages: "Selon diagnostic", note: "Selon ampleur" },
   { insecte: "Moustiques (jardin)", fourchette: "90 € – 200 €", passages: "1 passage", note: "Traitement larvicide" },
@@ -86,7 +86,7 @@ export default function ArticlePrixDesinsectisationPage() {
           </p>
           <div className="flex items-center gap-3 mb-4">
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-green-700 text-white">Tarifs</span>
-            <span className="text-xs text-green-300">8 mai 2026 · 4 min de lecture</span>
+            <span className="text-xs text-green-300">2 août 2026 · 4 min de lecture</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
             Prix d'une désinsectisation<br />à Liège en 2026
@@ -135,11 +135,14 @@ export default function ArticlePrixDesinsectisationPage() {
         </section>
 
         <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl">
-          <p className="font-semibold text-amber-800 text-sm">🌿 Printemps 2026 : saison des nids de guêpes et fourmis</p>
+          <p className="font-semibold text-amber-800 text-sm">Août 2026 : pic guêpes et frelons, délais plus longs</p>
           <p className="text-sm text-gray-700 mt-1">
-            La saison des guêpes et frelons démarre en avril — les nids traités tôt (avril-mai) coûtent
-            moins cher que les nids d'été (colonies plus grandes, intervention plus longue).
-            Pour les fourmis, avril-mai est aussi le pic d'invasion : intervenir maintenant limite l'étendue du traitement.
+            Août est le mois le plus chargé de l'année pour la destruction de nids : les colonies de
+            guêpes atteignent leur taille maximale (jusqu'à 10 000 individus) et deviennent nettement
+            plus agressives. Concrètement, un nid d'août demande une intervention plus longue qu'un nid
+            de mai — les fourchettes ci-dessus tirent donc vers le haut, et les créneaux d'intervention
+            se remplissent plus vite. Pour les nids de frelon asiatique, souvent perchés à plusieurs
+            mètres, l'accessibilité pèse davantage que la taille de la colonie sur le prix final.
           </p>
         </div>
 
@@ -207,8 +210,8 @@ export default function ArticlePrixDesinsectisationPage() {
               href: "https://www.health.belgium.be/fr/liste-des-biocides-autorises-et-rapport-annuel",
             },
             {
-              label: "SPF Économie — Transparence des prix des services en Belgique",
-              href: "https://economie.fgov.be/fr/themes/prix",
+              label: "SPF Économie — Indication des prix : obligations légales en Belgique",
+              href: "https://economie.fgov.be/fr/themes/ventes/politique-des-prix/indication-des-prix",
             },
             {
               label: "Sciensano — Institut de santé publique belge",

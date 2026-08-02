@@ -173,7 +173,7 @@ const sections = [
       },
       {
         q: "Comment distinguer un frelon d'une guêpe ?",
-        a: "Le frelon commun mesure 2,5 à 3,5 cm, avec une tête rousse. La guêpe germanique mesure 1,2 à 1,7 cm avec des rayures jaune vif. Le frelon asiatique est brun-noir avec une bande orangée — c'est une espèce invasive à signaler obligatoirement à l'AFSCA.",
+        a: "Le frelon commun mesure 2,5 à 3,5 cm, avec une tête rousse. La guêpe germanique mesure 1,2 à 1,7 cm avec des rayures jaune vif. Le frelon asiatique est brun-noir avec une bande orangée — c'est une espèce exotique envahissante, à signaler en Wallonie via l'Observatoire de la biodiversité du Service public de Wallonie.",
         lien: { label: "Service guêpes et frelons Liège", href: "/guepes-frelons-liege" },
       },
       {

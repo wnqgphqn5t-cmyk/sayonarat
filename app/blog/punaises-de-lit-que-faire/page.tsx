@@ -16,7 +16,7 @@ const jsonLd = {
   description:
     "Étapes à suivre immédiatement, erreurs à éviter et traitement professionnel punaises de lit à Liège.",
   datePublished: "2026-03-20",
-  dateModified: "2026-05-08",
+  dateModified: "2026-08-02",
   author: { "@type": "Organization", name: "L'équipe Sayonarat" },
   publisher: {
     "@type": "Organization",
@@ -91,7 +91,7 @@ export default function ArticlePunaisesPage() {
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-green-700 text-white">
               Punaises de lit
             </span>
-            <span className="text-xs text-green-300">8 mai 2026 · 6 min de lecture</span>
+            <span className="text-xs text-green-300">2 août 2026 · 6 min de lecture</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
             Punaises de lit : que faire<br />en cas d'infestation à Liège ?
@@ -124,15 +124,15 @@ export default function ArticlePunaisesPage() {
           et vêtements — le marché de la Batte du dimanche est une voie de diffusion classique.
         </p>
         <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-xl p-4">
-          <p className="font-semibold text-amber-800 text-sm">Été 2026 : pic de contamination via les voyages</p>
+          <p className="font-semibold text-amber-800 text-sm">Août 2026 : le pic annuel des contaminations</p>
           <p className="text-sm text-gray-700 mt-1">
-            Mai à août, c'est la saison des voyages — et donc le pic des contaminations aux punaises de lit.
-            Hôtels, Airbnb, transports : une seule nuit dans un logement infesté suffit à ramener des punaises dans vos bagages.
-            Si vous rentrez de voyage avec des piqûres inexpliquées, inspectez votre matelas et vos valises avant de les ranger.
+            Août et début septembre sont le moment de l'année où les punaises de lit se propagent le plus,
+            avec les retours de vacances. Hôtels, Airbnb, transports : une seule nuit dans un logement
+            infesté suffit à en ramener dans vos bagages. Au retour, ne défaites pas les valises dans la
+            chambre — inspectez d'abord les coutures, poches et fermetures éclair, et passez le linge au
+            sèche-linge à haute température, plus efficace qu'un simple lavage.
           </p>
         </div>
-        <p>
-        </p>
 
         <section>
           <h2 className="text-2xl font-bold mb-5" style={{ color: "#1B4332" }}>
@@ -361,7 +361,7 @@ export default function ArticlePunaisesPage() {
             className="w-10 h-10 rounded-full flex items-center justify-center font-bold text-white flex-shrink-0"
             style={{ backgroundColor: "#1B4332" }}
           >
-            V
+            S
           </div>
           <div>
             <p className="font-semibold text-gray-800">L&apos;équipe Sayonarat</p>

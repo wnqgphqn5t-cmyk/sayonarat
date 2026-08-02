@@ -15,7 +15,7 @@ const jsonLd = {
   headline: "Frelons et guêpes à Liège : que faire en cas de nid ?",
   description: "Guide complet : identifier un nid de frelons ou guêpes, quand appeler un professionnel et comment se déroule l'intervention à Liège.",
   datePublished: "2026-01-28",
-  dateModified: "2026-05-08",
+  dateModified: "2026-08-02",
   author: { "@type": "Organization", name: "L'équipe Sayonarat" },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.sayonarat.be/blog/frelons-guepes-liege-que-faire" },
@@ -24,7 +24,7 @@ const jsonLd = {
 const faq = [
   {
     q: "Comment distinguer un frelon d'une guêpe ?",
-    a: "Le frelon commun (Vespa crabro) mesure 2,5 à 3,5 cm, avec une tête rousse et un abdomen jaune-brun. La guêpe germanique mesure 1,2 à 1,7 cm, avec des rayures jaune vif et noir. Le frelon asiatique (Vespa velutina) est entièrement brun-noir avec une bande orangée sur l'abdomen — c'est une espèce invasive à signaler à l'AFSCA.",
+    a: "Le frelon commun (Vespa crabro) mesure 2,5 à 3,5 cm, avec une tête rousse et un abdomen jaune-brun. La guêpe germanique mesure 1,2 à 1,7 cm, avec des rayures jaune vif et noir. Le frelon asiatique (Vespa velutina) est entièrement brun-noir avec une bande orangée sur l'abdomen — c'est une espèce exotique envahissante, à signaler en Wallonie via l'Observatoire de la biodiversité du Service public de Wallonie.",
   },
   {
     q: "Un nid de guêpes est-il dangereux ?",
@@ -32,7 +32,7 @@ const faq = [
   },
   {
     q: "Peut-on détruire un nid de guêpes ou frelons soi-même ?",
-    a: "Fortement déconseillé. Les frelons et guêpes peuvent attaquer en masse si le nid est menacé. Les produits du commerce nécessitent une application nocturne en combinaison de protection. Un nid en hauteur (gouttière, toit, arbre) rend l'intervention encore plus risquée. Pour les frelons asiatiques, l'intervention doit obligatoirement être faite par un professionnel.",
+    a: "Fortement déconseillé. Les frelons et guêpes peuvent attaquer en masse si le nid est menacé. Les produits du commerce nécessitent une application nocturne en combinaison de protection. Un nid en hauteur (gouttière, toit, arbre) rend l'intervention encore plus risquée. Pour les frelons asiatiques, qui nichent souvent à plusieurs mètres de hauteur et attaquent en masse, la destruction ne doit jamais être tentée soi-même.",
   },
   {
     q: "Combien coûte la destruction d'un nid de frelons à Liège ?",
@@ -40,7 +40,7 @@ const faq = [
   },
   {
     q: "Le frelon asiatique est-il présent à Liège ?",
-    a: "Oui. Le frelon asiatique (Vespa velutina) est présent en Belgique depuis 2016 et progresse chaque année vers le nord. Il représente un danger pour les abeilles domestiques et peut attaquer les humains si le nid est dérangé. Tout nid suspect de frelon asiatique doit être signalé à l'AFSCA belge.",
+    a: "Oui. Le frelon asiatique (Vespa velutina) est présent en Belgique depuis 2016, après une première observation à Tournai, et s'est depuis implanté sur tout le territoire wallon. Il représente un danger pour les abeilles domestiques et peut attaquer en masse si le nid est dérangé. En Wallonie, il n'existe pas d'obligation légale de signalement ni de destruction, mais le Service public de Wallonie encourage à notifier chaque nid via le formulaire de l'Observatoire de la biodiversité.",
   },
 ];
 
@@ -79,7 +79,7 @@ export default function ArticleFrelonsPage() {
           </p>
           <div className="flex items-center gap-3 mb-4">
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-green-700 text-white">Désinsectisation</span>
-            <span className="text-xs text-green-300">8 mai 2026 · 5 min de lecture</span>
+            <span className="text-xs text-green-300">2 août 2026 · 5 min de lecture</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
             Frelons et guêpes à Liège :<br />que faire en cas de nid ?
@@ -95,17 +95,20 @@ export default function ArticleFrelonsPage() {
           <p>
             Si vous découvrez un nid de frelons ou guêpes : <strong>ne l'approchez pas</strong>,
             <strong> n'utilisez pas d'eau</strong> ni de spray aérosol — cela provoque une attaque massive.
-            Appelez un professionnel. Un nid de frelons asiatiques doit être signalé à l'AFSCA
-            et traité par un professionnel équipé.
+            Appelez un professionnel. Un nid de frelon asiatique se signale en Wallonie via
+            l'Observatoire de la biodiversité du Service public de Wallonie, et se traite
+            par un professionnel équipé.
           </p>
         </div>
 
         <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-xl p-4">
-          <p className="font-semibold text-amber-800 text-sm">🌿 Printemps 2026 : la saison démarre maintenant</p>
+          <p className="font-semibold text-amber-800 text-sm">Août 2026 : pic de la saison, colonies à leur taille maximale</p>
           <p className="text-sm text-gray-700 mt-1">
-            En mai, les colonies de guêpes et frelons sont en pleine croissance — les nids fondés en avril atteignent
-            maintenant la taille d'une orange. Un nid traité en mai nécessite une seule intervention courte.
-            En août, il peut abriter <strong>10 000 individus</strong> et l'intervention devient 2× plus longue et coûteuse.
+            Août est le mois où les nids de guêpes atteignent leur taille maximale — jusqu'à
+            <strong> 10 000 individus</strong> pour une colonie de guêpes germaniques — et où les colonies
+            sont les plus agressives. C'est aussi le moment où les appels pour nids explosent en région
+            liégeoise : comptez des délais plus longs qu'au printemps. Un nid en zone de passage,
+            près d'enfants ou de personnes allergiques, ne doit pas attendre le premier gel.
           </p>
         </div>
 
@@ -195,7 +198,7 @@ export default function ArticleFrelonsPage() {
           </h2>
           <div className="space-y-4">
             {[
-              { num: "1", titre: "Identification de l'espèce et du nid", texte: "Le technicien inspecte le nid, identifie l'espèce et évalue l'accessibilité. Pour les frelons asiatiques, il complète la déclaration obligatoire à l'AFSCA." },
+              { num: "1", titre: "Identification de l'espèce et du nid", texte: "Le technicien inspecte le nid, identifie l'espèce et évalue l'accessibilité. Pour les frelons asiatiques, il peut encoder le signalement auprès de l'Observatoire de la biodiversité de Wallonie." },
               { num: "2", titre: "Intervention nocturne sécurisée", texte: "En combinaison de protection intégrale, le technicien traite le nid à la tombée de la nuit avec un insecticide professionnel à contact. Toute la colonie est éliminée en une intervention." },
               { num: "3", titre: "Retrait du nid (si accessible)", texte: "Une fois la colonie morte, le nid est retiré et éliminé. Le retrait prévient les nouvelles reines de réutiliser l'emplacement l'année suivante." },
               { num: "4", titre: "Conseils de prévention", texte: "Colmatage des points d'entrée en combles, conseils pour éviter une réinstallation la saison suivante." },
@@ -223,10 +226,18 @@ export default function ArticleFrelonsPage() {
             pattes jaunes à l'extrémité. Contrairement au frelon commun, il construit des nids en hauteur
             dans les arbres — souvent difficiles à repérer avant la fin de l'été.
           </p>
-          <p>
+          <p className="mb-3">
             Il représente une menace sérieuse pour les ruchers liégeois (il chasse les abeilles devant
-            les ruches). En Wallonie, tout signalement est à faire via le portail{" "}
-            <strong>vespawatch.be</strong>. L'intervention est obligatoirement professionnelle.
+            les ruches). Son expansion est massive à l'échelle européenne : le Service public de Wallonie
+            estime que l'espèce a construit <strong>près d'un million de nids en Europe occidentale
+            durant l'été 2025</strong>.
+          </p>
+          <p>
+            En Wallonie, le signalement se fait via le formulaire « espèces exotiques envahissantes »
+            de l'<strong>Observatoire de la biodiversité de Wallonie</strong> (SPW) — et non via
+            vespawatch.be, qui couvre la Flandre. Il n'y a pas d'obligation légale de signaler ni de
+            détruire un nid, mais la notification est encouragée et la destruction reste une affaire
+            de professionnel équipé.
           </p>
         </section>
 
@@ -271,8 +282,12 @@ export default function ArticleFrelonsPage() {
               href: "https://www.health.belgium.be/fr/liste-des-biocides-autorises-et-rapport-annuel",
             },
             {
-              label: "Vespa-Watch — Surveillance du frelon asiatique en Belgique",
-              href: "https://vespawatch.be/en/issue/",
+              label: "SPW Biodiversité — Cohabiter avec le frelon asiatique en Wallonie",
+              href: "https://biodiversite.wallonie.be/frelon",
+            },
+            {
+              label: "Observatoire de la biodiversité de Wallonie — Formulaire de signalement (Vespa velutina)",
+              href: "https://observatoire.biodiversite.wallonie.be/enquetes/enquete.aspx?e=invasives&tax=Vespa_velutina",
             },
             {
               label: "Vespa-Watch — FAQ frelon asiatique",

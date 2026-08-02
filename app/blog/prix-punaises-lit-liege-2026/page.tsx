@@ -38,10 +38,10 @@ const jsonLd = {
   "@type": "Article",
   headline: "Prix traitement punaises de lit Liège 2026 — Tarifs réels",
   description: "Guide complet sur les prix des traitements punaises de lit à Liège en 2026. Thermique vs chimique, facteurs de coût, garanties.",
-  author: { "@type": "Organization", name: "Sayonarat" },
+  author: { "@type": "Organization", name: "L'équipe Sayonarat" },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },
   datePublished: "2026-04-10",
-  dateModified: "2026-05-08",
+  dateModified: "2026-08-02",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.sayonarat.be/blog/prix-punaises-lit-liege-2026" },
 };
 
@@ -80,7 +80,7 @@ export default function PrixPunaisesLitPage() {
           </p>
           <div className="flex items-center gap-3 mb-4">
             <span className="text-xs font-semibold px-3 py-1 rounded-full text-white" style={{ backgroundColor: "#7c3aed" }}>Tarifs</span>
-            <span className="text-xs text-green-300">8 mai 2026 · 5 min de lecture</span>
+            <span className="text-xs text-green-300">2 août 2026 · 5 min de lecture</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
             Prix traitement punaises de lit Liège 2026 — Tarifs réels
@@ -93,6 +93,18 @@ export default function PrixPunaisesLitPage() {
       </section>
 
       <article className="py-14 px-4 max-w-3xl mx-auto">
+
+        <div className="bg-green-50 border-l-4 rounded-r-xl p-5 mb-10" style={{ borderColor: "#1B4332" }}>
+          <p className="font-semibold text-gray-800 mb-2">Réponse rapide</p>
+          <p className="text-gray-700 leading-relaxed">
+            Un traitement punaises de lit à Liège coûte entre <strong>150 € et 450 €</strong> :
+            comptez 150–300 € en chimique et 250–450 € en thermique pour un logement standard.
+            Le facteur de prix n°1 est la surface à traiter, pas la méthode. Le thermique coûte
+            plus cher au départ mais tue les œufs en une seule session — sur une infestation
+            installée, c'est souvent le moins cher au total. Le devis définitif est établi après
+            diagnostic du niveau d'infestation.
+          </p>
+        </div>
 
         <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>
           Tarifs 2026 par type de logement et méthode
@@ -125,11 +137,14 @@ export default function PrixPunaisesLitPage() {
         </div>
         <p className="text-sm text-gray-500 mb-4 italic">* Tarifs indicatifs pour Liège et communes voisines. Le devis définitif est établi après diagnostic du niveau d'infestation.</p>
         <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-xl p-4 mb-8">
-          <p className="font-semibold text-amber-800 text-sm">Été 2026 : délais plus longs, réservez à l'avance</p>
+          <p className="font-semibold text-amber-800 text-sm">Août 2026 : le mois des retours de vacances</p>
           <p className="text-sm text-gray-700 mt-1">
-            De mai à août, les demandes d'intervention punaises de lit augmentent avec les retours de voyage.
-            Les délais d'intervention peuvent passer de 48h à 3–5 jours en période de forte demande.
-            Contactez-nous dès la détection — ne pas attendre aggrave l'infestation et augmente le coût du traitement.
+            Août et début septembre concentrent les retours de voyage — et donc les punaises rapportées
+            dans les bagages. Les demandes d'intervention sont à leur maximum de l'année et les délais
+            s'allongent, de 48h en basse saison à 3–5 jours en pleine période.
+            Une punaise femelle pond en continu : deux semaines d'attente font passer un foyer isolé
+            à une infestation multi-pièces, et font basculer le devis d'une ligne du tableau à la suivante.
+            Inspectez les coutures de matelas au retour, avant de défaire les valises dans la chambre.
           </p>
         </div>
 
@@ -228,8 +243,8 @@ export default function PrixPunaisesLitPage() {
               href: "https://www.europarl.europa.eu/doceo/document/E-9-2023-003026_EN.html",
             },
             {
-              label: "SPF Économie — Transparence des prix des services en Belgique",
-              href: "https://economie.fgov.be/fr/themes/prix",
+              label: "SPF Économie — Indication des prix : obligations légales en Belgique",
+              href: "https://economie.fgov.be/fr/themes/ventes/politique-des-prix/indication-des-prix",
             },
           ]}
         />

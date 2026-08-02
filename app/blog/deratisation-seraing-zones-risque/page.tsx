@@ -294,7 +294,7 @@ export default function ArticleSeraingPage() {
             },
             {
               label: "Sciensano — Leptospirose : surveillance épidémiologique en Belgique",
-              href: "https://www.sciensano.be/fr/sujets-sante/leptospirose",
+              href: "https://www.sciensano.be/fr/topics/leptospirose",
             },
             {
               label: "OMS — Sécurité sanitaire des aliments et rongeurs",
@@ -308,7 +308,7 @@ export default function ArticleSeraingPage() {
             className="w-10 h-10 rounded-full flex items-center justify-center font-bold text-white flex-shrink-0"
             style={{ backgroundColor: "#1B4332" }}
           >
-            V
+            S
           </div>
           <div>
             <p className="font-semibold text-gray-800">L&apos;équipe Sayonarat</p>
