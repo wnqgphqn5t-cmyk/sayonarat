@@ -224,7 +224,7 @@ export default function FrelonAsiatiqueLiegePage() {
           Combien coûte la destruction d'un nid de frelon asiatique à Liège ?
         </h2>
         <p className="text-gray-700 mb-4 leading-relaxed">
-          Entre 120 € et 250 € selon la hauteur et l'accessibilité du nid. Un nid en
+          Le tarif dépend de la superficie et du degré d'infestation. Un nid en
           arbuste ou en haie basse est moins cher à traiter qu'un nid à 10 mètres dans
           un arbre nécessitant une échelle ou une nacelle. Le devis est gratuit et établi
           sous 24h après description de la situation.

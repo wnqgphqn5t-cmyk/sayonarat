@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     q: "Combien coûte un traitement cafards à Liège ?",
-    a: "Entre 120 € et 380 € selon la superficie et l'ampleur de l'infestation. Le gel insecticide professionnel est la méthode la plus courante : rapide, sans odeur, sans évacuation du logement. Devis gratuit sous 24h.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Le gel insecticide professionnel est la méthode la plus courante : rapide, sans odeur, sans évacuation du logement. Devis gratuit sous 24h.",
   },
   {
     q: "Faut-il quitter le logement pendant le traitement ?",

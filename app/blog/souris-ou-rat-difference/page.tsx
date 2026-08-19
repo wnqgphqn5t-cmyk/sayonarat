@@ -36,7 +36,7 @@ const faq = [
   },
   {
     q: "Combien coûte une dératisation à Liège ?",
-    a: "Entre 150 € et 450 € pour une maison unifamiliale. Pour les souris seules, entre 120 € et 280 €. Le tarif varie selon la superficie et l'ampleur de l'infestation. Devis gratuit sous 24h chez Sayonarat.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation, qu'il s'agisse de souris ou de rats. Devis gratuit sous 24h chez Sayonarat.",
   },
 ];
 
@@ -197,7 +197,6 @@ export default function ArticleSourisRatPage() {
           <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>Articles liés</h2>
           <ul className="space-y-2 text-sm">
             <li><Link href="/blog/comment-savoir-si-on-a-des-rats" className="underline font-medium" style={{ color: "#1B4332" }}>Comment savoir si on a des rats ? Les 7 signes</Link></li>
-            <li><Link href="/blog/prix-deratisation-liege-2026" className="underline font-medium" style={{ color: "#1B4332" }}>Prix d'une dératisation à Liège en 2026</Link></li>
             <li><Link href="/deratisation-liege" className="underline font-medium" style={{ color: "#1B4332" }}>Dératisation Liège — service principal</Link></li>
           </ul>
         </section>

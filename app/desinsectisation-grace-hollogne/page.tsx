@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     q: "Combien coûte une désinsectisation à Grâce-Hollogne ?",
-    a: "Entre 120 € et 350 € selon le type d'insecte et la superficie. Les nids de guêpes accessibles sont traités à partir de 90 €. Devis gratuit sous 24h.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Devis gratuit sous 24h.",
   },
   {
     q: "Les traitements sont-ils sans danger dans une zone d'activité ?",

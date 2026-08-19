@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "Combien coûte la destruction d'un nid de guêpes à Saint-Nicolas ?",
-    a: "Entre 90 € et 180 € pour un nid accessible. Nids en toiture ou en espace difficile d'accès : tarif adapté selon les conditions. Devis gratuit sous 24h.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Nids en toiture ou en espace difficile d'accès : tarif adapté selon les conditions. Devis gratuit sous 24h.",
   },
   {
     q: "À Saint-Nicolas, où les guêpes s'installent-elles le plus souvent ?",

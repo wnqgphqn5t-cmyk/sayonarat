@@ -36,7 +36,7 @@ const faq = [
   },
   {
     q: "Combien coûte une dératisation à Seraing ?",
-    a: "Les tarifs sont identiques à Liège : entre 150 € et 450 € pour une maison unifamiliale, selon la superficie et l'ampleur de l'infestation. Devis gratuit sous 24h chez Sayonarat.",
+    a: "Devis gratuit sous 24h chez Sayonarat.",
   },
   {
     q: "Le traitement dératisation fonctionne-t-il si les rats viennent du dehors ?",
@@ -266,11 +266,6 @@ export default function ArticleSeraingPage() {
             <li>
               <Link href="/blog/comment-savoir-si-on-a-des-rats" className="underline font-medium" style={{ color: "#1B4332" }}>
                 Comment savoir si on a des rats chez soi ? Les 7 signes
-              </Link>
-            </li>
-            <li>
-              <Link href="/blog/prix-deratisation-liege-2026" className="underline font-medium" style={{ color: "#1B4332" }}>
-                Prix d'une dératisation à Liège en 2026
               </Link>
             </li>
             <li>

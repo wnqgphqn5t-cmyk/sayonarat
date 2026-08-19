@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     q: "Combien coûte une désinsectisation à Bruxelles ?",
-    a: "Entre 120 € et 350 € selon le type d'insecte et la superficie. Nids de guêpes accessibles à partir de 90 €. Devis gratuit sous 24h. Tarif immeuble collectif sur devis.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Devis gratuit sous 24h. Tarif immeuble collectif sur devis.",
   },
   {
     q: "Pourquoi les cafards sont-ils si fréquents dans les immeubles bruxellois ?",

@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     q: "Combien coûte un traitement cafards à Grâce-Hollogne ?",
-    a: "Entre 120 € et 380 € selon la superficie et l'ampleur de l'infestation. Le gel insecticide professionnel est la méthode la plus courante : rapide, sans odeur, sans évacuation du logement. Devis gratuit sous 24h.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Le gel insecticide professionnel est la méthode la plus courante : rapide, sans odeur, sans évacuation du logement. Devis gratuit sous 24h.",
   },
   {
     q: "Faut-il quitter le logement pendant le traitement ?",
@@ -178,25 +178,6 @@ export default function CafardsGraceHollognePage() {
             </p>
             <div className="text-sm font-medium text-green-700">Efficace grandes surfaces · Locaux pro</div>
           </div>
-        </div>
-
-
-        <div className="bg-yellow-50 border-l-4 border-yellow-400 p-5 rounded-r-xl mb-8">
-          <p className="font-semibold text-gray-800 mb-3">Tarifs indicatifs — Cafards Grâce-Hollogne</p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
-            {[
-              { type: "Studio / 1 pièce", prix: "120 – 180 €" },
-              { type: "Appartement 2-3 pièces", prix: "180 – 260 €" },
-              { type: "Grand appartement / maison", prix: "260 – 380 €" },
-              { type: "Local professionnel / HoReCa", prix: "Sur devis" },
-            ].map((t) => (
-              <div key={t.type} className="flex justify-between bg-white rounded-lg px-4 py-2 border border-yellow-200">
-                <span className="text-gray-700">{t.type}</span>
-                <span className="font-bold" style={{ color: "#1B4332" }}>{t.prix}</span>
-              </div>
-            ))}
-          </div>
-          <p className="text-xs text-gray-500 mt-3">Devis gratuit et précis sous 24h après diagnostic sur place.</p>
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 mb-10">

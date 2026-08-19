@@ -133,7 +133,7 @@ const faqs = [
   },
   {
     q: "Combien coûte une dératisation en Belgique ?",
-    a: "Le prix dépend de la superficie et du type de nuisible. Comptez entre 150 € et 400 € pour une intervention standard. Devis gratuit sous 24h.",
+    a: "Le prix dépend de la superficie et du type de nuisible. Devis gratuit sous 24h.",
   },
   {
     q: "Revenez-vous si le problème persiste ?",
@@ -170,7 +170,7 @@ const faqJsonLd = {
       name: "Combien coûte une dératisation en Belgique ?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Le prix dépend de la superficie et du type de nuisible. Comptez entre 150 € et 400 € pour une intervention standard. Devis gratuit sous 24h.",
+        text: "Le prix dépend de la superficie et du type de nuisible. Devis gratuit sous 24h.",
       },
     },
     {
@@ -218,7 +218,6 @@ const jsonLd = {
   },
   telephone: phone,
   email: "contact@antinox.be",
-  priceRange: "€€",
   areaServed: "BE",
   sameAs: ["https://www.sayonarat.be"],
 };

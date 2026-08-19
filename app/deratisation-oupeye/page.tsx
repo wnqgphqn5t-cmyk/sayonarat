@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     q: "Combien coûte une dératisation à Oupeye ?",
-    a: "Entre 150 € et 400 € selon la superficie et l'ampleur de l'infestation. Devis gratuit sous 24h. Pour les locaux professionnels des zones industrielles, tarif établi sur devis.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Devis gratuit sous 24h. Pour les locaux professionnels des zones industrielles, tarif établi sur devis.",
   },
   {
     q: "Les rats des berges sont-ils plus résistants que les rats communs ?",

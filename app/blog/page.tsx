@@ -26,14 +26,6 @@ const articles = [
     categorie: "Désinsectisation",
   },
   {
-    slug: "prix-punaises-lit-liege-2026",
-    titre: "Prix traitement punaises de lit Liège 2026 — Tarifs réels",
-    desc: "Thermique ou chimique ? Les vrais tarifs par superficie, les 5 facteurs qui font varier le prix, et comment éviter les arnaques.",
-    date: "10 avril 2026",
-    temps: "5 min",
-    categorie: "Tarifs",
-  },
-  {
     slug: "fourmis-pharaon-traitement",
     titre: "Fourmis pharaon : pourquoi c'est si difficile à éliminer ?",
     desc: "La fourmi pharaon est l'insecte le plus résistant aux traitements classiques. Un spray aggrave l'infestation. Voici la seule méthode qui fonctionne.",
@@ -48,14 +40,6 @@ const articles = [
     date: "30 mars 2026",
     temps: "5 min",
     categorie: "Dératisation",
-  },
-  {
-    slug: "prix-deratisation-liege-2026",
-    titre: "Prix d'une dératisation à Liège en 2026 : ce qu'il faut vraiment savoir",
-    desc: "Tarifs réels, facteurs qui font varier le prix, ce que comprend une intervention professionnelle. Sans surprise et sans frais cachés.",
-    date: "25 mars 2026",
-    temps: "4 min",
-    categorie: "Tarifs",
   },
   {
     slug: "punaises-de-lit-que-faire",
@@ -96,14 +80,6 @@ const articles = [
     date: "28 février 2026",
     temps: "5 min",
     categorie: "Punaises de lit",
-  },
-  {
-    slug: "prix-desinsectisation-liege-2026",
-    titre: "Prix d'une désinsectisation à Liège en 2026",
-    desc: "Tarifs réels par type d'insecte (cafards, fourmis, guêpes, mites), facteurs qui font varier le prix et ce que comprend une intervention professionnelle.",
-    date: "22 février 2026",
-    temps: "4 min",
-    categorie: "Tarifs",
   },
   {
     slug: "souris-ou-rat-difference",

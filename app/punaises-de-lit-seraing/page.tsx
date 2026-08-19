@@ -38,7 +38,7 @@ const faqSchema = {
     {
       "@type": "Question",
       name: "Combien coûte un traitement punaises de lit à Seraing ?",
-      acceptedAnswer: { "@type": "Answer", text: "Entre 150 € et 400 € selon la superficie et la méthode (thermique ou chimique). Devis gratuit sous 24h chez Sayonarat." },
+      acceptedAnswer: { "@type": "Answer", text: "Le tarif dépend de la superficie et du degré d'infestation. Devis gratuit sous 24h chez Sayonarat." },
     },
     {
       "@type": "Question",
@@ -55,7 +55,7 @@ const faqs = [
   },
   {
     q: "Combien coûte un traitement punaises de lit à Seraing ?",
-    a: "Entre 150 € et 400 € selon la superficie et la méthode (thermique ou chimique). Devis gratuit sous 24h chez Sayonarat.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Devis gratuit sous 24h chez Sayonarat.",
   },
   {
     q: "Le traitement thermique est-il disponible à Seraing ?",

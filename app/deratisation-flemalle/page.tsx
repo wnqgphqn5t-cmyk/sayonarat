@@ -23,7 +23,7 @@ const faqs = [
   },
   {
     q: "Quel est le prix d'une dératisation à Flémalle ?",
-    a: "Entre 150 € et 450 € selon la superficie. Devis gratuit sous 24h, sans engagement.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Devis gratuit sous 24h, sans engagement.",
   },
   {
     q: "Le traitement est-il adapté aux maisons avec cave à Flémalle ?",

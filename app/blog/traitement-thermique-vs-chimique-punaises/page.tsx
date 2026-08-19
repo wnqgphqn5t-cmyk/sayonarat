@@ -32,7 +32,7 @@ const faq = [
   },
   {
     q: "Quelle méthode est la moins chère ?",
-    a: "Le traitement chimique est généralement moins coûteux que le thermique. Le traitement thermique nécessite du matériel spécialisé (soufflantes, sondes thermiques) qui représente un investissement. Pour un studio ou une chambre, l'écart est souvent de 50 à 150 €.",
+    a: "Le traitement chimique est généralement moins coûteux que le thermique. Le traitement thermique nécessite du matériel spécialisé (soufflantes, sondes thermiques) qui représente un investissement.",
   },
   {
     q: "Peut-on combiner les deux méthodes ?",
@@ -120,10 +120,9 @@ export default function ArticleThermiquVsChimiquePage() {
                   ["Durée de l'intervention", "6 à 8 heures", "1 à 3 heures"],
                   ["Retour dans le logement", "Le soir même", "2 à 4 heures après"],
                   ["Nombre de passages", "1 dans la majorité des cas", "Selon diagnostic"],
-                  ["Prix indicatif", "250 € – 500 €", "150 € – 380 €"],
                   ["Produits chimiques", "Aucun", "Oui (homologués)"],
                   ["Objets à retirer", "Quelques sensibles", "Zones traitées accessibles"],
-                  ["Idéal pour", "Résultat rapide, petits logements", "Grandes surfaces, budget serré"],
+                  ["Idéal pour", "Résultat rapide, petits logements", "Grandes surfaces"],
                 ].map(([crit, therm, chim], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-gray-50" : "bg-white"}>
                     <td className="px-4 py-2 font-medium">{crit}</td>

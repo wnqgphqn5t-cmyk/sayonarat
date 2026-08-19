@@ -35,7 +35,7 @@ const faqs = [
   },
   {
     q: "Combien coûte une désinsectisation à Liège ?",
-    a: "Entre 120 € et 400 € selon la superficie et le type d'insecte. Devis gratuit sous 24h.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Devis gratuit sous 24h.",
   },
   {
     q: "Faut-il une deuxième intervention ?",
@@ -93,12 +93,12 @@ export default function DesinsectisationLiegePage() {
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-4">
             Cafards, fourmis ou guêpes à Liège ? Gel insecticide professionnel <strong>sans évacuation requise</strong>.
-            Technicien professionnel sous 24h, produits homologués SPF, dès 120€. Garantie de réintervention.
+            Technicien professionnel sous 24h, produits homologués SPF. Garantie de réintervention.
           </p>
           <div className="flex flex-wrap gap-3 mb-6 text-sm">
             {[
               { val: "< 24h", label: "Intervention" },
-              { val: "dès 120€", label: "Tarif" },
+              { val: "Gratuit", label: "Devis" },
               { val: "30j", label: "Garantie" },
               { val: "✓ SPF", label: "Homologué" },
             ].map((s) => (

@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     q: "Combien coûte un traitement punaises de lit à Grâce-Hollogne ?",
-    a: "Entre 150 € et 450 € selon la superficie et la méthode choisie. Traitement thermique (chaleur 60°C) : plus rapide, résultat le soir même. Traitement chimique : moins cher, adapté aux infestations débutantes. Devis gratuit sous 24h.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Traitement thermique (chaleur 60°C) : plus rapide, résultat le soir même. Traitement chimique : moins cher, adapté aux infestations débutantes. Devis gratuit sous 24h.",
   },
   {
     q: "Dois-je jeter mon matelas ?",

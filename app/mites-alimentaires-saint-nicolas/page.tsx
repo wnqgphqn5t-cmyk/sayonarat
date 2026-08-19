@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     q: "Combien coûte un traitement mites alimentaires à Saint-Nicolas ?",
-    a: "Entre 120 € et 380 € selon la superficie et l'ampleur de l'infestation. Devis gratuit sous 24h chez Sayonarat.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Devis gratuit sous 24h chez Sayonarat.",
   },
   {
     q: "Les mites alimentaires reviennent-elles après traitement ?",

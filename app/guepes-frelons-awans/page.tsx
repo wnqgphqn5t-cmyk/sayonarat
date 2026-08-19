@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "Combien coûte la destruction d'un nid de guêpes à Awans ?",
-    a: "Entre 90 € et 180 € pour un nid accessible (combles, haie, façade). Les nids en toiture haute peuvent nécessiter un accès par nacelle ou échelle spécialisée. Devis gratuit sous 24h.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Les nids en toiture haute peuvent nécessiter un accès par nacelle ou échelle spécialisée. Devis gratuit sous 24h.",
   },
   {
     q: "Les guêpes à Awans : quelles zones sont les plus touchées ?",

@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: "Combien coûte un traitement fourmis à Verviers ?",
-    a: "Entre 120 € et 280 € selon le type de fourmi et la superficie. Fourmis des jardins : dès 120 €. Fourmis pharaon : 180–280 € selon l'étendue de la colonie. Devis gratuit sous 24h.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Devis gratuit sous 24h.",
   },
   {
     q: "Combien de temps pour éliminer les fourmis ?",
@@ -156,23 +156,6 @@ export default function FourmisVerviersPage() {
           ))}
         </div>
 
-        <div className="bg-yellow-50 border-l-4 border-yellow-400 p-5 rounded-r-xl mb-10">
-          <p className="font-semibold text-gray-800 mb-3">Tarifs indicatifs — Fourmis Verviers</p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
-            {[
-              { type: "Fourmis des jardins (maison)", prix: "dès 120 €" },
-              { type: "Fourmis noires (appartement)", prix: "dès 130 €" },
-              { type: "Fourmis pharaon (appartement)", prix: "180 – 250 €" },
-              { type: "Fourmis charpentières", prix: "160 – 280 €" },
-            ].map((t) => (
-              <div key={t.type} className="flex justify-between bg-white rounded-lg px-4 py-2 border border-yellow-200">
-                <span className="text-gray-700">{t.type}</span>
-                <span className="font-bold" style={{ color: "#1B4332" }}>{t.prix}</span>
-              </div>
-            ))}
-          </div>
-          <p className="text-xs text-gray-500 mt-3">Devis gratuit et précis sous 24h selon diagnostic sur place.</p>
-        </div>
 
         <div className="flex flex-col sm:flex-row gap-4">
           <Link

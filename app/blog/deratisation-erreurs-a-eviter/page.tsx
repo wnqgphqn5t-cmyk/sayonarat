@@ -174,7 +174,7 @@ export default function ArticleErreursDeratisationPage() {
           <ul className="space-y-2 text-sm">
             <li><Link href="/blog/comment-savoir-si-on-a-des-rats" className="underline font-medium" style={{ color: "#1B4332" }}>Comment savoir si on a des rats ? Les 7 signes</Link></li>
             <li><Link href="/blog/souris-ou-rat-difference" className="underline font-medium" style={{ color: "#1B4332" }}>Souris ou rat : comment faire la différence ?</Link></li>
-            <li><Link href="/blog/prix-deratisation-liege-2026" className="underline font-medium" style={{ color: "#1B4332" }}>Prix d'une dératisation à Liège en 2026</Link></li>
+            <li><Link href="/deratisation-liege" className="underline font-medium" style={{ color: "#1B4332" }}>Dératisation à Liège — service et devis</Link></li>
           </ul>
         </section>
 

@@ -36,7 +36,7 @@ const faq = [
   },
   {
     q: "Combien coûte la destruction d'un nid de frelons à Liège ?",
-    a: "Entre 90 € et 220 € selon la hauteur et l'accessibilité du nid. Un nid au sol ou en façade accessible est moins cher à traiter qu'un nid en toiture ou en hauteur nécessitant une nacelle. Devis gratuit chez Sayonarat.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Un nid au sol ou en façade accessible est moins cher à traiter qu'un nid en toiture ou en hauteur nécessitant une nacelle. Devis gratuit chez Sayonarat.",
   },
   {
     q: "Le frelon asiatique est-il présent à Liège ?",

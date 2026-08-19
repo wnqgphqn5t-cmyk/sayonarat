@@ -17,7 +17,7 @@ const faqs = [
   },
   {
     q: "Quel est le prix d'une dératisation à Awans ?",
-    a: "Le tarif minimum est de 150 € pour une intervention résidentielle standard. Pour les dépendances agricoles (granges, hangars), le prix est établi sur devis selon la superficie. Devis gratuit sous 24h.",
+    a: "Pour les dépendances agricoles (granges, hangars), le prix est établi sur devis selon la superficie. Devis gratuit sous 24h.",
   },
   {
     q: "Couvrez-vous toute la commune d'Awans ?",

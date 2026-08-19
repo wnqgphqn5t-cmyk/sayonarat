@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     q: "Combien coûte un traitement fourmis pharaon à Liège ?",
-    a: "Entre 200 € et 450 € selon la superficie et l'étendue de l'infestation. Le traitement par appâts gel requiert parfois des visites espacées pour s'assurer que toutes les colonies ont été atteintes. Devis gratuit sous 24h.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Le traitement par appâts gel requiert parfois des visites espacées pour s'assurer que toutes les colonies ont été atteintes. Devis gratuit sous 24h.",
   },
   {
     q: "Les fourmis pharaon peuvent-elles contaminer les aliments ?",

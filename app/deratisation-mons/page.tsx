@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     q: "Combien coûte une dératisation à Mons ?",
-    a: "Entre 150 € et 400 € selon la superficie et l'ampleur de l'infestation. Devis gratuit sous 24h. Pour les établissements Horeca du centre-ville ou les bâtiments institutionnels, tarif établi sur devis.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Devis gratuit sous 24h. Pour les établissements Horeca du centre-ville ou les bâtiments institutionnels, tarif établi sur devis.",
   },
   {
     q: "Les bâtiments anciens du centre de Mons sont-ils plus exposés ?",

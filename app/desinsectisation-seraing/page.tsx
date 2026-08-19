@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     q: "Combien coûte une désinsectisation à Seraing ?",
-    a: "Entre 120 € et 400 € pour un appartement ou une maison selon le type d'insecte et la superficie. Devis gratuit sous 24h chez Sayonarat.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Devis gratuit sous 24h chez Sayonarat.",
   },
   {
     q: "Intervenez-vous pour les nids de guêpes à Seraing ?",

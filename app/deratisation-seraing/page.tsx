@@ -23,7 +23,7 @@ const faqs = [
   },
   {
     q: "Quel est le prix d'une dératisation à Seraing ?",
-    a: "Entre 150 € et 450 € selon la superficie. Devis gratuit sous 24h, sans engagement.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Devis gratuit sous 24h, sans engagement.",
   },
   {
     q: "Y a-t-il plus de rongeurs à Seraing qu'ailleurs ?",

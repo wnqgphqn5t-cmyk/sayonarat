@@ -40,7 +40,7 @@ const faq = [
   },
   {
     q: "Combien coûte un traitement cafards à Liège ?",
-    a: "Entre 120 € et 280 € pour un appartement ou une maison, selon la superficie et l'ampleur de l'infestation. Le nombre de passages est adapté à la situation lors du diagnostic. Devis gratuit chez Sayonarat sous 24h.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Le nombre de passages est adapté à la situation lors du diagnostic. Devis gratuit chez Sayonarat sous 24h.",
   },
   {
     q: "Les cafards sont-ils dangereux pour la santé ?",
@@ -271,8 +271,8 @@ export default function ArticleCafardsPage() {
               </Link>
             </li>
             <li>
-              <Link href="/blog/prix-desinsectisation-liege-2026" className="underline font-medium" style={{ color: "#1B4332" }}>
-                Prix d'une désinsectisation à Liège en 2026
+              <Link href="/cafards-liege" className="underline font-medium" style={{ color: "#1B4332" }}>
+                Désinsectisation cafards à Liège — service et devis
               </Link>
             </li>
           </ul>

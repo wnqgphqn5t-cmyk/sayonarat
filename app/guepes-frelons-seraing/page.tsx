@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "Combien coûte la destruction d'un nid de guêpes à Seraing ?",
-    a: "Entre 90 € et 180 € pour un nid accessible (combles, arbuste, façade basse). Les nids en toiture ou en hauteur peuvent nécessiter un tarif majoré selon les conditions d'accès. Devis gratuit sous 24h.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Les nids en toiture ou en hauteur peuvent nécessiter un tarif majoré selon les conditions d'accès. Devis gratuit sous 24h.",
   },
   {
     q: "À Seraing, où trouve-t-on le plus souvent des nids de guêpes ?",

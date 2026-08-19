@@ -17,7 +17,7 @@ const faqs = [
   },
   {
     q: "Quel est le prix du traitement punaises de lit à Awans ?",
-    a: "Le tarif minimum est de 150 € pour un traitement chimique standard. Le traitement thermique est généralement plus coûteux. Devis gratuit sous 24h, prix définitif après diagnostic.",
+    a: "Le traitement thermique est généralement plus coûteux. Devis gratuit sous 24h, prix définitif après diagnostic.",
   },
   {
     q: "Quelle méthode de traitement choisir ?",

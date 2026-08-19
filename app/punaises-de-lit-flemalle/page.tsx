@@ -38,7 +38,7 @@ const faqSchema = {
     {
       "@type": "Question",
       name: "Combien coûte un traitement punaises de lit à Flémalle ?",
-      acceptedAnswer: { "@type": "Answer", text: "Entre 150 € et 400 € selon la superficie et la méthode (thermique ou chimique). Pour les maisons individuelles typiques de Flémalle, le traitement thermique est souvent la solution la plus rapide. Devis gratuit sous 24h." },
+      acceptedAnswer: { "@type": "Answer", text: "Le tarif dépend de la superficie et du degré d'infestation. Pour les maisons individuelles typiques de Flémalle, le traitement thermique est souvent la solution la plus rapide. Devis gratuit sous 24h." },
     },
     {
       "@type": "Question",
@@ -55,7 +55,7 @@ const faqs = [
   },
   {
     q: "Combien coûte un traitement punaises de lit à Flémalle ?",
-    a: "Entre 150 € et 400 € selon la superficie et la méthode (thermique ou chimique). Pour les maisons individuelles typiques de Flémalle, le traitement thermique est souvent la solution la plus rapide. Devis gratuit sous 24h.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Pour les maisons individuelles typiques de Flémalle, le traitement thermique est souvent la solution la plus rapide. Devis gratuit sous 24h.",
   },
   {
     q: "Combien de temps dure le traitement thermique ?",

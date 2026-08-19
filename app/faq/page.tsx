@@ -20,7 +20,7 @@ const faqSchema = {
     {
       "@type": "Question",
       name: "Combien coûte une dératisation à Liège ?",
-      acceptedAnswer: { "@type": "Answer", text: "Entre 150 € et 450 € pour une maison unifamiliale à Liège, selon la superficie et l'ampleur de l'infestation. Pour un appartement, comptez entre 150 € et 320 €. Le devis est gratuit et sans engagement — vous recevez une estimation sous 24h." },
+      acceptedAnswer: { "@type": "Answer", text: "Le tarif dépend de la superficie et du degré d'infestation. Le devis est gratuit et sans engagement — vous recevez une estimation sous 24h." },
     },
     {
       "@type": "Question",
@@ -96,15 +96,15 @@ const sections = [
     questions: [
       {
         q: "Combien coûte une dératisation à Liège ?",
-        a: "Entre 150 € et 450 € pour une maison unifamiliale, selon la superficie et l'ampleur de l'infestation. Pour un appartement, comptez entre 150 € et 320 €. Le devis est gratuit et sans engagement.",
+        a: "Le tarif dépend de la superficie et du degré d'infestation. Le devis est gratuit et sans engagement.",
       },
       {
         q: "Combien coûte une désinsectisation (cafards, fourmis) ?",
-        a: "Entre 120 € et 400 € selon le type d'insecte et la superficie. Les fourmis pharaons nécessitent un traitement plus complexe (200 € à 450 €). Les nids de guêpes accessibles sont traités entre 90 € et 180 €.",
+        a: "Le tarif dépend de la superficie et du degré d'infestation.",
       },
       {
         q: "Combien coûte un traitement punaises de lit ?",
-        a: "Entre 150 € et 450 € selon la méthode (thermique ou chimique) et la superficie. Le traitement thermique est plus cher mais donne un résultat complet en une seule intervention. Le traitement chimique est moins coûteux.",
+        a: "Le tarif dépend de la superficie et du degré d'infestation. Le traitement thermique est plus cher mais donne un résultat complet en une seule intervention. Le traitement chimique est moins coûteux.",
       },
       {
         q: "Le traitement est-il garanti ?",
@@ -196,7 +196,7 @@ const sections = [
       },
       {
         q: "Quelle est la différence entre traitement thermique et chimique ?",
-        a: "Le traitement thermique (60°C+) élimine punaises et œufs en une seule intervention, le logement est réintégrable le soir même. Plus cher (250–500€). Le traitement chimique utilise des insecticides rémanents sur plusieurs semaines, moins coûteux (150–380€). Les deux sont efficaces entre les mains d'un professionnel.",
+        a: "Le traitement thermique (60°C+) élimine punaises et œufs en une seule intervention, le logement est réintégrable le soir même. Les deux sont efficaces entre les mains d'un professionnel.",
         lien: { label: "Comparatif thermique vs chimique", href: "/blog/traitement-thermique-vs-chimique-punaises" },
       },
       {

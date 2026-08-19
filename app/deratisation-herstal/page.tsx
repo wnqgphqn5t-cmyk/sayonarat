@@ -23,7 +23,7 @@ const faqs = [
   },
   {
     q: "Quel est le prix d'une dératisation à Herstal ?",
-    a: "Entre 150 € et 450 € selon la superficie. Devis gratuit sous 24h.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Devis gratuit sous 24h.",
   },
   {
     q: "Intervenez-vous aussi pour les entreprises à Herstal ?",

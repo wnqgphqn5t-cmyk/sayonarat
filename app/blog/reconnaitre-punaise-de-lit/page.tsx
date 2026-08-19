@@ -40,7 +40,7 @@ const faq = [
   },
   {
     q: "Combien coûte un traitement punaises de lit à Liège ?",
-    a: "Entre 200 € et 500 € selon la superficie et la méthode (traitement thermique ou chimique). Le traitement thermique (chaleur à 55°C) est plus efficace en un passage mais plus coûteux. Devis gratuit sous 24h chez Sayonarat.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Le traitement thermique (chaleur à 55°C) est plus efficace en un passage mais plus coûteux. Devis gratuit sous 24h chez Sayonarat.",
   },
 ];
 

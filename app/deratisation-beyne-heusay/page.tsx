@@ -17,7 +17,7 @@ const faqs = [
   },
   {
     q: "Quel est le prix d'une dératisation à Beyne-Heusay ?",
-    a: "Le tarif minimum est de 150 € pour une intervention standard. Le prix final dépend de la superficie, du type de rongeur et de l'étendue de l'infestation. Devis gratuit sous 24h.",
+    a: "Le prix final dépend de la superficie, du type de rongeur et de l'étendue de l'infestation. Devis gratuit sous 24h.",
   },
   {
     q: "Intervenez-vous dans tous les villages de la commune ?",

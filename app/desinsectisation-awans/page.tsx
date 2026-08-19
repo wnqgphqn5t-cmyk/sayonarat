@@ -17,7 +17,7 @@ const faqs = [
   },
   {
     q: "Quel est le prix d'une désinsectisation à Awans ?",
-    a: "Le tarif minimum est de 120 € pour une intervention standard. Pour la destruction de nids de guêpes ou de frelons, le prix varie selon la hauteur, l'accessibilité et la taille du nid. Devis gratuit sous 24h.",
+    a: "Pour la destruction de nids de guêpes ou de frelons, le prix varie selon la hauteur, l'accessibilité et la taille du nid. Devis gratuit sous 24h.",
   },
   {
     q: "J'ai des fourmis dans ma maison de campagne à Awans, que faire ?",

@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     q: "Combien coûte un traitement punaises de lit à Liège ?",
-    a: "Entre 150 € et 400 € selon la superficie et la méthode choisie. Le traitement thermique est plus cher mais plus rapide. Devis gratuit sous 24h.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Le traitement thermique est plus cher mais plus rapide. Devis gratuit sous 24h.",
   },
   {
     q: "Combien de temps après le traitement puis-je dormir dans ma chambre ?",
@@ -92,12 +92,12 @@ export default function PunaisesLiegePage() {
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-4">
             Punaises de lit à Liège : traitement thermique à 60°C ou chimique. <strong>Chambre accessible le soir même</strong>.
-            Technicien professionnel sous 24h, dès 150€. Garantie de réintervention incluse.
+            Technicien professionnel sous 24h. Garantie de réintervention incluse.
           </p>
           <div className="flex flex-wrap gap-3 mb-6 text-sm">
             {[
               { val: "< 24h", label: "Intervention" },
-              { val: "dès 150€", label: "Tarif" },
+              { val: "Gratuit", label: "Devis" },
               { val: "30j", label: "Garantie" },
               { val: "✓ SPF", label: "Homologué" },
             ].map((s) => (
@@ -254,7 +254,6 @@ export default function PunaisesLiegePage() {
             { label: "Comment reconnaître une punaise de lit ?", href: "/blog/reconnaitre-punaise-de-lit" },
             { label: "Traitement thermique vs chimique", href: "/blog/traitement-thermique-vs-chimique-punaises" },
             { label: "Éviter les punaises en voyage", href: "/blog/punaises-lit-voyage-eviter" },
-            { label: "Prix traitement punaises à Liège 2026", href: "/blog/prix-punaises-lit-liege-2026" },
           ].map((a) => (
             <Link
               key={a.href}

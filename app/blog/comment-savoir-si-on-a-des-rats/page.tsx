@@ -301,8 +301,8 @@ export default function ArticleRatsPage() {
               </Link>
             </li>
             <li>
-              <Link href="/blog/prix-deratisation-liege-2026" className="underline font-medium" style={{ color: "#1B4332" }}>
-                Prix d'une dératisation à Liège en 2026
+              <Link href="/deratisation-liege" className="underline font-medium" style={{ color: "#1B4332" }}>
+                Dératisation à Liège — service et devis
               </Link>
             </li>
           </ul>

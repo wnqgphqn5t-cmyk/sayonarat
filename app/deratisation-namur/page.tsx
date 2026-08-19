@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     q: "Combien coûte une dératisation à Namur ?",
-    a: "Entre 150 € et 400 € selon la superficie et l'ampleur de l'infestation. Devis gratuit sous 24h. Pour les établissements Horeca ou les bâtiments institutionnels du centre de Namur, tarif établi sur devis.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Devis gratuit sous 24h. Pour les établissements Horeca ou les bâtiments institutionnels du centre de Namur, tarif établi sur devis.",
   },
   {
     q: "Les rongeurs sont-ils fréquents près de la citadelle de Namur ?",

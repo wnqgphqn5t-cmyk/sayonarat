@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     q: "Combien coûte une désinsectisation à Saint-Nicolas ?",
-    a: "Entre 120 € et 400 € selon le type d'insecte et la superficie. Les nids de guêpes sont traités entre 90 € et 180 €. Devis gratuit sous 24h chez Sayonarat.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Devis gratuit sous 24h chez Sayonarat.",
   },
   {
     q: "La proximité de la Meuse influence-t-elle les infestations à Saint-Nicolas ?",

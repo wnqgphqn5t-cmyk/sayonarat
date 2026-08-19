@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     q: "Combien coûte une dératisation à Charleroi ?",
-    a: "Entre 150 € et 400 € selon la superficie et l'ampleur de l'infestation. Devis gratuit sous 24h. Pour les sites industriels, entrepôts ou bâtiments commerciaux du bassin de Charleroi, tarif établi sur devis spécifique.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Devis gratuit sous 24h. Pour les sites industriels, entrepôts ou bâtiments commerciaux du bassin de Charleroi, tarif établi sur devis spécifique.",
   },
   {
     q: "Les anciens sites industriels de Charleroi favorisent-ils les rongeurs ?",

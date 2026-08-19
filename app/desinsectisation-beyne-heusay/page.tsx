@@ -17,7 +17,7 @@ const faqs = [
   },
   {
     q: "Quel est le tarif pour une désinsectisation à Beyne-Heusay ?",
-    a: "Le tarif minimum est de 120 € pour une intervention standard. Pour la destruction de nids de guêpes ou de frelons, le prix varie selon la hauteur et l'accessibilité. Devis gratuit sous 24h.",
+    a: "Pour la destruction de nids de guêpes ou de frelons, le prix varie selon la hauteur et l'accessibilité. Devis gratuit sous 24h.",
   },
   {
     q: "Comment savoir si j'ai des cafards dans ma maison ?",

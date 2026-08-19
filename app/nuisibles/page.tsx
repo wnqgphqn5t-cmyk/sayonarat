@@ -24,7 +24,6 @@ const services = [
     title: "Dératisation",
     description:
       "Élimination professionnelle des rats et souris. Appâts homologués SPF, colmatage des accès inclus.",
-    price: "dès 150€",
     icon: "🐀",
     href: "/deratisation-liege",
     cities: [
@@ -38,7 +37,6 @@ const services = [
     title: "Désinsectisation",
     description:
       "Traitement contre cafards, fourmis, puces et autres insectes rampants. Produits homologués sans danger.",
-    price: "dès 120€",
     icon: "🪳",
     href: "/desinsectisation-liege",
     cities: [
@@ -52,7 +50,6 @@ const services = [
     title: "Punaises de Lit",
     description:
       "Traitement thermique ou chimique contre les punaises de lit. Résultat garanti dès la 1ère intervention.",
-    price: "dès 150€",
     icon: "🛏️",
     href: "/punaises-de-lit-liege",
     cities: [
@@ -66,7 +63,6 @@ const services = [
     title: "Guêpes & Frelons",
     description:
       "Destruction de nids de guêpes et frelons en toute sécurité. Intervention rapide sous 24h.",
-    price: "dès 89€",
     icon: "🐝",
     href: "/guepes-frelons-liege",
     cities: [
@@ -80,7 +76,6 @@ const services = [
     title: "Fourmis",
     description:
       "Traitement ciblé contre les fourmis domestiques et fourmis pharaon. Élimination de la colonie complète.",
-    price: "dès 120€",
     icon: "🐜",
     href: "/fourmis-liege",
     cities: [{ label: "Liège", href: "/fourmis-liege" }],
@@ -89,7 +84,6 @@ const services = [
     title: "Cafards",
     description:
       "Élimination des blattes et cafards. Gel insecticide professionnel, résultat visible sous 72h.",
-    price: "dès 120€",
     icon: "🪲",
     href: "/cafards-liege",
     cities: [{ label: "Liège", href: "/cafards-liege" }],
@@ -99,7 +93,7 @@ const services = [
 const faqs = [
   {
     q: "Combien coûte une intervention contre les nuisibles en Belgique ?",
-    a: "Le tarif varie selon le type de nuisible et la superficie traitée. Comptez dès 89€ pour un nid de guêpes, dès 120€ pour désinsectisation, dès 150€ pour dératisation ou punaises de lit. Devis gratuit sous 24h.",
+    a: "Le tarif varie selon le type de nuisible et la superficie traitée. Devis gratuit sous 24h.",
   },
   {
     q: "Dans quelles villes intervenez-vous ?",
@@ -231,7 +225,7 @@ export default function NuisiblesHub() {
                 <p className="text-gray-600 text-sm mb-3">
                   {service.description}
                 </p>
-                <p className="text-yellow-600 font-bold mb-4">{service.price}</p>
+                <p className="text-yellow-600 font-bold mb-4">Devis gratuit</p>
                 <Link
                   href={service.href}
                   className="block text-center bg-green-700 text-white font-semibold py-2 rounded-lg hover:bg-green-800 transition-colors mb-3 text-sm"

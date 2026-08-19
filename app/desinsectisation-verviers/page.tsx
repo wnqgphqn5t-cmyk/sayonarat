@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     q: "Combien coûte une désinsectisation à Verviers ?",
-    a: "Entre 120 € et 350 € selon le type d'insecte et la superficie. Nids de guêpes accessibles à partir de 90 €. Devis gratuit sous 24h.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Devis gratuit sous 24h.",
   },
   {
     q: "Les anciens bâtiments textiles de Verviers sont-ils propices aux insectes ?",

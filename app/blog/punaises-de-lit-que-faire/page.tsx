@@ -40,7 +40,7 @@ const faq = [
   },
   {
     q: "Le traitement thermique est-il efficace contre les punaises ?",
-    a: "Oui, le traitement thermique (chaleur à 50–55°C) est l'une des méthodes les plus efficaces car il tue les punaises à tous les stades, y compris les œufs. Il est non-toxique et traite tout un appartement en une journée. Inconvénient : il est plus coûteux qu'un traitement chimique (250–500 € pour un appartement).",
+    a: "Oui, le traitement thermique (chaleur à 50–55°C) est l'une des méthodes les plus efficaces car il tue les punaises à tous les stades, y compris les œufs. Il est non-toxique et traite tout un appartement en une journée.",
   },
   {
     q: "Peut-on traiter les punaises de lit soi-même ?",
@@ -236,13 +236,13 @@ export default function ArticlePunaisesPage() {
             {[
               {
                 titre: "Traitement chimique (insecticide)",
-                details: ["2 à 3 passages à 2 semaines d'intervalle", "Efficace sur adultes et nymphes", "Ne tue pas tous les œufs (d'où les passages multiples)", "Prix : 200–400 € pour un appartement"],
+                details: ["2 à 3 passages à 2 semaines d'intervalle", "Efficace sur adultes et nymphes", "Ne tue pas tous les œufs (d'où les passages multiples)"],
                 note: "Méthode la plus courante",
               },
               {
                 titre: "Traitement thermique (chaleur)",
-                details: ["1 seul passage (6–8 heures)", "Tue tous les stades dont les œufs", "Non toxique, sans résidu chimique", "Prix : 250–500 € pour un appartement"],
-                note: "Plus efficace, plus coûteux",
+                details: ["1 seul passage (6–8 heures)", "Tue tous les stades dont les œufs", "Non toxique, sans résidu chimique"],
+                note: "Plus efficace, plus rapide",
               },
             ].map((m, i) => (
               <div key={i} className="border border-gray-200 rounded-xl p-5">
@@ -322,8 +322,8 @@ export default function ArticlePunaisesPage() {
               </Link>
             </li>
             <li>
-              <Link href="/blog/prix-deratisation-liege-2026" className="underline font-medium" style={{ color: "#1B4332" }}>
-                Prix d'une dératisation à Liège en 2026
+              <Link href="/deratisation-liege" className="underline font-medium" style={{ color: "#1B4332" }}>
+                Dératisation à Liège — service et devis
               </Link>
             </li>
             <li>

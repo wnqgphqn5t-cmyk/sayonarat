@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "Combien coûte la destruction d'un nid de guêpes à Herstal ?",
-    a: "Entre 90 € et 180 € pour un nid accessible. Les nids en toiture haute ou en espace confiné peuvent nécessiter un supplément selon les conditions d'accès. Devis gratuit sous 24h.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Les nids en toiture haute ou en espace confiné peuvent nécessiter un supplément selon les conditions d'accès. Devis gratuit sous 24h.",
   },
   {
     q: "Pourquoi y a-t-il autant de nids de guêpes à Herstal ?",

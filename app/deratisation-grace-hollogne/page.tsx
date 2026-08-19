@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     q: "Combien coûte une dératisation à Grâce-Hollogne ?",
-    a: "Entre 150 € et 400 € pour un logement standard. Pour les locaux professionnels et entrepôts, le tarif est établi sur devis selon la superficie et la nature de l'activité. Devis gratuit sous 24h.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Pour les locaux professionnels et entrepôts, le tarif est établi sur devis selon la superficie et la nature de l'activité. Devis gratuit sous 24h.",
   },
   {
     q: "Intervenez-vous dans les zones industrielles de Grâce-Hollogne ?",

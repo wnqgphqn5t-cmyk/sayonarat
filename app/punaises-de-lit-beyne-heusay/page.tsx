@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: "Quel est le prix du traitement punaises de lit à Beyne-Heusay ?",
-    a: "Le tarif minimum est de 150 € pour un traitement chimique standard. Le traitement thermique est plus coûteux selon la superficie. Devis gratuit sous 24h.",
+    a: "Le traitement thermique est plus coûteux selon la superficie. Devis gratuit sous 24h.",
   },
   {
     q: "Dois-je quitter mon logement pendant le traitement ?",

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "Combien coûte la destruction d'un nid de guêpes à Flémalle ?",
-    a: "Entre 90 € et 180 € pour un nid accessible (combles, façade, abri de jardin). Nids en toiture haute ou espace difficile d'accès : tarif ajusté selon les conditions. Devis gratuit sous 24h.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Nids en toiture haute ou espace difficile d'accès : tarif ajusté selon les conditions. Devis gratuit sous 24h.",
   },
   {
     q: "Pourquoi les guêpes s'installent-elles souvent à Flémalle ?",

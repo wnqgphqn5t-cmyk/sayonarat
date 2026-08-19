@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     q: "Quel est le prix d'une dératisation à Liège ?",
-    a: "Entre 150 € et 450 € selon la taille du logement et le degré d'infestation. Devis gratuit et sans engagement sous 24h.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Devis gratuit et sans engagement sous 24h.",
   },
   {
     q: "La dératisation fonctionne-t-elle dès la première intervention ?",
@@ -93,14 +93,13 @@ export default function DeratisationLiegePage() {
             Dératisation Liège — Intervention rapide | Sayonarat
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-4">
-            Rats ou souris à Liège ? Technicien professionnel chez vous en <strong>moins de 24h</strong>,
-            dès 150€. Appâts rodenticides homologués SPF, colmatage des accès inclus.
+            Rats ou souris à Liège ? Technicien professionnel chez vous en <strong>moins de 24h</strong>. Appâts rodenticides homologués SPF, colmatage des accès inclus.
             Garantie de réintervention — retour sans frais si réapparition.
           </p>
           <div className="flex flex-wrap gap-3 mb-6 text-sm">
             {[
               { val: "< 24h", label: "Intervention" },
-              { val: "dès 150€", label: "Tarif" },
+              { val: "Gratuit", label: "Devis" },
               { val: "30j", label: "Garantie" },
               { val: "✓ SPF", label: "Homologué" },
             ].map((s) => (
@@ -238,7 +237,6 @@ export default function DeratisationLiegePage() {
         <div className="flex flex-wrap gap-3">
           {[
             { label: "Comment savoir si on a des rats ?", href: "/blog/comment-savoir-si-on-a-des-rats" },
-            { label: "Prix d'une dératisation à Liège en 2026", href: "/blog/prix-deratisation-liege-2026" },
             { label: "Souris ou rat : comment faire la différence ?", href: "/blog/souris-ou-rat-difference" },
             { label: "Les erreurs à éviter lors d'une dératisation", href: "/blog/deratisation-erreurs-a-eviter" },
             { label: "Dératisation à Seraing : zones à risque", href: "/blog/deratisation-seraing-zones-risque" },

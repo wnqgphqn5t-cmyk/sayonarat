@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     q: "Combien coûte une dératisation à Verviers ?",
-    a: "Entre 150 € et 400 € selon la superficie et l'ampleur de l'infestation. Devis gratuit sous 24h. Pour les anciens bâtiments industriels reconvertis ou les entrepôts de la région verviétoise, tarif établi sur devis.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Devis gratuit sous 24h. Pour les anciens bâtiments industriels reconvertis ou les entrepôts de la région verviétoise, tarif établi sur devis.",
   },
   {
     q: "Les anciens bâtiments textiles de Verviers sont-ils des foyers à risque ?",

@@ -37,7 +37,7 @@ const faqSchema = {
     {
       "@type": "Question",
       name: "Quel est le prix de la destruction d'un nid de guêpes à Liège ?",
-      acceptedAnswer: { "@type": "Answer", text: "Entre 90 € et 180 € pour un nid accessible (combles, sous-toit, arbuste). Les nids en hauteur ou difficiles d'accès (toiture, façade haute) peuvent nécessiter un tarif majoré. Devis gratuit sous 24h." },
+      acceptedAnswer: { "@type": "Answer", text: "Le tarif dépend de la superficie et du degré d'infestation. Les nids en hauteur ou difficiles d'accès (toiture, façade haute) peuvent nécessiter un tarif majoré. Devis gratuit sous 24h." },
     },
     {
       "@type": "Question",
@@ -64,7 +64,7 @@ const faqs = [
   },
   {
     q: "Quel est le prix de la destruction d'un nid de guêpes à Liège ?",
-    a: "Entre 90 € et 180 € pour un nid accessible (combles, sous-toit, arbuste). Les nids en hauteur ou difficiles d'accès (toiture, façade haute) peuvent nécessiter un tarif majoré. Devis gratuit sous 24h.",
+    a: "Le tarif dépend de la superficie et du degré d'infestation. Les nids en hauteur ou difficiles d'accès (toiture, façade haute) peuvent nécessiter un tarif majoré. Devis gratuit sous 24h.",
   },
   {
     q: "Comment se déroule l'intervention pour un nid de frelons ?",
@@ -107,13 +107,13 @@ export default function GuepesFrellonsLiegePage() {
             Destruction nid guêpes et frelons à Liège
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-4">
-            Nid de guêpes ou frelons à Liège ? <strong>Intervention nocturne sécurisée sous 48h</strong>, dès 90€.
+            Nid de guêpes ou frelons à Liège ? <strong>Intervention nocturne sécurisée sous 48h</strong>.
             Frelon asiatique traité en priorité. Technicien équipé, garantie de réintervention.
           </p>
           <div className="flex flex-wrap gap-3 mb-6 text-sm">
             {[
               { val: "< 48h", label: "Intervention" },
-              { val: "dès 90€", label: "Tarif" },
+              { val: "Gratuit", label: "Devis" },
               { val: "30j", label: "Garantie" },
               { val: "✓ SPF", label: "Homologué" },
             ].map((s) => (

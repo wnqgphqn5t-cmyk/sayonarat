@@ -203,7 +203,6 @@ export default function ArticleCafardsResponsabilitePage() {
           <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>Articles liés</h2>
           <ul className="space-y-2 text-sm">
             <li><Link href="/blog/cafards-cuisine-que-faire" className="underline font-medium" style={{ color: "#1B4332" }}>Cafards dans la cuisine : que faire ?</Link></li>
-            <li><Link href="/blog/prix-desinsectisation-liege-2026" className="underline font-medium" style={{ color: "#1B4332" }}>Prix d'une désinsectisation à Liège en 2026</Link></li>
             <li><Link href="/desinsectisation-liege" className="underline font-medium" style={{ color: "#1B4332" }}>Désinsectisation Liège — service principal</Link></li>
           </ul>
         </section>
