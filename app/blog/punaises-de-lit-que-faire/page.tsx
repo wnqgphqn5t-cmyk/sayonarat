@@ -16,7 +16,7 @@ const jsonLd = {
   description:
     "Étapes à suivre immédiatement, erreurs à éviter et traitement professionnel punaises de lit à Liège.",
   datePublished: "2026-03-20",
-  dateModified: "2026-08-02",
+  dateModified: "2026-08-26",
   author: { "@type": "Organization", name: "L'équipe Sayonarat" },
   publisher: {
     "@type": "Organization",
@@ -91,7 +91,7 @@ export default function ArticlePunaisesPage() {
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-green-700 text-white">
               Punaises de lit
             </span>
-            <span className="text-xs text-green-300">2 août 2026 · 6 min de lecture</span>
+            <span className="text-xs text-green-300">26 août 2026 · 6 min de lecture</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
             Punaises de lit : que faire<br />en cas d'infestation à Liège ?
@@ -128,9 +128,12 @@ export default function ArticlePunaisesPage() {
           <p className="text-sm text-gray-700 mt-1">
             Août et début septembre sont le moment de l'année où les punaises de lit se propagent le plus,
             avec les retours de vacances. Hôtels, Airbnb, transports : une seule nuit dans un logement
-            infesté suffit à en ramener dans vos bagages. Au retour, ne défaites pas les valises dans la
-            chambre — inspectez d'abord les coutures, poches et fermetures éclair, et passez le linge au
-            sèche-linge à haute température, plus efficace qu'un simple lavage.
+            infesté suffit à en ramener dans vos bagages. Fin août 2026, les sociétés de désinfestation
+            actives en Wallonie et à Bruxelles rapportent entre 5 et 10 interventions par jour liées aux
+            punaises de lit — un niveau élevé, même s'il reste sous le pic de 2023. Au retour de voyage,
+            ne défaites pas les valises dans la chambre — inspectez d'abord les coutures, poches et
+            fermetures éclair, et passez le linge au sèche-linge à haute température, plus efficace qu'un
+            simple lavage.
           </p>
         </div>
 
@@ -352,6 +355,10 @@ export default function ArticlePunaisesPage() {
             {
               label: "Sciensano — Institut de santé publique belge",
               href: "https://www.sciensano.be/fr",
+            },
+            {
+              label: "Paris Match Belgique — Recrudescence des infestations de punaises de lit, août 2026",
+              href: "https://www.parismatch.be/actualites/sante/2026/08/23/attention-danger-cest-reparti-pour-une-recrudescence-des-infestations-de-punaises-de-lit-en-belgique-TWPD6GRE75HMTJAWMMLWT2GPTU/",
             },
           ]}
         />

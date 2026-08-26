@@ -16,7 +16,7 @@ const jsonLd = {
   description:
     "Bruits la nuit, excréments, traces de morsures : comment identifier une infestation de rats ou souris avant qu'elle s'aggrave.",
   datePublished: "2026-03-30",
-  dateModified: "2026-08-02",
+  dateModified: "2026-08-26",
   author: { "@type": "Organization", name: "L'équipe Sayonarat" },
   publisher: {
     "@type": "Organization",
@@ -44,7 +44,7 @@ const faq = [
   },
   {
     q: "Est-ce dangereux d'avoir des rats chez soi ?",
-    a: "Oui. Les rats transmettent la leptospirose (via leur urine), la salmonellose et d'autres maladies. Ils rongent aussi les câbles électriques, ce qui peut provoquer des incendies. Il faut agir rapidement.",
+    a: "Oui. Les rats transmettent la leptospirose (via leur urine), la salmonellose et d'autres maladies. La Belgique diagnostique environ 20 cas humains de leptospirose par an, avec un pic en fin d'été et en automne — la période où les rats se rapprochent des habitations. Ils rongent aussi les câbles électriques, ce qui peut provoquer des incendies. Il faut agir rapidement.",
   },
 ];
 
@@ -91,7 +91,7 @@ export default function ArticleRatsPage() {
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-green-700 text-white">
               Dératisation
             </span>
-            <span className="text-xs text-green-300">2 août 2026 · 5 min de lecture</span>
+            <span className="text-xs text-green-300">26 août 2026 · 5 min de lecture</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
             Comment savoir si on a des rats chez soi ?<br />
@@ -321,6 +321,10 @@ export default function ArticleRatsPage() {
             {
               label: "OMS — Sécurité sanitaire des aliments et rongeurs",
               href: "https://www.who.int/news-room/fact-sheets/detail/food-safety",
+            },
+            {
+              label: "Biodiversité Wallonie — Leptospirose : incidence saisonnière et cas humains",
+              href: "https://biodiversite.wallonie.be/home/evaluation-biologique/sante-de-la-faune/maladies-infectieuses-transmissibles-a-l-homme/leptospirose.html",
             },
           ]}
         />
