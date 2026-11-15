@@ -41,7 +41,7 @@ const jsonLd = {
   author: { "@type": "Organization", name: "Sayonarat" },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },
   datePublished: "2026-04-15",
-  dateModified: "2026-04-15",
+  dateModified: "2026-11-15",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.sayonarat.be/blog/cafards-appartement-que-faire" },
 };
 
@@ -113,6 +113,7 @@ export default function CafardsAppartementPage() {
             <li>• Traiter uniquement la cuisine (les cafards sont aussi dans les prises, les gaines, les plinthes)</li>
           </ul>
         </div>
+        <p>En automne, les cafards se regroupent vers les zones chaudes : cuisines, gaines techniques et chaufferies. Dans un immeuble, traiter un seul logement suffit rarement : coordonnez-vous avec les voisins.</p>
 
         <h2 className="text-2xl font-bold mb-4" style={{ color: "#1B4332" }}>
           Pourquoi les cafards s'installent en appartement à Liège

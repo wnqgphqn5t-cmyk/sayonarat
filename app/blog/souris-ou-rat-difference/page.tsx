@@ -15,7 +15,7 @@ const jsonLd = {
   headline: "Souris ou rat : comment faire la différence ?",
   description: "Distinguer rats et souris par leurs traces, crottes et comportements. Ce que ça change pour le traitement.",
   datePublished: "2026-02-16",
-  dateModified: "2026-02-16",
+  dateModified: "2026-11-15",
   author: { "@type": "Organization", name: "L'équipe Sayonarat" },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.sayonarat.be/blog/souris-ou-rat-difference" },
@@ -95,6 +95,7 @@ export default function ArticleSourisRatPage() {
             déplacements lourds et lents = rats.
           </p>
         </div>
+        <p>En automne, rats et souris cherchent chaleur et abris pour l'hiver : caves, garages, combles et arrière des cuisines. Une présence repérée maintenant se traite plus vite qu'une colonie installée depuis plusieurs mois.</p>
 
         <section>
           <h2 className="text-2xl font-bold mb-5" style={{ color: "#1B4332" }}>

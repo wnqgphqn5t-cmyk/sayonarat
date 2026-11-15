@@ -15,7 +15,7 @@ const jsonLd = {
   headline: "Cafards dans un immeuble : qui est responsable ?",
   description: "Responsabilités propriétaire et locataire face aux cafards. Droit belge, recours et démarches pratiques.",
   datePublished: "2026-01-16",
-  dateModified: "2026-01-16",
+  dateModified: "2026-11-15",
   author: { "@type": "Organization", name: "L'équipe Sayonarat" },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.sayonarat.be/blog/cafards-immeuble-responsabilite" },
@@ -94,6 +94,7 @@ export default function ArticleCafardsResponsabilitePage() {
             d'agir en premier. En pratique, mieux vaut agir vite et régler la question financière ensuite.
           </p>
         </div>
+        <p>En automne, la chaleur des chaufferies et des gaines communes favorise la circulation des cafards entre logements. Agir ensemble et tôt évite que le problème passe d'un appartement à l'autre.</p>
 
         <section>
           <h2 className="text-2xl font-bold mb-5" style={{ color: "#1B4332" }}>
