@@ -15,7 +15,7 @@ const jsonLd = {
   headline: "Dératisation : les 6 erreurs qui aggravent l'infestation",
   description: "Les erreurs les plus fréquentes en dératisation amateur et comment les éviter.",
   datePublished: "2026-02-10",
-  dateModified: "2026-02-10",
+  dateModified: "2026-11-15",
   author: { "@type": "Organization", name: "L'équipe Sayonarat" },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.sayonarat.be/blog/deratisation-erreurs-a-eviter" },
@@ -95,6 +95,7 @@ export default function ArticleErreursDeratisationPage() {
             au lieu de le résoudre.
           </p>
         </div>
+        <p>À l'approche de l'hiver, les rongeurs s'installent dans les caves, greniers et cuisines. Corriger ces erreurs avant les premiers froids évite une infestation qui s'installe durablement.</p>
 
         <section>
           <h2 className="text-2xl font-bold mb-6" style={{ color: "#1B4332" }}>

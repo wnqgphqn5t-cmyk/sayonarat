@@ -15,7 +15,7 @@ const jsonLd = {
   headline: "Punaises de lit en voyage : comment éviter de les ramener ?",
   description: "Détecter les punaises de lit à l'hôtel et éviter de les ramener chez soi. Checklist pratique pour voyageurs.",
   datePublished: "2026-01-22",
-  dateModified: "2026-01-22",
+  dateModified: "2026-11-16",
   author: { "@type": "Organization", name: "L'équipe Sayonarat" },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.sayonarat.be/blog/punaises-lit-voyage-eviter" },
@@ -89,6 +89,8 @@ export default function ArticlePunaisesVoyagePage() {
       </section>
 
       <article className="py-12 px-4 max-w-3xl mx-auto space-y-10 text-gray-700 leading-relaxed">
+
+        <p>Après les vacances d'automne et les city-trips de fin d'année, inspectez vos bagages dès le retour : c'est une période où les valises voyagent beaucoup et où les punaises sont facilement ramenées chez soi.</p>
 
         <div className="bg-green-50 border-l-4 rounded-r-xl p-5" style={{ borderColor: "#1B4332" }}>
           <p className="font-semibold text-gray-800 mb-2">Réponse rapide</p>

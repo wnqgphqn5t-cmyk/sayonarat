@@ -15,7 +15,7 @@ const jsonLd = {
   headline: "Fourmis dans la maison : que faire ? Guide complet",
   description: "Identifier l'espèce de fourmis, étapes immédiates, erreurs à éviter et traitement professionnel à Liège.",
   datePublished: "2026-03-05",
-  dateModified: "2026-04-27",
+  dateModified: "2026-11-16",
   author: { "@type": "Organization", name: "L'équipe Sayonarat" },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.sayonarat.be/blog/fourmis-maison-que-faire" },
@@ -101,11 +101,12 @@ export default function ArticleFourmisPage() {
         </div>
 
         <div className="bg-green-50 border-l-4 rounded-r-xl p-4" style={{ borderColor: "#1B4332" }}>
-          <p className="font-semibold text-sm" style={{ color: "#1B4332" }}>🌿 Printemps 2026 : pic d'invasion en cours</p>
+          <p className="font-semibold text-sm" style={{ color: "#1B4332" }}>🍂 Automne : les fourmis cherchent la chaleur des logements</p>
           <p className="text-sm text-gray-700 mt-1">
-            En avril-mai, les colonies de fourmis sortent de leur ralentissement hivernal et envoient des
-            ouvrières en reconnaissance dans les logements. C'est la période la plus active pour les intrusions.
-            Un problème non traité maintenant peut devenir une infestation établie en quelques semaines.
+            Quand les températures baissent, certaines colonies s'installent dans les murs, derrière les
+            plinthes ou près des radiateurs, où il fait chaud toute l'année. L'activité visible diminue
+            à l'extérieur, mais un nid établi à l'intérieur peut continuer tout l'hiver : traitez-le
+            plutôt que d'attendre le printemps.
           </p>
         </div>
 

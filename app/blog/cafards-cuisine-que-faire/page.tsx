@@ -16,7 +16,7 @@ const jsonLd = {
   description:
     "Étapes immédiates, erreurs à éviter et traitement professionnel contre les cafards à Liège.",
   datePublished: "2026-03-15",
-  dateModified: "2026-03-15",
+  dateModified: "2026-11-15",
   author: { "@type": "Organization", name: "L'équipe Sayonarat" },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },
   mainEntityOfPage: {
@@ -114,6 +114,7 @@ export default function ArticleCafardsPage() {
             chaque semaine d'attente aggrave la situation.
           </p>
         </div>
+        <p>En automne, les cafards recherchent chaleur et humidité : moteur du réfrigérateur, dessous d'évier et interstices autour des appareils sont des cachettes classiques. Commencez la vérification par ces points.</p>
 
         <p>
           La blatte germanique (<em>Blattella germanica</em>) est l'espèce la plus fréquente dans
