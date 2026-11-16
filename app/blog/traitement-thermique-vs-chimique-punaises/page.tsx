@@ -15,7 +15,7 @@ const jsonLd = {
   headline: "Traitement thermique vs chimique : lequel choisir contre les punaises de lit ?",
   description: "Comparatif complet traitement thermique vs chimique pour les punaises de lit. Efficacité, prix, durée, contraintes.",
   datePublished: "2026-01-10",
-  dateModified: "2026-01-10",
+  dateModified: "2026-11-16",
   author: { "@type": "Organization", name: "L'équipe Sayonarat" },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.sayonarat.be/blog/traitement-thermique-vs-chimique-punaises" },
@@ -89,6 +89,8 @@ export default function ArticleThermiquVsChimiquePage() {
       </section>
 
       <article className="py-12 px-4 max-w-3xl mx-auto space-y-10 text-gray-700 leading-relaxed">
+
+        <p>Le froid extérieur ne règle pas le problème : les punaises vivent à l'intérieur, dans des logements chauffés, et restent actives en automne et en hiver. Le choix entre thermique et chimique ne dépend pas de la saison.</p>
 
         <div className="bg-green-50 border-l-4 rounded-r-xl p-5" style={{ borderColor: "#1B4332" }}>
           <p className="font-semibold text-gray-800 mb-2">En résumé</p>

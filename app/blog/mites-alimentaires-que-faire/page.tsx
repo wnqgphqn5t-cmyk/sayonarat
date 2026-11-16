@@ -15,7 +15,7 @@ const jsonLd = {
   headline: "Mites alimentaires : que faire ? Guide complet",
   description: "Identifier les mites alimentaires, étapes immédiates, erreurs à éviter et traitement professionnel à Liège.",
   datePublished: "2026-02-04",
-  dateModified: "2026-04-27",
+  dateModified: "2026-11-16",
   author: { "@type": "Organization", name: "L'équipe Sayonarat" },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.sayonarat.be/blog/mites-alimentaires-que-faire" },
@@ -102,11 +102,11 @@ export default function ArticleMitesPage() {
         </div>
 
         <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-xl p-4">
-          <p className="font-semibold text-amber-800 text-sm">🌿 Grand nettoyage de printemps : le bon moment pour inspecter</p>
+          <p className="font-semibold text-amber-800 text-sm">🍂 Automne : stocks de saison et logements chauffés</p>
           <p className="text-sm text-gray-700 mt-1">
-            Les larves de mites alimentaires peuvent survivre l'hiver dans un produit acheté en fin d'année.
-            Avril est le moment idéal pour inspecter vos placards : une infestation débutante traitée maintenant
-            évite une prolifération estivale qui touche toute la cuisine.
+            Avec la reprise du chauffage et les provisions de saison (farines, fruits secs, céréales,
+            aliments pour animaux), les mites alimentaires trouvent des conditions favorables en cuisine.
+            Inspectez vos placards avant de ranger de nouveaux produits et conservez-les en contenants hermétiques.
           </p>
         </div>
 

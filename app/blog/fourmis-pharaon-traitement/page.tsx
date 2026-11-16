@@ -40,7 +40,7 @@ const jsonLd = {
   author: { "@type": "Organization", name: "Sayonarat" },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },
   datePublished: "2026-04-05",
-  dateModified: "2026-04-27",
+  dateModified: "2026-11-16",
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.sayonarat.be/blog/fourmis-pharaon-traitement" },
 };
 
@@ -92,6 +92,8 @@ export default function FourmisPharaonPage() {
       </section>
 
       <article className="py-14 px-4 max-w-3xl mx-auto">
+
+        <p>En automne et en hiver, la fourmi pharaon reste active : elle vit uniquement dans les bâtiments chauffés et n'a pas de pause hivernale. Le chauffage qui reprend peut donc favoriser ses déplacements entre logements voisins.</p>
 
         <div className="bg-red-50 border-l-4 border-red-400 p-5 rounded-r-xl mb-10">
           <p className="font-bold text-red-800 mb-1">N'utilisez surtout pas de spray</p>

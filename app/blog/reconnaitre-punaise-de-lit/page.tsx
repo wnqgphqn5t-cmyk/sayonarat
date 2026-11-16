@@ -15,7 +15,7 @@ const jsonLd = {
   headline: "Comment reconnaître une punaise de lit ? Les signes à ne pas ignorer",
   description: "Identifier les punaises de lit : piqûres, taches, odeur, œufs. Guide complet pour Liège.",
   datePublished: "2026-02-28",
-  dateModified: "2026-02-28",
+  dateModified: "2026-11-16",
   author: { "@type": "Organization", name: "L'équipe Sayonarat" },
   publisher: { "@type": "Organization", name: "Sayonarat", url: "https://www.sayonarat.be" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.sayonarat.be/blog/reconnaitre-punaise-de-lit" },
@@ -89,6 +89,8 @@ export default function ArticlePunaisesReconnaitrePage() {
       </section>
 
       <article className="py-12 px-4 max-w-3xl mx-auto space-y-10 text-gray-700 leading-relaxed">
+
+        <p>Les punaises de lit sont actives toute l'année en intérieur. Au retour de voyage ou après l'achat d'un meuble de seconde main, prenez l'habitude de contrôler les coutures du matelas.</p>
 
         <div className="bg-green-50 border-l-4 rounded-r-xl p-5" style={{ borderColor: "#1B4332" }}>
           <p className="font-semibold text-gray-800 mb-2">Réponse rapide</p>
